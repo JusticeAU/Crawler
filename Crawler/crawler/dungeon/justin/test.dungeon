@@ -1,0 +1,22 @@
+{
+  "type": "dungeon",
+  "version": 1,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "playerTurnIsFree": true,
+  "playerHasKnife": false,
+  "playerCanKickBox": false,
+  "playerCanPushBox": false,
+  "tiles": null,
+  "levers": null,
+  "doors": null,
+  "plates": null,
+  "transporters": null,
+  "spikes": null,
+  "blocks": null,
+  "shootLasers": null,
+  "blockers": null
+}
