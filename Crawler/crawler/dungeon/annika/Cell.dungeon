@@ -1,0 +1,261 @@
+{
+  "type": "dungeon",
+  "version": 1,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 2,
+  "playerTurnIsFree": false,
+  "playerHasKnife": false,
+  "playerCanKickBox": false,
+  "playerCanPushBox": false,
+  "tiles": [
+    {
+      "position": {
+        "x": -1,
+        "y": -3
+      },
+      "mask": 5,
+      "wallVariants": [
+        0,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      },
+      "mask": 12,
+      "wallVariants": [
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 12,
+      "wallVariants": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 10,
+      "wallVariants": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "mask": 14,
+      "wallVariants": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "mask": 3,
+      "wallVariants": [
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 8,
+      "wallVariants": [
+        3,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "levers": [
+    {
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "id": 1,
+      "orientation": 1,
+      "startStatus": false,
+      "activateID": 13
+    }
+  ],
+  "doors": [
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "id": 2,
+      "orientation": 2,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "id": 13,
+      "orientation": 0,
+      "open": false
+    }
+  ],
+  "plates": null,
+  "transporters": null,
+  "spikes": null,
+  "blocks": [
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      }
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -3
+      }
+    }
+  ],
+  "shootLasers": null,
+  "blockers": null
+}
