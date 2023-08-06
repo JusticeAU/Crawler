@@ -7,28 +7,28 @@
   },
   "defaultOrientation": 1,
   "playerTurnIsFree": true,
-  "playerHasKnife": true,
-  "playerCanKickBox": false,
+  "playerHasKnife": false,
+  "playerCanKickBox": true,
   "playerCanPushBox": false,
   "playerInteractIsFree": true,
   "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": -3
       },
       "mask": 5,
       "wallVariants": [
         0,
-        1,
+        3,
         0,
         1
       ]
     },
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": -2
       },
       "mask": 13,
@@ -41,7 +41,7 @@
     },
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": -1
       },
       "mask": 13,
@@ -49,12 +49,12 @@
         0,
         0,
         0,
-        1
+        2
       ]
     },
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": 0
       },
       "mask": 13,
@@ -62,12 +62,12 @@
         0,
         0,
         0,
-        1
+        3
       ]
     },
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": 1
       },
       "mask": 13,
@@ -80,34 +80,8 @@
     },
     {
       "position": {
-        "x": -3,
+        "x": -2,
         "y": 2
-      },
-      "mask": 13,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": 3
-      },
-      "mask": 13,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": 4
       },
       "mask": 12,
       "wallVariants": [
@@ -119,20 +93,20 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": -1,
         "y": -3
       },
       "mask": 7,
       "wallVariants": [
         0,
-        1,
+        3,
         0,
         0
       ]
     },
     {
       "position": {
-        "x": -2,
+        "x": -1,
         "y": -2
       },
       "mask": 15,
@@ -145,815 +119,554 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": -1,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -3
+      },
+      "mask": 3,
+      "wallVariants": [
+        0,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
         "y": -1
       },
       "mask": 11,
       "wallVariants": [
         0,
         0,
-        1,
+        3,
         0
       ]
     },
     {
       "position": {
-        "x": -2,
+        "x": 5,
         "y": 0
       },
       "mask": 11,
       "wallVariants": [
         0,
         0,
-        1,
+        3,
         0
       ]
     },
     {
       "position": {
-        "x": -2,
+        "x": 5,
         "y": 1
       },
       "mask": 11,
       "wallVariants": [
         0,
         0,
-        1,
+        3,
         0
       ]
     },
     {
       "position": {
-        "x": -2,
+        "x": 5,
         "y": 2
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": 3
-      },
-      "mask": 15,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": 4
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 4
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 4,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 4
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 7
-      },
-      "mask": 4,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 2
-      },
-      "mask": 5,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 3
-      },
-      "mask": 15,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 4
       },
       "mask": 10,
       "wallVariants": [
         1,
         0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 7
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 0
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 2
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 3
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 7
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
         3,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 2
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 3
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 7
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 1
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 2
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 3
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 4
-      },
-      "mask": 13,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 5
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 6
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 7
-      },
-      "mask": 10,
-      "wallVariants": [
-        1,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -3
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -2
-      },
-      "mask": 14,
-      "wallVariants": [
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 0
-      },
-      "mask": 6,
-      "wallVariants": [
-        3,
-        3,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 4
-      },
-      "mask": 6,
-      "wallVariants": [
-        1,
-        1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -4
-      },
-      "mask": 1,
-      "wallVariants": [
-        0,
-        3,
-        3,
-        2
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -3
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -2
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -1
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 1
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 2
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 3
-      },
-      "mask": 9,
-      "wallVariants": [
-        0,
-        0,
-        1,
-        1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 4
-      },
-      "mask": 10,
-      "wallVariants": [
-        1,
-        0,
-        1,
         0
       ]
     }
   ],
-  "levers": [
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "id": 1,
-      "orientation": 2,
-      "status": false,
-      "activateID": 1
-    }
-  ],
-  "doors": [
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "id": 1,
-      "orientation": 1,
-      "open": false
-    }
-  ],
-  "plates": [
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "activateID": 1
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 2
-      },
-      "activateID": 1
-    }
-  ],
-  "transporters": [
-    {
-      "name": "Exit",
-      "position": {
-        "x": 6,
-        "y": -4
-      },
-      "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/test/test_blockpush",
-      "toTransporter": "Entry"
-    }
-  ],
+  "levers": null,
+  "doors": null,
+  "plates": null,
+  "transporters": null,
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
   "shootLasers": null,
   "blockers": null,
-  "chasers": null,
-  "switchers": null
+  "chasers": [
+    {
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "facing": 3,
+      "state": 0
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 3,
+      "state": 1
+    }
+  ],
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": null
 }

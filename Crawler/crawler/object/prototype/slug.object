@@ -1,5 +1,5 @@
 {
-  "name": "pushable_block",
+  "name": "prototype_slug",
   "transform": {
     "position": {
       "x": 0.0,
@@ -19,18 +19,18 @@
   },
   "components": null,
   "children": [
-  {
-      "name": "BoxModel",
+    {
+      "name": "Face",
       "transform": {
         "position": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.5
+          "z": 0.6
         },
         "rotation": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.0
+          "z": 180.0
         },
         "scale": {
           "x": 0.5,
@@ -40,20 +40,20 @@
       },
       "components": [
         {
-		  "type": "Model",
-		  "model": "_cube"
-		},
-		{
-		  "type": "Renderer",
-		  "materials": [
-			"crawler/material/prototype/pushable.material"
-		  ],
-		  "frameBuffer": "",
-		  "receivesShadows": true,
-		  "castsShadows": true
-		}
+          "type": "Model",
+          "model": "_cube"
+        },
+        {
+          "type": "Renderer",
+          "materials": [
+            "crawler/material/prototype/slug.material"
+          ],
+          "frameBuffer": "",
+          "receivesShadows": true,
+          "castsShadows": true
+        }
       ],
       "children": null
     }
-	]
+  ]
 }

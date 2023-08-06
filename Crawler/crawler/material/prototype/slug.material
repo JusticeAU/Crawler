@@ -3,6 +3,7 @@
   "version": 1,
   "shader": "engine/shader/Lambert",
   "shaderSkinned": "engine/shader/LambertSkinned",
+  "isPBR": false,
   "Ka": {
     "x": 0.0,
     "y": 0.0,
@@ -19,12 +20,13 @@
     "z": 1.0
   },
   "Ns": 20.0,
-  "map_Kd": "crawler/texture/prototype/shoot.png",
+  "map_Kd": "crawler/texture/prototype/slug.png",
   "map_Ks": "",
   "bump": "",
   "albedoMap": "",
   "normalMap": "",
   "metallicMap": "",
   "roughnessMap": "",
-  "aoMap": ""
+  "aoMap": "",
+  "emissiveMap": ""
 }
