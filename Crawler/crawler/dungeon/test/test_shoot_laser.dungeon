@@ -11,6 +11,7 @@
   "playerCanKickBox": true,
   "playerCanPushBox": true,
   "playerInteractIsFree": false,
+  "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
@@ -268,7 +269,7 @@
       },
       "id": 1,
       "orientation": 1,
-      "startStatus": true,
+      "status": true,
       "activateID": 1
     }
   ],
@@ -338,10 +339,11 @@
         "y": -5
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/test/test_shoot_laser",
+      "toDungeon": "crawler/dungeon/test/pathFindTurnCost",
       "toTransporter": "Entry"
     }
   ],
+  "checkpoints": null,
   "spikes": [
     {
       "position": {
@@ -373,5 +375,6 @@
     }
   ],
   "blockers": null,
-  "chasers": null
+  "chasers": null,
+  "switchers": null
 }

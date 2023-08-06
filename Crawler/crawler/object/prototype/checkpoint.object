@@ -1,10 +1,10 @@
 {
-  "name": "wall3_blockout",
+  "name": "checkpoint_prototype",
   "transform": {
     "position": {
       "x": 0.0,
       "y": 0.0,
-      "z": 0.0
+      "z": -0.15
     },
     "rotation": {
       "x": 0.0,
@@ -12,20 +12,20 @@
       "z": 0.0
     },
     "scale": {
-      "x": 1.0,
-      "y": 1.0,
-      "z": 1.0
+      "x": 0.8,
+      "y": 0.8,
+      "z": 0.2
     }
   },
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall3_blockout/tile_wall3_blockout.fbx"
+      "model": "_cube"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/texture/tile_blockout/tile_blockout.material"
+        "crawler/material/prototype/checkpoint.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
