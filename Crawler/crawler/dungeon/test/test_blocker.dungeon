@@ -532,8 +532,29 @@
       ]
     }
   ],
-  "levers": null,
-  "doors": null,
+  "levers": [
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "id": 1,
+      "orientation": 0,
+      "startStatus": false,
+      "activateID": 1
+    }
+  ],
+  "doors": [
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "id": 1,
+      "orientation": 1,
+      "open": false
+    }
+  ],
   "plates": null,
   "transporters": null,
   "spikes": [
@@ -562,5 +583,6 @@
       "facing": 3,
       "rapidAttack": true
     }
-  ]
+  ],
+  "chasers": null
 }

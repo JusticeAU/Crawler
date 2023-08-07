@@ -10,6 +10,8 @@
   "playerHasKnife": false,
   "playerCanKickBox": false,
   "playerCanPushBox": false,
+  "playerInteractIsFree": true,
+  "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
@@ -257,5 +259,15 @@
     }
   ],
   "shootLasers": null,
-  "blockers": null
+  "blockers": null,
+  "chasers": null,
+  "switchers": [
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "facing": 0
+    }
+  ]
 }

@@ -1,6 +1,17 @@
 {
   "type": "dungeon",
   "version": 1,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "playerTurnIsFree": true,
+  "playerHasKnife": true,
+  "playerCanKickBox": false,
+  "playerCanPushBox": false,
+  "playerInteractIsFree": true,
+  "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
@@ -772,12 +783,25 @@
     {
       "position": {
         "x": 6,
-        "y": -3
+        "y": -4
       },
-      "mask": 3,
+      "mask": 1,
       "wallVariants": [
         0,
-        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -3
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
         1,
         0
       ]
@@ -882,7 +906,7 @@
       },
       "id": 1,
       "orientation": 2,
-      "startStatus": false,
+      "status": false,
       "activateID": 1
     }
   ],
@@ -912,5 +936,24 @@
       },
       "activateID": 1
     }
-  ]
+  ],
+  "transporters": [
+    {
+      "name": "Exit",
+      "position": {
+        "x": 6,
+        "y": -4
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/test/test_blockpush",
+      "toTransporter": "Entry"
+    }
+  ],
+  "checkpoints": null,
+  "spikes": null,
+  "blocks": null,
+  "shootLasers": null,
+  "blockers": null,
+  "chasers": null,
+  "switchers": null
 }
