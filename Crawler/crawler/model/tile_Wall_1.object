@@ -1,0 +1,36 @@
+{
+  "name": "Wall_1",
+  "transform": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "components": [
+    {
+      "type": "Model",
+      "model": "crawler/model/tile_Wall_1.fbx"
+    },
+    {
+      "type": "Renderer",
+      "materials": [
+        "engine/model/materials/LambertBlue.material"
+      ],
+      "frameBuffer": "",
+      "receivesShadows": true,
+      "castsShadows": true
+    }
+  ],
+  "children": null
+}
