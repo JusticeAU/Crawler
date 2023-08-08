@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "viewmodel_hands",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,16 +20,20 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/viewmodel_hands.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall_1.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null

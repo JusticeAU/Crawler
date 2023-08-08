@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "pillar",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/tile_pillar.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall_1.material"
+        "crawler/material/tile_pillar_pillar.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
