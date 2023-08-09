@@ -1,0 +1,38 @@
+{
+  "name": "arched_window",
+  "transform": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "components": [
+    {
+      "type": "Model",
+      "model": "crawler/model/tile_arched_window.fbx"
+    },
+    {
+      "type": "Renderer",
+      "materials": [
+        "crawler/material/tile_arched_window_archedwindow.material",
+        "crawler/material/tile_arched_window_window_lighting.material",
+        "crawler/material/tile_arched_window_wallpaper_green.material"
+      ],
+      "frameBuffer": "",
+      "receivesShadows": true,
+      "castsShadows": true
+    }
+  ],
+  "children": null
+}
