@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "wall",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,13 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/tile_wall.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall.material",
-        "crawler/material/tile_wall_1_wallpaper_green.material"
+        "crawler/material/tile_wall_wall.material",
+        "crawler/material/tile_wall_wallpaper_green.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

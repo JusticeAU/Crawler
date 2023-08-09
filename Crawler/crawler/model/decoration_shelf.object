@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "shelf",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/decoration_shelf.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall.material",
-        "crawler/material/tile_wall_1_wallpaper_green.material"
+        "crawler/material/decoration_shelf_shelf.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "viewmodel_leg",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,17 +20,20 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/viewmodel_leg.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall.material",
-        "crawler/material/tile_wall_1_wallpaper_green.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null

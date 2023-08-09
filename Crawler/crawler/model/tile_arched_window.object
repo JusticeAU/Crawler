@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "arched_window",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,14 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/tile_arched_window.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall.material",
-        "crawler/material/tile_wall_1_wallpaper_green.material"
+        "crawler/material/tile_arched_window_window_lighitng.material",
+        "crawler/material/tile_arched_window_wallpaper_green.material",
+        "crawler/material/tile_arched_window_archedwindow.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
