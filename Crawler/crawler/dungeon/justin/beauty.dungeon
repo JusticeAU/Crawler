@@ -295,6 +295,19 @@
         "z": 0.0
       },
       "modelName": "crawler/model/tile_arched_window.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.10000000149011612,
+        "y": 1.0,
+        "z": 1.600000023841858
+      },
+      "modelName": "crawler/model/decoration_shelf.object"
     }
   ]
 }
