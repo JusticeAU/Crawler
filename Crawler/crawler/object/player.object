@@ -45,7 +45,9 @@
           "farClip": 2000.0,
           "fieldOfView": 45.0,
           "aspect": 1.7777777910232544,
-          "postProcess": null
+          "postProcess": [
+			"engine/shader/postProcess/SSAO"
+		  ]
         }
       ],
       "children": null

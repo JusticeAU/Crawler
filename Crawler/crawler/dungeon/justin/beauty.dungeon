@@ -308,6 +308,19 @@
         "z": 1.600000023841858
       },
       "modelName": "crawler/model/decoration_shelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.9269999861717224,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
     }
   ]
 }
