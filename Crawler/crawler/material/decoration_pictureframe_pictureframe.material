@@ -27,6 +27,6 @@
   "normalMap": "crawler/texture/decoration_pictureframe_pictureframe_normal.tga",
   "metallicMap": "crawler/texture/decoration_pictureframe_pictureframe_metallic.tga",
   "roughnessMap": "crawler/texture/decoration_pictureframe_pictureframe_roughness.tga",
-  "aoMap": "crawler/texture/decoration_pictureframe_pictureframe_ao.tga",
+  "aoMap": "",
   "emissiveMap": ""
 }
