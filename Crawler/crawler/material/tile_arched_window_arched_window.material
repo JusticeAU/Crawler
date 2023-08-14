@@ -28,5 +28,5 @@
   "metallicMap": "crawler/texture/tile_arched_window_arched_window_metallic.tga",
   "roughnessMap": "crawler/texture/tile_arched_window_arched_window_roughness.tga",
   "aoMap": "crawler/texture/tile_arched_window_arched_window_ao.tga",
-  "emissiveMap": ""
+  "emissiveMap": "crawler/texture/tile_arched_window_arched_window_emissive.tga"
 }

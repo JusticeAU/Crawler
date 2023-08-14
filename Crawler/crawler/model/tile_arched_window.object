@@ -25,9 +25,8 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_arched_window_window_lighting.material",
-        "crawler/material/tile_arched_window_wallpaper_green.material",
-        "crawler/material/tile_arched_window_archedwindow.material"
+        "crawler/material/tile_arched_window_arched_window.material",
+        "crawler/material/tile_wall_1_wallpaper_green.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
