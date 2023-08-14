@@ -2033,12 +2033,12 @@
         "x": 3,
         "y": 1
       },
-      "mask": 14,
+      "mask": 12,
       "wallVariants": [
-        1,
+        3,
         0,
         0,
-        0
+        3
       ]
     },
     {
@@ -3556,8 +3556,7 @@
         "x": 8,
         "y": 2
       },
-      "facing": 0,
-      "commands": []
+      "facing": 0
     }
   ],
   "slugPaths": [
@@ -3629,5 +3628,6 @@
       },
       "facing": 0
     }
-  ]
+  ],
+  "decorations": null
 }
