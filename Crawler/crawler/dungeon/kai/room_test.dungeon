@@ -683,7 +683,7 @@
       },
       "mask": 10,
       "wallVariants": [
-        1,
+        3,
         0,
         1,
         0
@@ -2921,8 +2921,7 @@
         "x": -8,
         "y": 6
       },
-      "facing": 0,
-      "commands": []
+      "facing": 0
     }
   ],
   "slugPaths": [
@@ -2984,5 +2983,6 @@
       "facing": 0
     }
   ],
-  "mirrors": null
+  "mirrors": null,
+  "decorations": null
 }

@@ -399,6 +399,32 @@
         "z": 2.059000015258789
       },
       "modelName": "crawler/model/decoration_painting_3.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.052000001072883606
+      },
+      "modelName": "crawler/model/decoration_carpet.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.6679999828338623,
+        "y": -0.33000001311302185,
+        "z": 0.8420000076293945
+      },
+      "modelName": "crawler/model/decoration_pictureframe.object"
     }
   ]
 }
