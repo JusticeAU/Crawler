@@ -12,6 +12,7 @@
   "playerCanPushBox": false,
   "playerInteractIsFree": true,
   "switchersMustBeLookedAt": true,
+  "playerCanPushMirror": false,
   "tiles": [
     {
       "position": {
@@ -2249,13 +2250,13 @@
   ],
   "transporters": [
     {
-      "name": "",
+      "name": "Transporter",
       "position": {
         "x": -1,
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "",
+      "toDungeon": "crawler/dungeon/kai\\enemy_testing",
       "toTransporter": ""
     }
   ],
@@ -2394,5 +2395,6 @@
       "facing": 3
     }
   ],
-  "mirrors": null
+  "mirrors": null,
+  "decorations": null
 }
