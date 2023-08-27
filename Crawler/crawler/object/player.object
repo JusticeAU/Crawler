@@ -82,8 +82,8 @@
             "engine/model/materials/LambertBlue.material"
           ],
           "frameBuffer": "",
-          "receivesShadows": true,
-          "castsShadows": true
+          "receivesShadows": false,
+          "castsShadows": false
         }
       ],
       "children": null
