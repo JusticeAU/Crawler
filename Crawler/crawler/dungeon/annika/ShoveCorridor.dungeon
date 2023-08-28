@@ -6,12 +6,13 @@
     "y": 0
   },
   "defaultOrientation": 1,
-  "playerTurnIsFree": true,
+  "playerTurnIsFree": false,
   "playerHasKnife": false,
   "playerCanKickBox": true,
-  "playerCanPushBox": true,
-  "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
+  "playerCanPushBox": false,
+  "playerInteractIsFree": false,
+  "switchersMustBeLookedAt": false,
+  "playerCanPushMirror": false,
   "tiles": [
     {
       "position": {
@@ -265,6 +266,7 @@
   "doors": null,
   "plates": null,
   "transporters": null,
+  "checkpoints": null,
   "spikes": [
     {
       "position": {
@@ -295,8 +297,13 @@
         "x": 4,
         "y": 6
       },
-      "facing": 2
+      "facing": 2,
+      "state": 0
     }
   ],
-  "switchers": null
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": null,
+  "decorations": null
 }
