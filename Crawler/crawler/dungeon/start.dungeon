@@ -6,12 +6,6 @@
     "y": 0
   },
   "defaultOrientation": 1,
-  "playerTurnIsFree": true,
-  "playerHasKnife": true,
-  "playerCanKickBox": false,
-  "playerCanPushBox": false,
-  "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
@@ -945,7 +939,7 @@
         "y": -4
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/test/test_blockpush",
+      "toDungeon": "crawler/dungeon/justin/blockpush",
       "toTransporter": "Entry"
     }
   ],
@@ -955,5 +949,9 @@
   "shootLasers": null,
   "blockers": null,
   "chasers": null,
-  "switchers": null
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": null,
+  "decorations": null
 }
