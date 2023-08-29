@@ -18,6 +18,10 @@ uniform sampler2D roughnessMap;
 uniform sampler2D aoMap;
 uniform sampler2D emissiveMap;
 
+uniform samplerCubeShadow shadowMap0;
+uniform samplerCubeShadow shadowMap1;
+uniform samplerCubeShadow shadowMap2;
+uniform samplerCubeShadow shadowMap3;
 
 // lights
 const int MAX_LIGHTS = 4;
@@ -34,6 +38,18 @@ float DistributionGGX(vec3 N, vec3 H, float roughness);
 float GeometrySchlickGGX(float NdotV, float roughness);
 float GeometrySmith(vec3 N, vec3 V, vec3 L, float roughness);
 vec3 fresnelSchlick(float cosTheta, vec3 F0);
+
+// Shadow Configuration
+const float EPSILON = 0.003f;
+const int samples = 20;
+const vec3 sampleOffsetDirections[20] = vec3[]
+(
+   vec3( 1,  1,  1), vec3( 1, -1,  1), vec3(-1, -1,  1), vec3(-1,  1,  1), 
+   vec3( 1,  1, -1), vec3( 1, -1, -1), vec3(-1, -1, -1), vec3(-1,  1, -1),
+   vec3( 1,  1,  0), vec3( 1, -1,  0), vec3(-1, -1,  0), vec3(-1,  1,  0),
+   vec3( 1,  0,  1), vec3(-1,  0,  1), vec3( 1,  0, -1), vec3(-1,  0, -1),
+   vec3( 0,  1,  1), vec3( 0, -1,  1), vec3( 0, -1, -1), vec3( 0,  1, -1)
+); 
 
 void main()
 {
@@ -55,10 +71,23 @@ void main()
 	
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
+	float ShadowFactor = 0.0;
+
 	for(int i = 0; i < numLights; ++i) 
 	{
 		// calculate per-light radiance
+		vec3 LightDirection = PointLightPositions[i] - _WorldPos;
 		vec3 L = normalize(PointLightPositions[i] - _WorldPos);
+		float Distance = (length(LightDirection) / 15.0) - EPSILON;
+		float offset  = 0.003;
+		
+		if(i == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		
+		ShadowFactor /= float(samples);
+					
 		vec3 H = normalize(V + L);
 		float distance    = length(PointLightPositions[i] - _WorldPos);
 		float attenuation = 1.0 / (distance * distance);
@@ -79,7 +108,7 @@ void main()
 
 		// add to outgoing radiance Lo
 		float NdotL = max(dot(N, L), 0.0);        
-		Lo += (kD * albedo / PI + specular) * radiance * NdotL;
+		Lo += ((kD * albedo / PI + specular) * radiance * NdotL) * ShadowFactor;
 	}
 	
 	vec3 ambient = vec3(0.03) * albedo * ao;
@@ -90,6 +119,7 @@ void main()
 	color = pow(color, vec3(1.0/2.2));
 	
 	FragColour = vec4(color, 1.0);
+	//FragColour = vec4(vec3(ShadowFactor), 1.0);
 }
 
 vec3 fresnelSchlick(float cosTheta, vec3 F0)
