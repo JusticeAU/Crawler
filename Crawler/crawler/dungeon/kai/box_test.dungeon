@@ -6,12 +6,6 @@
     "y": 0
   },
   "defaultOrientation": 1,
-  "playerTurnIsFree": true,
-  "playerHasKnife": false,
-  "playerCanKickBox": true,
-  "playerCanPushBox": false,
-  "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
   "tiles": [
     {
       "position": {
@@ -2191,7 +2185,7 @@
       },
       "mask": 14,
       "wallVariants": [
-        3,
+        2,
         0,
         0,
         0
@@ -3500,7 +3494,7 @@
       "detectsLineOfSight": false,
       "firesProjectile": false,
       "firesImmediately": false,
-      "activateID": 10
+      "activateID": 0
     },
     {
       "id": 10,
