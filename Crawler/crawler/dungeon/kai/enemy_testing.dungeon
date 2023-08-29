@@ -11,7 +11,7 @@
   "playerCanKickBox": true,
   "playerCanPushBox": false,
   "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
+  "switchersMustBeLookedAt": false,
   "playerCanPushMirror": false,
   "tiles": [
     {

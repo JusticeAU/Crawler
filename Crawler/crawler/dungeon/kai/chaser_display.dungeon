@@ -6,12 +6,12 @@
     "y": 0
   },
   "defaultOrientation": 1,
-  "playerTurnIsFree": true,
+  "playerTurnIsFree": false,
   "playerHasKnife": false,
-  "playerCanKickBox": false,
+  "playerCanKickBox": true,
   "playerCanPushBox": false,
-  "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
+  "playerInteractIsFree": false,
+  "switchersMustBeLookedAt": false,
   "playerCanPushMirror": false,
   "tiles": [
     {
@@ -45,12 +45,64 @@
         "x": -1,
         "y": 1
       },
-      "mask": 12,
+      "mask": 13,
       "wallVariants": [
-        1,
+        0,
         0,
         0,
         3
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 4
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 5
+      },
+      "mask": 12,
+      "wallVariants": [
+        3,
+        0,
+        0,
+        1
       ]
     },
     {
@@ -84,9 +136,61 @@
         "x": 0,
         "y": 1
       },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 5
+      },
       "mask": 14,
       "wallVariants": [
-        2,
+        3,
         0,
         0,
         0
@@ -123,9 +227,61 @@
         "x": 1,
         "y": 1
       },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 3
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 5
+      },
       "mask": 14,
       "wallVariants": [
-        1,
+        2,
         0,
         0,
         0
@@ -161,6 +317,58 @@
       "position": {
         "x": 2,
         "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 5
       },
       "mask": 14,
       "wallVariants": [
@@ -201,29 +409,143 @@
         "x": 3,
         "y": 1
       },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 4
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
       "mask": 10,
       "wallVariants": [
-        3,
+        1,
         0,
+        2,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "mask": 2,
+      "wallVariants": [
+        2,
+        2,
         3,
         0
       ]
     }
   ],
-  "levers": null,
-  "doors": null,
+  "levers": [
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "id": 1,
+      "orientation": 2,
+      "status": false,
+      "activateID": 1
+    }
+  ],
+  "doors": [
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "id": 1,
+      "orientation": 3,
+      "open": false
+    }
+  ],
   "plates": null,
   "transporters": null,
   "checkpoints": null,
-  "spikes": null,
-  "blocks": null,
+  "spikes": [
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      }
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "position": {
+        "x": -1,
+        "y": 4
+      }
+    }
+  ],
   "shootLasers": null,
   "blockers": null,
   "chasers": [
     {
       "position": {
-        "x": 2,
-        "y": 0
+        "x": 4,
+        "y": 3
+      },
+      "facing": 3,
+      "state": 0
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
       },
       "facing": 0,
       "state": 0
@@ -231,7 +553,23 @@
   ],
   "slugs": null,
   "slugPaths": null,
-  "switchers": null,
-  "mirrors": null,
+  "switchers": [
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "facing": 0
+    }
+  ],
+  "mirrors": [
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "facing": 3
+    }
+  ],
   "decorations": null
 }
