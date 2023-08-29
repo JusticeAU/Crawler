@@ -2,21 +2,14 @@
   "type": "dungeon",
   "version": 1,
   "defaultPosition": {
-    "x": 0,
+    "x": -1,
     "y": 0
   },
   "defaultOrientation": 1,
-  "playerTurnIsFree": true,
-  "playerHasKnife": false,
-  "playerCanKickBox": false,
-  "playerCanPushBox": false,
-  "playerInteractIsFree": true,
-  "switchersMustBeLookedAt": true,
-  "playerCanPushMirror": false,
   "tiles": [
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": -2
       },
       "mask": 5,
@@ -29,7 +22,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": -1
       },
       "mask": 13,
@@ -42,7 +35,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": 0
       },
       "mask": 13,
@@ -55,7 +48,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": 1
       },
       "mask": 13,
@@ -68,20 +61,20 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": 2
       },
       "mask": 12,
       "wallVariants": [
-        2,
+        3,
         0,
         0,
-        2
+        3
       ]
     },
     {
       "position": {
-        "x": 1,
+        "x": 0,
         "y": -2
       },
       "mask": 7,
@@ -94,72 +87,7 @@
     },
     {
       "position": {
-        "x": 1,
-        "y": -1
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        3,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "mask": 11,
-      "wallVariants": [
-        0,
-        0,
-        2,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 1
-      },
-      "mask": 15,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 2
-      },
-      "mask": 10,
-      "wallVariants": [
-        2,
-        0,
-        3,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -2
-      },
-      "mask": 7,
-      "wallVariants": [
-        0,
-        2,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
+        "x": 0,
         "y": -1
       },
       "mask": 15,
@@ -172,7 +100,7 @@
     },
     {
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 0
       },
       "mask": 15,
@@ -185,7 +113,7 @@
     },
     {
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 1
       },
       "mask": 15,
@@ -198,7 +126,7 @@
     },
     {
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 2
       },
       "mask": 14,
@@ -211,20 +139,20 @@
     },
     {
       "position": {
-        "x": 3,
+        "x": 1,
         "y": -2
       },
-      "mask": 3,
+      "mask": 7,
       "wallVariants": [
         0,
-        1,
-        2,
+        3,
+        0,
         0
       ]
     },
     {
       "position": {
-        "x": 3,
+        "x": 1,
         "y": -1
       },
       "mask": 11,
@@ -237,7 +165,7 @@
     },
     {
       "position": {
-        "x": 3,
+        "x": 1,
         "y": 0
       },
       "mask": 11,
@@ -250,7 +178,202 @@
     },
     {
       "position": {
+        "x": 1,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "mask": 10,
+      "wallVariants": [
+        2,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 13,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "mask": 12,
+      "wallVariants": [
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "position": {
         "x": 3,
+        "y": -2
+      },
+      "mask": 7,
+      "wallVariants": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "mask": 15,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "mask": 14,
+      "wallVariants": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "mask": 3,
+      "wallVariants": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -1
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "mask": 11,
+      "wallVariants": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
         "y": 1
       },
       "mask": 11,
@@ -263,14 +386,14 @@
     },
     {
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 2
       },
       "mask": 10,
       "wallVariants": [
-        2,
+        1,
         0,
-        2,
+        3,
         0
       ]
     }
