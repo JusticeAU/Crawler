@@ -2956,6 +2956,16 @@
       "orientation": 0,
       "status": false,
       "activateID": 2
+    },
+    {
+      "position": {
+        "x": 35,
+        "y": 24
+      },
+      "id": 2,
+      "orientation": 2,
+      "status": false,
+      "activateID": 2
     }
   ],
   "doors": [
@@ -2987,7 +2997,18 @@
       "activateID": 1
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "",
+      "position": {
+        "x": 38,
+        "y": 25
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": [
     {
       "position": {
@@ -3277,10 +3298,247 @@
       "firesProjectile": false,
       "firesImmediately": false,
       "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 33,
+        "y": 25
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 32,
+        "y": 25
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 31,
+        "y": 25
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 30,
+        "y": 25
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 26,
+        "y": 28
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 27,
+        "y": 28
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 28,
+        "y": 28
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 16,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 17,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 18,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 19,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 20,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 21,
+        "y": 30
+      },
+      "facing": 0,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 27
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 26
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 25
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 24
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 23
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": 13,
+        "y": 22
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
     }
   ],
   "blockers": null,
-  "chasers": null,
+  "chasers": [
+    {
+      "position": {
+        "x": 15,
+        "y": -3
+      },
+      "facing": 0,
+      "state": 0
+    }
+  ],
   "slugs": null,
   "slugPaths": null,
   "switchers": null,
