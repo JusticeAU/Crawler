@@ -12,6 +12,7 @@
   "playerCanPushBox": false,
   "playerInteractIsFree": true,
   "switchersMustBeLookedAt": true,
+  "playerCanPushMirror": false,
   "tiles": [
     {
       "position": {
@@ -135,12 +136,12 @@
         "x": -9,
         "y": -3
       },
-      "mask": 13,
+      "mask": 9,
       "wallVariants": [
         0,
         0,
-        0,
-        1
+        3,
+        3
       ]
     },
     {
@@ -2375,7 +2376,7 @@
       "wallVariants": [
         0,
         0,
-        3,
+        1,
         3
       ]
     },
@@ -2647,7 +2648,7 @@
       "mask": 3,
       "wallVariants": [
         0,
-        3,
+        2,
         3,
         0
       ]
@@ -3787,7 +3788,7 @@
       "id": 2,
       "orientation": 2,
       "status": false,
-      "activateID": 1
+      "activateID": 6
     },
     {
       "position": {
@@ -3797,7 +3798,7 @@
       "id": 3,
       "orientation": 2,
       "status": false,
-      "activateID": 4
+      "activateID": 15
     }
   ],
   "doors": [
@@ -3833,9 +3834,9 @@
         "x": 0,
         "y": 2
       },
-      "id": 3,
+      "id": 4,
       "orientation": 2,
-      "open": false
+      "open": true
     },
     {
       "position": {
@@ -3887,7 +3888,7 @@
         "x": -2,
         "y": 0
       },
-      "id": 8,
+      "id": 20,
       "orientation": 1,
       "open": false
     },
@@ -3905,7 +3906,7 @@
         "x": -9,
         "y": -4
       },
-      "id": 4,
+      "id": 15,
       "orientation": 1,
       "open": false
     }
@@ -3927,17 +3928,10 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": 1
-      },
-      "activateID": 3
-    },
-    {
-      "position": {
         "x": -2,
         "y": 0
       },
-      "activateID": 9
+      "activateID": 20
     },
     {
       "position": {
@@ -3959,6 +3953,13 @@
         "y": -8
       },
       "activateID": 10
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 0
+      },
+      "activateID": 1
     }
   ],
   "transporters": [
@@ -3994,33 +3995,16 @@
         "y": 0
       },
       "facing": 1
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "facing": 2
     }
   ],
   "spikes": [
-    {
-      "position": {
-        "x": 9,
-        "y": 0
-      }
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": 0
-      }
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 0
-      }
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      }
-    },
     {
       "position": {
         "x": 5,
@@ -4043,6 +4027,30 @@
       "position": {
         "x": 7,
         "y": 11
+      }
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
       }
     }
   ],
@@ -4220,6 +4228,12 @@
         "x": 2,
         "y": -7
       }
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -5
+      }
     }
   ],
   "shootLasers": [
@@ -4262,14 +4276,6 @@
       },
       "facing": 1,
       "state": 0
-    },
-    {
-      "position": {
-        "x": -8,
-        "y": -3
-      },
-      "facing": 1,
-      "state": 0
     }
   ],
   "slugs": [
@@ -4278,40 +4284,35 @@
         "x": 4,
         "y": 4
       },
-      "facing": 3,
-      "commands": []
+      "facing": 3
     },
     {
       "position": {
         "x": 6,
         "y": 6
       },
-      "facing": 1,
-      "commands": []
+      "facing": 1
     },
     {
       "position": {
         "x": 5,
         "y": 10
       },
-      "facing": 3,
-      "commands": []
+      "facing": 3
     },
     {
       "position": {
         "x": 7,
         "y": 8
       },
-      "facing": 1,
-      "commands": []
+      "facing": 1
     },
     {
       "position": {
         "x": -4,
         "y": -4
       },
-      "facing": 1,
-      "commands": []
+      "facing": 1
     }
   ],
   "slugPaths": [
@@ -4514,5 +4515,6 @@
       },
       "facing": 1
     }
-  ]
+  ],
+  "decorations": null
 }

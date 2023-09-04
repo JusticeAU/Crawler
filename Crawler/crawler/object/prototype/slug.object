@@ -20,12 +20,12 @@
   "components": null,
   "children": [
     {
-      "name": "Face",
+      "name": "Model",
       "transform": {
         "position": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.6
+          "z": 0.0
         },
         "rotation": {
           "x": 0.0,
@@ -33,26 +33,12 @@
           "z": 180.0
         },
         "scale": {
-          "x": 0.5,
-          "y": 0.5,
-          "z": 0.5
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
         }
       },
-      "components": [
-        {
-          "type": "Model",
-          "model": "_cube"
-        },
-        {
-          "type": "Renderer",
-          "materials": [
-            "crawler/material/prototype/slug.material"
-          ],
-          "frameBuffer": "",
-          "receivesShadows": true,
-          "castsShadows": true
-        }
-      ],
+      "components": null,
       "children": null
     }
   ]

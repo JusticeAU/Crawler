@@ -38,21 +38,7 @@
           "z": 1.2000000476837158
         }
       },
-      "components": [
-        {
-          "type": "Model",
-          "model": "_cube"
-        },
-        {
-          "type": "Renderer",
-          "materials": [
-            "crawler/material/prototype/switch.material"
-          ],
-          "frameBuffer": "",
-          "receivesShadows": true,
-          "castsShadows": true
-        }
-      ],
+      "components": null,
       "children": null
     }
   ]
