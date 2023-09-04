@@ -2,14 +2,14 @@
   "type": "dungeon",
   "version": 2,
   "defaultPosition": {
-    "x": -5,
-    "y": 1
+    "x": -4,
+    "y": 0
   },
   "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": -5,
+        "x": -4,
         "y": 0
       },
       "mask": 5,
@@ -23,7 +23,7 @@
     },
     {
       "position": {
-        "x": -5,
+        "x": -4,
         "y": 1
       },
       "mask": 12,
@@ -33,34 +33,6 @@
         -1,
         -1,
         0
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": 0
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
       ]
     },
     {
@@ -236,27 +208,13 @@
         "x": -1,
         "y": 6
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 7
-      },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -361,20 +319,6 @@
       "position": {
         "x": 0,
         "y": 6
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 7
       },
       "mask": 14,
       "maskSee": 14,
@@ -488,20 +432,6 @@
         "x": 1,
         "y": 6
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 7
-      },
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
@@ -613,20 +543,6 @@
       "position": {
         "x": 2,
         "y": 6
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 7
       },
       "mask": 14,
       "maskSee": 14,
@@ -740,20 +656,6 @@
         "x": 3,
         "y": 6
       },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 7
-      },
       "mask": 10,
       "maskSee": 10,
       "wallVariants": [
@@ -762,27 +664,13 @@
         -1,
         -1
       ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -2
-      },
-      "mask": 0,
-      "maskSee": 0,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
     }
   ],
   "levers": [
     {
       "position": {
         "x": 0,
-        "y": 7
+        "y": 6
       },
       "id": 1,
       "orientation": 0,
@@ -804,12 +692,22 @@
   "plates": null,
   "transporters": [
     {
-      "name": "",
+      "name": "Tut3Exit",
       "position": {
         "x": -2,
         "y": 6
       },
       "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "Tut3",
+      "position": {
+        "x": -4,
+        "y": 0
+      },
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
@@ -846,6 +744,18 @@
       "position": {
         "x": 0,
         "y": 2
+      }
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 0
       }
     }
   ],
