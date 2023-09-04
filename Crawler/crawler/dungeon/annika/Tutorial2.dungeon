@@ -633,6 +633,16 @@
       "fromOrientation": 0,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Tut2",
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": [
