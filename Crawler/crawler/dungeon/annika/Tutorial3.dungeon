@@ -2,14 +2,14 @@
   "type": "dungeon",
   "version": 2,
   "defaultPosition": {
-    "x": -4,
-    "y": 0
+    "x": -5,
+    "y": 1
   },
   "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": -4,
+        "x": -5,
         "y": 0
       },
       "mask": 5,
@@ -23,7 +23,7 @@
     },
     {
       "position": {
-        "x": -4,
+        "x": -5,
         "y": 1
       },
       "mask": 12,
@@ -33,6 +33,34 @@
         -1,
         -1,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 0
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
       ]
     },
     {
