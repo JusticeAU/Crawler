@@ -625,16 +625,6 @@
   ],
   "transporters": [
     {
-      "name": "",
-      "position": {
-        "x": 11,
-        "y": -2
-      },
-      "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
       "name": "Tut2",
       "position": {
         "x": -1,
@@ -643,6 +633,16 @@
       "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Tut2Exit",
+      "position": {
+        "x": 10,
+        "y": -2
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/annika/Tutorial3",
+      "toTransporter": "Tut3"
     }
   ],
   "checkpoints": [
