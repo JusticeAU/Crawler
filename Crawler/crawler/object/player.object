@@ -46,76 +46,81 @@
           "fieldOfView": 45.0,
           "aspect": 1.7777777910232544,
           "postProcess": [
-			"engine/shader/postProcess/SSAO"
-		  ]
+            "engine/shader/postProcess/SSAO"
+          ]
         }
       ],
-      "children": null
-    },
-    {
-      "name": "Player Block",
-      "transform": {
-        "position": {
-          "x": 0.0,
-          "y": -0.5,
-          "z": 0.8999999761581421
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "scale": {
-          "x": 0.30000001192092896,
-          "y": 0.30000001192092896,
-          "z": 0.8999999761581421
-        }
-      },
-      "components": [
-        {
-          "type": "Model",
-          "model": "_cube"
-        },
-        {
-          "type": "Renderer",
-          "materials": [
-            "engine/model/materials/LambertBlue.material"
-          ],
-          "frameBuffer": "",
-          "receivesShadows": false,
-          "castsShadows": false
-        }
-      ],
-      "children": null
-    },
-    {
-      "name": "ViewModel Offset",
-      "transform": {
-        "position": {
-          "x": 0.28999999165534973,
-          "y": 0.0,
-          "z": 1.5199999809265137
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 180.0
-        },
-        "scale": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        }
-      },
-      "components": null,
       "children": [
         {
-          "name": "Model",
+          "name": "ViewModel Offset",
           "transform": {
             "position": {
+              "x": 0.23999999463558197,
+              "y": 0.47999998927116394,
+              "z": -0.18000000715255737
+            },
+            "rotation": {
               "x": 0.0,
               "y": 0.0,
-              "z": 0.0
+              "z": 180.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": null,
+          "children": [
+            {
+              "name": "viewmodel_hands",
+              "transform": {
+                "position": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": [
+                {
+                  "type": "Model",
+                  "model": "crawler/model/viewmodel_hands.fbx"
+                },
+                {
+                  "type": "Renderer",
+                  "materials": [
+                    "engine/model/materials/LambertBlue.material"
+                  ],
+                  "frameBuffer": "",
+                  "receivesShadows": true,
+                  "castsShadows": true
+                },
+                {
+                  "type": "Animator",
+                  "animationName": "Not currently storing!"
+                }
+              ],
+              "children": null
+            }
+          ]
+        },
+        {
+          "name": "Light",
+          "transform": {
+            "position": {
+              "x": -0.3199999928474426,
+              "y": 1.0700000524520874,
+              "z": -0.07999999821186066
             },
             "rotation": {
               "x": 0.0,
@@ -128,7 +133,17 @@
               "z": 1.0
             }
           },
-          "components": null,
+          "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 0.7009804248809814,
+                "y": 0.36686262488365173,
+                "z": 0.10308541357517242
+              },
+              "intensity": 25.0
+            }
+          ],
           "children": null
         }
       ]
