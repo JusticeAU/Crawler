@@ -6,6 +6,7 @@
     "y": 0
   },
   "defaultOrientation": 1,
+  "noRoof": true,
   "tiles": [
     {
       "position": {
