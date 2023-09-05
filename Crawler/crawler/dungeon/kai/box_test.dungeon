@@ -3609,13 +3609,6 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -9
-      },
-      "activateID": 10
-    },
-    {
-      "position": {
         "x": 7,
         "y": -9
       },
@@ -3749,7 +3742,7 @@
       "detectsLineOfSight": false,
       "firesProjectile": false,
       "firesImmediately": false,
-      "activateID": 0
+      "activateID": 10
     },
     {
       "id": 10,
