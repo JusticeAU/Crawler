@@ -56,7 +56,7 @@
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
-	  "dontFrustumCull" = true;
+	  "dontFrustumCull": true;
     }
   ],
   "children": null
