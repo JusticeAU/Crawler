@@ -21,61 +21,7 @@
       "x": 0.0,
       "y": -0.765999972820282,
       "z": -0.7070000171661377
-    },
-    "pointLights": [
-      {
-        "position": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 2.0
-        },
-        "colour": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "intensity": 1.0
-      },
-      {
-        "position": {
-          "x": 1.0,
-          "y": -1.0,
-          "z": 2.0
-        },
-        "colour": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "intensity": 1.0
-      },
-      {
-        "position": {
-          "x": -1.0,
-          "y": 1.0,
-          "z": 2.0
-        },
-        "colour": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "intensity": 1.0
-      },
-      {
-        "position": {
-          "x": -1.0,
-          "y": -1.0,
-          "z": 2.0
-        },
-        "colour": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "intensity": 1.0
-      }
-    ]
+    }
   },
   "objects": [
     {
@@ -307,8 +253,159 @@
               "fieldOfView": 45.0,
               "aspect": 1.7777777910232544,
               "postProcess": [
-				"engine/shader/postProcess/SSAO"
-			  ]
+                "engine/shader/postProcess/SSAO"
+              ]
+            }
+          ],
+          "children": null
+        }
+      ]
+    },
+    {
+      "name": "Lights",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "components": null,
+      "children": [
+        {
+          "name": "Light 1",
+          "transform": {
+            "position": {
+              "x": -1.0,
+              "y": -1.0,
+              "z": 2.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            }
+          ],
+          "children": null
+        },
+        {
+          "name": "Light 2",
+          "transform": {
+            "position": {
+              "x": 1.0,
+              "y": -1.0,
+              "z": 2.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            }
+          ],
+          "children": null
+        },
+        {
+          "name": "Light 3",
+          "transform": {
+            "position": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 2.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            }
+          ],
+          "children": null
+        },
+        {
+          "name": "Light 4",
+          "transform": {
+            "position": {
+              "x": -1.0,
+              "y": 1.0,
+              "z": 2.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
             }
           ],
           "children": null

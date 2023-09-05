@@ -1,0 +1,87 @@
+{
+  "name": "Beauty Scene Lights",
+  "transform": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "components": null,
+  "children": [
+    {
+      "name": "Window",
+      "transform": {
+        "position": {
+          "x": 7.14,
+          "y": -2.01,
+          "z": 1.220
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "components": [
+        {
+          "type": "Point Light",
+          "colour": {
+            "x": 0.4765625,
+            "y": 0.89843750,
+            "z": 0.8984375
+          },
+          "intensity": 6.37
+        }
+      ],
+      "children": null
+    },
+    {
+      "name": "Ceiling",
+      "transform": {
+        "position": {
+          "x": -0.010,
+          "y": -3.930,
+          "z": 2.50
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "components": [
+        {
+          "type": "Point Light",
+          "colour": {
+            "x": 0.93,
+            "y": 0.26,
+            "z": 0.06
+          },
+          "intensity": 5.7
+        }
+      ],
+      "children": null
+    }
+  ]
+}
