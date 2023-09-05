@@ -1005,7 +1005,32 @@
       "facing": 0
     }
   ],
-  "spikes": null,
+  "spikes": [
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      }
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 6
+      }
+    }
+  ],
   "blocks": [
     {
       "position": {
