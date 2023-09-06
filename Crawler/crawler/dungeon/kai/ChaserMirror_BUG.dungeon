@@ -1,0 +1,170 @@
+{
+  "type": "dungeon",
+  "version": 2,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "noRoof": true,
+  "tiles": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "levers": null,
+  "doors": null,
+  "plates": null,
+  "transporters": null,
+  "checkpoints": null,
+  "spikes": null,
+  "blocks": null,
+  "shootLasers": null,
+  "blockers": null,
+  "chasers": [
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 0,
+      "state": 0
+    }
+  ],
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": [
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "facing": 3
+    }
+  ],
+  "decorations": null
+}

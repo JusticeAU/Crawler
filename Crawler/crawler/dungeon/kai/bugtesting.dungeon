@@ -1497,10 +1497,10 @@
         "x": 0,
         "y": 6
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         0
@@ -1511,12 +1511,12 @@
         "x": 0,
         "y": 7
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 5,
+      "maskSee": 5,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         0
       ]
     },
