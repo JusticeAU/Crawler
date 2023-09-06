@@ -1481,56 +1481,14 @@
     {
       "position": {
         "x": 0,
-        "y": -4
-      },
-      "mask": 1,
-      "maskSee": 1,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -3
-      },
-      "mask": 8,
-      "maskSee": 9,
-      "wallVariants": [
-        1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -2
-      },
-      "mask": 1,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
         "y": -1
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -1679,11 +1637,11 @@
         "x": 1,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -1817,20 +1775,6 @@
     {
       "position": {
         "x": 2,
-        "y": 0
-      },
-      "mask": 2,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
         "y": 3
       },
       "mask": 6,
@@ -1929,20 +1873,6 @@
     {
       "position": {
         "x": 3,
-        "y": 0
-      },
-      "mask": 4,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
         "y": 3
       },
       "mask": 6,
@@ -2035,20 +1965,6 @@
         0,
         -1,
         -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "mask": 2,
-      "maskSee": 2,
-      "wallVariants": [
-        0,
-        0,
-        0,
         -1
       ]
     },
@@ -2510,13 +2426,6 @@
         "y": 9
       },
       "facing": 1
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -2
-      },
-      "facing": 3
     }
   ],
   "mirrors": [
@@ -2561,13 +2470,6 @@
         "y": 8
       },
       "facing": 3
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 0
-      },
-      "facing": 0
     },
     {
       "position": {

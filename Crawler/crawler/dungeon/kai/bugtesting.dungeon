@@ -1246,7 +1246,7 @@
         "y": 11
       },
       "mask": 12,
-      "maskSee": 14,
+      "maskSee": 12,
       "wallVariants": [
         0,
         -1,
