@@ -53,8 +53,6 @@ const vec3 sampleOffsetDirections[20] = vec3[]
 
 void main()
 {
-
-	
 	// Sample and set values from texture maps;
 	vec3 albedo     = pow(texture(albedoMap, _TexCoords).rgb, vec3(2.2));
     vec3 normal     = GetNormalFromNormalMap(_Tangent, _BiTangent, _Normal);
@@ -71,16 +69,17 @@ void main()
 	
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
-	float ShadowFactor = 0.0;
+
 
 	for(int i = 0; i < numLights; ++i) 
 	{
 		// calculate per-light radiance
 		vec3 LightDirection = PointLightPositions[i] - _WorldPos;
-		vec3 L = normalize(PointLightPositions[i] - _WorldPos);
+		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
 		
+		float ShadowFactor = 0.0;
 		if(i == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
@@ -119,7 +118,6 @@ void main()
 	color = pow(color, vec3(1.0/2.2));
 	
 	FragColour = vec4(color, 1.0);
-	//FragColour = vec4(vec3(ShadowFactor), 1.0);
 }
 
 vec3 fresnelSchlick(float cosTheta, vec3 F0)
