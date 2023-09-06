@@ -894,13 +894,27 @@
         "x": 11,
         "y": 7
       },
-      "mask": 10,
-      "maskSee": 14,
+      "mask": 11,
+      "maskSee": 15,
       "wallVariants": [
-        0,
+        -1,
         1,
         -1,
         -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 8
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
       ]
     },
     {
@@ -964,17 +978,42 @@
         "x": 12,
         "y": 7
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 7
+      },
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
         0,
         0,
-        -1,
+        0,
         -1
       ]
     }
   ],
-  "levers": null,
+  "levers": [
+    {
+      "position": {
+        "x": 9,
+        "y": 7
+      },
+      "id": 1,
+      "orientation": 0,
+      "status": false,
+      "activateID": 3
+    }
+  ],
   "doors": [
     {
       "position": {
@@ -983,6 +1022,15 @@
       },
       "id": 0,
       "orientation": 1,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 7
+      },
+      "id": 3,
+      "orientation": 0,
       "open": false
     }
   ],
@@ -995,7 +1043,28 @@
       "activateID": 0
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "Tut4",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "Tut4Exit",
+      "position": {
+        "x": 11,
+        "y": 8
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": [
     {
       "position": {
@@ -1005,7 +1074,50 @@
       "facing": 0
     }
   ],
-  "spikes": null,
+  "spikes": [
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 6
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 3
+      }
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 4
+      }
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 3
+      }
+    }
+  ],
   "blocks": [
     {
       "position": {
@@ -1176,6 +1288,12 @@
     {
       "position": {
         "x": 12,
+        "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 13,
         "y": 7
       }
     }
