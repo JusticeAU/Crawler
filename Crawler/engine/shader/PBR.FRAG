@@ -24,10 +24,20 @@ uniform samplerCubeShadow shadowMap2;
 uniform samplerCubeShadow shadowMap3;
 
 // lights
-const int MAX_LIGHTS = 4;
+const int MAX_POINTLIGHTS = 50;
 uniform int numLights;
-uniform vec3 PointLightColours[MAX_LIGHTS];
-uniform vec3 PointLightPositions[MAX_LIGHTS];
+//uniform vec3 PointLightPositions[MAX_POINTLIGHTS];
+//uniform vec3 PointLightColours[MAX_POINTLIGHTS];
+uniform ivec4 PointLightIndices;
+layout (std140) uniform pointLightPositionBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightPositions;
+};
+layout (std140) uniform pointLightColourBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightColours;
+};
+
 
 const float PI = 3.14159265359;
 
@@ -70,11 +80,11 @@ void main()
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
 
-
-	for(int i = 0; i < numLights; ++i) 
+	int lightsToRender = clamp(numLights, 0, 4);
+	for(int i = 0; i < lightsToRender; ++i) 
 	{
 		// calculate per-light radiance
-		vec3 LightDirection = PointLightPositions[i] - _WorldPos;
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos;
 		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
@@ -88,9 +98,9 @@ void main()
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
-		float distance    = length(PointLightPositions[i] - _WorldPos);
+		float distance    = length(PointLightPositions[PointLightIndices[i]].xyz - _WorldPos);
 		float attenuation = 1.0 / (distance * distance);
-		vec3 radiance     = PointLightColours[i] * attenuation; 
+		vec3 radiance     = PointLightColours[PointLightIndices[i]].xyz * attenuation; 
 		
 		// calculate Cook-Torrance BRDF:
 		float NDF = DistributionGGX(N, H, roughness);       

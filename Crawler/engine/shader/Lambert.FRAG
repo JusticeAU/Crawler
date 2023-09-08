@@ -14,10 +14,19 @@ uniform vec3 sunLightDirection;
 uniform vec3 sunLightColour;
 
 // Point Lights
-const int MAX_LIGHTS = 4;
+const int MAX_POINTLIGHTS = 50;
 uniform int numLights;
-uniform vec3 PointLightColours[MAX_LIGHTS];
-uniform vec3 PointLightPositions[MAX_LIGHTS];
+//uniform vec3 PointLightColours[MAX_POINTLIGHTS];
+//uniform vec3 PointLightPositions[MAX_POINTLIGHTS];
+layout (std140) uniform pointLightPositionBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightPositions;
+};
+layout (std140) uniform pointLightColourBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightColours;
+};
+uniform ivec4 PointLightIndices;
 
 // Samplers
 uniform sampler2D diffuseTex;
@@ -88,12 +97,13 @@ void main()
 	vec3 SunLight = normalize(sunLightDirection);
 
 	// calculate diffuse lighting from sunlight 
-	vec3 diffuseTotal = vec3(0);// = GetDiffuse(SunLight, sunLightColour, N);
+	vec3 diffuseTotal = GetDiffuse(SunLight, sunLightColour, N);
 	
 	// Calculate diffuse  for all point lights
-	for(int i = 0; i < numLights; i++)
+	int lightsToRender = clamp(numLights, 0, 4);
+	for(int i = 0; i < lightsToRender; i++)
 	{
-		vec3 LightDirection = PointLightPositions[i] - _WorldPos; // get direction from pixel to light (not normalized)
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
 		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
@@ -108,16 +118,16 @@ void main()
 		
 		// Attenuate the light intensity with inverese square law
 		float distance = length(LightDirection);
+		float attenuation = 1.0 / (distance * distance);
 		LightDirection = LightDirection / distance; // normalize
-		vec3 colour = PointLightColours[i] / (distance * distance);
 
-		diffuseTotal +=  PointLightColours[i] * ShadowFactor * 0.01;
+		diffuseTotal +=  (PointLightColours[PointLightIndices[i]].xyz * attenuation) * ShadowFactor;
 	}
 	
 	//shadow = ShadowCalculation(_FragPosLightSpace);
 	
 
-	vec3 texColour = texture(diffuseTex, _TexCoords).rgb * 0.01;
-	vec3 lighting = diffuseTotal;  
+	vec3 texColour = texture(diffuseTex, _TexCoords).rgb;
+	vec3 lighting = diffuseTotal * texColour;  
 	FragColour = vec4(lighting, 1);	
 }
