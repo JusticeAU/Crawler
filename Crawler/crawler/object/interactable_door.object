@@ -39,7 +39,116 @@
         }
       },
       "components": null,
-      "children": null
+      "children": [
+        {
+          "name": "frame",
+          "transform": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": null,
+          "children": null
+        },
+        {
+          "name": "leftDoorOffset",
+          "transform": {
+            "position": {
+              "x": -0.45,
+              "y": -0.09,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": null,
+          "children": [
+			{
+			  "name": "leftDoorHingeOffset",
+			  "transform": {
+				"position": {
+				  "x": 0.27,
+				  "y": 0.0,
+				  "z": 0.0
+				},
+				"rotation": {
+				  "x": 0.0,
+				  "y": 0.0,
+				  "z": 0.0
+				},
+				"scale": {
+				  "x": 1.0,
+				  "y": 1.0,
+				  "z": 1.0
+				}
+			  }
+			}
+			]
+        },
+        {
+          "name": "rightDoorOffset",
+          "transform": {
+            "position": {
+              "x": 0.45,
+              "y": -0.09,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": null,
+          "children": [
+			{
+			  "name": "rightDoorHingeOffset",
+			  "transform": {
+				"position": {
+				  "x": -0.27,
+				  "y": 0.0,
+				  "z": 0.0
+				},
+				"rotation": {
+				  "x": 0.0,
+				  "y": 0.0,
+				  "z": 0.0
+				},
+				"scale": {
+				  "x": 1.0,
+				  "y": 1.0,
+				  "z": 1.0
+				}
+			  }
+			}
+			]
+        }
+      ]
     }
   ]
 }
