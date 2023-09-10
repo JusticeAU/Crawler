@@ -22,20 +22,30 @@ uniform samplerCubeShadow shadowMap0;
 uniform samplerCubeShadow shadowMap1;
 uniform samplerCubeShadow shadowMap2;
 uniform samplerCubeShadow shadowMap3;
+uniform samplerCubeShadow shadowMap4;
+uniform samplerCubeShadow shadowMap5;
+uniform samplerCubeShadow shadowMap6;
+uniform samplerCubeShadow shadowMap7;
+
 
 // lights
 const int MAX_POINTLIGHTS = 50;
+const int MAX_AFFECTINGPOINTLIGHTS = 8;
 uniform int numLights;
 //uniform vec3 PointLightPositions[MAX_POINTLIGHTS];
 //uniform vec3 PointLightColours[MAX_POINTLIGHTS];
-uniform ivec4 PointLightIndices;
+//uniform ivec4 PointLightIndices;
 layout (std140) uniform pointLightPositionBuffer
 {
-    vec4[MAX_POINTLIGHTS] PointLightPositions;
+    vec4[MAX_POINTLIGHTS] PointLightPositions; // these are vec3s, treat them as such.
 };
 layout (std140) uniform pointLightColourBuffer
 {
-    vec4[MAX_POINTLIGHTS] PointLightColours;
+    vec4[MAX_POINTLIGHTS] PointLightColours; // these are vec3s, treat them as such.
+};
+uniform pointLightIndicesBuffer
+{
+    int[MAX_AFFECTINGPOINTLIGHTS] PointLightIndices;
 };
 
 
@@ -80,7 +90,7 @@ void main()
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
 
-	int lightsToRender = clamp(numLights, 0, 4);
+	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
 	for(int i = 0; i < lightsToRender; ++i) 
 	{
 		// calculate per-light radiance
@@ -94,7 +104,10 @@ void main()
 		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		
+		else if(i == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
