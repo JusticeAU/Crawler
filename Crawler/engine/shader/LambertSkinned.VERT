@@ -27,8 +27,6 @@ out vec4 _FragPosLightSpace;
 //out vec3 _Tangent;
 //out vec3 _BiTangent;
 
-uniform int selectedBone;
-
 void main()
 {
 	// Look up 
