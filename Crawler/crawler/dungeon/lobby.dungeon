@@ -2,10 +2,10 @@
   "type": "dungeon",
   "version": 2,
   "defaultPosition": {
-    "x": 10,
-    "y": 0
+    "x": 11,
+    "y": -3
   },
-  "defaultOrientation": 3,
+  "defaultOrientation": 0,
   "noRoof": true,
   "tiles": [
     {
@@ -1469,6 +1469,26 @@
         "z": 0.0
       },
       "modelName": "crawler/model/lobby_hat.object"
+    }
+  ],
+  "pointLights": [
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "localPosition": {
+        "x": -1.9600000381469727,
+        "y": 0.07400000095367432,
+        "z": 7.4720001220703125
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 36.0,
+      "isLobbyLight": true
     }
   ],
   "stairs": [
