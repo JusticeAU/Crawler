@@ -2728,11 +2728,11 @@
         "x": 6,
         "y": -11
       },
-      "mask": 7,
+      "mask": 3,
       "maskSee": 7,
       "wallVariants": [
         -1,
-        -1,
+        1,
         0,
         -1
       ]
@@ -2742,11 +2742,11 @@
         "x": 6,
         "y": -10
       },
-      "mask": 15,
+      "mask": 11,
       "maskSee": 15,
       "wallVariants": [
         -1,
-        -1,
+        1,
         -1,
         -1
       ]
@@ -2770,11 +2770,11 @@
         "x": 6,
         "y": -8
       },
-      "mask": 15,
+      "mask": 11,
       "maskSee": 15,
       "wallVariants": [
         -1,
-        -1,
+        1,
         -1,
         -1
       ]
@@ -2784,11 +2784,11 @@
         "x": 6,
         "y": -7
       },
-      "mask": 14,
+      "mask": 10,
       "maskSee": 14,
       "wallVariants": [
         0,
-        -1,
+        1,
         -1,
         -1
       ]
@@ -2868,7 +2868,7 @@
         "x": 7,
         "y": -11
       },
-      "mask": 7,
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -2882,7 +2882,7 @@
         "x": 7,
         "y": -10
       },
-      "mask": 15,
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -2910,7 +2910,7 @@
         "x": 7,
         "y": -8
       },
-      "mask": 15,
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -2924,7 +2924,7 @@
         "x": 7,
         "y": -7
       },
-      "mask": 15,
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -3547,42 +3547,6 @@
       "id": 5,
       "orientation": 3,
       "open": false
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -8
-      },
-      "id": 6,
-      "orientation": 1,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -7
-      },
-      "id": 7,
-      "orientation": 1,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -10
-      },
-      "id": 8,
-      "orientation": 1,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -11
-      },
-      "id": 9,
-      "orientation": 1,
-      "open": false
     }
   ],
   "plates": [
@@ -3623,7 +3587,7 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "crwaler/dungeon/kai\\box_test",
+      "toDungeon": "crawler/dungeon/kai/box_test",
       "toTransporter": ""
     }
   ],

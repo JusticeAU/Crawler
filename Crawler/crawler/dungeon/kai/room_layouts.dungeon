@@ -1256,10 +1256,10 @@
         "x": 3,
         "y": -4
       },
-      "facing": 0,
+      "facing": 1,
       "localPosition": {
-        "x": -0.800000011920929,
-        "y": 0.0,
+        "x": -0.10000000149011612,
+        "y": -0.6000000238418579,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_fireplace.object"

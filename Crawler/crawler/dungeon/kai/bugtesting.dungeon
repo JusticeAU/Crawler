@@ -109,6 +109,174 @@
     {
       "position": {
         "x": -8,
+        "y": -18
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -17
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -16
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -15
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -14
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -13
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -12
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -11
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -10
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -9
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -8
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -7
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
         "y": 3
       },
       "mask": 7,
@@ -207,6 +375,62 @@
     {
       "position": {
         "x": -7,
+        "y": -10
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": -9
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": -8
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": -7
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
         "y": -5
       },
       "mask": 5,
@@ -237,11 +461,11 @@
         "x": -7,
         "y": -3
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
@@ -251,11 +475,11 @@
         "x": -7,
         "y": -2
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
@@ -265,11 +489,11 @@
         "x": -7,
         "y": -1
       },
-      "mask": 8,
-      "maskSee": 8,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
         0,
-        0,
+        -1,
         -1,
         0
       ]
@@ -375,6 +599,62 @@
     {
       "position": {
         "x": -6,
+        "y": -10
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -9
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -8
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -7
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
         "y": -5
       },
       "mask": 7,
@@ -391,11 +671,53 @@
         "x": -6,
         "y": -4
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -2
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -1
+      },
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
-        0,
+        -1,
         -1,
         -1
       ]
@@ -473,14 +795,126 @@
     {
       "position": {
         "x": -5,
-        "y": -5
+        "y": -10
       },
-      "mask": 6,
-      "maskSee": 6,
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -9
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -8
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -7
+      },
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
         -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -5
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -4
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -3
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -2
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
         -1
       ]
     },
@@ -607,6 +1041,20 @@
         0,
         -1,
         -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -7
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
         -1
       ]
     },
@@ -811,13 +1259,13 @@
         "x": -3,
         "y": -7
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -1453,14 +1901,28 @@
     {
       "position": {
         "x": 0,
+        "y": -11
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
         "y": -10
       },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -3345,11 +3807,11 @@
         "x": 7,
         "y": -7
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         -1
       ]
@@ -3469,6 +3931,20 @@
     {
       "position": {
         "x": 8,
+        "y": -7
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
         "y": 13
       },
       "mask": 2,
@@ -3568,6 +4044,15 @@
       "id": 4,
       "orientation": 1,
       "open": false
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -7
+      },
+      "id": 5,
+      "orientation": 1,
+      "open": false
     }
   ],
   "plates": [
@@ -3622,8 +4107,43 @@
     },
     {
       "position": {
-        "x": -1,
+        "x": 3,
         "y": -6
+      },
+      "activateID": 0
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -7
+      },
+      "activateID": 5
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -7
+      },
+      "activateID": 5
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": -3
+      },
+      "activateID": 0
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -3
+      },
+      "activateID": 0
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -3
       },
       "activateID": 0
     }
@@ -3876,15 +4396,15 @@
   "chasers": [
     {
       "position": {
-        "x": 3,
-        "y": 1
+        "x": -8,
+        "y": -18
       },
-      "facing": 3,
+      "facing": 0,
       "state": 0
     },
     {
       "position": {
-        "x": -7,
+        "x": -6,
         "y": -1
       },
       "facing": 2,
@@ -3943,13 +4463,6 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": -6
-      },
-      "facing": 0
-    },
-    {
-      "position": {
         "x": 6,
         "y": -6
       },
@@ -3966,6 +4479,13 @@
       "position": {
         "x": 5,
         "y": -4
+      },
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -6
       },
       "facing": 0
     }
@@ -4065,12 +4585,6 @@
       "position": {
         "x": 7,
         "y": 13
-      }
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -4
       }
     },
     {
@@ -4249,24 +4763,6 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": -6
-      }
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -6
-      }
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -6
-      }
-    },
-    {
-      "position": {
         "x": 5,
         "y": -4
       }
@@ -4339,12 +4835,6 @@
     },
     {
       "position": {
-        "x": 7,
-        "y": -10
-      }
-    },
-    {
-      "position": {
         "x": 5,
         "y": -10
       }
@@ -4359,6 +4849,24 @@
       "position": {
         "x": 5,
         "y": -9
+      }
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -4
+      }
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -6
+      }
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -6
       }
     }
   ],
@@ -4413,6 +4921,13 @@
         "y": -5
       },
       "facing": 1
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -9
+      },
+      "facing": 2
     }
   ],
   "decorations": null
