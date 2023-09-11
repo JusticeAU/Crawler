@@ -531,7 +531,7 @@
         "x": 3,
         "y": -5
       },
-      "mask": 7,
+      "mask": 6,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -545,7 +545,7 @@
         "x": 3,
         "y": -4
       },
-      "mask": 15,
+      "mask": 7,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -657,7 +657,7 @@
         "x": 3,
         "y": 4
       },
-      "mask": 15,
+      "mask": 14,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -671,7 +671,7 @@
         "x": 3,
         "y": 5
       },
-      "mask": 14,
+      "mask": 6,
       "maskSee": 14,
       "wallVariants": [
         0,
@@ -839,7 +839,7 @@
         "x": 5,
         "y": -5
       },
-      "mask": 7,
+      "mask": 6,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -853,7 +853,7 @@
         "x": 5,
         "y": -4
       },
-      "mask": 15,
+      "mask": 7,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -888,7 +888,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -902,7 +903,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -930,7 +932,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -944,7 +947,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -965,7 +969,7 @@
         "x": 5,
         "y": 4
       },
-      "mask": 15,
+      "mask": 14,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -979,7 +983,7 @@
         "x": 5,
         "y": 5
       },
-      "mask": 14,
+      "mask": 6,
       "maskSee": 14,
       "wallVariants": [
         0,
@@ -1028,7 +1032,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1042,7 +1047,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1098,7 +1104,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1112,7 +1119,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1154,7 +1162,8 @@
         0,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1238,7 +1247,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1329,12 +1339,68 @@
         "x": 10,
         "y": 0
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -3
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -2
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -1
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 0
+      },
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
         0,
-        0,
+        -1,
         -1
       ]
     }
@@ -1346,10 +1412,10 @@
     {
       "name": "TutExit",
       "position": {
-        "x": 9,
-        "y": 0
+        "x": 11,
+        "y": -3
       },
-      "fromOrientation": 3,
+      "fromOrientation": 0,
       "toDungeon": "",
       "toTransporter": ""
     }
