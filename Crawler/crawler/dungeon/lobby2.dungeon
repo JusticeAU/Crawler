@@ -880,7 +880,68 @@
   "levers": null,
   "doors": null,
   "plates": null,
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "North1",
+      "position": {
+        "x": 8,
+        "y": 6
+      },
+      "fromOrientation": 2,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "North1",
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "fromOrientation": 2,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "North3",
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "fromOrientation": 2,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "South1",
+      "position": {
+        "x": 8,
+        "y": -6
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "South2",
+      "position": {
+        "x": 4,
+        "y": -6
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "South3",
+      "position": {
+        "x": 1,
+        "y": -6
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
