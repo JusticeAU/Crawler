@@ -209,11 +209,11 @@
         "x": 2,
         "y": 2
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -264,20 +264,6 @@
       "position": {
         "x": 3,
         "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 2
       },
       "mask": 14,
       "maskSee": 14,
@@ -349,17 +335,28 @@
         "x": 4,
         "y": 2
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 8,
+      "maskSee": 8,
       "wallVariants": [
         0,
         0,
         -1,
-        -1
+        0
       ]
     }
   ],
-  "levers": null,
+  "levers": [
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "id": 1,
+      "orientation": 0,
+      "status": false,
+      "activateID": 0
+    }
+  ],
   "doors": [
     {
       "position": {
@@ -371,7 +368,15 @@
       "open": false
     }
   ],
-  "plates": null,
+  "plates": [
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "activateID": 0
+    }
+  ],
   "transporters": null,
   "checkpoints": null,
   "spikes": null,
@@ -379,7 +384,15 @@
   "shootLasers": null,
   "blockers": null,
   "chasers": null,
-  "slugs": null,
+  "slugs": [
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 0
+    }
+  ],
   "slugPaths": [
     {
       "position": {

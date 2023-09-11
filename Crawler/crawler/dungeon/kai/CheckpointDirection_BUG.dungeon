@@ -11,7 +11,7 @@
     {
       "position": {
         "x": -1,
-        "y": -2
+        "y": -1
       },
       "mask": 5,
       "maskSee": 5,
@@ -25,20 +25,6 @@
     {
       "position": {
         "x": -1,
-        "y": -1
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
         "y": 0
       },
       "mask": 13,
@@ -54,20 +40,6 @@
       "position": {
         "x": -1,
         "y": 1
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 2
       },
       "mask": 12,
       "maskSee": 12,
@@ -81,7 +53,7 @@
     {
       "position": {
         "x": 0,
-        "y": -2
+        "y": -1
       },
       "mask": 7,
       "maskSee": 7,
@@ -89,20 +61,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -125,40 +83,12 @@
         "x": 0,
         "y": 1
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 2
-      },
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
         0,
         -1,
         -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -2
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
         -1
       ]
     },
@@ -166,62 +96,6 @@
       "position": {
         "x": 1,
         "y": -1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 2
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -2
       },
       "mask": 3,
       "maskSee": 3,
@@ -234,13 +108,27 @@
     },
     {
       "position": {
-        "x": 2,
-        "y": -1
+        "x": 1,
+        "y": 0
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
         0,
         -1,
         -1
@@ -251,40 +139,124 @@
         "x": 2,
         "y": 0
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
-        -1,
         0,
         -1,
+        0,
         -1
       ]
     },
     {
       "position": {
-        "x": 2,
+        "x": 3,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "mask": 0,
+      "maskSee": 0,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
         "y": 1
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
         0,
         -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
         -1
       ]
     },
     {
       "position": {
-        "x": 2,
+        "x": 6,
         "y": 2
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
         0,
         0,
-        -1,
+        0,
         -1
       ]
     }
@@ -293,14 +265,65 @@
   "doors": null,
   "plates": null,
   "transporters": null,
-  "checkpoints": null,
-  "spikes": null,
+  "checkpoints": [
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "facing": 0
+    }
+  ],
+  "spikes": [
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      }
+    }
+  ],
   "blocks": null,
   "shootLasers": null,
   "blockers": null,
-  "chasers": null,
-  "slugs": null,
-  "slugPaths": null,
+  "chasers": [
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 0,
+      "state": 0
+    }
+  ],
+  "slugs": [
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "facing": 0
+    }
+  ],
+  "slugPaths": [
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      }
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 2
+      }
+    }
+  ],
   "switchers": null,
   "mirrors": null,
   "decorations": null
