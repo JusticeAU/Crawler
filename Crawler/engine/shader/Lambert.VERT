@@ -9,7 +9,7 @@ uniform mat4 pvmMatrix;
 uniform mat4 mMatrix;
 uniform mat4 lightSpaceMatrix;
 
-out vec3 _Position;
+out vec3 _WorldPos;
 out vec3 _Colour;
 out vec3 _Normal;
 out vec2 _TexCoords;
@@ -19,7 +19,7 @@ void main()
 {
 	gl_Position = pvmMatrix * vec4(Position ,1);
 	_Colour = Colour;
-	_Position = (mMatrix * vec4(Position ,1)).xyz;
+	_WorldPos = (mMatrix * vec4(Position ,1)).xyz;
 	_Normal = (mMatrix * vec4(Normal,0)).xyz;
 	_TexCoords = texCoords;
 	vec3 FragPos = vec3(mMatrix * vec4(Position.xyz, 1.0));

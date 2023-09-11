@@ -22,12 +22,32 @@ uniform samplerCubeShadow shadowMap0;
 uniform samplerCubeShadow shadowMap1;
 uniform samplerCubeShadow shadowMap2;
 uniform samplerCubeShadow shadowMap3;
+uniform samplerCubeShadow shadowMap4;
+uniform samplerCubeShadow shadowMap5;
+uniform samplerCubeShadow shadowMap6;
+uniform samplerCubeShadow shadowMap7;
+
 
 // lights
-const int MAX_LIGHTS = 4;
+const int MAX_POINTLIGHTS = 50;
+const int MAX_AFFECTINGPOINTLIGHTS = 8;
 uniform int numLights;
-uniform vec3 PointLightColours[MAX_LIGHTS];
-uniform vec3 PointLightPositions[MAX_LIGHTS];
+//uniform vec3 PointLightPositions[MAX_POINTLIGHTS];
+//uniform vec3 PointLightColours[MAX_POINTLIGHTS];
+//uniform ivec4 PointLightIndices;
+layout (std140) uniform pointLightPositionBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightPositions; // these are vec3s, treat them as such.
+};
+layout (std140) uniform pointLightColourBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightColours; // these are vec3s, treat them as such.
+};
+uniform pointLightIndicesBuffer
+{
+    int[MAX_AFFECTINGPOINTLIGHTS] PointLightIndices;
+};
+
 
 const float PI = 3.14159265359;
 
@@ -53,8 +73,6 @@ const vec3 sampleOffsetDirections[20] = vec3[]
 
 void main()
 {
-
-	
 	// Sample and set values from texture maps;
 	vec3 albedo     = pow(texture(albedoMap, _TexCoords).rgb, vec3(2.2));
     vec3 normal     = GetNormalFromNormalMap(_Tangent, _BiTangent, _Normal);
@@ -71,27 +89,31 @@ void main()
 	
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
-	float ShadowFactor = 0.0;
 
-	for(int i = 0; i < numLights; ++i) 
+	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
+	for(int i = 0; i < lightsToRender; ++i) 
 	{
 		// calculate per-light radiance
-		vec3 LightDirection = PointLightPositions[i] - _WorldPos;
-		vec3 L = normalize(PointLightPositions[i] - _WorldPos);
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos;
+		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
 		
+		float ShadowFactor = 0.0;
 		if(i == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		else if(i == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		
+		else if(i == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
-		float distance    = length(PointLightPositions[i] - _WorldPos);
+		float distance    = length(PointLightPositions[PointLightIndices[i]].xyz - _WorldPos);
 		float attenuation = 1.0 / (distance * distance);
-		vec3 radiance     = PointLightColours[i] * attenuation; 
+		vec3 radiance     = PointLightColours[PointLightIndices[i]].xyz * attenuation; 
 		
 		// calculate Cook-Torrance BRDF:
 		float NDF = DistributionGGX(N, H, roughness);       
@@ -119,7 +141,6 @@ void main()
 	color = pow(color, vec3(1.0/2.2));
 	
 	FragColour = vec4(color, 1.0);
-	//FragColour = vec4(vec3(ShadowFactor), 1.0);
 }
 
 vec3 fresnelSchlick(float cosTheta, vec3 F0)

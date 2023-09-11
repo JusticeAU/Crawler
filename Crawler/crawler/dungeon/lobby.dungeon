@@ -2,10 +2,10 @@
   "type": "dungeon",
   "version": 2,
   "defaultPosition": {
-    "x": 2,
+    "x": 10,
     "y": 0
   },
-  "defaultOrientation": 1,
+  "defaultOrientation": 3,
   "noRoof": true,
   "tiles": [
     {

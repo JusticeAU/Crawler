@@ -2,7 +2,7 @@
 
 out vec4 FragColour;
 
-in vec3 _Position;
+in vec3 _WorldPos;
 in vec3 _Colour;
 in vec3 _Normal;
 in vec2 _TexCoords;
@@ -14,14 +14,49 @@ uniform vec3 sunLightDirection;
 uniform vec3 sunLightColour;
 
 // Point Lights
-const int MAX_LIGHTS = 4;
+const int MAX_POINTLIGHTS = 50;
+const int MAX_AFFECTINGPOINTLIGHTS = 8;
 uniform int numLights;
-uniform vec3 PointLightColours[MAX_LIGHTS];
-uniform vec3 PointLightPositions[MAX_LIGHTS];
+//uniform vec3 PointLightColours[MAX_POINTLIGHTS];
+//uniform vec3 PointLightPositions[MAX_POINTLIGHTS];
+layout (std140) uniform pointLightPositionBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightPositions;
+};
+layout (std140) uniform pointLightColourBuffer
+{
+    vec4[MAX_POINTLIGHTS] PointLightColours;
+};
+uniform pointLightIndicesBuffer
+{
+    int[MAX_AFFECTINGPOINTLIGHTS] PointLightIndices;
+};
 
-// first texture!
+
+// Samplers
 uniform sampler2D diffuseTex;
 uniform sampler2D shadowMap;
+
+uniform samplerCubeShadow shadowMap0;
+uniform samplerCubeShadow shadowMap1;
+uniform samplerCubeShadow shadowMap2;
+uniform samplerCubeShadow shadowMap3;
+uniform samplerCubeShadow shadowMap4;
+uniform samplerCubeShadow shadowMap5;
+uniform samplerCubeShadow shadowMap6;
+uniform samplerCubeShadow shadowMap7;
+
+// Shadow Configuration
+const float EPSILON = 0.003f;
+const int samples = 20;
+const vec3 sampleOffsetDirections[20] = vec3[]
+(
+   vec3( 1,  1,  1), vec3( 1, -1,  1), vec3(-1, -1,  1), vec3(-1,  1,  1), 
+   vec3( 1,  1, -1), vec3( 1, -1, -1), vec3(-1, -1, -1), vec3(-1,  1, -1),
+   vec3( 1,  1,  0), vec3( 1, -1,  0), vec3(-1, -1,  0), vec3(-1,  1,  0),
+   vec3( 1,  0,  1), vec3(-1,  0,  1), vec3( 1,  0, -1), vec3(-1,  0, -1),
+   vec3( 0,  1,  1), vec3( 0, -1,  1), vec3( 0, -1, -1), vec3( 0,  1, -1)
+); 
 
 uniform float shadowBias;
 
@@ -68,28 +103,45 @@ void main()
 {
 	// Normalize all direction vectors
 	vec3 N = normalize(_Normal);
-	vec3 L = normalize(sunLightDirection);
+	vec3 SunLight = normalize(sunLightDirection);
 
 	// calculate diffuse lighting from sunlight 
-	vec3 diffuseTotal = GetDiffuse(L, sunLightColour, N);
+	vec3 diffuseTotal = GetDiffuse(SunLight, sunLightColour, N);
 	
 	// Calculate diffuse  for all point lights
-	for(int i = 0; i < numLights; i++)
+	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
+	for(int i = 0; i < lightsToRender; i++)
 	{
-		vec3 direction = _Position.xyz - PointLightPositions[i]; // get direction from pixel to light (not normalized)
-		float distance = length(direction);
-		direction = direction / distance; // normalize
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
+		vec3 L = normalize(LightDirection);
+		float Distance = (length(LightDirection) / 15.0) - EPSILON;
+		float offset  = 0.003;
 
+		float ShadowFactor = 0.0;
+		if(i == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(i == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		
+		
+		ShadowFactor /= float(samples);
+		
 		// Attenuate the light intensity with inverese square law
-		vec3 colour = PointLightColours[i] / (distance * distance);
+		float distance = length(LightDirection);
+		float attenuation = 1.0 / (distance * distance);
+		LightDirection = LightDirection / distance; // normalize
 
-		diffuseTotal += GetDiffuse(direction, colour, N);
+		diffuseTotal +=  (PointLightColours[PointLightIndices[i]].xyz * attenuation) * ShadowFactor;
 	}
 	
-	float shadow = ShadowCalculation(_FragPosLightSpace);
+	//shadow = ShadowCalculation(_FragPosLightSpace);
 	
 
 	vec3 texColour = texture(diffuseTex, _TexCoords).rgb;
-	vec3 lighting = (1.0 - shadow) * diffuseTotal * texColour;  
+	vec3 lighting = diffuseTotal * texColour;  
 	FragColour = vec4(lighting, 1);	
 }
