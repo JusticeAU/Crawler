@@ -1342,7 +1342,18 @@
   "levers": null,
   "doors": null,
   "plates": null,
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "TutExit",
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "fromOrientation": 3,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
