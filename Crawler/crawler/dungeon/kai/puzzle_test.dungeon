@@ -3064,11 +3064,11 @@
         "x": 6,
         "y": -6
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -3078,11 +3078,11 @@
         "x": 6,
         "y": -5
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -3302,38 +3302,10 @@
         "x": 7,
         "y": -7
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -6
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -5
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         -1
@@ -3344,12 +3316,12 @@
         "x": 7,
         "y": -4
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -3568,13 +3540,13 @@
         "x": 8,
         "y": -6
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -3582,13 +3554,13 @@
         "x": 8,
         "y": -5
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -4519,7 +4491,7 @@
   ],
   "shootLasers": [
     {
-      "id": 11,
+      "id": 3,
       "position": {
         "x": 11,
         "y": -8
@@ -4536,14 +4508,6 @@
       "position": {
         "x": -4,
         "y": -6
-      },
-      "facing": 0,
-      "rapidAttack": false
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -8
       },
       "facing": 0,
       "rapidAttack": false
@@ -4766,7 +4730,15 @@
       }
     }
   ],
-  "switchers": null,
+  "switchers": [
+    {
+      "position": {
+        "x": 4,
+        "y": -8
+      },
+      "facing": 3
+    }
+  ],
   "mirrors": [
     {
       "position": {

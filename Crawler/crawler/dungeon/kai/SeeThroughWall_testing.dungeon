@@ -2371,16 +2371,6 @@
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing",
       "toTransporter": ""
-    },
-    {
-      "name": "Chaser",
-      "position": {
-        "x": 2,
-        "y": 5
-      },
-      "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
     }
   ],
   "checkpoints": [

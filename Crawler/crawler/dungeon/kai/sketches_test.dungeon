@@ -3583,6 +3583,12 @@
         "x": 2,
         "y": 5
       }
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": -9
+      }
     }
   ],
   "blocks": [
@@ -3615,6 +3621,12 @@
         "x": 8,
         "y": -8
       }
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -9
+      }
     }
   ],
   "shootLasers": [
@@ -3631,16 +3643,7 @@
       "activateID": 0
     }
   ],
-  "blockers": [
-    {
-      "position": {
-        "x": 0,
-        "y": -9
-      },
-      "facing": 1,
-      "rapidAttack": false
-    }
-  ],
+  "blockers": null,
   "chasers": null,
   "slugs": null,
   "slugPaths": null,
@@ -3665,6 +3668,13 @@
         "y": 4
       },
       "facing": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -9
+      },
+      "facing": 3
     }
   ],
   "mirrors": [
