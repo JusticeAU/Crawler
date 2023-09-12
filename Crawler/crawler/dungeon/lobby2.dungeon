@@ -888,7 +888,7 @@
         "y": 6
       },
       "fromOrientation": 2,
-      "toDungeon": "",
+      "toDungeon": "crawler/dungeon/Doors",
       "toTransporter": ""
     },
     {
