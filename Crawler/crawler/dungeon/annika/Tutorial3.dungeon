@@ -698,8 +698,8 @@
         "y": 6
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4",
-      "toTransporter": "Tut4"
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
     },
     {
       "name": "Tut3",
