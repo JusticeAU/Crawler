@@ -576,7 +576,28 @@
       "activateID": 2
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "DoorExit",
+      "position": {
+        "x": 6,
+        "y": -1
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
+    },
+    {
+      "name": "DoorStart",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": [
@@ -594,5 +615,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }

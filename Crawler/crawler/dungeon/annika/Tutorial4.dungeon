@@ -1061,8 +1061,8 @@
         "y": 8
       },
       "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
     }
   ],
   "checkpoints": [

@@ -1,5 +1,5 @@
 {
-  "name": "pressureplate",
+  "name": "fork",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,11 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_pressureplate.fbx"
+      "model": "crawler/model/decoration_fork.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
