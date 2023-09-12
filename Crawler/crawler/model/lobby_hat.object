@@ -54,14 +54,11 @@
         "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true,
-      "dontFrustumCull": true
+      "castsShadows": true
     }
   ],
   "children": null
