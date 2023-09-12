@@ -6,11 +6,12 @@
     "y": 0
   },
   "defaultOrientation": 1,
+  "noRoof": true,
   "tiles": [
     {
       "position": {
-        "x": -6,
-        "y": -13
+        "x": -11,
+        "y": 3
       },
       "mask": 5,
       "maskSee": 5,
@@ -23,8 +24,190 @@
     },
     {
       "position": {
-        "x": -6,
-        "y": -12
+        "x": -11,
+        "y": 4
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -11,
+        "y": 6
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -11,
+        "y": 7
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -11,
+        "y": 8
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 3
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 5
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 6
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 7
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 8
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 1
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 2
       },
       "mask": 9,
       "maskSee": 9,
@@ -37,276 +220,304 @@
     },
     {
       "position": {
-        "x": -6,
-        "y": -11
+        "x": -9,
+        "y": 3
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
         -1,
-        0
+        -1,
+        -1
       ]
     },
     {
       "position": {
-        "x": -6,
-        "y": -10
+        "x": -9,
+        "y": 4
       },
-      "mask": 8,
-      "maskSee": 8,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
-        0,
-        0,
         -1,
-        0
+        -1,
+        -1,
+        -1
       ]
     },
     {
       "position": {
-        "x": -5,
-        "y": -16
+        "x": -9,
+        "y": 5
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 6
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 7
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 8
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 3
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 4
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 5
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 6
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 7
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 8
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 10
       },
       "mask": 1,
-      "maskSee": 1,
+      "maskSee": 5,
       "wallVariants": [
         -1,
-        0,
+        1,
         0,
         0
       ]
     },
     {
       "position": {
-        "x": -5,
-        "y": -15
+        "x": -8,
+        "y": 11
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
     },
     {
       "position": {
-        "x": -5,
-        "y": -14
+        "x": -8,
+        "y": 12
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
     },
     {
       "position": {
-        "x": -5,
-        "y": -13
+        "x": -8,
+        "y": 13
       },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -13
-      },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -12
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
         -1,
         0
       ]
     },
     {
       "position": {
-        "x": -4,
-        "y": -11
+        "x": -8,
+        "y": 14
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
     },
     {
       "position": {
-        "x": -4,
-        "y": -10
+        "x": -8,
+        "y": 15
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 16
       },
       "mask": 8,
-      "maskSee": 8,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -16
-      },
-      "mask": 1,
-      "maskSee": 1,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -15
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -14
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -13
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -12
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -11
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -10
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -9
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -8
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -7
-      },
-      "mask": 12,
       "maskSee": 12,
       "wallVariants": [
         0,
@@ -317,525 +528,7 @@
     },
     {
       "position": {
-        "x": -2,
-        "y": -14
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -11
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -8
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -7
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -6
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -14
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -12
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -11
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -7
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -6
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -1
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 0
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 1
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -15
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -14
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -12
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -11
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -15
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -15
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
+        "x": -7,
         "y": -1
       },
       "mask": 3,
@@ -849,539 +542,7 @@
     },
     {
       "position": {
-        "x": 2,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 1
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -15
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -5
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -4
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -3
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -2
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -1
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 1
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -15
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -6
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -5
-      },
-      "mask": 11,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -2
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -15
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -6
-      },
-      "mask": 6,
-      "maskSee": 7,
-      "wallVariants": [
-        1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -5
-      },
-      "mask": 4,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -4
-      },
-      "mask": 7,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -2
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -1
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
+        "x": -7,
         "y": 0
       },
       "mask": 11,
@@ -1395,7 +556,7 @@
     },
     {
       "position": {
-        "x": 5,
+        "x": -7,
         "y": 1
       },
       "mask": 10,
@@ -1409,10 +570,24 @@
     },
     {
       "position": {
-        "x": 6,
-        "y": -15
+        "x": -7,
+        "y": 3
       },
-      "mask": 7,
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 10
+      },
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -1423,164 +598,10 @@
     },
     {
       "position": {
-        "x": 6,
-        "y": -14
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -12
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -11
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -6
-      },
-      "mask": 6,
-      "maskSee": 7,
-      "wallVariants": [
-        1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -5
-      },
-      "mask": 6,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -4
-      },
-      "mask": 7,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -2
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -15
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -14
+        "x": -7,
+        "y": 11
       },
       "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -13
-      },
-      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -1591,111 +612,97 @@
     },
     {
       "position": {
-        "x": 7,
-        "y": -12
+        "x": -7,
+        "y": 12
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 14,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         -1
       ]
     },
     {
       "position": {
-        "x": 7,
-        "y": -11
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -6
+        "x": -7,
+        "y": 13
       },
       "mask": 6,
-      "maskSee": 7,
+      "maskSee": 15,
       "wallVariants": [
         1,
         -1,
-        0,
+        1,
         -1
       ]
     },
     {
       "position": {
-        "x": 7,
-        "y": -5
+        "x": -7,
+        "y": 14
+      },
+      "mask": 6,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 15
       },
       "mask": 2,
       "maskSee": 15,
       "wallVariants": [
         -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -4
-      },
-      "mask": 7,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
+        1,
         1,
         -1
       ]
     },
     {
       "position": {
-        "x": 7,
-        "y": -3
+        "x": -7,
+        "y": 16
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": -2
-      },
-      "mask": 14,
+      "mask": 4,
       "maskSee": 14,
       "wallVariants": [
         0,
         -1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 3
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
         -1,
+        0,
         -1
       ]
     },
     {
       "position": {
-        "x": 8,
-        "y": -13
+        "x": -6,
+        "y": 10
       },
-      "mask": 3,
+      "mask": 2,
       "maskSee": 3,
       "wallVariants": [
-        -1,
+        1,
         0,
         0,
         -1
@@ -1703,108 +710,66 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -12
+        "x": -6,
+        "y": 11
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 1,
+      "maskSee": 11,
       "wallVariants": [
         -1,
         0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -11
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -10
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -9
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -8
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -6
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -5
-      },
-      "mask": 13,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
         -1,
         1
       ]
     },
     {
       "position": {
-        "x": 8,
-        "y": -4
+        "x": -6,
+        "y": 12
       },
-      "mask": 15,
+      "mask": 10,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 13
+      },
+      "mask": 7,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 15
+      },
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -1815,22 +780,8 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -2
+        "x": -6,
+        "y": 16
       },
       "mask": 14,
       "maskSee": 14,
@@ -1843,22 +794,92 @@
     },
     {
       "position": {
-        "x": 9,
-        "y": -8
+        "x": -5,
+        "y": 3
       },
-      "mask": 3,
-      "maskSee": 3,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
-        0,
+        -1,
         0,
         -1
       ]
     },
     {
       "position": {
-        "x": 9,
-        "y": -7
+        "x": -5,
+        "y": 4
+      },
+      "mask": 12,
+      "maskSee": 13,
+      "wallVariants": [
+        1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 5
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 6
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 7
+      },
+      "mask": 5,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 8
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 9
       },
       "mask": 12,
       "maskSee": 12,
@@ -1871,190 +892,8 @@
     },
     {
       "position": {
-        "x": 9,
-        "y": -5
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": -4
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": -2
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 10,
-        "y": -7
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 10,
-        "y": -3
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -8
-      },
-      "mask": 1,
-      "maskSee": 1,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -7
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -6
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -5
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -4
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -2
-      },
-      "mask": 8,
-      "maskSee": 8,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -8
+        "x": -5,
+        "y": 12
       },
       "mask": 5,
       "maskSee": 5,
@@ -2067,8 +906,8 @@
     },
     {
       "position": {
-        "x": 12,
-        "y": -7
+        "x": -5,
+        "y": 13
       },
       "mask": 15,
       "maskSee": 15,
@@ -2081,13 +920,13 @@
     },
     {
       "position": {
-        "x": 12,
-        "y": -6
+        "x": -5,
+        "y": 14
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         0
@@ -2095,36 +934,22 @@
     },
     {
       "position": {
-        "x": 12,
-        "y": -5
+        "x": -5,
+        "y": 15
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 6,
+      "maskSee": 7,
       "wallVariants": [
+        1,
         -1,
-        -1,
-        -1,
+        0,
         -1
       ]
     },
     {
       "position": {
-        "x": 12,
-        "y": -4
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -3
+        "x": -5,
+        "y": 16
       },
       "mask": 14,
       "maskSee": 14,
@@ -2137,8 +962,204 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -8
+        "x": -4,
+        "y": 3
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 5
+      },
+      "mask": 13,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 6
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 7
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 8
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 9
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 10
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 11
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 12
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 13
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 14
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 15
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 16
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 3
       },
       "mask": 3,
       "maskSee": 3,
@@ -2151,8 +1172,8 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -7
+        "x": -3,
+        "y": 4
       },
       "mask": 11,
       "maskSee": 11,
@@ -2165,8 +1186,8 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -6
+        "x": -3,
+        "y": 5
       },
       "mask": 11,
       "maskSee": 11,
@@ -2179,8 +1200,8 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -5
+        "x": -3,
+        "y": 6
       },
       "mask": 11,
       "maskSee": 11,
@@ -2193,8 +1214,8 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -4
+        "x": -3,
+        "y": 7
       },
       "mask": 11,
       "maskSee": 11,
@@ -2207,8 +1228,22 @@
     },
     {
       "position": {
-        "x": 13,
-        "y": -3
+        "x": -3,
+        "y": 8
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 9
       },
       "mask": 10,
       "maskSee": 10,
@@ -2218,102 +1253,1010 @@
         -1,
         -1
       ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 16
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 11
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 12
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 13
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 14
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 15
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 16
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 4
+      },
+      "mask": 5,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 5
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 11
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 12
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 13
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 11
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 12
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 13
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 3
+      },
+      "mask": 6,
+      "maskSee": 7,
+      "wallVariants": [
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "mask": 3,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 5
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 9
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 10
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 11
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 12
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 13
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "mask": 6,
+      "maskSee": 7,
+      "wallVariants": [
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "mask": 5,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 5
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 8
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 9
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "mask": 6,
+      "maskSee": 7,
+      "wallVariants": [
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 4
+      },
+      "mask": 7,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 6
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 7
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 8
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 9
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "mask": 6,
+      "maskSee": 7,
+      "wallVariants": [
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 4
+      },
+      "mask": 3,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "mask": 10,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "mask": 3,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "mask": 11,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 8
+      },
+      "mask": 11,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 9
+      },
+      "mask": 10,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 3
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 6
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 8
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 9
+      },
+      "mask": 8,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        1
+      ]
     }
   ],
   "levers": [
     {
       "position": {
-        "x": 2,
-        "y": 1
+        "x": -9,
+        "y": 8
       },
       "id": 1,
-      "orientation": 1,
+      "orientation": 0,
       "status": false,
       "activateID": 1
     },
     {
       "position": {
-        "x": 5,
-        "y": 0
+        "x": -7,
+        "y": 10
       },
       "id": 2,
-      "orientation": 1,
+      "orientation": 2,
       "status": false,
-      "activateID": 2
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -8
-      },
-      "id": 3,
-      "orientation": 3,
-      "status": false,
-      "activateID": 21
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -10
-      },
-      "id": 4,
-      "orientation": 1,
-      "status": false,
-      "activateID": 5
+      "activateID": 3
     }
   ],
   "doors": [
     {
       "position": {
-        "x": 2,
-        "y": 0
+        "x": -11,
+        "y": 6
       },
       "id": 1,
+      "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 2
+      },
+      "id": 1,
+      "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 6
+      },
+      "id": 2,
       "orientation": 1,
       "open": false
     },
     {
       "position": {
-        "x": 4,
-        "y": -1
+        "x": -4,
+        "y": 11
       },
-      "id": 2,
+      "id": 3,
+      "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 16
+      },
+      "id": 4,
       "orientation": 2,
       "open": false
     },
     {
       "position": {
-        "x": 12,
-        "y": -3
-      },
-      "id": 17,
-      "orientation": 3,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -5
-      },
-      "id": 19,
-      "orientation": 3,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -7
-      },
-      "id": 21,
-      "orientation": 3,
-      "open": false
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -12
+        "x": -7,
+        "y": 10
       },
       "id": 5,
+      "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 13
+      },
+      "id": 6,
+      "orientation": 3,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 13
+      },
+      "id": 7,
       "orientation": 1,
       "open": false
     }
@@ -2321,25 +2264,46 @@
   "plates": [
     {
       "position": {
-        "x": 11,
-        "y": -3
+        "x": -6,
+        "y": 16
       },
-      "activateID": 17
+      "activateID": 4
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 13
+      },
+      "activateID": 6
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 10
+      },
+      "activateID": 5
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 16
+      },
+      "activateID": 7
     }
   ],
   "transporters": [
     {
-      "name": "Transporter",
+      "name": "Exit",
       "position": {
-        "x": -1,
-        "y": -6
+        "x": -8,
+        "y": 0
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/lobby",
       "toTransporter": "TutExit"
     },
     {
-      "name": "KaiStart",
+      "name": "STWStart",
       "position": {
         "x": 0,
         "y": 0
@@ -2352,71 +2316,39 @@
   "checkpoints": [
     {
       "position": {
-        "x": 8,
-        "y": -9
+        "x": 0,
+        "y": 12
       },
-      "facing": 2
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -2
-      },
-      "facing": 0
+      "facing": 3
     }
   ],
-  "spikes": [
-    {
-      "position": {
-        "x": 6,
-        "y": -12
-      }
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -14
-      }
-    }
-  ],
+  "spikes": null,
   "blocks": [
     {
       "position": {
-        "x": 6,
-        "y": -4
+        "x": -5,
+        "y": 15
       }
     }
   ],
   "shootLasers": [
     {
-      "id": 18,
-      "position": {
-        "x": 11,
-        "y": -2
-      },
-      "facing": 2,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 0
-    },
-    {
-      "id": 6,
-      "position": {
-        "x": -3,
-        "y": -16
-      },
-      "facing": 0,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 0
-    },
-    {
-      "id": 6,
+      "id": 1,
       "position": {
         "x": -5,
-        "y": -16
+        "y": 6
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 2,
+      "position": {
+        "x": -11,
+        "y": 3
       },
       "facing": 0,
       "detectsLineOfSight": true,
@@ -2425,12 +2357,24 @@
       "activateID": 0
     },
     {
-      "id": 6,
+      "id": 2,
       "position": {
-        "x": -4,
-        "y": -10
+        "x": -5,
+        "y": 7
       },
-      "facing": 2,
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 3,
+      "position": {
+        "x": -5,
+        "y": 5
+      },
+      "facing": 1,
       "detectsLineOfSight": true,
       "firesProjectile": false,
       "firesImmediately": false,
@@ -2440,36 +2384,36 @@
   "blockers": [
     {
       "position": {
-        "x": 13,
-        "y": -5
+        "x": 0,
+        "y": 11
       },
-      "facing": 3,
+      "facing": 0,
       "rapidAttack": false
     },
     {
       "position": {
-        "x": 13,
-        "y": -7
+        "x": -1,
+        "y": 13
       },
-      "facing": 3,
+      "facing": 2,
       "rapidAttack": false
     }
   ],
   "chasers": [
     {
       "position": {
-        "x": 6,
-        "y": -5
+        "x": -9,
+        "y": 2
       },
       "facing": 0,
-      "state": 1
+      "state": 0
     },
     {
       "position": {
-        "x": 1,
-        "y": -13
+        "x": -6,
+        "y": 10
       },
-      "facing": 1,
+      "facing": 0,
       "state": 0
     }
   ],
@@ -2478,20 +2422,63 @@
   "switchers": [
     {
       "position": {
-        "x": 7,
-        "y": -14
+        "x": 2,
+        "y": 9
+      },
+      "facing": 1
+    }
+  ],
+  "mirrors": [
+    {
+      "position": {
+        "x": -9,
+        "y": 5
+      },
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 4
+      },
+      "facing": 0
+    },
+    {
+      "position": {
+        "x": -11,
+        "y": 6
+      },
+      "facing": 1
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 8
+      },
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 6
       },
       "facing": 3
     },
     {
       "position": {
-        "x": 7,
-        "y": -12
+        "x": -8,
+        "y": 8
       },
       "facing": 3
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 15
+      },
+      "facing": 2
     }
   ],
-  "mirrors": null,
   "decorations": null,
   "pointLights": null,
   "events": null

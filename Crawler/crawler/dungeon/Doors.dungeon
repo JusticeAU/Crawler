@@ -593,7 +593,7 @@
         "x": 0,
         "y": 0
       },
-      "fromOrientation": 0,
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
@@ -615,5 +615,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }

@@ -889,17 +889,17 @@
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/Doors",
-      "toTransporter": ""
+      "toTransporter": "DoorStart"
     },
     {
-      "name": "North1",
+      "name": "North2",
       "position": {
         "x": 4,
         "y": 6
       },
       "fromOrientation": 2,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/Kaibox_test",
+      "toTransporter": "BoxStart"
     },
     {
       "name": "North3",
@@ -918,8 +918,8 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/KaiRemake",
+      "toTransporter": "KaiStart"
     },
     {
       "name": "South2",
@@ -928,8 +928,8 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/Kaipuzzle_test",
+      "toTransporter": "PuzzleStart"
     },
     {
       "name": "South3",
@@ -938,8 +938,8 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/KaiSeeThroughWall_testing",
+      "toTransporter": "STWStart"
     }
   ],
   "checkpoints": null,
@@ -953,6 +953,8 @@
   "switchers": null,
   "mirrors": null,
   "decorations": null,
+  "pointLights": null,
+  "events": null,
   "stairs": [
     {
       "startPosition": {
