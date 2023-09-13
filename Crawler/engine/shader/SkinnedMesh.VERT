@@ -18,7 +18,7 @@ uniform mat4 pvmMatrix;
 uniform mat4 mMatrix;
 uniform mat4 lightSpaceMatrix;
 
-out vec3 _Position;
+out vec3 _WorldPos;
 out vec3 _Colour;
 out vec3 _Normal;
 out vec2 _TexCoords;
@@ -46,7 +46,7 @@ void main()
 	//_BiTangent = cross(_Normal, _Tangent) * Tangent.w;
 	
 	_Colour = Colour;
-	_Position = (mMatrix * posTransformed).xyz;
+	_WorldPos = (mMatrix * posTransformed).xyz;
 	gl_Position = pvmMatrix * posTransformed;
 	vec3 FragPos = vec3(mMatrix * vec4(posTransformed.xyz, 1.0));
 	_FragPosLightSpace = lightSpaceMatrix * vec4(FragPos, 1.0);

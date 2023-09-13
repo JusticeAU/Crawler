@@ -1,2 +1,2 @@
-passthrough.VERT
-passthrough.FRAG
+Lambert.VERT
+Lambert.FRAG
