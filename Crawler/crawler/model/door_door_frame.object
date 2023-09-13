@@ -1,5 +1,5 @@
 {
-  "name": "arch",
+  "name": "door_frame",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_arch.fbx"
+      "model": "crawler/model/door_door_frame.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_books_bookshelf_books.material"
+        "crawler/material/tile_pillar_pillar.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

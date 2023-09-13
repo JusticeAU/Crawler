@@ -1,5 +1,5 @@
 {
-  "name": "arch",
+  "name": "pillow_6",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_arch.fbx"
+      "model": "crawler/model/decoration_pillow_6.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_books_bookshelf_books.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
