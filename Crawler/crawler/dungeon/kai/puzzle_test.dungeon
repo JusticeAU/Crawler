@@ -4057,15 +4057,6 @@
   "doors": [
     {
       "position": {
-        "x": 10,
-        "y": 0
-      },
-      "id": 1,
-      "orientation": 1,
-      "open": false
-    },
-    {
-      "position": {
         "x": 2,
         "y": 2
       },
@@ -4162,6 +4153,15 @@
       "id": 15,
       "orientation": 1,
       "open": false
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "id": 5,
+      "orientation": 3,
+      "open": false
     }
   ],
   "plates": [
@@ -4206,13 +4206,6 @@
         "y": -8
       },
       "activateID": 10
-    },
-    {
-      "position": {
-        "x": 10,
-        "y": 0
-      },
-      "activateID": 1
     }
   ],
   "transporters": [
@@ -4258,30 +4251,6 @@
     }
   ],
   "spikes": [
-    {
-      "position": {
-        "x": 5,
-        "y": 11
-      }
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 11
-      }
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 11
-      }
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 11
-      }
-    },
     {
       "position": {
         "x": 9,
@@ -4468,12 +4437,6 @@
       "position": {
         "x": 6,
         "y": 12
-      }
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 3
       }
     },
     {
@@ -4769,5 +4732,7 @@
       "facing": 1
     }
   ],
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }
