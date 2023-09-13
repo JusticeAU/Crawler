@@ -2,14 +2,14 @@
   "type": "dungeon",
   "version": 2,
   "defaultPosition": {
-    "x": 0,
+    "x": -2,
     "y": 0
   },
   "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": 0,
+        "x": -2,
         "y": -2
       },
       "mask": 5,
@@ -23,7 +23,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -2,
         "y": -1
       },
       "mask": 13,
@@ -37,7 +37,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -2,
         "y": 0
       },
       "mask": 13,
@@ -51,7 +51,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -2,
         "y": 1
       },
       "mask": 13,
@@ -65,7 +65,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -2,
         "y": 2
       },
       "mask": 12,
@@ -75,6 +75,146 @@
         -1,
         -1,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
       ]
     },
     {
@@ -152,27 +292,13 @@
         "x": 1,
         "y": 2
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 3
-      },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -264,13 +390,13 @@
         "x": 2,
         "y": 3
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
         0,
         -1,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -1045,16 +1171,6 @@
   ],
   "transporters": [
     {
-      "name": "Tut4",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "fromOrientation": 1,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
       "name": "Tut4Exit",
       "position": {
         "x": 11,
@@ -1063,6 +1179,16 @@
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/lobby",
       "toTransporter": "TutExit"
+    },
+    {
+      "name": "Tut4",
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": [
@@ -1157,17 +1283,17 @@
   "slugs": [
     {
       "position": {
-        "x": 1,
-        "y": -2
-      },
-      "facing": 1
-    },
-    {
-      "position": {
         "x": 12,
         "y": 3
       },
       "facing": 0
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 2
     }
   ],
   "slugPaths": [
@@ -1300,5 +1426,7 @@
   ],
   "switchers": null,
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }
