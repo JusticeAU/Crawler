@@ -6,11 +6,54 @@
     "y": 0
   },
   "defaultOrientation": 1,
+  "noRoof": true,
   "tiles": [
     {
       "position": {
-        "x": -1,
-        "y": -1
+        "x": -4,
+        "y": -2
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": -2
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -4
       },
       "mask": 5,
       "maskSee": 5,
@@ -23,8 +66,8 @@
     },
     {
       "position": {
-        "x": -1,
-        "y": 0
+        "x": 0,
+        "y": -3
       },
       "mask": 13,
       "maskSee": 13,
@@ -37,8 +80,36 @@
     },
     {
       "position": {
-        "x": -1,
-        "y": 1
+        "x": 0,
+        "y": -2
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
       },
       "mask": 12,
       "maskSee": 12,
@@ -51,106 +122,22 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
         "x": 1,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -1
+        "y": -4
       },
       "mask": 3,
-      "maskSee": 7,
+      "maskSee": 3,
       "wallVariants": [
         -1,
-        -1,
+        0,
         0,
         -1
       ]
     },
     {
       "position": {
-        "x": 2,
-        "y": 0
+        "x": 1,
+        "y": -3
       },
       "mask": 15,
       "maskSee": 15,
@@ -163,79 +150,161 @@
     },
     {
       "position": {
-        "x": 2,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
+        "x": 1,
         "y": -2
       },
-      "mask": 1,
-      "maskSee": 1,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
         0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -4
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
         0,
         0
       ]
     },
     {
       "position": {
-        "x": 4,
+        "x": 2,
+        "y": -3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
         "y": -1
       },
       "mask": 11,
@@ -249,22 +318,8 @@
     },
     {
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 0
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 1
       },
       "mask": 10,
       "maskSee": 10,
@@ -281,17 +336,78 @@
   "plates": null,
   "transporters": null,
   "checkpoints": null,
-  "spikes": null,
+  "spikes": [
+    {
+      "position": {
+        "x": -2,
+        "y": -2
+      }
+    }
+  ],
   "blocks": null,
-  "shootLasers": null,
-  "blockers": null,
+  "shootLasers": [
+    {
+      "id": 1,
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "facing": 3,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 1,
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "facing": 3,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    },
+    {
+      "id": 1,
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 0
+    }
+  ],
+  "blockers": [
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "facing": 0,
+      "rapidAttack": false
+    }
+  ],
   "chasers": [
     {
       "position": {
-        "x": 4,
-        "y": -1
+        "x": 0,
+        "y": -4
       },
-      "facing": 3,
+      "facing": 0,
+      "state": 0
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -2
+      },
+      "facing": 1,
       "state": 0
     }
   ],
@@ -299,21 +415,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": [
-    {
-      "position": {
-        "x": 3,
-        "y": -1
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": 1.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_dining_table.object"
-    }
-  ],
+  "decorations": null,
   "pointLights": null,
   "events": null
 }

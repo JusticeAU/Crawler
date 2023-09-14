@@ -4537,6 +4537,12 @@
         "x": -5,
         "y": 11
       }
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 9
+      }
     }
   ],
   "shootLasers": [
@@ -5176,5 +5182,7 @@
       "facing": 2
     }
   ],
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }
