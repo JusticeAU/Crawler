@@ -1,2 +1,2 @@
-greyscale.VERT
+passThrough.VERT
 greyscale.FRAG

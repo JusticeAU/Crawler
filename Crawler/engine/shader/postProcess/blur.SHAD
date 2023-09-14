@@ -1,2 +1,2 @@
-blur.VERT
+passThrough.VERT
 blur.FRAG
