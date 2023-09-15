@@ -25,7 +25,8 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/monster_chaser_mat_chaser_table.material",
+        "crawler/material/monster_chaser_mat_chaser_limbs.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
