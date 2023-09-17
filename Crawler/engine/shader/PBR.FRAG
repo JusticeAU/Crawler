@@ -10,6 +10,7 @@ in vec3 _BiTangent;
 
 
 uniform vec3 cameraPosition;
+uniform bool useAlphaCutoff;
 
 uniform sampler2D albedoMap;
 uniform sampler2D normalMap;
@@ -73,6 +74,14 @@ const vec3 sampleOffsetDirections[20] = vec3[]
 
 void main()
 {
+	if(useAlphaCutoff)
+	{
+		if(texture(albedoMap, _TexCoords).a < 0.5)
+		{
+			discard;
+		}
+	}
+
 	// Sample and set values from texture maps;
 	vec3 albedo     = pow(texture(albedoMap, _TexCoords).rgb, vec3(2.2));
     vec3 normal     = GetNormalFromNormalMap(_Tangent, _BiTangent, _Normal);

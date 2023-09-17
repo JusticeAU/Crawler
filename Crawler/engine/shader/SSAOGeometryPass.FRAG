@@ -7,8 +7,18 @@ in vec2 _TexCoords;
 in vec3 _FragPos;
 in vec3 _Normal;
 
+uniform bool useAlphaCutoff;
+uniform sampler2D albedoMap;
+
 void main()
 {    
+	if(useAlphaCutoff)
+	{
+		if(texture(albedoMap, _TexCoords).a < 0.5)
+		{
+			discard;
+		}
+	}
     // store the fragment position vector in the first gbuffer texture
     gPosition = _FragPos;
     // also store the per-fragment normals into the gbuffer
