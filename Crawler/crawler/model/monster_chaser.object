@@ -31,6 +31,10 @@
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null
