@@ -799,8 +799,8 @@
         "y": -2
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "TutExit"
+      "toDungeon": "crawler/dungeon/annika/ChaserIntro",
+      "toTransporter": "Chase1"
     },
     {
       "name": "Tut2",
@@ -958,5 +958,6 @@
       },
       "intensity": 5.0
     }
-  ]
+  ],
+  "events": null
 }
