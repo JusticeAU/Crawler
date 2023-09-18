@@ -24,5 +24,4 @@ void main()
 	_Normal = (mMatrix * vec4(Normal,0)).xyz;
 	_Tangent = (mMatrix * vec4(Tangent.xyz,0)).xyz;
 	_BiTangent = cross(_Normal, _Tangent) * Tangent.w;
-	
 }
