@@ -1,5 +1,5 @@
 {
-  "name": "lever_base",
+  "name": "blocker_prototype",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,16 +20,21 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_lever_base/interactable_lever_base.fbx"
+      "model": "crawler/model/monster_blocker_prototype.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/prototype/tile_blockout.material"
+        "engine/model/materials/LambertBlue.material",
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null

@@ -1,2 +1,2 @@
-blur.VERT
-blur.FRAG
+passThrough.VERT
+SSAO.FRAG

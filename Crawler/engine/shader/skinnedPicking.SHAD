@@ -1,2 +1,2 @@
-picking.VERT
-picking.FRAG
+SkinnedMesh.VERT
+skinnedPicking.FRAG

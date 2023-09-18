@@ -1,2 +1,2 @@
-SSAOBlurPass.VERT
+postProcess/passThrough.VERT
 SSAOBlurPass.FRAG

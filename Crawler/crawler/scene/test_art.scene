@@ -46,12 +46,12 @@
       "components": [
         {
           "type": "Model",
-          "model": "crawler/model/tile_ground1_blockout/tile_ground1_blockout.fbx"
+          "model": "crawler/model/tile_wood.fbx"
         },
         {
           "type": "Renderer",
           "materials": [
-            "crawler/material/prototype/tile_blockout.material"
+            "crawler/material/tile_wood_woodtiles.material"
           ],
           "frameBuffer": "",
           "receivesShadows": true,
@@ -81,12 +81,13 @@
           "components": [
             {
               "type": "Model",
-              "model": "crawler/model/tile_wall1_blockout/tile_wall1_blockout.fbx"
+              "model": "crawler/model/tile_wall_1.fbx"
             },
             {
               "type": "Renderer",
               "materials": [
-                "crawler/material/prototype/tile_blockout.material"
+                "crawler/material/tile_wall_1_wall.material",
+                "crawler/material/tile_wall_1_wallpaper_green.material"
               ],
               "frameBuffer": "",
               "receivesShadows": true,
@@ -117,12 +118,13 @@
           "components": [
             {
               "type": "Model",
-              "model": "crawler/model/tile_wall1_blockout/tile_wall1_blockout.fbx"
+              "model": "crawler/model/tile_wall_1.fbx"
             },
             {
               "type": "Renderer",
               "materials": [
-                "crawler/material/prototype/tile_blockout.material"
+                "crawler/material/tile_wall_1_wall.material",
+                "crawler/material/tile_wall_1_wallpaper_green.material"
               ],
               "frameBuffer": "",
               "receivesShadows": true,
@@ -153,12 +155,13 @@
           "components": [
             {
               "type": "Model",
-              "model": "crawler/model/tile_wall1_blockout/tile_wall1_blockout.fbx"
+              "model": "crawler/model/tile_wall_1.fbx"
             },
             {
               "type": "Renderer",
               "materials": [
-                "crawler/material/prototype/tile_blockout.material"
+                "crawler/material/tile_wall_1_wall.material",
+                "crawler/material/tile_wall_1_wallpaper_green.material"
               ],
               "frameBuffer": "",
               "receivesShadows": true,
@@ -196,7 +199,7 @@
         {
           "type": "Renderer",
           "materials": [
-            "engine/model/materials/LambertBlue.material"
+            "NULL"
           ],
           "frameBuffer": "",
           "receivesShadows": true,
@@ -286,8 +289,8 @@
           "name": "Light 1",
           "transform": {
             "position": {
-              "x": -1.0,
-              "y": -1.0,
+              "x": -0.8999999761581421,
+              "y": -0.8999999761581421,
               "z": 2.0
             },
             "rotation": {
@@ -302,6 +305,15 @@
             }
           },
           "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            },
             {
               "type": "Point Light",
               "colour": {
@@ -318,8 +330,8 @@
           "name": "Light 2",
           "transform": {
             "position": {
-              "x": 1.0,
-              "y": -1.0,
+              "x": 0.8999999761581421,
+              "y": -0.8999999761581421,
               "z": 2.0
             },
             "rotation": {
@@ -334,6 +346,15 @@
             }
           },
           "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            },
             {
               "type": "Point Light",
               "colour": {
@@ -350,8 +371,8 @@
           "name": "Light 3",
           "transform": {
             "position": {
-              "x": 1.0,
-              "y": 1.0,
+              "x": 0.8999999761581421,
+              "y": 0.8999999761581421,
               "z": 2.0
             },
             "rotation": {
@@ -374,6 +395,15 @@
                 "z": 1.0
               },
               "intensity": 1.0
+            },
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
             }
           ],
           "children": null
@@ -382,8 +412,8 @@
           "name": "Light 4",
           "transform": {
             "position": {
-              "x": -1.0,
-              "y": 1.0,
+              "x": -0.8999999761581421,
+              "y": 0.8999999761581421,
               "z": 2.0
             },
             "rotation": {
@@ -398,6 +428,15 @@
             }
           },
           "components": [
+            {
+              "type": "Point Light",
+              "colour": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "intensity": 1.0
+            },
             {
               "type": "Point Light",
               "colour": {

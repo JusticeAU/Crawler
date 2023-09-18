@@ -25,11 +25,16 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/monster_chaser_mat_chaser_table.material",
+        "crawler/material/monster_chaser_mat_chaser_limbs.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null

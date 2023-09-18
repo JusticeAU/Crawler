@@ -1,2 +1,2 @@
-passthrough.VERT
-passthrough.FRAG
+StandardVertex.VERT
+Lambert.FRAG

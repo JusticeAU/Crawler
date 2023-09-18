@@ -1,9 +1,12 @@
 #version 330 core
+
 const int MAX_BONES = 100;
 
 layout (location = 0) in vec3 Position;
+
 layout (location = 2) in vec3 Normal;
 layout (location = 3) in vec2 texCoords;
+
 layout (location = 5) in ivec4 boneIDs;
 layout (location = 6) in vec4 boneWeights;
 layout (std140) uniform boneTransformBuffer
