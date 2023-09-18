@@ -710,6 +710,24 @@
       "modelName": "crawler/model/decoration_bonepile_3.object"
     }
   ],
-  "pointLights": null,
+  "pointLights": [
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 1.600000023841858
+      },
+      "colour": {
+        "x": 0.828707754611969,
+        "y": 0.2642301917076111,
+        "z": 0.9855072498321533
+      },
+      "intensity": 31.0
+    }
+  ],
   "events": null
 }
