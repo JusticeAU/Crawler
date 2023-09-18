@@ -180,5 +180,7 @@
     }
   ],
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }
