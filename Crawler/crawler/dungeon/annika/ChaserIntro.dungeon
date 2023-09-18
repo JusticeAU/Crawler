@@ -570,6 +570,16 @@
       "fromOrientation": 0,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Chase1",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,
