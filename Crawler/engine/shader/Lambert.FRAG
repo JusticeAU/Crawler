@@ -29,7 +29,8 @@ layout (std140) uniform pointLightColourBuffer
 };
 uniform pointLightIndicesBuffer
 {
-    int[MAX_AFFECTINGPOINTLIGHTS] PointLightIndices;
+	ivec4[2] PointLightIndices; // this is an ivec4 to ensure integer packing.
+	// index in to it like this, [i/4][i%4]
 };
 
 
@@ -47,7 +48,7 @@ uniform samplerCubeShadow shadowMap6;
 uniform samplerCubeShadow shadowMap7;
 
 // Shadow Configuration
-const float EPSILON = 0.003f;
+const float EPSILON = 0.005f;
 const int samples = 20;
 const vec3 sampleOffsetDirections[20] = vec3[]
 (
@@ -112,7 +113,7 @@ void main()
 	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
 	for(int i = 0; i < lightsToRender; i++)
 	{
-		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
 		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
@@ -134,8 +135,8 @@ void main()
 		float distance = length(LightDirection);
 		float attenuation = 1.0 / (distance * distance);
 		LightDirection = LightDirection / distance; // normalize
-
-		diffuseTotal +=  (PointLightColours[PointLightIndices[i]].xyz * attenuation) * ShadowFactor;
+		attenuation = min(attenuation, 0.02);
+		diffuseTotal +=  (PointLightColours[PointLightIndices[i/4][i%4]].xyz * attenuation) * ShadowFactor;
 	}
 	
 	//shadow = ShadowCalculation(_FragPosLightSpace);
