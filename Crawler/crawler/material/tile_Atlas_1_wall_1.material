@@ -23,10 +23,10 @@
   "map_Kd": "",
   "map_Ks": "",
   "bump": "",
-  "albedoMap": "crawler/texture/tile_Atlas_1_wall_1_albedo.tga",
-  "normalMap": "crawler/texture/tile_Atlas_1_wall_1_normal.tga",
-  "metallicMap": "crawler/texture/tile_Atlas_1_wall_1_metallic.tga",
-  "roughnessMap": "crawler/texture/tile_Atlas_1_wall_1_roughness.tga",
-  "aoMap": "crawler/texture/tile_Atlas_1_wall_1_ao.tga",
+  "albedoMap": "crawler/texture/tile_atlas_1_wall_1_albedo.tga",
+  "normalMap": "crawler/texture/tile_atlas_1_wall_1_normal.tga",
+  "metallicMap": "crawler/texture/tile_atlas_1_wall_1_metallic.tga",
+  "roughnessMap": "crawler/texture/tile_atlas_1_wall_1_roughness.tga",
+  "aoMap": "crawler/texture/tile_atlas_1_wall_1_ao.tga",
   "emissiveMap": ""
 }
