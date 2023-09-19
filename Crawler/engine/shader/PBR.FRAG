@@ -46,7 +46,8 @@ layout (std140) uniform pointLightColourBuffer
 };
 uniform pointLightIndicesBuffer
 {
-    int[MAX_AFFECTINGPOINTLIGHTS] PointLightIndices;
+	ivec4[2] PointLightIndices; // this is an ivec4 to ensure integer packing.
+	// index in to it like this, [i/4][i%4]
 };
 
 
@@ -61,7 +62,7 @@ float GeometrySmith(vec3 N, vec3 V, vec3 L, float roughness);
 vec3 fresnelSchlick(float cosTheta, vec3 F0);
 
 // Shadow Configuration
-const float EPSILON = 0.003f;
+const float EPSILON = 0.006f;
 const int samples = 20;
 const vec3 sampleOffsetDirections[20] = vec3[]
 (
@@ -103,7 +104,7 @@ void main()
 	for(int i = 0; i < lightsToRender; ++i) 
 	{
 		// calculate per-light radiance
-		vec3 LightDirection = PointLightPositions[PointLightIndices[i]].xyz - _WorldPos;
+		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos;
 		vec3 L = normalize(LightDirection);
 		float Distance = (length(LightDirection) / 15.0) - EPSILON;
 		float offset  = 0.003;
@@ -120,9 +121,9 @@ void main()
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
-		float distance    = length(PointLightPositions[PointLightIndices[i]].xyz - _WorldPos);
+		float distance    = length(PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos);
 		float attenuation = 1.0 / (distance * distance);
-		vec3 radiance     = PointLightColours[PointLightIndices[i]].xyz * attenuation; 
+		vec3 radiance     = PointLightColours[PointLightIndices[i/4][i%4]].xyz * attenuation; 
 		
 		// calculate Cook-Torrance BRDF:
 		float NDF = DistributionGGX(N, H, roughness);       

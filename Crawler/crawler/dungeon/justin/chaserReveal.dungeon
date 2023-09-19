@@ -639,7 +639,18 @@
       "activateID": 2
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "Chase2",
+      "position": {
+        "x": -11,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,

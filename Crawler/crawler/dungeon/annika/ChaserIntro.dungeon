@@ -562,12 +562,22 @@
   "plates": null,
   "transporters": [
     {
-      "name": "",
+      "name": "Chase1Exit",
       "position": {
         "x": 6,
         "y": 8
       },
       "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
+    },
+    {
+      "name": "Chase1",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
