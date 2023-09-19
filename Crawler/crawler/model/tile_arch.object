@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_books_bookshelf_books.material"
+        "crawler/material/tile_arch_arch.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

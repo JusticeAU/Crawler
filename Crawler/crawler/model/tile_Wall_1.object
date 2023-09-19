@@ -25,8 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall.material",
-        "crawler/material/tile_wall_1_wallpaper_green.material"
+        "crawler/material/tile_wall_1_wall_1.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

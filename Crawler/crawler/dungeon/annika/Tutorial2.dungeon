@@ -369,7 +369,8 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -439,7 +440,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -453,7 +455,8 @@
         -1,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -467,7 +470,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -481,7 +485,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -509,7 +514,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -551,7 +557,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -828,48 +835,6 @@
         "x": 9,
         "y": -2
       }
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -1
-      }
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -2
-      }
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 2
-      }
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 2
-      }
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 2
-      }
     }
   ],
   "blocks": [
@@ -921,6 +886,98 @@
       },
       "modelName": "crawler/model/decoration_light1.object",
       "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.6000000238418579,
+        "y": 0.10000000149011612,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 1.2000000476837158,
+        "y": 0.20000000298023224,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.100000023841858,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.6000000238418579,
+        "y": 0.4000000059604645,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_table_sidetable.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.10000000149011612,
+        "y": 0.20000000298023224,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_standing_lamp.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -957,6 +1014,23 @@
         "z": 1.0
       },
       "intensity": 5.0
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "localPosition": {
+        "x": 0.20000000298023224,
+        "y": -0.10000000149011612,
+        "z": 1.399999976158142
+      },
+      "colour": {
+        "x": 0.8888888955116272,
+        "y": 0.5856617093086243,
+        "z": 0.1975308507680893
+      },
+      "intensity": 4.0
     }
   ],
   "events": null
