@@ -740,11 +740,11 @@
         "x": 8,
         "y": 2
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         0
       ]
@@ -822,7 +822,7 @@
     {
       "position": {
         "x": 9,
-        "y": 3
+        "y": 2
       },
       "mask": 7,
       "maskSee": 7,
@@ -830,6 +830,20 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -892,7 +906,7 @@
     {
       "position": {
         "x": 10,
-        "y": 3
+        "y": 2
       },
       "mask": 7,
       "maskSee": 7,
@@ -900,6 +914,20 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -962,14 +990,28 @@
     {
       "position": {
         "x": 11,
-        "y": 3
+        "y": 2
       },
       "mask": 3,
-      "maskSee": 7,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 3
+      },
+      "mask": 11,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         1,
-        0,
+        -1,
         -1
       ]
     },
@@ -1242,6 +1284,24 @@
         "x": 9,
         "y": 3
       }
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 2
+      }
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 2
+      }
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 2
+      }
     }
   ],
   "blocks": [
@@ -1254,13 +1314,13 @@
     {
       "position": {
         "x": 2,
-        "y": -1
+        "y": 1
       }
     },
     {
       "position": {
         "x": 2,
-        "y": 1
+        "y": -2
       }
     }
   ],
@@ -1427,6 +1487,24 @@
   "switchers": null,
   "mirrors": null,
   "decorations": null,
-  "pointLights": null,
+  "pointLights": [
+    {
+      "position": {
+        "x": 9,
+        "y": 7
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 2.4000000953674316
+      },
+      "colour": {
+        "x": 0.9409593939781189,
+        "y": 0.5370979905128479,
+        "z": 0.11805397272109985
+      },
+      "intensity": 6.5
+    }
+  ],
   "events": null
 }
