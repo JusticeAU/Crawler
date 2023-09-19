@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/door_door_left_door_left.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
