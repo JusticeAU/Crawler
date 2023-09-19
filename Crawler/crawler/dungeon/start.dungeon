@@ -271,8 +271,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -870,6 +869,12 @@
         "x": -4,
         "y": 0
       }
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 0
+      }
     }
   ],
   "blocks": null,
@@ -883,42 +888,31 @@
   "decorations": [
     {
       "position": {
-        "x": -2,
-        "y": 0
-      },
-      "facing": 2,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_drawer.object"
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": 0
+        "x": 4,
+        "y": -6
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.08100000023841858,
-        "y": 0.36500000953674316,
-        "z": 0.8920000195503235
+        "x": -0.6000000238418579,
+        "y": 0.5,
+        "z": 0.0
       },
-      "modelName": "crawler/model/decoration_vase_2.object"
+      "modelName": "crawler/model/decoration_curtain_left.object"
     },
     {
       "position": {
-        "x": -2,
-        "y": 0
+        "x": 4,
+        "y": -6
       },
-      "facing": 1,
+      "facing": 0,
       "localPosition": {
-        "x": -0.11900000274181366,
-        "y": 0.03200000151991844,
-        "z": 0.8930000066757202
+        "x": 4.5,
+        "y": 0.5,
+        "z": 0.0
       },
-      "modelName": "crawler/model/decoration_vase_1.object"
+      "modelName": "crawler/model/decoration_curtain_right.object"
     }
-  ]
+  ],
+  "pointLights": null,
+  "events": null
 }
