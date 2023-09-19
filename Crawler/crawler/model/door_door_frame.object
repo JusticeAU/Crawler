@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_pillar_pillar.material"
+        "crawler/material/door_door_frame_lambert2.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
