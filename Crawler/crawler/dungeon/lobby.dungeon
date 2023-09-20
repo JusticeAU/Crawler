@@ -1476,6 +1476,11 @@
         "y": 0.0,
         "z": 0.017999999225139618
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_carpet.object"
     },
     {
@@ -1488,6 +1493,11 @@
         "x": 0.0,
         "y": 0.0,
         "z": 0.007000000216066837
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "modelName": "crawler/model/decoration_carpet.object"
     },
@@ -1502,7 +1512,50 @@
         "y": 0.0,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/lobby_hat.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_chandelier.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 2.0999999046325684
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -1523,6 +1576,40 @@
       },
       "intensity": 100.0,
       "isLobbyLight": true
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 8.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.4117646813392639,
+        "z": 0.1666666865348816
+      },
+      "intensity": 41.0
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.10000000149011612,
+        "z": 1.899999976158142
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.4628027677536011,
+        "z": 0.20588237047195435
+      },
+      "intensity": 5.0
     }
   ],
   "events": [
