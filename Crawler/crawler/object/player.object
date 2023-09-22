@@ -46,7 +46,7 @@
           "fieldOfView": 45.0,
           "aspect": 1.7777777910232544,
           "postProcess": [
-            "engine/shader/postProcess/SSAO"
+			"engine/shader/postProcess/ScreenColourFade"
           ]
         }
       ],
