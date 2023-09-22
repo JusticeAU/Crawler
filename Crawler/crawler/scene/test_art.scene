@@ -252,9 +252,7 @@
               "farClip": 2000.0,
               "fieldOfView": 45.0,
               "aspect": 1.7777777910232544,
-              "postProcess": [
-                "engine/shader/postProcess/SSAO"
-              ]
+              "postProcess": null
             }
           ],
           "children": null
@@ -310,15 +308,6 @@
                 "z": 1.0
               },
               "intensity": 1.0
-            },
-            {
-              "type": "Point Light",
-              "colour": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "intensity": 1.0
             }
           ],
           "children": null
@@ -343,15 +332,6 @@
             }
           },
           "components": [
-            {
-              "type": "Point Light",
-              "colour": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "intensity": 1.0
-            },
             {
               "type": "Point Light",
               "colour": {
@@ -392,15 +372,6 @@
                 "z": 1.0
               },
               "intensity": 1.0
-            },
-            {
-              "type": "Point Light",
-              "colour": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "intensity": 1.0
             }
           ],
           "children": null
@@ -425,15 +396,6 @@
             }
           },
           "components": [
-            {
-              "type": "Point Light",
-              "colour": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "intensity": 1.0
-            },
             {
               "type": "Point Light",
               "colour": {
