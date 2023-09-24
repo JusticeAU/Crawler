@@ -1467,42 +1467,6 @@
   "decorations": [
     {
       "position": {
-        "x": 5,
-        "y": 1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.017999999225139618
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_carpet.object"
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.007000000216066837
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_carpet.object"
-    },
-    {
-      "position": {
         "x": 6,
         "y": 0
       },
@@ -1526,8 +1490,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": -0.10000000149011612,
+        "y": 1.899999976158142,
         "z": 0.0
       },
       "localRotation": {
@@ -1547,7 +1511,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 1.0,
-        "z": 2.0999999046325684
+        "z": 2.0
       },
       "localRotation": {
         "x": 0.0,
@@ -1556,6 +1520,783 @@
       },
       "modelName": "crawler/model/decoration_wall_lamp.object",
       "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 2.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.30000001192092896,
+        "y": 1.0,
+        "z": 2.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.4000000059604645,
+        "y": 1.0,
+        "z": 2.299999952316284
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.6000000238418579,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -58.099998474121094
+      },
+      "modelName": "crawler/model/decoration_coathanger.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": -12.5,
+        "y": 14.899999618530273,
+        "z": 47.0
+      },
+      "modelName": "crawler/model/decoration_umbrella.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.8999999761581421,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.8999999761581421,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 3.0999999046325684,
+        "y": 0.4000000059604645,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bonepile_3.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 2.200000047683716,
+        "y": 0.800000011920929,
+        "z": 2.5999999046325684
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bonepile_2.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.800000011920929,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.6000000238418579,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 39.900001525878906
+      },
+      "modelName": "crawler/model/decoration_grandfather_clock.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.800000011920929,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0.6000000238418579,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5,
+        "y": -0.30000001192092896,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": -1.899999976158142,
+        "y": -0.4000000059604645,
+        "z": 106.4000015258789
+      },
+      "modelName": "crawler/model/decoration_bonepile_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -2.0999999046325684,
+        "y": -0.699999988079071,
+        "z": 2.5999999046325684
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 12.399999618530273
+      },
+      "modelName": "crawler/model/decoration_bonepile_2.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.4000000059604645,
+        "y": -0.699999988079071,
+        "z": 0.6000000238418579
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_candle_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.800000011920929,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.10000000149011612,
+        "y": 1.0,
+        "z": 1.2999999523162842
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 1.100000023841858,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_shelf.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.699999988079071,
+        "y": -0.20000000298023224,
+        "z": 1.5
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -67.4000015258789
+      },
+      "modelName": "crawler/model/decoration_alcohol_bottle2.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.8999999761581421,
+        "y": 0.20000000298023224,
+        "z": 1.850000023841858
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -24.600000381469727
+      },
+      "modelName": "crawler/model/decoration_alcohol_bottle3.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.0499999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.6000000238418579,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer1.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.6000000238418579,
+        "y": -1.2999999523162842,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -158.3000030517578
+      },
+      "modelName": "crawler/model/decoration_standing_lamp.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_table_sidetable.object"
     }
   ],
   "pointLights": [
@@ -1585,14 +2326,14 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 8.5
+        "z": 3.0999999046325684
       },
       "colour": {
         "x": 1.0,
-        "y": 0.4117646813392639,
-        "z": 0.1666666865348816
+        "y": 0.383217990398407,
+        "z": 0.08823531866073608
       },
-      "intensity": 41.0
+      "intensity": 52.0
     },
     {
       "position": {
@@ -1601,13 +2342,64 @@
       },
       "localPosition": {
         "x": 0.0,
-        "y": -0.10000000149011612,
-        "z": 1.899999976158142
+        "y": -0.20000000298023224,
+        "z": 2.0999999046325684
       },
       "colour": {
         "x": 1.0,
-        "y": 0.4628027677536011,
-        "z": 0.20588237047195435
+        "y": 0.47938287258148193,
+        "z": 0.23039215803146362
+      },
+      "intensity": 5.0
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.4000000059604645,
+        "z": 2.200000047683716
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.4594866633415222,
+        "z": 0.20098036527633667
+      },
+      "intensity": 5.0
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "localPosition": {
+        "x": -0.20000000298023224,
+        "y": -0.20000000298023224,
+        "z": 2.200000047683716
+      },
+      "colour": {
+        "x": 0.9754902124404907,
+        "y": 0.49407392740249634,
+        "z": 0.1960543841123581
+      },
+      "intensity": 5.0
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.30000001192092896,
+        "z": 2.299999952316284
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.5051902532577515,
+        "z": 0.23529410362243652
       },
       "intensity": 5.0
     }
