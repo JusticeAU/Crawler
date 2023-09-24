@@ -897,6 +897,11 @@
         "y": 0.5,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_curtain_left.object"
     },
     {
@@ -910,9 +915,49 @@
         "y": 0.5,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_curtain_right.object"
     }
   ],
   "pointLights": null,
-  "events": null
+  "events": [
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "repeats": false,
+      "eventID": 2
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "repeats": false,
+      "eventID": 4
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "repeats": false,
+      "eventID": 5,
+      "mustBeFacing": true,
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 1
+      },
+      "repeats": false,
+      "eventID": 2
+    }
+  ]
 }
