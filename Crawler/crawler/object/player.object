@@ -91,25 +91,7 @@
                   "z": 1.0
                 }
               },
-              "components": [
-                {
-                  "type": "Model",
-                  "model": "crawler/model/viewmodel_hands.fbx"
-                },
-                {
-                  "type": "Renderer",
-                  "materials": [
-                    "engine/model/materials/LambertBlue.material"
-                  ],
-                  "frameBuffer": "",
-                  "receivesShadows": true,
-                  "castsShadows": true
-                },
-                {
-                  "type": "Animator",
-                  "animationName": "Not currently storing!"
-                }
-              ],
+              "components": null,
               "children": null
             }
           ]
