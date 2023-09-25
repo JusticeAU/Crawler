@@ -46,7 +46,7 @@
         -1,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -787,6 +787,15 @@
       "id": 2,
       "orientation": 1,
       "open": false
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "id": 1,
+      "orientation": 3,
+      "open": false
     }
   ],
   "plates": [
@@ -806,8 +815,8 @@
         "y": -2
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/ChaserIntro",
-      "toTransporter": "Chase1"
+      "toDungeon": "crawler/dungeon/justin/chaserReveal2",
+      "toTransporter": "Chase2"
     },
     {
       "name": "Tut2",

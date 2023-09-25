@@ -1534,7 +1534,7 @@
         "y": 6
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4",
+      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt1",
       "toTransporter": "Tut4"
     }
   ],

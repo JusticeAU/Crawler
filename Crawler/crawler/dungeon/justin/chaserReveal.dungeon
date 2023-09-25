@@ -18,7 +18,7 @@
         0,
         -1,
         0,
-        0
+        -1
       ]
     },
     {
@@ -437,8 +437,36 @@
     },
     {
       "position": {
+        "x": 0,
+        "y": 10
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
         "x": 1,
         "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 10
       },
       "mask": 6,
       "maskSee": 6,
@@ -524,13 +552,83 @@
         "x": 2,
         "y": 5
       },
-      "mask": 8,
-      "maskSee": 8,
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 8
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 9
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 10
+      },
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
         0,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -628,6 +726,42 @@
       "id": 2,
       "orientation": 1,
       "open": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "id": 3,
+      "orientation": 1,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -11,
+        "y": 0
+      },
+      "id": 4,
+      "orientation": 3,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "orientation": 1,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "id": 5,
+      "orientation": 0,
+      "open": true
     }
   ],
   "plates": [
@@ -649,6 +783,16 @@
       "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
     }
   ],
   "checkpoints": null,
@@ -659,16 +803,16 @@
   "chasers": [
     {
       "position": {
-        "x": 4,
-        "y": 0
+        "x": -5,
+        "y": 2
       },
       "facing": 3,
       "state": 0
     },
     {
       "position": {
-        "x": -5,
-        "y": 2
+        "x": 3,
+        "y": 0
       },
       "facing": 3,
       "state": 0
@@ -690,6 +834,11 @@
         "y": 0.0,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_couch.object"
     },
     {
@@ -701,6 +850,11 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.7039999961853027,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_fireplace.object"
@@ -716,6 +870,11 @@
         "y": 0.6399999856948853,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_couch.object"
     },
     {
@@ -729,6 +888,11 @@
         "y": 0.5889999866485596,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_couch.object"
     },
     {
@@ -738,6 +902,11 @@
       },
       "facing": 0,
       "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
@@ -756,6 +925,11 @@
         "y": 0.800000011920929,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_bookcase.object"
     },
     {
@@ -767,6 +941,11 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.7570000290870667,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_books_bookshelf.object"
@@ -782,6 +961,11 @@
         "y": 0.5640000104904175,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_standing_lamp.object",
       "castsShadows": false
     },
@@ -792,6 +976,11 @@
       },
       "facing": 0,
       "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
@@ -851,6 +1040,23 @@
         "z": 0.4505494236946106
       },
       "intensity": 6.0
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 9
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 2.799999952316284
     }
   ],
   "events": null
