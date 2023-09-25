@@ -826,7 +826,7 @@
         "x": 2,
         "y": 0
       },
-      "facing": 0
+      "facing": 1
     }
   ],
   "spikes": [
@@ -870,6 +870,11 @@
         "y": 0.0,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_light1.object",
       "castsShadows": false
     },
@@ -880,6 +885,11 @@
       },
       "facing": 0,
       "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
@@ -898,6 +908,11 @@
         "y": 0.10000000149011612,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_couch.object"
     },
     {
@@ -911,6 +926,11 @@
         "y": 0.20000000298023224,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_couch.object"
     },
     {
@@ -921,6 +941,11 @@
       "facing": 2,
       "localPosition": {
         "x": -1.100000023841858,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
@@ -937,6 +962,11 @@
         "y": 0.4000000059604645,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_table_sidetable.object"
     },
     {
@@ -948,6 +978,11 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_bookcase.object"
@@ -963,6 +998,11 @@
         "y": 0.6000000238418579,
         "z": 0.0
       },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
       "modelName": "crawler/model/decoration_books_bookshelf.object"
     },
     {
@@ -974,6 +1014,11 @@
       "localPosition": {
         "x": -0.10000000149011612,
         "y": 0.20000000298023224,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_standing_lamp.object",

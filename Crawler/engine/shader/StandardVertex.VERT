@@ -21,7 +21,7 @@ void main()
 	_WorldPos = (mMatrix * vec4(Position ,1)).xyz;
 	_TexCoords = texCoords;
 	
-	_Normal = (mMatrix * vec4(Normal,0)).xyz;
-	_Tangent = (mMatrix * vec4(Tangent.xyz,0)).xyz;
+	_Normal = normalize((mMatrix * vec4(Normal,0)).xyz);
+	_Tangent = normalize((mMatrix * vec4(Tangent.xyz,0)).xyz);
 	_BiTangent = cross(_Normal, _Tangent) * Tangent.w;
 }

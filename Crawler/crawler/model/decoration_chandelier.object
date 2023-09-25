@@ -1,5 +1,5 @@
 {
-  "name": "wall_seethrough",
+  "name": "chandelier",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_seethrough.fbx"
+      "model": "crawler/model/decoration_chandelier.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wood_woodtiles.material",
-        "crawler/material/tile_wood_woodtiles.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

@@ -1,5 +1,5 @@
 {
-  "name": "wall_seethrough",
+  "name": "trap_spike_tempblackcontainer",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_seethrough.fbx"
+      "model": "crawler/model/interactable_trap_spike_tempblackcontainer.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wood_woodtiles.material",
-        "crawler/material/tile_wood_woodtiles.material"
+        "engine/material/black.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
