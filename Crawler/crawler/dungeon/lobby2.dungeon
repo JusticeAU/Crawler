@@ -898,7 +898,7 @@
         "y": 6
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/Kaibox_test",
+      "toDungeon": "crawler/dungeon/kai/box_test",
       "toTransporter": "BoxStart"
     },
     {
@@ -918,7 +918,7 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/KaiRemake",
+      "toDungeon": "crawler/dungeon/kai/enemy_testing",
       "toTransporter": "KaiStart"
     },
     {
@@ -928,7 +928,7 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/Kaipuzzle_test",
+      "toDungeon": "crawler/dungeon/kai/puzzle_test",
       "toTransporter": "PuzzleStart"
     },
     {
@@ -938,7 +938,7 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/KaiSeeThroughWall_testing",
+      "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing",
       "toTransporter": "STWStart"
     }
   ],

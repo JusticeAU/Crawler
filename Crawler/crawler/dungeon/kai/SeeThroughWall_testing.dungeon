@@ -2071,11 +2071,11 @@
         "x": 5,
         "y": 3
       },
-      "mask": 3,
-      "maskSee": 3,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
-        0,
+        -1,
         0,
         -1
       ]
@@ -2085,13 +2085,13 @@
         "x": 5,
         "y": 4
       },
-      "mask": 9,
+      "mask": 11,
       "maskSee": 11,
       "wallVariants": [
         -1,
         0,
         -1,
-        1
+        -1
       ]
     },
     {
@@ -2162,6 +2162,20 @@
         0,
         -1,
         1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 3
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
       ]
     }
   ],
@@ -2315,7 +2329,7 @@
         "y": 0
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing",
+      "toDungeon": "crawler/dungeon/lobby",
       "toTransporter": ""
     }
   ],

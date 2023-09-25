@@ -3485,8 +3485,8 @@
         "x": 4,
         "y": 3
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
         0,
         -1,
@@ -4356,7 +4356,7 @@
         "x": 3,
         "y": -6
       },
-      "activateID": 0
+      "activateID": 1000
     },
     {
       "position": {

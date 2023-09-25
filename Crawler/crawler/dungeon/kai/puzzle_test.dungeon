@@ -4216,7 +4216,7 @@
         "y": 0
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/kai/puzzle_test",
+      "toDungeon": "crawler/dungeon/lobby",
       "toTransporter": ""
     }
   ],
