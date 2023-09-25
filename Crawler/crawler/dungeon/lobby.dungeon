@@ -19,7 +19,7 @@
         -1,
         -1,
         0,
-        0
+        -1
       ]
     },
     {
@@ -33,7 +33,7 @@
         -1,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -47,7 +47,7 @@
         0,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -361,14 +361,28 @@
     {
       "position": {
         "x": 2,
+        "y": -7
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
         "y": -6
       },
-      "mask": 1,
-      "maskSee": 1,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
         0,
-        0,
+        -1,
         0
       ]
     },
@@ -531,13 +545,41 @@
         "x": 2,
         "y": 6
       },
-      "mask": 8,
-      "maskSee": 8,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
-        0,
+        -1,
         0,
         -1,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -7
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
       ]
     },
     {
@@ -691,6 +733,20 @@
         0,
         -1,
         -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 7
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
         -1
       ]
     },
@@ -1372,7 +1428,7 @@
       "wallVariants": [
         -1,
         0,
-        0,
+        -1,
         0
       ]
     },
@@ -1420,7 +1476,35 @@
     }
   ],
   "levers": null,
-  "doors": null,
+  "doors": [
+    {
+      "position": {
+        "x": 11,
+        "y": -3
+      },
+      "id": 1,
+      "orientation": 2,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -5
+      },
+      "id": 2,
+      "orientation": 2,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 5
+      },
+      "id": 3,
+      "orientation": 0,
+      "open": true
+    }
+  ],
   "plates": null,
   "transporters": [
     {
