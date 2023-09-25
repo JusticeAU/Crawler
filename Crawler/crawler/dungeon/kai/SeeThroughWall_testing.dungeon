@@ -5,7 +5,7 @@
     "x": 0,
     "y": 0
   },
-  "defaultOrientation": 1,
+  "defaultOrientation": 0,
   "noRoof": true,
   "tiles": [
     {
@@ -305,14 +305,56 @@
     {
       "position": {
         "x": -8,
-        "y": -1
+        "y": -4
       },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 5,
+      "maskSee": 5,
       "wallVariants": [
         -1,
         -1,
         0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -3
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -2
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -524,6 +566,20 @@
         -1,
         -1,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": -4
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
       ]
     },
     {
@@ -1488,7 +1544,7 @@
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -2282,6 +2338,24 @@
       "id": 8,
       "orientation": 1,
       "open": false
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -1
+      },
+      "id": 9,
+      "orientation": 2,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "id": 10,
+      "orientation": 2,
+      "open": false
     }
   ],
   "plates": [
@@ -2323,14 +2397,24 @@
   ],
   "transporters": [
     {
-      "name": "Exit",
+      "name": "Entry",
       "position": {
-        "x": -8,
+        "x": 0,
         "y": 0
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/lobby",
+      "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": -8,
+        "y": -2
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
     }
   ],
   "checkpoints": [
@@ -2514,6 +2598,24 @@
     }
   ],
   "decorations": null,
-  "pointLights": null,
+  "pointLights": [
+    {
+      "position": {
+        "x": -8,
+        "y": -3
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 2.799999952316284
+    }
+  ],
   "events": null
 }

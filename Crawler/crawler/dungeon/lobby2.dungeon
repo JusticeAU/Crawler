@@ -151,28 +151,14 @@
     {
       "position": {
         "x": 1,
-        "y": -6
-      },
-      "mask": 1,
-      "maskSee": 1,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
         "y": -5
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -265,27 +251,13 @@
         "x": 1,
         "y": 5
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 6
-      },
-      "mask": 8,
-      "maskSee": 8,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        0
       ]
     },
     {
@@ -902,16 +874,6 @@
       "toTransporter": "BoxStart"
     },
     {
-      "name": "North3",
-      "position": {
-        "x": 1,
-        "y": 6
-      },
-      "fromOrientation": 2,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
       "name": "South1",
       "position": {
         "x": 8,
@@ -934,12 +896,22 @@
     {
       "name": "South3",
       "position": {
-        "x": 1,
-        "y": -6
+        "x": -1,
+        "y": -3
       },
-      "fromOrientation": 0,
+      "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing",
-      "toTransporter": "STWStart"
+      "toTransporter": "Entry"
+    },
+    {
+      "name": "North3",
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,
