@@ -3509,18 +3509,6 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -7
-      }
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": -10
-      }
-    },
-    {
-      "position": {
         "x": -5,
         "y": -9
       }
@@ -3539,12 +3527,6 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -9
-      }
-    },
-    {
-      "position": {
         "x": -4,
         "y": 1
       }
@@ -3553,6 +3535,12 @@
       "position": {
         "x": 6,
         "y": 1
+      }
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -8
       }
     }
   ],
@@ -3586,30 +3574,6 @@
       "position": {
         "x": 2,
         "y": -9
-      },
-      "facing": 1,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 10
-    },
-    {
-      "id": 10,
-      "position": {
-        "x": 2,
-        "y": -8
-      },
-      "facing": 1,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 10
-    },
-    {
-      "id": 10,
-      "position": {
-        "x": 2,
-        "y": -7
       },
       "facing": 1,
       "detectsLineOfSight": true,
