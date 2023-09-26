@@ -26,7 +26,6 @@
       "type": "Renderer",
       "materials": [
         "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
