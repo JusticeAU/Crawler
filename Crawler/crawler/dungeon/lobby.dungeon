@@ -909,7 +909,7 @@
         "x": 5,
         "y": -5
       },
-      "mask": 6,
+      "mask": 7,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -923,7 +923,7 @@
         "x": 5,
         "y": -4
       },
-      "mask": 7,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -1039,7 +1039,7 @@
         "x": 5,
         "y": 4
       },
-      "mask": 14,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -1053,7 +1053,7 @@
         "x": 5,
         "y": 5
       },
-      "mask": 6,
+      "mask": 14,
       "maskSee": 14,
       "wallVariants": [
         0,
