@@ -1244,7 +1244,7 @@
         "x": 7,
         "y": -3
       },
-      "mask": 11,
+      "mask": 10,
       "maskSee": 11,
       "wallVariants": [
         -1,
@@ -1258,12 +1258,12 @@
         "x": 7,
         "y": -2
       },
-      "mask": 10,
+      "mask": 2,
       "maskSee": 10,
       "wallVariants": [
         0,
         0,
-        -1,
+        1,
         -1
       ]
     },
@@ -1324,7 +1324,18 @@
       ]
     }
   ],
-  "levers": null,
+  "levers": [
+    {
+      "position": {
+        "x": 7,
+        "y": -4
+      },
+      "id": 1,
+      "orientation": 1,
+      "status": false,
+      "activateID": 5
+    }
+  ],
   "doors": [
     {
       "position": {
@@ -1346,20 +1357,38 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": 2
-      },
-      "id": 4,
-      "orientation": 2,
-      "open": false
-    },
-    {
-      "position": {
         "x": -1,
         "y": 3
       },
       "id": 3,
       "orientation": 3,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "id": 5,
+      "orientation": 3,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -1
+      },
+      "id": 5,
+      "orientation": 2,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "id": 4,
+      "orientation": 1,
       "open": false
     }
   ],
@@ -1411,19 +1440,28 @@
   ],
   "shootLasers": [
     {
-      "id": 3,
+      "id": 6,
       "position": {
         "x": 0,
         "y": 1
       },
-      "facing": 0,
+      "facing": 1,
       "detectsLineOfSight": true,
       "firesProjectile": false,
       "firesImmediately": false,
       "activateID": 4294967295
     }
   ],
-  "blockers": null,
+  "blockers": [
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "facing": 3,
+      "rapidAttack": false
+    }
+  ],
   "chasers": [
     {
       "position": {
@@ -1464,9 +1502,31 @@
         "y": 3
       },
       "facing": 3
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -2
+      },
+      "facing": 0
     }
   ],
-  "mirrors": null,
+  "mirrors": [
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 0
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 3
+      },
+      "facing": 3
+    }
+  ],
   "decorations": [
     {
       "position": {

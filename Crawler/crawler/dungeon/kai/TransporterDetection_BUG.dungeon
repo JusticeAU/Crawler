@@ -1,0 +1,136 @@
+{
+  "type": "dungeon",
+  "version": 2,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "tiles": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "levers": null,
+  "doors": null,
+  "plates": null,
+  "transporters": [
+    {
+      "name": "thing",
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "crawler/dungeon/kai/TransporterDetection_BUG",
+      "toTransporter": ""
+    }
+  ],
+  "checkpoints": null,
+  "spikes": null,
+  "blocks": null,
+  "shootLasers": null,
+  "blockers": null,
+  "chasers": null,
+  "slugs": null,
+  "slugPaths": [
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      }
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      }
+    }
+  ],
+  "switchers": null,
+  "mirrors": [
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 0
+    }
+  ],
+  "decorations": null,
+  "pointLights": null,
+  "events": null
+}
