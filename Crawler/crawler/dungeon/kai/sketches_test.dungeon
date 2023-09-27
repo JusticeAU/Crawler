@@ -2533,55 +2533,13 @@
         "x": 6,
         "y": 5
       },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
-        -1,
+        0,
         -1,
         0,
         -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 6
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 7
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 8
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
       ]
     },
     {
@@ -2729,13 +2687,13 @@
         "x": 7,
         "y": 6
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
         0,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -2743,13 +2701,13 @@
         "x": 7,
         "y": 7
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
         0,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -2757,13 +2715,13 @@
         "x": 7,
         "y": 8
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 8,
+      "maskSee": 8,
       "wallVariants": [
         0,
         0,
         -1,
-        -1
+        0
       ]
     },
     {
@@ -3466,7 +3424,7 @@
         "y": 7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai\\sketches_test",
+      "toDungeon": "crawler/dungeon/lobby",
       "toTransporter": ""
     }
   ],
@@ -3650,7 +3608,7 @@
   "switchers": [
     {
       "position": {
-        "x": 4,
+        "x": 0,
         "y": 8
       },
       "facing": 2
@@ -3658,23 +3616,23 @@
     {
       "position": {
         "x": 0,
-        "y": 8
-      },
-      "facing": 1
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 4
-      },
-      "facing": 0
-    },
-    {
-      "position": {
-        "x": 0,
         "y": -9
       },
       "facing": 3
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "facing": 3
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 4
+      },
+      "facing": 0
     }
   ],
   "mirrors": [
@@ -3707,5 +3665,7 @@
       "facing": 2
     }
   ],
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }

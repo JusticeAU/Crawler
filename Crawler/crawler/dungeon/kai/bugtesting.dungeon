@@ -4353,13 +4353,6 @@
     },
     {
       "position": {
-        "x": 3,
-        "y": -6
-      },
-      "activateID": 1000
-    },
-    {
-      "position": {
         "x": -3,
         "y": -7
       },
@@ -4406,9 +4399,19 @@
       "toTransporter": ""
     },
     {
-      "name": "C1",
+      "name": "Chaser (cant see past plates)",
       "position": {
-        "x": -2,
+        "x": -9,
+        "y": 3
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "C",
+      "position": {
+        "x": -6,
         "y": -1
       },
       "fromOrientation": 0,
@@ -4416,20 +4419,10 @@
       "toTransporter": ""
     },
     {
-      "name": "C2",
+      "name": "C",
       "position": {
-        "x": -2,
-        "y": 1
-      },
-      "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
-      "name": "Chaser (cant see past plates)",
-      "position": {
-        "x": -9,
-        "y": 3
+        "x": -8,
+        "y": -18
       },
       "fromOrientation": 0,
       "toDungeon": "",
@@ -4442,7 +4435,7 @@
         "x": -9,
         "y": 9
       },
-      "facing": 0
+      "facing": 1
     }
   ],
   "spikes": [
@@ -4648,16 +4641,16 @@
   "chasers": [
     {
       "position": {
-        "x": -8,
-        "y": -18
+        "x": -2,
+        "y": -1
       },
       "facing": 0,
       "state": 0
     },
     {
       "position": {
-        "x": -6,
-        "y": -1
+        "x": -2,
+        "y": 1
       },
       "facing": 2,
       "state": 0

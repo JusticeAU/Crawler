@@ -66,56 +66,14 @@
     {
       "position": {
         "x": -5,
-        "y": -16
-      },
-      "mask": 1,
-      "maskSee": 1,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": -15
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": -14
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
         "y": -13
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -2164,18 +2122,6 @@
       "id": 6,
       "position": {
         "x": -3,
-        "y": -16
-      },
-      "facing": 0,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 0
-    },
-    {
-      "id": 6,
-      "position": {
-        "x": -5,
         "y": -16
       },
       "facing": 0,
