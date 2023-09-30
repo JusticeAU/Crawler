@@ -2078,114 +2078,6 @@
     },
     {
       "position": {
-        "x": 5,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -0.5,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -1.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.5,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.5,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 1.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
         "x": 2,
         "y": -2
       },
@@ -2453,6 +2345,114 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 2.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -2.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 2.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -2.0,
+        "y": 1.899999976158142,
+        "z": -0.10000000149011612
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
     }
   ],
   "pointLights": [
