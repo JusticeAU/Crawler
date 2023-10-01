@@ -48,7 +48,6 @@ uniform samplerCubeShadow shadowMap6;
 uniform samplerCubeShadow shadowMap7;
 
 // Shadow Configuration
-const float EPSILON = 0.005f;
 const int samples = 20;
 const vec3 sampleOffsetDirections[20] = vec3[]
 (
@@ -59,7 +58,7 @@ const vec3 sampleOffsetDirections[20] = vec3[]
    vec3( 0,  1,  1), vec3( 0, -1,  1), vec3( 0, -1, -1), vec3( 0,  1, -1)
 ); 
 
-uniform float shadowBias;
+uniform float shadowBias; // Legacy from directional light/shadow maps
 
 // Functions
 vec3 GetDiffuse(vec3 direction, vec3 colour, vec3 normal)
@@ -115,7 +114,8 @@ void main()
 	{
 		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
 		vec3 L = normalize(LightDirection);
-		float Distance = (length(LightDirection) / 15.0) - EPSILON;
+		float bias = max(0.06 * (1.0 - dot(N, L)), 0.005); // Scaling bias based on dot of normal to light.
+		float Distance = (length(LightDirection) / 15.0) - bias;
 		float offset  = 0.003;
 
 		float ShadowFactor = 0.0;
