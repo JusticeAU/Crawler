@@ -106,7 +106,7 @@ void main()
 		// calculate per-light radiance
 		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos;
 		vec3 L = normalize(LightDirection);
-		float bias = max(0.05 * (1.0 - dot(_Normal, L)), 0.005); // Scaling bias based on dot of geometry normal to light.
+		float bias = max(0.05 * (1.0 - dot(_Normal, L)), 0.004); // Scaling bias based on dot of geometry normal to light.
 		float Distance = (length(LightDirection) / 15.0) - bias;
 		float offset  = 0.003;
 		
