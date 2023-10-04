@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": -2,
     "y": 0
@@ -855,96 +855,150 @@
       "position": {
         "x": 4,
         "y": -3
-      }
+      },
+      "maskTraverse": 1
     },
     {
       "position": {
         "x": 4,
         "y": -2
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": -1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": 0
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": 1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": 2
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": 3
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 3,
         "y": 3
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 2,
         "y": 3
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 2,
         "y": 2
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 2,
         "y": 1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 2,
         "y": -1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 2,
         "y": 0
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 2,
         "y": -2
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 1,
         "y": -2
-      }
+      },
+      "maskTraverse": 4
     }
   ],
   "switchers": null,
   "mirrors": null,
-  "decorations": null,
+  "decorations": [
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    }
+  ],
   "pointLights": [
     {
       "position": {
@@ -961,8 +1015,55 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 1
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3
     }
   ],
-  "events": null
+  "events": [
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 1,
+      "eventID": 3
+    }
+  ]
 }

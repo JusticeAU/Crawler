@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": -4,
     "y": 0
@@ -796,13 +796,55 @@
         "x": 7,
         "y": -1
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -1
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
         0,
         0,
         -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
       ]
     }
   ],
@@ -979,7 +1021,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 1
     },
     {
       "position": {
@@ -996,7 +1039,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 1
     },
     {
       "position": {
@@ -1013,7 +1057,26 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 1
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2
     }
   ],
   "events": null

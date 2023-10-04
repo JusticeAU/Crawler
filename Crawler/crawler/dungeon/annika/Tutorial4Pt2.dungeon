@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 8,
     "y": 0
@@ -321,10 +321,10 @@
         "y": 2
       },
       "mask": 3,
-      "maskSee": 3,
+      "maskSee": 7,
       "wallVariants": [
         -1,
-        0,
+        1,
         0,
         -1
       ]
@@ -444,14 +444,28 @@
     {
       "position": {
         "x": 12,
+        "y": 2
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 12,
         "y": 3
       },
-      "mask": 3,
-      "maskSee": 3,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
         0,
-        0,
+        -1,
         -1
       ]
     },
@@ -514,14 +528,112 @@
     {
       "position": {
         "x": 13,
+        "y": 2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 13,
         "y": 7
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 2
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 3
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 4
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 5
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 6
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 7
+      },
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
         0,
-        0,
+        -1,
         -1
       ]
     }
@@ -676,6 +788,13 @@
         "y": 3
       },
       "facing": 0
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 6
+      },
+      "facing": 2
     }
   ],
   "slugPaths": [
@@ -683,37 +802,99 @@
       "position": {
         "x": 12,
         "y": 6
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 12,
         "y": 5
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 12,
         "y": 4
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 12,
         "y": 3
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 12,
         "y": 7
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 13,
         "y": 7
-      }
+      },
+      "maskTraverse": 6
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 7
+      },
+      "maskTraverse": 10
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 6
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 5
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 4
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 3
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 2
+      },
+      "maskTraverse": 3
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 2
+      },
+      "maskTraverse": 6
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 2
+      },
+      "maskTraverse": 5
     }
   ],
   "switchers": null,
@@ -774,7 +955,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 1
     },
     {
       "position": {
@@ -791,7 +973,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 3
     },
     {
       "position": {
@@ -808,7 +991,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.799999952316284
+      "intensity": 2.799999952316284,
+      "id": 2
     }
   ],
   "events": [
@@ -818,6 +1002,7 @@
         "y": 2
       },
       "repeats": false,
+      "type": 0,
       "eventID": 6
     },
     {
@@ -826,7 +1011,19 @@
         "y": 4
       },
       "repeats": false,
+      "type": 0,
       "eventID": 2
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 7
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 2,
+      "mustBeFacing": true,
+      "facing": 1
     }
   ]
 }

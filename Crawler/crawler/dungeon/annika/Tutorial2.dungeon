@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": -2,
     "y": 0
@@ -747,13 +747,41 @@
         "x": 14,
         "y": -2
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 3,
+      "maskSee": 3,
       "wallVariants": [
-        0,
+        -1,
         0,
         0,
         -1
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -1
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": 0
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
       ]
     }
   ],
@@ -1032,6 +1060,25 @@
       },
       "modelName": "crawler/model/decoration_standing_lamp.object",
       "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -1050,7 +1097,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 2.8499999046325684
+      "intensity": 2.8499999046325684,
+      "id": 1
     },
     {
       "position": {
@@ -1067,7 +1115,8 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 5.0
+      "intensity": 5.0,
+      "id": 2
     },
     {
       "position": {
@@ -1084,7 +1133,26 @@
         "y": 0.5856617093086243,
         "z": 0.1975308507680893
       },
-      "intensity": 4.0
+      "intensity": 4.0,
+      "id": 1
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": -2
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3
     }
   ],
   "events": null
