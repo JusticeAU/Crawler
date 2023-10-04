@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 3,
     "y": -4
@@ -951,14 +951,15 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 1.0,
         "y": 0.6495097875595093,
         "z": 0.29901963472366333
       },
-      "intensity": 5.0
+      "intensity": 5.0,
+      "id": 1
     }
   ],
   "events": [
@@ -968,6 +969,7 @@
         "y": -2
       },
       "repeats": false,
+      "type": 0,
       "eventID": 2
     },
     {
@@ -976,6 +978,7 @@
         "y": 1
       },
       "repeats": false,
+      "type": 0,
       "eventID": 4
     },
     {
@@ -984,6 +987,7 @@
         "y": -1
       },
       "repeats": false,
+      "type": 0,
       "eventID": 5,
       "mustBeFacing": true,
       "facing": 2
@@ -994,7 +998,26 @@
         "y": 1
       },
       "repeats": false,
+      "type": 0,
       "eventID": 2
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 1,
+      "eventID": 1
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "repeats": false,
+      "type": 1,
+      "eventID": 1
     }
   ]
 }

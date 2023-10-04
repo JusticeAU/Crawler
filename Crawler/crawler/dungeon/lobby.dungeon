@@ -2445,7 +2445,9 @@
         "z": 1.0
       },
       "intensity": 100.0,
-      "isLobbyLight": true
+      "id": 1,
+      "isLobbyLight": true,
+      "flickerIgnoreGlobal": true
     },
     {
       "position": {
@@ -2462,7 +2464,8 @@
         "y": 0.383217990398407,
         "z": 0.08823531866073608
       },
-      "intensity": 52.0
+      "intensity": 52.0,
+      "id": 1
     },
     {
       "position": {
@@ -2479,7 +2482,8 @@
         "y": 0.47938287258148193,
         "z": 0.23039215803146362
       },
-      "intensity": 5.0
+      "intensity": 5.0,
+      "id": 1
     },
     {
       "position": {
@@ -2496,7 +2500,8 @@
         "y": 0.4594866633415222,
         "z": 0.20098036527633667
       },
-      "intensity": 5.0
+      "intensity": 5.0,
+      "id": 1
     }
   ],
   "events": [
@@ -2506,6 +2511,7 @@
         "y": 0
       },
       "repeats": true,
+      "type": 0,
       "eventID": 1
     }
   ],
