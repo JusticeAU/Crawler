@@ -51,6 +51,34 @@
     },
     {
       "position": {
+        "x": 0,
+        "y": 3
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
         "x": 1,
         "y": -1
       },
@@ -96,8 +124,8 @@
         "x": 1,
         "y": 2
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
@@ -110,13 +138,27 @@
         "x": 1,
         "y": 3
       },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -181,6 +223,21 @@
         "x": 2,
         "y": 3
       },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
@@ -188,8 +245,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -253,11 +309,25 @@
         "y": 3
       },
       "mask": 14,
-      "maskSee": 14,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 4
+      },
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
-        -1,
-        -1,
+        0,
+        1,
         -1
       ]
     },
@@ -273,7 +343,8 @@
         -1,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -479,9 +550,33 @@
       "id": 1,
       "orientation": 0,
       "open": false
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "id": 2,
+      "orientation": 0,
+      "open": false
     }
   ],
-  "plates": null,
+  "plates": [
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "activateID": 2
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "activateID": 2
+    }
+  ],
   "transporters": null,
   "checkpoints": null,
   "spikes": null,
@@ -522,7 +617,7 @@
     {
       "position": {
         "x": 1,
-        "y": 2
+        "y": 3
       },
       "facing": 0
     }
@@ -596,14 +691,28 @@
         "x": 1,
         "y": 3
       },
-      "maskTraverse": 8
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 1,
-        "y": 2
+        "y": 4
       },
-      "maskTraverse": 1
+      "maskTraverse": 10
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "maskTraverse": 12
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "maskTraverse": 5
     }
   ],
   "switchers": null,
@@ -660,6 +769,42 @@
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.6000000238418579,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 180.0
       },
       "modelName": "crawler/model/decoration_drawer.object"
     }
