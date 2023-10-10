@@ -577,7 +577,18 @@
       "activateID": 2
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "exit 2",
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
