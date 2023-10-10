@@ -1691,8 +1691,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.10000000149011612,
-        "y": 1.899999976158142,
+        "x": 1.853529930114746,
+        "y": 1.707829966335339e-07,
         "z": 0.0
       },
       "localRotation": {
@@ -2195,24 +2195,6 @@
     },
     {
       "position": {
-        "x": 2,
-        "y": -2
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": ""
-    },
-    {
-      "position": {
         "x": 1,
         "y": 3
       },
@@ -2321,111 +2303,111 @@
     },
     {
       "position": {
-        "x": 5,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_marble_floor.object"
-    },
-    {
-      "position": {
         "x": 2,
-        "y": 0
+        "y": -5
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
+        "x": 2.0021419525146484,
+        "y": 2.998262405395508,
+        "z": 5.061119556427002
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_marble_floor.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object"
     },
     {
       "position": {
-        "x": 3,
-        "y": -3
+        "x": 7,
+        "y": -5
       },
       "facing": 0,
       "localPosition": {
-        "x": 2.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
+        "x": -4.027515411376953,
+        "y": 3.0084266662597656,
+        "z": 4.9710798263549805
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_marble_floor.object"
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -3
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -2.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_marble_floor.object"
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 3
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 2.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_marble_floor.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object"
     },
     {
       "position": {
         "x": 4,
-        "y": 3
+        "y": -5
       },
       "facing": 0,
       "localPosition": {
-        "x": -2.0,
-        "y": 1.899999976158142,
-        "z": -0.10000000149011612
+        "x": -2.625167212499946e-07,
+        "y": 3.002840995788574,
+        "z": 5.037844657897949
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_marble_floor.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 2.95797061920166,
+        "z": 4.979096412658691
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 5
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 4.054224014282227,
+        "y": 2.8392019271850586,
+        "z": 5.013636589050293
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_lamp.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
     }
   ],
   "pointLights": [
@@ -2446,8 +2428,7 @@
       },
       "intensity": 100.0,
       "id": 1,
-      "isLobbyLight": true,
-      "flickerIgnoreGlobal": true
+      "isLobbyLight": true
     },
     {
       "position": {

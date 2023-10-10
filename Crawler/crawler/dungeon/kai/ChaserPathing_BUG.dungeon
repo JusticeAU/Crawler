@@ -1,16 +1,15 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
   },
   "defaultOrientation": 1,
-  "noRoof": true,
   "tiles": [
     {
       "position": {
-        "x": -9,
+        "x": 0,
         "y": -1
       },
       "mask": 5,
@@ -24,7 +23,7 @@
     },
     {
       "position": {
-        "x": -9,
+        "x": 0,
         "y": 0
       },
       "mask": 13,
@@ -38,7 +37,7 @@
     },
     {
       "position": {
-        "x": -9,
+        "x": 0,
         "y": 1
       },
       "mask": 12,
@@ -52,7 +51,7 @@
     },
     {
       "position": {
-        "x": -8,
+        "x": 1,
         "y": -1
       },
       "mask": 7,
@@ -66,7 +65,7 @@
     },
     {
       "position": {
-        "x": -8,
+        "x": 1,
         "y": 0
       },
       "mask": 15,
@@ -80,7 +79,7 @@
     },
     {
       "position": {
-        "x": -8,
+        "x": 1,
         "y": 1
       },
       "mask": 14,
@@ -94,120 +93,8 @@
     },
     {
       "position": {
-        "x": -7,
-        "y": -1
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -7,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -7,
-        "y": 1
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -1
+        "x": 2,
+        "y": -2
       },
       "mask": 5,
       "maskSee": 5,
@@ -216,12 +103,13 @@
         -1,
         0,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
-        "x": -1,
-        "y": 0
+        "x": 2,
+        "y": -1
       },
       "mask": 15,
       "maskSee": 15,
@@ -230,12 +118,42 @@
         -1,
         -1,
         -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 11,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        1,
+        -1,
+        -1
       ]
     },
     {
       "position": {
-        "x": -1,
+        "x": 2,
         "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
       },
       "mask": 12,
       "maskSee": 12,
@@ -244,54 +162,13 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
-        "x": 0,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -1
+        "x": 3,
+        "y": -2
       },
       "mask": 3,
       "maskSee": 3,
@@ -304,8 +181,8 @@
     },
     {
       "position": {
-        "x": 1,
-        "y": 0
+        "x": 3,
+        "y": -1
       },
       "mask": 11,
       "maskSee": 11,
@@ -318,8 +195,36 @@
     },
     {
       "position": {
-        "x": 1,
+        "x": 3,
+        "y": 0
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
         "y": 1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
       },
       "mask": 10,
       "maskSee": 10,
@@ -334,27 +239,27 @@
   "levers": null,
   "doors": null,
   "plates": null,
-  "transporters": [
-    {
-      "name": "Exit",
-      "position": {
-        "x": -8,
-        "y": 0
-      },
-      "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/ExitTransport_BUG",
-      "toTransporter": ""
-    }
-  ],
+  "transporters": null,
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
   "shootLasers": null,
   "blockers": null,
-  "chasers": null,
+  "chasers": [
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 3,
+      "state": 0
+    }
+  ],
   "slugs": null,
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }

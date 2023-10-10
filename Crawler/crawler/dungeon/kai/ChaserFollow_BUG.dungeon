@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -10,7 +10,7 @@
     {
       "position": {
         "x": 0,
-        "y": 0
+        "y": -1
       },
       "mask": 5,
       "maskSee": 5,
@@ -24,7 +24,7 @@
     {
       "position": {
         "x": 0,
-        "y": 1
+        "y": 0
       },
       "mask": 13,
       "maskSee": 13,
@@ -38,7 +38,7 @@
     {
       "position": {
         "x": 0,
-        "y": 2
+        "y": 1
       },
       "mask": 12,
       "maskSee": 12,
@@ -52,7 +52,7 @@
     {
       "position": {
         "x": 1,
-        "y": 0
+        "y": -1
       },
       "mask": 7,
       "maskSee": 7,
@@ -66,7 +66,91 @@
     {
       "position": {
         "x": 1,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
         "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
       },
       "mask": 11,
       "maskSee": 11,
@@ -79,8 +163,8 @@
     },
     {
       "position": {
-        "x": 1,
-        "y": 2
+        "x": 3,
+        "y": 1
       },
       "mask": 10,
       "maskSee": 10,
@@ -88,104 +172,6 @@
         0,
         0,
         -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": 0
-      },
-      "mask": 2,
-      "maskSee": 2,
-      "wallVariants": [
-        0,
-        0,
-        0,
         -1
       ]
     }
@@ -196,20 +182,13 @@
   "transporters": null,
   "checkpoints": null,
   "spikes": null,
-  "blocks": [
-    {
-      "position": {
-        "x": 1,
-        "y": 1
-      }
-    }
-  ],
+  "blocks": null,
   "shootLasers": null,
   "blockers": null,
   "chasers": [
     {
       "position": {
-        "x": 8,
+        "x": 3,
         "y": 0
       },
       "facing": 3,
@@ -217,7 +196,29 @@
     }
   ],
   "slugs": null,
-  "slugPaths": null,
+  "slugPaths": [
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "maskTraverse": 1
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "maskTraverse": 8
+    }
+  ],
   "switchers": null,
   "mirrors": null,
   "decorations": null,

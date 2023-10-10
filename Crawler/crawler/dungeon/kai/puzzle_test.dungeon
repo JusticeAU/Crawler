@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -4115,7 +4115,7 @@
         "y": -2
       },
       "id": 6,
-      "orientation": 0,
+      "orientation": 1,
       "open": false
     },
     {
@@ -4452,7 +4452,7 @@
     {
       "position": {
         "x": -4,
-        "y": -6
+        "y": -5
       },
       "facing": 0,
       "rapidAttack": false
@@ -4510,169 +4510,197 @@
       "position": {
         "x": 4,
         "y": 4
-      }
+      },
+      "maskTraverse": 4
     },
     {
       "position": {
         "x": 7,
         "y": 4
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 6,
         "y": 4
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 5,
         "y": 4
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 6,
         "y": 6
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 5,
         "y": 6
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 4,
         "y": 8
-      }
+      },
+      "maskTraverse": 4
     },
     {
       "position": {
         "x": 5,
         "y": 8
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 7,
         "y": 8
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 6,
         "y": 8
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 4,
         "y": 6
-      }
+      },
+      "maskTraverse": 4
     },
     {
       "position": {
         "x": 7,
         "y": 10
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 5,
         "y": 10
-      }
+      },
+      "maskTraverse": 4
     },
     {
       "position": {
         "x": 6,
         "y": 10
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -6,
         "y": -7
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": -6,
         "y": -6
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": -6,
         "y": -5
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": -6,
         "y": -4
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": -5,
         "y": -4
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -4,
         "y": -4
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -3,
         "y": -4
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -2,
         "y": -4
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": -2,
         "y": -5
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": -2,
         "y": -7
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": -2,
         "y": -6
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": -3,
         "y": -7
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -4,
         "y": -7
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": -5,
         "y": -7
-      }
+      },
+      "maskTraverse": 6
     }
   ],
   "switchers": [

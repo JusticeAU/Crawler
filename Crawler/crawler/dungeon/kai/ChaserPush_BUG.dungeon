@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -268,29 +268,20 @@
   "spikes": null,
   "blocks": null,
   "shootLasers": null,
-  "blockers": [
-    {
-      "position": {
-        "x": 4,
-        "y": 0
-      },
-      "facing": 3,
-      "rapidAttack": false
-    }
-  ],
+  "blockers": null,
   "chasers": [
     {
       "position": {
         "x": 3,
-        "y": 1
+        "y": -1
       },
-      "facing": 0,
+      "facing": 2,
       "state": 0
     },
     {
       "position": {
         "x": 3,
-        "y": -1
+        "y": 0
       },
       "facing": 0,
       "state": 0
