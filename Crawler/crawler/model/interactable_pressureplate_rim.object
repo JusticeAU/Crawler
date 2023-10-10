@@ -1,5 +1,5 @@
 {
-  "name": "trap_spikes",
+  "name": "pressureplate_rim",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,11 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_trap_spikes.fbx"
+      "model": "crawler/model/interactable_pressureplate_rim.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
