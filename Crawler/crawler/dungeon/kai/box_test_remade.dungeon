@@ -852,34 +852,6 @@
         "x": 1,
         "y": 6
       },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 7
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 8
-      },
       "mask": 12,
       "maskSee": 12,
       "wallVariants": [
@@ -1089,34 +1061,6 @@
       "position": {
         "x": 2,
         "y": 6
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 7
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 8
       },
       "mask": 14,
       "maskSee": 14,
@@ -1342,34 +1286,6 @@
         "x": 3,
         "y": 6
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 7
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 8
-      },
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
@@ -1579,34 +1495,6 @@
       "position": {
         "x": 4,
         "y": 6
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 7
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 8
       },
       "mask": 10,
       "maskSee": 10,
@@ -2628,8 +2516,8 @@
     },
     {
       "position": {
-        "x": 1,
-        "y": 8
+        "x": 4,
+        "y": 6
       },
       "activateID": 5
     }
@@ -2814,15 +2702,7 @@
       "maskTraverse": 4
     }
   ],
-  "switchers": [
-    {
-      "position": {
-        "x": 4,
-        "y": 8
-      },
-      "facing": 3
-    }
-  ],
+  "switchers": null,
   "mirrors": null,
   "decorations": [
     {
