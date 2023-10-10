@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -3333,6 +3333,16 @@
       "orientation": 3,
       "status": false,
       "activateID": 4
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -9
+      },
+      "id": 2,
+      "orientation": 1,
+      "status": false,
+      "activateID": 5
     }
   ],
   "doors": [
@@ -3397,6 +3407,15 @@
       },
       "id": 4,
       "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -9
+      },
+      "id": 5,
+      "orientation": 1,
       "open": false
     }
   ],
