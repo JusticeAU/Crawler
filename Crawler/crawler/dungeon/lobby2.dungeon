@@ -1060,7 +1060,62 @@
     }
   ],
   "levers": null,
-  "doors": null,
+  "doors": [
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      },
+      "id": 1,
+      "orientation": 0,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 6
+      },
+      "id": 2,
+      "orientation": 0,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "id": 3,
+      "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -6
+      },
+      "id": 4,
+      "orientation": 2,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -6
+      },
+      "id": 5,
+      "orientation": 2,
+      "open": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -6
+      },
+      "id": 6,
+      "orientation": 2,
+      "open": true
+    }
+  ],
   "plates": null,
   "transporters": [
     {
@@ -1153,7 +1208,7 @@
       "startWorldPosition": {
         "x": 16.0,
         "y": 6.0,
-        "z": 3.0
+        "z": 3.200000047683716
       },
       "startOffset": {
         "x": -13.550000190734863,
@@ -1186,7 +1241,7 @@
       "startWorldPosition": {
         "x": 16.0,
         "y": -6.0,
-        "z": 3.0
+        "z": 3.200000047683716
       },
       "startOffset": {
         "x": -13.550000190734863,

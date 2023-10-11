@@ -7,6 +7,7 @@
   },
   "defaultOrientation": 0,
   "noRoof": true,
+  "isLobby": true,
   "tiles": [
     {
       "position": {
@@ -1620,6 +1621,15 @@
       "id": 3,
       "orientation": 0,
       "open": true
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "id": 2,
+      "orientation": 2,
+      "open": true
     }
   ],
   "plates": null,
@@ -2522,7 +2532,7 @@
       "endWorldPosition": {
         "x": 16.0,
         "y": 6.0,
-        "z": 3.0
+        "z": 3.2
       },
       "endOffset": {
         "x": 13.0600004196167,
@@ -2555,7 +2565,7 @@
       "endWorldPosition": {
         "x": 16.0,
         "y": -6.0,
-        "z": 3.0
+        "z": 3.2
       },
       "endOffset": {
         "x": 13.0600004196167,
