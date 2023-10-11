@@ -1051,7 +1051,134 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null,
+  "decorations": [
+    {
+      "position": {
+        "x": 19,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.1061668395996094,
+        "y": 9.670417000506859e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 17,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.8308486938476563,
+        "y": 7.26351032653838e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.8374862670898438,
+        "y": 7.321536088511493e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 6
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.5848350524902344,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": 6
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.0651912689208984,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 17,
+        "y": 6
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.8208770751953125,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 19,
+        "y": 6
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.8745994567871094,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    }
+  ],
   "pointLights": [
     {
       "position": {
