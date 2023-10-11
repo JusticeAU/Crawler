@@ -276,28 +276,14 @@
     {
       "position": {
         "x": -2,
-        "y": -14
+        "y": -13
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
         0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -374,28 +360,14 @@
     {
       "position": {
         "x": -1,
-        "y": -14
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
         "y": -13
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -500,28 +472,14 @@
     {
       "position": {
         "x": 0,
-        "y": -14
+        "y": -13
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
         0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -584,7 +542,7 @@
     {
       "position": {
         "x": 1,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -592,20 +550,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -668,7 +612,7 @@
     {
       "position": {
         "x": 2,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -676,20 +620,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -752,7 +682,7 @@
     {
       "position": {
         "x": 3,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -760,20 +690,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -892,7 +808,7 @@
     {
       "position": {
         "x": 4,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -900,20 +816,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -1046,7 +948,7 @@
     {
       "position": {
         "x": 5,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -1054,20 +956,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -1200,7 +1088,7 @@
     {
       "position": {
         "x": 6,
-        "y": -14
+        "y": -13
       },
       "mask": 7,
       "maskSee": 7,
@@ -1208,20 +1096,6 @@
         -1,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": -13
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
         -1
       ]
     },
@@ -1312,28 +1186,14 @@
     {
       "position": {
         "x": 7,
-        "y": -14
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
         "y": -13
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         -1
       ]
     },
@@ -2179,17 +2039,74 @@
       "state": 0
     }
   ],
-  "slugs": null,
-  "slugPaths": null,
-  "switchers": [
+  "slugs": [
     {
       "position": {
-        "x": 7,
-        "y": -14
+        "x": 4,
+        "y": 0
       },
-      "facing": 3
+      "facing": 0
     }
   ],
+  "slugPaths": [
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "maskTraverse": 12
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "maskTraverse": 6
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "maskTraverse": 10
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "maskTraverse": 3
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -1
+      },
+      "maskTraverse": 5
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "maskTraverse": 10
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "maskTraverse": 5
+    }
+  ],
+  "switchers": null,
   "mirrors": null,
   "decorations": null,
   "pointLights": null,
