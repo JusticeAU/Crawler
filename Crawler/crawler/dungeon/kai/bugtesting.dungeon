@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -4740,379 +4740,442 @@
       "position": {
         "x": 4,
         "y": 3
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 5,
         "y": 3
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 6,
         "y": 3
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 6,
         "y": 2
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 6,
         "y": 1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 6,
         "y": 0
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 5,
         "y": 0
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 4,
         "y": 0
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 4,
         "y": 1
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 4,
         "y": 2
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 3,
         "y": 5
-      }
+      },
+      "maskTraverse": 1
     },
     {
       "position": {
         "x": 7,
         "y": 11
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 6,
         "y": 11
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 6,
         "y": 12
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 6,
         "y": 13
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 7,
         "y": 13
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 2,
         "y": -4
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": -1,
         "y": -9
-      }
+      },
+      "maskTraverse": 11
     },
     {
       "position": {
         "x": -1,
         "y": -10
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": -2,
         "y": -10
-      }
+      },
+      "maskTraverse": 7
     },
     {
       "position": {
         "x": -2,
         "y": -9
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": -3,
         "y": -9
-      }
+      },
+      "maskTraverse": 13
     },
     {
       "position": {
         "x": -3,
         "y": -10
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 3,
         "y": -4
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 2,
         "y": -5
-      }
+      },
+      "maskTraverse": 1
     },
     {
       "position": {
         "x": 2,
         "y": -3
-      }
+      },
+      "maskTraverse": 8
     },
     {
       "position": {
         "x": 3,
         "y": 6
-      }
+      },
+      "maskTraverse": 8
     },
     {
       "position": {
         "x": 3,
         "y": -10
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 2,
         "y": -9
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": 3,
         "y": -9
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 2,
         "y": -10
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 1,
         "y": -9
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 2,
         "y": -8
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 1,
         "y": -8
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": -2,
         "y": -3
-      }
+      },
+      "maskTraverse": 14
     },
     {
       "position": {
         "x": -3,
         "y": -3
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": -3,
         "y": -4
-      }
+      },
+      "maskTraverse": 13
     },
     {
       "position": {
         "x": -2,
         "y": -5
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": -1,
         "y": -3
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": -1,
         "y": -4
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": -2,
         "y": -4
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": -3,
         "y": -5
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": -3,
         "y": -8
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": -2,
         "y": -8
-      }
+      },
+      "maskTraverse": 14
     },
     {
       "position": {
         "x": -1,
         "y": -8
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 5,
         "y": -4
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 6,
         "y": -3
-      }
+      },
+      "maskTraverse": 8
     },
     {
       "position": {
         "x": 6,
         "y": -4
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": 7,
         "y": -4
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 5,
         "y": -5
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 7,
         "y": -5
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 6,
         "y": -5
-      }
+      },
+      "maskTraverse": 15
     },
     {
       "position": {
         "x": 6,
         "y": -6
-      }
+      },
+      "maskTraverse": 1
     },
     {
       "position": {
         "x": 6,
         "y": -9
-      }
+      },
+      "maskTraverse": 5
     },
     {
       "position": {
         "x": 6,
         "y": -8
-      }
+      },
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 7,
         "y": -8
-      }
+      },
+      "maskTraverse": 10
     },
     {
       "position": {
         "x": 7,
         "y": -9
-      }
+      },
+      "maskTraverse": 3
     },
     {
       "position": {
         "x": 5,
         "y": -10
-      }
+      },
+      "maskTraverse": 1
     },
     {
       "position": {
         "x": 5,
         "y": -8
-      }
+      },
+      "maskTraverse": 12
     },
     {
       "position": {
         "x": 5,
         "y": -9
-      }
+      },
+      "maskTraverse": 9
     },
     {
       "position": {
         "x": 1,
         "y": -4
-      }
+      },
+      "maskTraverse": 4
     },
     {
       "position": {
         "x": 4,
         "y": -6
-      }
+      },
+      "maskTraverse": 2
     },
     {
       "position": {
         "x": 3,
         "y": -6
-      }
+      },
+      "maskTraverse": 4
     }
   ],
   "switchers": [
