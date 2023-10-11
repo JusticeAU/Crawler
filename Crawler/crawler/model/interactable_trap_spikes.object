@@ -25,8 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/interactable_trap_spikes_lambert13.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
