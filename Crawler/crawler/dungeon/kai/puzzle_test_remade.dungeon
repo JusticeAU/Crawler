@@ -2434,10 +2434,10 @@
         "x": 4,
         "y": -6
       },
-      "mask": 7,
+      "mask": 6,
       "maskSee": 7,
       "wallVariants": [
-        -1,
+        1,
         -1,
         0,
         -1
@@ -2448,7 +2448,7 @@
         "x": 4,
         "y": -5
       },
-      "mask": 13,
+      "mask": 5,
       "maskSee": 13,
       "wallVariants": [
         -1,
@@ -3907,7 +3907,7 @@
         "y": -2
       },
       "id": 8,
-      "orientation": 1,
+      "orientation": 0,
       "open": false
     },
     {
@@ -4349,7 +4349,7 @@
         "x": 4,
         "y": -6
       },
-      "facing": 2,
+      "facing": 0,
       "state": 0
     }
   ],
