@@ -9,58 +9,16 @@
   "tiles": [
     {
       "position": {
-        "x": -13,
-        "y": 0
+        "x": -9,
+        "y": -1
       },
-      "mask": 4,
-      "maskSee": 4,
+      "mask": 1,
+      "maskSee": 1,
       "wallVariants": [
-        0,
         -1,
+        0,
         0,
         0
-      ]
-    },
-    {
-      "position": {
-        "x": -12,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -11,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -10,
-        "y": 0
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
       ]
     },
     {
@@ -68,13 +26,13 @@
         "x": -9,
         "y": 0
       },
-      "mask": 6,
-      "maskSee": 6,
+      "mask": 12,
+      "maskSee": 12,
       "wallVariants": [
         0,
         -1,
-        0,
-        -1
+        -1,
+        0
       ]
     },
     {
@@ -197,7 +155,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        0,
+        -1,
         -1,
         -1,
         -1
@@ -239,7 +197,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         -1
@@ -255,7 +213,7 @@
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -281,7 +239,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        0,
+        -1,
         -1,
         -1,
         -1
@@ -323,7 +281,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         -1
@@ -339,7 +297,7 @@
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -365,7 +323,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        0,
+        -1,
         -1,
         -1,
         -1
@@ -809,7 +767,7 @@
   "levers": [
     {
       "position": {
-        "x": -3,
+        "x": -4,
         "y": -1
       },
       "id": 1,
@@ -854,26 +812,32 @@
   "spikes": [
     {
       "position": {
-        "x": -2,
-        "y": -1
-      }
-    },
-    {
-      "position": {
         "x": -3,
         "y": 0
       }
     },
     {
       "position": {
-        "x": -4,
+        "x": -1,
         "y": 0
       }
     },
     {
       "position": {
-        "x": -2,
-        "y": 0
+        "x": -1,
+        "y": 1
+      }
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      }
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
       }
     }
   ],
@@ -886,25 +850,6 @@
   "switchers": null,
   "mirrors": null,
   "decorations": [
-    {
-      "position": {
-        "x": -3,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
     {
       "position": {
         "x": 4,
@@ -1327,7 +1272,7 @@
       },
       "facing": 2,
       "localPosition": {
-        "x": 0.0,
+        "x": -2.0,
         "y": 1.0,
         "z": 0.0
       },
@@ -1341,6 +1286,98 @@
     {
       "position": {
         "x": -3,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -2.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_square_window.object"
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.7674113512039185,
+        "y": -0.06524157524108887,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.1930026412010193,
+        "y": 0.7875309586524963,
+        "z": 0.8665111064910889
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_vase_1.object"
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 0,
         "y": 1
       },
       "facing": 2,
@@ -1363,55 +1400,37 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.050654347985982895,
+        "x": 0.0,
         "y": 1.0,
-        "z": 1.7478958368301392
+        "z": 0.0
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_shelf.object"
+      "modelName": "crawler/model/decoration_square_window.object"
     },
     {
       "position": {
-        "x": -1,
+        "x": -2,
         "y": -1
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.11681854724884033,
+        "x": 0.0,
         "y": 1.0,
-        "z": 1.4457350969314575
+        "z": 0.0
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_shelf.object"
+      "modelName": "crawler/model/decoration_square_window.object"
     }
   ],
   "pointLights": [
-    {
-      "position": {
-        "x": -3,
-        "y": -1
-      },
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 2.4000000953674316
-      },
-      "colour": {
-        "x": 1.0,
-        "y": 0.6495097875595093,
-        "z": 0.29901963472366333
-      },
-      "intensity": 5.0,
-      "id": 1
-    },
     {
       "position": {
         "x": 3,
@@ -1424,11 +1443,48 @@
       },
       "colour": {
         "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "y": 0.6366782188415527,
+        "z": 0.38235294818878174
       },
-      "intensity": 5.0,
+      "intensity": 15.0,
       "id": 2
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 0.0798010304570198,
+        "y": 0.09762154519557953,
+        "z": 0.20098036527633667
+      },
+      "intensity": 12.0,
+      "id": 3,
+      "isLobbyLight": true
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.5579584836959839,
+        "z": 0.28431373834609985
+      },
+      "intensity": 15.0,
+      "id": 1
     }
   ],
   "events": [
@@ -1449,17 +1505,6 @@
       "repeats": false,
       "type": 0,
       "eventID": 4
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -1
-      },
-      "repeats": false,
-      "type": 0,
-      "eventID": 5,
-      "mustBeFacing": true,
-      "facing": 2
     },
     {
       "position": {
