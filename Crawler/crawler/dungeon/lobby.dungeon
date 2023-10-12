@@ -2327,7 +2327,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_lamp.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -2345,7 +2346,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_lamp.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -2363,7 +2365,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_lamp.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -2381,7 +2384,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_lamp.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -2399,7 +2403,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_lamp.object"
+      "modelName": "crawler/model/decoration_wall_lamp.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -2437,7 +2442,7 @@
         "z": 1.0
       },
       "intensity": 100.0,
-      "id": 1,
+      "id": 6969,
       "isLobbyLight": true
     },
     {
@@ -2456,7 +2461,7 @@
         "z": 0.08823531866073608
       },
       "intensity": 52.0,
-      "id": 1
+      "id": 10
     },
     {
       "position": {
@@ -2474,7 +2479,8 @@
         "z": 0.23039215803146362
       },
       "intensity": 5.0,
-      "id": 1
+      "id": 1,
+      "startDisabled": true
     },
     {
       "position": {
@@ -2492,7 +2498,122 @@
         "z": 0.20098036527633667
       },
       "intensity": 5.0,
-      "id": 1
+      "id": 2,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.4009999930858612,
+        "z": 4.800000190734863
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.3610000014305115,
+        "z": 5.019999980926514
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6769999861717224,
+        "z": 5.073999881744385
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.5139999985694885,
+        "z": 4.882999897003174
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 6,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 4.914000034332275
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 7,
+      "startDisabled": true
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -6
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.5730000138282776,
+        "z": 5.165999889373779
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 8,
+      "startDisabled": true
     }
   ],
   "events": [
@@ -2501,7 +2622,7 @@
         "x": 9,
         "y": 0
       },
-      "repeats": true,
+      "repeats": false,
       "type": 0,
       "eventID": 1
     }
@@ -2532,7 +2653,7 @@
       "endWorldPosition": {
         "x": 16.0,
         "y": 6.0,
-        "z": 3.2
+        "z": 3.200000047683716
       },
       "endOffset": {
         "x": 13.0600004196167,
@@ -2565,7 +2686,7 @@
       "endWorldPosition": {
         "x": 16.0,
         "y": -6.0,
-        "z": 3.2
+        "z": 3.200000047683716
       },
       "endOffset": {
         "x": 13.0600004196167,
