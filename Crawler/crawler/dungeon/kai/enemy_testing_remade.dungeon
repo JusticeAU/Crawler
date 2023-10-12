@@ -222,13 +222,13 @@
         "x": -3,
         "y": -10
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
         0,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -250,11 +250,11 @@
         "x": -3,
         "y": -8
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         0
       ]
@@ -264,11 +264,11 @@
         "x": -3,
         "y": -7
       },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 8,
+      "maskSee": 8,
       "wallVariants": [
         0,
-        -1,
+        0,
         -1,
         0
       ]
@@ -305,48 +305,6 @@
       "position": {
         "x": -2,
         "y": -11
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -8
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -7
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -6
       },
       "mask": 12,
       "maskSee": 12,
@@ -389,34 +347,6 @@
       "position": {
         "x": -1,
         "y": -11
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -7
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -6
       },
       "mask": 10,
       "maskSee": 10,
@@ -1939,8 +1869,8 @@
     {
       "name": "Transporter",
       "position": {
-        "x": -1,
-        "y": -6
+        "x": -3,
+        "y": -11
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/lobby",
