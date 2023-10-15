@@ -1,15 +1,15 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
-    "x": 0,
+    "x": -1,
     "y": 0
   },
   "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": -1
       },
       "mask": 5,
@@ -23,7 +23,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": 0
       },
       "mask": 13,
@@ -37,7 +37,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": -1,
         "y": 1
       },
       "mask": 12,
@@ -51,7 +51,7 @@
     },
     {
       "position": {
-        "x": 1,
+        "x": 0,
         "y": -1
       },
       "mask": 7,
@@ -60,6 +60,62 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -82,40 +138,10 @@
         "x": 1,
         "y": 1
       },
-      "mask": 14,
+      "mask": 10,
       "maskSee": 14,
       "wallVariants": [
         0,
-        -1,
-        -1,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
         -1,
         -1,
         -1
@@ -124,83 +150,23 @@
     {
       "position": {
         "x": 2,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 4,
         "y": -1
       },
       "mask": 3,
-      "maskSee": 3,
+      "maskSee": 7,
       "wallVariants": [
         -1,
-        0,
+        -1,
         0,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
-        "x": 4,
+        "x": 2,
         "y": 0
       },
-      "mask": 15,
+      "mask": 14,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -211,24 +177,82 @@
     },
     {
       "position": {
-        "x": 4,
+        "x": 2,
         "y": 1
       },
       "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 7,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "mask": 13,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "mask": 12,
       "maskSee": 12,
       "wallVariants": [
         0,
         -1,
         -1,
-        -1
+        0
       ]
     },
     {
       "position": {
-        "x": 5,
-        "y": 0
+        "x": 4,
+        "y": -1
       },
-      "mask": 7,
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -239,13 +263,13 @@
     },
     {
       "position": {
-        "x": 5,
-        "y": 1
+        "x": 4,
+        "y": 0
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 11,
+      "maskSee": 15,
       "wallVariants": [
-        0,
+        -1,
         -1,
         -1,
         -1
@@ -253,22 +277,7 @@
     },
     {
       "position": {
-        "x": 6,
-        "y": 0
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 6,
+        "x": 4,
         "y": 1
       },
       "mask": 15,
@@ -282,232 +291,8 @@
     },
     {
       "position": {
-        "x": 6,
+        "x": 4,
         "y": 2
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 3
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 4
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 5
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 6
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 7
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 8
-      },
-      "mask": 8,
-      "maskSee": 8,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 0
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 2
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 3
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 4
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 5
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 6
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 7
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": 0
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 8,
-        "y": 1
       },
       "mask": 14,
       "maskSee": 14,
@@ -520,8 +305,64 @@
     },
     {
       "position": {
-        "x": 9,
+        "x": 5,
+        "y": -1
+      },
+      "mask": 6,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
         "y": 0
+      },
+      "mask": 0,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "mask": 7,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -1
       },
       "mask": 3,
       "maskSee": 3,
@@ -534,8 +375,36 @@
     },
     {
       "position": {
-        "x": 9,
+        "x": 6,
+        "y": 0
+      },
+      "mask": 9,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
         "y": 1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 2
       },
       "mask": 10,
       "maskSee": 10,
@@ -547,28 +416,39 @@
       ]
     }
   ],
-  "levers": null,
-  "doors": [
+  "levers": [
     {
       "position": {
         "x": 6,
-        "y": 7
+        "y": -1
       },
       "id": 1,
-      "orientation": 0,
-      "open": true
+      "orientation": 1,
+      "status": false,
+      "activateID": 1
+    }
+  ],
+  "doors": [
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "id": 1,
+      "orientation": 2,
+      "open": false
     }
   ],
   "plates": null,
   "transporters": [
     {
-      "name": "",
+      "name": "Room1Exit",
       "position": {
-        "x": 6,
-        "y": 8
+        "x": 1,
+        "y": -2
       },
       "fromOrientation": 0,
-      "toDungeon": "",
+      "toDungeon": "crawler/dungeon/annika/ChaseChokepoint",
       "toTransporter": ""
     }
   ],
@@ -580,10 +460,18 @@
   "chasers": [
     {
       "position": {
-        "x": 9,
-        "y": 1
+        "x": 5,
+        "y": 2
       },
-      "facing": 3,
+      "facing": 2,
+      "state": 0
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "facing": 0,
       "state": 0
     }
   ],
@@ -594,139 +482,77 @@
   "decorations": [
     {
       "position": {
-        "x": 3,
-        "y": 1
-      },
-      "facing": 2,
-      "localPosition": {
-        "x": -1.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_couch.object"
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 1.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_couch.object"
-    },
-    {
-      "position": {
-        "x": 1,
+        "x": 2,
         "y": 1
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.20000000298023224,
+        "x": 0.0,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_table.object"
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.20000000298023224,
+      "localRotation": {
+        "x": 0.0,
         "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_table.object"
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.699999988079071,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_bookcase.object"
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.6000000238418579,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_books_bookshelf.object"
-    },
-    {
-      "position": {
-        "x": 6,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -0.4000000059604645,
-        "y": 0.10000000149011612,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_bonepile_1.object"
     },
     {
       "position": {
-        "x": 6,
-        "y": 0
+        "x": 3,
+        "y": -1
       },
-      "facing": 1,
+      "facing": 0,
       "localPosition": {
-        "x": 0.10000000149011612,
-        "y": 0.4000000059604645,
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_bonepile_3.object"
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bonepile_1.object"
     },
     {
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 0
       },
-      "facing": 2,
+      "facing": 0,
       "localPosition": {
-        "x": -0.10000000149011612,
-        "y": -0.20000000298023224,
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_bonepile_3.object"
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bonepile_1.object"
     }
   ],
   "pointLights": [
     {
       "position": {
         "x": 6,
-        "y": 0
+        "y": -1
       },
       "localPosition": {
         "x": 0.0,
-        "y": 0.5,
-        "z": 1.600000023841858
+        "y": 0.0,
+        "z": 2.5
       },
       "colour": {
-        "x": 0.828707754611969,
-        "y": 0.2642301917076111,
-        "z": 0.9855072498321533
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
-      "intensity": 31.0
+      "intensity": 5.0,
+      "id": 1
     }
   ],
   "events": null

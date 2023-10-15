@@ -2,11 +2,137 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": -2,
+    "x": -5,
     "y": 0
   },
   "defaultOrientation": 1,
   "tiles": [
+    {
+      "position": {
+        "x": -5,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 0
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 1
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
     {
       "position": {
         "x": -2,
@@ -40,8 +166,8 @@
         "x": -2,
         "y": 0
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
@@ -785,18 +911,7 @@
       ]
     }
   ],
-  "levers": [
-    {
-      "position": {
-        "x": 6,
-        "y": -2
-      },
-      "id": 1,
-      "orientation": 2,
-      "status": false,
-      "activateID": 0
-    }
-  ],
+  "levers": null,
   "doors": [
     {
       "position": {
@@ -818,11 +933,11 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": -3,
         "y": 0
       },
       "id": 1,
-      "orientation": 3,
+      "orientation": 1,
       "open": false
     }
   ],
@@ -833,13 +948,27 @@
         "y": -2
       },
       "activateID": 2
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "activateID": 1
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "activateID": 0
     }
   ],
   "transporters": [
     {
       "name": "Tut2Exit",
       "position": {
-        "x": 10,
+        "x": 9,
         "y": -2
       },
       "fromOrientation": 0,
@@ -849,7 +978,7 @@
     {
       "name": "Tut2",
       "position": {
-        "x": -2,
+        "x": -5,
         "y": 0
       },
       "fromOrientation": 1,
@@ -869,7 +998,7 @@
   "spikes": [
     {
       "position": {
-        "x": 9,
+        "x": 8,
         "y": -2
       }
     }
