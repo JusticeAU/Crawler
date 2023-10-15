@@ -2479,8 +2479,7 @@
         "z": 0.23039215803146362
       },
       "intensity": 5.0,
-      "id": 1,
-      "startDisabled": true
+      "id": 1
     },
     {
       "position": {
@@ -2498,8 +2497,7 @@
         "z": 0.20098036527633667
       },
       "intensity": 5.0,
-      "id": 2,
-      "startDisabled": true
+      "id": 2
     },
     {
       "position": {
