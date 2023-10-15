@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -9,8 +9,8 @@
   "tiles": [
     {
       "position": {
-        "x": -2,
-        "y": -3
+        "x": 0,
+        "y": -5
       },
       "mask": 5,
       "maskSee": 5,
@@ -23,7 +23,35 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": 0,
+        "y": -4
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
         "y": -2
       },
       "mask": 13,
@@ -37,7 +65,7 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": 0,
         "y": -1
       },
       "mask": 13,
@@ -51,7 +79,7 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": 0,
         "y": 0
       },
       "mask": 13,
@@ -65,22 +93,8 @@
     },
     {
       "position": {
-        "x": -2,
+        "x": 0,
         "y": 1
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": 2
       },
       "mask": 12,
       "maskSee": 12,
@@ -93,176 +107,8 @@
     },
     {
       "position": {
-        "x": -1,
-        "y": -3
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -2
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 2
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -3
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -2
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 2
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
         "x": 1,
-        "y": -3
+        "y": -5
       },
       "mask": 7,
       "maskSee": 7,
@@ -276,6 +122,34 @@
     {
       "position": {
         "x": 1,
+        "y": -4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
         "y": -2
       },
       "mask": 15,
@@ -320,20 +194,6 @@
         "x": 1,
         "y": 1
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 2
-      },
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
@@ -346,7 +206,7 @@
     {
       "position": {
         "x": 2,
-        "y": -3
+        "y": -5
       },
       "mask": 7,
       "maskSee": 7,
@@ -360,13 +220,41 @@
     {
       "position": {
         "x": 2,
-        "y": -2
+        "y": -4
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -3
       },
       "mask": 15,
       "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
         -1,
         -1
       ]
@@ -390,11 +278,11 @@
         "x": 2,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -403,20 +291,6 @@
       "position": {
         "x": 2,
         "y": 1
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 2
       },
       "mask": 14,
       "maskSee": 14,
@@ -430,12 +304,12 @@
     {
       "position": {
         "x": 3,
-        "y": -3
+        "y": -5
       },
-      "mask": 3,
-      "maskSee": 3,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
-        -1,
+        0,
         0,
         0,
         -1
@@ -444,14 +318,14 @@
     {
       "position": {
         "x": 3,
-        "y": -2
+        "y": -3
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
-        -1,
         0,
-        -1,
+        0,
+        0,
         -1
       ]
     },
@@ -460,26 +334,12 @@
         "x": 3,
         "y": -1
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
-        -1,
         0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 0
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
         0,
-        -1,
+        0,
         -1
       ]
     },
@@ -488,26 +348,12 @@
         "x": 3,
         "y": 1
       },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 2
-      },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
         0,
         0,
-        -1,
+        0,
         -1
       ]
     }
@@ -515,7 +361,115 @@
   "levers": null,
   "doors": null,
   "plates": null,
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "1",
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 0,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 1,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 0,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 1,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 2,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 1,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "position": {
+        "x": 3,
+        "y": -3
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 2,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 3,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 2,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 3,
+          "status": 2
+        },
+        {
+          "type": 2,
+          "id": 3,
+          "status": 0
+        }
+      ]
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
@@ -526,5 +480,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null
+  "decorations": null,
+  "pointLights": null,
+  "events": null
 }

@@ -1,5 +1,5 @@
 {
-  "name": "trap_spikes",
+  "name": "button",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_trap_spikes.fbx"
+      "model": "crawler/model/interactable_button.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/interactable_trap_spikes_lambert13.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
