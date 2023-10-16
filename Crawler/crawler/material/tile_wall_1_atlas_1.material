@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/tile_Wall_1_atlas_1_albedo.tga",
   "normalMap": "crawler/texture/tile_Wall_1_atlas_1_normal.tga",
-  "metallicMap": "",
+  "metallicMap": "crawler/texture/tile_Wall_1_atlas_1_metallic.tga",
   "roughnessMap": "crawler/texture/tile_Wall_1_atlas_1_roughness.tga",
   "aoMap": "crawler/texture/tile_Wall_1_atlas_1_ao.tga",
   "emissiveMap": ""
