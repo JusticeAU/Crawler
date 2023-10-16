@@ -863,7 +863,18 @@
       "activateID": 2
     }
   ],
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "Exit",
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
+    }
+  ],
   "checkpoints": null,
   "spikes": [
     {
