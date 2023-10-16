@@ -25,8 +25,8 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/tile_arched_window_arch_window.material",
+        "crawler/material/tile_arched_window_windows_panes.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
