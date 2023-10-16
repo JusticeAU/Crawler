@@ -951,13 +951,23 @@
   "plates": null,
   "transporters": [
     {
-      "name": "",
+      "name": "ShoveExit",
       "position": {
         "x": 23,
         "y": 5
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/annika/ChaseChokepoint",
+      "toTransporter": ""
+    },
+    {
+      "name": "ShoveEntrance",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
       "toTransporter": ""
     }
   ],
