@@ -2659,7 +2659,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_light1.object"
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -2671,7 +2672,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.299999952316284
+        "z": 2.5
       },
       "colour": {
         "x": 1.0,
