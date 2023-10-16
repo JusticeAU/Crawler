@@ -2696,6 +2696,24 @@
         "x": -2,
         "y": -9
       }
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -8
+      }
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -10
+      }
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -9
+      }
     }
   ],
   "blocks": [
@@ -2737,12 +2755,6 @@
     },
     {
       "position": {
-        "x": 1,
-        "y": 7
-      }
-    },
-    {
-      "position": {
         "x": 0,
         "y": 5
       }
@@ -2751,6 +2763,24 @@
       "position": {
         "x": 4,
         "y": 7
+      }
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 8
+      }
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": -12
+      }
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -4
       }
     }
   ],
@@ -2782,36 +2812,7 @@
   "slugs": null,
   "slugPaths": null,
   "switchers": null,
-  "mirrors": [
-    {
-      "position": {
-        "x": 0,
-        "y": -8
-      },
-      "facing": 1
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -4
-      },
-      "facing": 2
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -12
-      },
-      "facing": 0
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -10
-      },
-      "facing": 2
-    }
-  ],
+  "mirrors": null,
   "decorations": null,
   "pointLights": null,
   "events": null
