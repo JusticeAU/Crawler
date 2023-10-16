@@ -2,56 +2,70 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 8,
-    "y": 0
+    "x": 4,
+    "y": 4
   },
-  "defaultOrientation": 0,
+  "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": 8,
-        "y": 0
+        "x": 4,
+        "y": 4
       },
-      "mask": 1,
-      "maskSee": 1,
+      "mask": 4,
+      "maskSee": 4,
       "wallVariants": [
-        -1,
         0,
         -1,
+        0,
         0
       ]
     },
     {
       "position": {
-        "x": 8,
-        "y": 1
+        "x": 5,
+        "y": 4
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
-        -1,
         0,
         -1,
-        0
+        0,
+        -1
       ]
     },
     {
       "position": {
-        "x": 8,
+        "x": 6,
+        "y": 4
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
         "y": 2
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 5,
+      "maskSee": 5,
       "wallVariants": [
         -1,
         -1,
-        -1,
+        0,
         0
       ]
     },
     {
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 3
       },
       "mask": 13,
@@ -65,21 +79,21 @@
     },
     {
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 4
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 5
       },
       "mask": 13,
@@ -93,7 +107,7 @@
     },
     {
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 6
       },
       "mask": 13,
@@ -107,7 +121,7 @@
     },
     {
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 7
       },
       "mask": 12,
@@ -117,6 +131,90 @@
         -1,
         -1,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 2
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 5
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 7
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
       ]
     },
     {
@@ -662,11 +760,11 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": 0
+        "x": 4,
+        "y": 4
       },
       "id": 1,
-      "orientation": 2,
+      "orientation": 3,
       "open": false
     }
   ],
@@ -685,10 +783,10 @@
     {
       "name": "Entry",
       "position": {
-        "x": 8,
-        "y": 0
+        "x": 4,
+        "y": 4
       },
-      "fromOrientation": 0,
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
@@ -696,10 +794,10 @@
   "checkpoints": [
     {
       "position": {
-        "x": 8,
-        "y": 2
+        "x": 7,
+        "y": 4
       },
-      "facing": 0
+      "facing": 1
     }
   ],
   "spikes": [
@@ -998,8 +1096,8 @@
   "events": [
     {
       "position": {
-        "x": 8,
-        "y": 2
+        "x": 7,
+        "y": 4
       },
       "repeats": false,
       "type": 0,

@@ -1661,8 +1661,8 @@
         "y": 6
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt1",
-      "toTransporter": "Tut4"
+      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
+      "toTransporter": "ShoveEntrance"
     }
   ],
   "checkpoints": null,

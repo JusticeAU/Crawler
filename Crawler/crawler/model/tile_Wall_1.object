@@ -1,5 +1,5 @@
 {
-  "name": "wall_1",
+  "name": "Wall_1",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/tile_wall_1.fbx"
+      "model": "crawler/model/tile_Wall_1.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_wall_1_wall_1.material"
+        "crawler/material/texture_atlas_1.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
