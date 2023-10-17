@@ -869,14 +869,6 @@
       },
       "facing": 3,
       "state": 0
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -2
-      },
-      "facing": 0,
-      "state": 0
     }
   ],
   "slugs": null,
@@ -977,96 +969,6 @@
     },
     {
       "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": -0.9273500442504883,
-        "y": 4.0535752532377956e-08,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long.object"
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -0.44711393117904663,
-        "y": -0.5269781351089478,
-        "z": 0.5766696929931641
-      },
-      "localRotation": {
-        "x": -54.900001525878906,
-        "y": -91.0,
-        "z": -10.800000190734863
-      },
-      "modelName": "crawler/model/decoration_dresser.object"
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -0.6053962707519531,
-        "y": -5.2925422266980604e-08,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_table_sidedrawer.object"
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.7739324569702148,
-        "y": -0.38888323307037354,
-        "z": 0.06692612171173096
-      },
-      "localRotation": {
-        "x": -26.100000381469727,
-        "y": -64.0,
-        "z": -133.39999389648438
-      },
-      "modelName": "crawler/model/decoration_broom.object"
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.37776660919189453,
-        "y": -0.37871623039245605,
-        "z": 0.2756393253803253
-      },
-      "localRotation": {
-        "x": -91.5999984741211,
-        "y": 0.0,
-        "z": -30.5
-      },
-      "modelName": "crawler/model/decoration_table_sidedrawer.object"
-    },
-    {
-      "position": {
         "x": -4,
         "y": 1
       },
@@ -1154,6 +1056,43 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_dresser.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.8207724094390869,
+        "y": 3.587710395436261e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.537342210956922e-08,
+        "y": 0.976557731628418,
+        "z": -0.15000000596046448
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -1210,6 +1149,24 @@
       },
       "intensity": 37.0,
       "id": 1
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": -1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.8999999761581421,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 0.14061899483203888,
+        "y": 0.27704834938049316,
+        "z": 0.37254899740219116
+      },
+      "intensity": 5.0,
+      "id": 2
     }
   ],
   "events": [
