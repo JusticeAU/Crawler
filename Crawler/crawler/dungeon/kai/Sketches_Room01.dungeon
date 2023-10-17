@@ -503,7 +503,7 @@
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/kai/Sketches_Room02",
-      "toTransporter": ""
+      "toTransporter": "Enter"
     }
   ],
   "checkpoints": null,

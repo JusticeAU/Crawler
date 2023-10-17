@@ -208,7 +208,7 @@
         "x": -6,
         "y": 10
       },
-      "mask": 3,
+      "mask": 2,
       "maskSee": 3,
       "wallVariants": [
         -1,
@@ -362,7 +362,7 @@
         "x": -5,
         "y": 16
       },
-      "mask": 14,
+      "mask": 6,
       "maskSee": 14,
       "wallVariants": [
         0,
@@ -599,14 +599,14 @@
       "toTransporter": ""
     },
     {
-      "name": "",
+      "name": "Exit",
       "position": {
         "x": -4,
         "y": 11
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/kai/HalfWall_Room03",
-      "toTransporter": "Entry"
+      "toTransporter": "Enter"
     }
   ],
   "checkpoints": null,

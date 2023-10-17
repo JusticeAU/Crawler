@@ -523,7 +523,7 @@
         "y": -3
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/kai/EnemyTest_Room02",
+      "toDungeon": "crawler/dungeon/kai/EnemyTest_Room03",
       "toTransporter": "Enter"
     }
   ],

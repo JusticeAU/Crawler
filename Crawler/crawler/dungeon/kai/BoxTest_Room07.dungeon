@@ -258,8 +258,8 @@
         "y": -1
       },
       "fromOrientation": 2,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/kai/BoxTest_Room08",
+      "toTransporter": "boxEntrance08"
     },
     {
       "name": "boxEntrance07",

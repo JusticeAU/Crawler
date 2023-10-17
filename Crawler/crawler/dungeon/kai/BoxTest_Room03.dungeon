@@ -281,7 +281,7 @@
       },
       "fromOrientation": 3,
       "toDungeon": "crawler/dungeon/kai/BoxTest_Room04",
-      "toTransporter": "exit04"
+      "toTransporter": "entrance04"
     }
   ],
   "checkpoints": null,

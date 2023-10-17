@@ -670,6 +670,16 @@
         "y": -10
       },
       "fromOrientation": 3,
+      "toDungeon": "crawler/dungeon/kai/Sketches_Room03",
+      "toTransporter": "Enter"
+    },
+    {
+      "name": "Enter",
+      "position": {
+        "x": 11,
+        "y": -2
+      },
+      "fromOrientation": 2,
       "toDungeon": "",
       "toTransporter": ""
     }

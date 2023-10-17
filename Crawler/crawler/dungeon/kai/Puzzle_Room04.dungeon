@@ -701,7 +701,7 @@
   "plates": null,
   "transporters": [
     {
-      "name": "Enterdsdssd",
+      "name": "Enter",
       "position": {
         "x": 0,
         "y": -2
@@ -717,8 +717,8 @@
         "y": -4
       },
       "fromOrientation": 3,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "TutExit"
     }
   ],
   "checkpoints": null,
