@@ -1135,7 +1135,7 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/kai/box_test",
+      "toDungeon": "crawler/dungeon/kai/box_test_remade",
       "toTransporter": "BoxStart"
     },
     {
@@ -1145,7 +1145,7 @@
         "y": -7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/enemy_testing",
+      "toDungeon": "crawler/dungeon/kai/enemy_testing_remade",
       "toTransporter": "KaiStart"
     },
     {
@@ -1155,7 +1155,7 @@
         "y": -7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/puzzle_test",
+      "toDungeon": "crawler/dungeon/kai/puzzle_test_remade",
       "toTransporter": "PuzzleStart"
     },
     {
@@ -1165,7 +1165,7 @@
         "y": -7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing",
+      "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing_remade",
       "toTransporter": "Entry"
     },
     {
