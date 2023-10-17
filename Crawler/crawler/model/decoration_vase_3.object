@@ -1,5 +1,5 @@
 {
-  "name": "pressureplate_rim",
+  "name": "vase_3",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_pressureplate_rim.fbx"
+      "model": "crawler/model/decoration_vase_3.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/interactable_pressureplate_rim_atlas_9.material"
+        "crawler/material/decoration_vase_3_curtain.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

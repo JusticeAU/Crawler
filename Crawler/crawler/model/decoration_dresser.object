@@ -1,5 +1,5 @@
 {
-  "name": "pressureplate_rim",
+  "name": "dresser",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,13 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_pressureplate_rim.fbx"
+      "model": "crawler/model/decoration_dresser.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/interactable_pressureplate_rim_atlas_9.material"
+        "crawler/material/decoration_dresser_atlas_9.material",
+        "crawler/material/decoration_dresser_atlas_9.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

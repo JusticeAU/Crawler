@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_shelf_shelf.material"
+        "crawler/material/decoration_dresser_atlas_9.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
