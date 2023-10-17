@@ -1,6 +1,6 @@
 {
   "type": "dungeon",
-  "version": 2,
+  "version": 3,
   "defaultPosition": {
     "x": 0,
     "y": 0
@@ -510,8 +510,8 @@
         "y": 0
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/annika/Tutorial3",
-      "toTransporter": "Tut3"
+      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt1",
+      "toTransporter": "Tut4"
     }
   ],
   "checkpoints": null,

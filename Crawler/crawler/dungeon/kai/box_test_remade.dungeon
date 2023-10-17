@@ -295,7 +295,7 @@
       "mask": 14,
       "maskSee": 15,
       "wallVariants": [
-        -1,
+        1,
         -1,
         -1,
         -1
@@ -311,7 +311,7 @@
       "wallVariants": [
         -1,
         0,
-        1,
+        -1,
         -1
       ]
     },
@@ -334,7 +334,7 @@
         "x": -4,
         "y": 4
       },
-      "mask": 15,
+      "mask": 14,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -460,7 +460,7 @@
         "x": -3,
         "y": 4
       },
-      "mask": 7,
+      "mask": 6,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -2140,11 +2140,11 @@
         "x": 8,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2154,11 +2154,11 @@
         "x": 8,
         "y": 1
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2168,11 +2168,11 @@
         "x": 8,
         "y": 2
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2182,11 +2182,11 @@
         "x": 8,
         "y": 3
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2196,11 +2196,11 @@
         "x": 8,
         "y": 4
       },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2307,76 +2307,6 @@
       "position": {
         "x": 9,
         "y": -2
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 0
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 1
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 2
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 3
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 4
       },
       "mask": 10,
       "maskSee": 10,
@@ -2562,12 +2492,6 @@
     },
     {
       "position": {
-        "x": 9,
-        "y": 1
-      }
-    },
-    {
-      "position": {
         "x": -4,
         "y": 1
       }
@@ -2631,14 +2555,7 @@
         "x": 8,
         "y": 0
       },
-      "maskTraverse": 6
-    },
-    {
-      "position": {
-        "x": 9,
-        "y": 0
-      },
-      "maskTraverse": 2
+      "maskTraverse": 10
     },
     {
       "position": {
@@ -2653,6 +2570,20 @@
         "y": 0
       },
       "maskTraverse": 4
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -2
+      },
+      "maskTraverse": 1
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "maskTraverse": 9
     }
   ],
   "switchers": null,
@@ -2683,8 +2614,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": -0.4000000059604645,
+        "y": -0.6000000238418579,
         "z": 0.0
       },
       "localRotation": {
@@ -2728,7 +2659,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_light1.object"
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -2740,7 +2672,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.299999952316284
+        "z": 2.5
       },
       "colour": {
         "x": 1.0,
