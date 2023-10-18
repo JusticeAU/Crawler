@@ -1119,16 +1119,6 @@
   "plates": null,
   "transporters": [
     {
-      "name": "North1",
-      "position": {
-        "x": 8,
-        "y": 7
-      },
-      "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/Doors",
-      "toTransporter": "DoorStart"
-    },
-    {
       "name": "North2",
       "position": {
         "x": 5,
@@ -1172,6 +1162,16 @@
       "name": "North3",
       "position": {
         "x": 2,
+        "y": 7
+      },
+      "fromOrientation": 2,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "North1",
+      "position": {
+        "x": 8,
         "y": 7
       },
       "fromOrientation": 2,
