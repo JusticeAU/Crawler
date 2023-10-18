@@ -2365,7 +2365,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -2442,7 +2443,7 @@
         "x": 22,
         "y": 4
       },
-      "mask": 5,
+      "mask": 1,
       "maskSee": 5,
       "wallVariants": [
         -1,
@@ -2519,7 +2520,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -2533,7 +2535,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -2554,7 +2557,7 @@
         "x": 24,
         "y": 4
       },
-      "mask": 7,
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -2738,6 +2741,16 @@
       "orientation": 1,
       "status": false,
       "activateID": 16
+    },
+    {
+      "position": {
+        "x": 22,
+        "y": 4
+      },
+      "id": 1,
+      "orientation": 3,
+      "status": false,
+      "activateID": 5
     }
   ],
   "doors": [
@@ -2811,6 +2824,15 @@
       },
       "id": 16,
       "orientation": 0,
+      "open": false
+    },
+    {
+      "position": {
+        "x": 26,
+        "y": 5
+      },
+      "id": 5,
+      "orientation": 3,
       "open": false
     }
   ],
@@ -2886,7 +2908,20 @@
       "facing": 1
     }
   ],
-  "spikes": null,
+  "spikes": [
+    {
+      "position": {
+        "x": 25,
+        "y": 5
+      }
+    },
+    {
+      "position": {
+        "x": 22,
+        "y": 4
+      }
+    }
+  ],
   "blocks": [
     {
       "position": {
@@ -2922,6 +2957,36 @@
       "position": {
         "x": 17,
         "y": -12
+      }
+    },
+    {
+      "position": {
+        "x": 17,
+        "y": 5
+      }
+    },
+    {
+      "position": {
+        "x": 19,
+        "y": 4
+      }
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 3
+      }
+    },
+    {
+      "position": {
+        "x": 22,
+        "y": 5
+      }
+    },
+    {
+      "position": {
+        "x": 25,
+        "y": 6
       }
     }
   ],
@@ -2964,6 +3029,14 @@
         "y": -15
       },
       "facing": 0,
+      "state": 0
+    },
+    {
+      "position": {
+        "x": 25,
+        "y": 4
+      },
+      "facing": 3,
       "state": 0
     }
   ],
@@ -3193,8 +3266,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 1.0,
-        "y": 0.0,
+        "x": 0.75,
+        "y": -2.3882980926259734e-08,
         "z": 0.0
       },
       "localRotation": {
@@ -3211,8 +3284,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.8999999761581421,
-        "y": 0.0,
+        "x": 0.7502168416976929,
+        "y": -1.3094459738738351e-08,
         "z": 0.0
       },
       "localRotation": {
@@ -3681,7 +3754,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 1.0
+        "z": 0.950289249420166
       },
       "localRotation": {
         "x": 0.0,
@@ -3761,6 +3834,116 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_light1.object"
+    },
+    {
+      "position": {
+        "x": 19,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_table.object"
+    },
+    {
+      "position": {
+        "x": 23,
+        "y": 6
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.0,
+        "y": 2.996582537662107e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dining_table.object"
+    },
+    {
+      "position": {
+        "x": 23,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 25,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.520885330653982e-08,
+        "y": 1.0,
+        "z": 1.5
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_mirror1.object"
+    },
+    {
+      "position": {
+        "x": 23,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_table.object"
     }
   ],
   "pointLights": [
@@ -3817,6 +4000,60 @@
       },
       "intensity": 5.0,
       "id": 3
+    },
+    {
+      "position": {
+        "x": 23,
+        "y": 5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4
+    },
+    {
+      "position": {
+        "x": 28,
+        "y": 4
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 6
     }
   ],
   "events": null
