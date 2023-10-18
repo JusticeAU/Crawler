@@ -618,7 +618,7 @@
   ],
   "transporters": [
     {
-      "name": "Enterdww",
+      "name": "Enter",
       "position": {
         "x": 4,
         "y": -2
@@ -634,7 +634,7 @@
         "y": -6
       },
       "fromOrientation": 0,
-      "toDungeon": "",
+      "toDungeon": "crawler/dungeon/kai/Puzzle_Room04",
       "toTransporter": ""
     }
   ],

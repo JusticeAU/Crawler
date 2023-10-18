@@ -270,7 +270,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/Sketches_Room01",
-      "toTransporter": ""
+      "toTransporter": "Enter"
     },
     {
       "name": "Enter",

@@ -695,7 +695,7 @@
   ],
   "transporters": [
     {
-      "name": "Enterasdsd",
+      "name": "Enter",
       "position": {
         "x": 4,
         "y": 2
@@ -705,14 +705,14 @@
       "toTransporter": ""
     },
     {
-      "name": "Exitss",
+      "name": "Exit",
       "position": {
         "x": 2,
         "y": 12
       },
       "fromOrientation": 3,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/kai/Puzzle_Room03",
+      "toTransporter": "Enter"
     }
   ],
   "checkpoints": null,

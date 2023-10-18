@@ -981,7 +981,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/Puzzle_Room02",
-      "toTransporter": ""
+      "toTransporter": "Enter"
     }
   ],
   "checkpoints": null,

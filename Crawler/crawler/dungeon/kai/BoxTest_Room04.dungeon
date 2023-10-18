@@ -163,17 +163,7 @@
     }
   ],
   "levers": null,
-  "doors": [
-    {
-      "position": {
-        "x": -4,
-        "y": -4
-      },
-      "id": 4,
-      "orientation": 1,
-      "open": false
-    }
-  ],
+  "doors": null,
   "plates": null,
   "transporters": [
     {

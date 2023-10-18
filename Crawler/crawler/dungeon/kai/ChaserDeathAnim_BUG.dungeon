@@ -10,7 +10,7 @@
     {
       "position": {
         "x": 0,
-        "y": -1
+        "y": -2
       },
       "mask": 5,
       "maskSee": 5,
@@ -18,6 +18,20 @@
         -1,
         -1,
         0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         0
       ]
     },
@@ -40,6 +54,20 @@
         "x": 0,
         "y": 1
       },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
       "mask": 12,
       "maskSee": 12,
       "wallVariants": [
@@ -52,7 +80,7 @@
     {
       "position": {
         "x": 1,
-        "y": -1
+        "y": -2
       },
       "mask": 7,
       "maskSee": 7,
@@ -60,6 +88,20 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -81,6 +123,20 @@
       "position": {
         "x": 1,
         "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
       },
       "mask": 14,
       "maskSee": 14,
@@ -94,7 +150,7 @@
     {
       "position": {
         "x": 2,
-        "y": -1
+        "y": -2
       },
       "mask": 7,
       "maskSee": 7,
@@ -102,6 +158,20 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -123,6 +193,20 @@
       "position": {
         "x": 2,
         "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
       },
       "mask": 14,
       "maskSee": 14,
@@ -136,7 +220,7 @@
     {
       "position": {
         "x": 3,
-        "y": -1
+        "y": -2
       },
       "mask": 3,
       "maskSee": 3,
@@ -144,6 +228,20 @@
         -1,
         0,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
         -1
       ]
     },
@@ -165,6 +263,20 @@
       "position": {
         "x": 3,
         "y": 1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
       },
       "mask": 10,
       "maskSee": 10,
@@ -188,35 +300,57 @@
   "chasers": [
     {
       "position": {
-        "x": 3,
-        "y": 0
+        "x": 2,
+        "y": 1
       },
-      "facing": 3,
+      "facing": 1,
       "state": 0
     }
   ],
-  "slugs": null,
+  "slugs": [
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "facing": 0
+    }
+  ],
   "slugPaths": [
     {
       "position": {
         "x": 2,
-        "y": -1
+        "y": 2
       },
-      "maskTraverse": 1
+      "maskTraverse": 6
     },
     {
       "position": {
-        "x": 2,
-        "y": 0
+        "x": 3,
+        "y": 2
+      },
+      "maskTraverse": 10
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
       },
       "maskTraverse": 9
     },
     {
       "position": {
-        "x": 2,
-        "y": 1
+        "x": 3,
+        "y": 0
       },
-      "maskTraverse": 8
+      "maskTraverse": 1
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "maskTraverse": 4
     }
   ],
   "switchers": null,
