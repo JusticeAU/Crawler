@@ -30,7 +30,7 @@
       ],
       "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true
+      "castsShadows": false
     },
     {
       "type": "Animator",
