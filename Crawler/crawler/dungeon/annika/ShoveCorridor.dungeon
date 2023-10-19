@@ -496,26 +496,25 @@
         -1,
         0,
         -1
-      ],
-      "permanentlyOccupied": true
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": 5
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
       ]
     },
     {
       "position": {
         "x": 13,
+        "y": 5
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 13,
         "y": 6
       },
       "mask": 14,
@@ -832,8 +831,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -875,8 +873,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -918,8 +915,7 @@
         0,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {

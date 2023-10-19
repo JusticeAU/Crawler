@@ -327,7 +327,8 @@
         -1,
         0,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -341,7 +342,8 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -411,7 +413,8 @@
         0,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -425,7 +428,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1149,7 +1153,7 @@
       "facing": 3,
       "localPosition": {
         "x": 5.229926109313965,
-        "y": -1.6690928936004639,
+        "y": -1.8188693523406982,
         "z": 0.0
       },
       "localRotation": {
@@ -1167,7 +1171,7 @@
       "facing": 1,
       "localPosition": {
         "x": -5.162396430969238,
-        "y": 2.265733242034912,
+        "y": 2.0774636268615723,
         "z": 0.0
       },
       "localRotation": {
