@@ -3841,7 +3841,7 @@
       "id": 2,
       "orientation": 2,
       "status": false,
-      "activateID": 1
+      "activateID": 6
     },
     {
       "position": {
@@ -3907,7 +3907,7 @@
         "y": -2
       },
       "id": 8,
-      "orientation": 1,
+      "orientation": 0,
       "open": false
     },
     {
@@ -3969,7 +3969,7 @@
         "x": 3,
         "y": -6
       },
-      "id": 1,
+      "id": 6,
       "orientation": 1,
       "open": false
     },
@@ -4007,15 +4007,6 @@
       },
       "id": 11,
       "orientation": 3,
-      "open": false
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -2
-      },
-      "id": 12,
-      "orientation": 0,
       "open": false
     }
   ],
@@ -4110,6 +4101,27 @@
         "y": -4
       },
       "facing": 0
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "facing": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 2
     }
   ],
   "spikes": [
