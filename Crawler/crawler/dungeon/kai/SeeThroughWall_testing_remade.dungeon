@@ -10,7 +10,7 @@
     {
       "position": {
         "x": -10,
-        "y": 0
+        "y": -1
       },
       "mask": 5,
       "maskSee": 5,
@@ -24,7 +24,7 @@
     {
       "position": {
         "x": -10,
-        "y": 1
+        "y": 0
       },
       "mask": 12,
       "maskSee": 12,
@@ -38,14 +38,28 @@
     {
       "position": {
         "x": -10,
-        "y": 3
+        "y": 2
       },
       "mask": 1,
       "maskSee": 5,
       "wallVariants": [
         -1,
-        -1,
+        1,
         0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -10,
+        "y": 3
+      },
+      "mask": 9,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        1,
+        -1,
         0
       ]
     },
@@ -122,14 +136,28 @@
     {
       "position": {
         "x": -9,
+        "y": -4
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
         "y": -3
       },
-      "mask": 1,
-      "maskSee": 1,
+      "mask": 9,
+      "maskSee": 9,
       "wallVariants": [
         -1,
         0,
-        0,
+        -1,
         0
       ]
     },
@@ -152,13 +180,13 @@
         "x": -9,
         "y": -1
       },
-      "mask": 9,
-      "maskSee": 9,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
         -1,
-        0
+        -1,
+        -1
       ]
     },
     {
@@ -180,20 +208,6 @@
         "x": -9,
         "y": 1
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -9,
-        "y": 2
-      },
       "mask": 9,
       "maskSee": 9,
       "wallVariants": [
@@ -206,15 +220,29 @@
     {
       "position": {
         "x": -9,
-        "y": 3
+        "y": 2
       },
-      "mask": 13,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
         -1,
-        1
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
       ]
     },
     {
@@ -290,7 +318,21 @@
     {
       "position": {
         "x": -8,
-        "y": 0
+        "y": -4
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": -1
       },
       "mask": 3,
       "maskSee": 3,
@@ -304,7 +346,7 @@
     {
       "position": {
         "x": -8,
-        "y": 1
+        "y": 0
       },
       "mask": 10,
       "maskSee": 10,
@@ -318,14 +360,28 @@
     {
       "position": {
         "x": -8,
+        "y": 2
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -8,
         "y": 3
       },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -2120,7 +2176,7 @@
     {
       "position": {
         "x": -9,
-        "y": 2
+        "y": 1
       },
       "id": 1,
       "orientation": 0,
@@ -2268,7 +2324,7 @@
       "name": "Lvl Exit",
       "position": {
         "x": -9,
-        "y": -1
+        "y": -2
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/lobby",
@@ -2278,8 +2334,22 @@
   "checkpoints": [
     {
       "position": {
-        "x": 0,
-        "y": 12
+        "x": 1,
+        "y": 10
+      },
+      "facing": 0
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 10
+      },
+      "facing": 2
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 3
       },
       "facing": 3
     }
@@ -2332,7 +2402,7 @@
     {
       "position": {
         "x": -9,
-        "y": 3
+        "y": 2
       }
     },
     {
