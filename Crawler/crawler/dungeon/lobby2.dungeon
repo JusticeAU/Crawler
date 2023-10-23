@@ -1068,7 +1068,7 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": false,
+      "open": true,
       "isBarricaded": false
     },
     {
@@ -1171,8 +1171,8 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
+      "toTransporter": "ShoveEntrance"
     },
     {
       "name": "North2",
@@ -1195,6 +1195,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": null,
   "events": null,
