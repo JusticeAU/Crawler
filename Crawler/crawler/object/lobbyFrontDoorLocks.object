@@ -59,29 +59,15 @@
               "z": 1.0
             }
           },
-          "components": [
-            {
-              "type": "Model",
-              "model": "crawler/model/door_frontdoor_left.fbx"
-            },
-            {
-              "type": "Renderer",
-              "materials": [
-                "crawler/material/texture_frontdoor_2.material"
-              ],
-              "frameBuffer": "",
-              "receivesShadows": true,
-              "castsShadows": true
-            }
-          ],
+          "components": null,
           "children": [
             {
-              "name": "Lock1",
+              "name": "left_door_model",
               "transform": {
                 "position": {
-                  "x": 0.36000001430511475,
-                  "y": -0.03999999910593033,
-                  "z": 1.75
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "rotation": {
                   "x": 0.0,
@@ -94,24 +80,32 @@
                   "z": 1.0
                 }
               },
-              "components": [
-                {
-                  "type": "Model",
-                  "model": "crawler/model/door_bracket.fbx"
+              "components": null,
+              "children": null
+            },
+			{
+              "name": "Lock1",
+              "transform": {
+                "position": {
+                  "x": 0.36000001430511475,
+                  "y": -0.03999999910593033,
+                  "z": 2.0
                 },
-                {
-                  "type": "Renderer",
-                  "materials": [
-                    "crawler/material/texture_frontdoor_1.material"
-                  ],
-                  "frameBuffer": "",
-                  "receivesShadows": true,
-                  "castsShadows": true
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
-              ],
+              },
+              "components": null,
               "children": [
                 {
-                  "name": "Model",
+                  "name": "latch_model",
                   "transform": {
                     "position": {
                       "x": 0.0,
@@ -129,21 +123,29 @@
                       "z": 1.0
                     }
                   },
-                  "components": [
-                    {
-                      "type": "Model",
-                      "model": "crawler/model/door_latch.fbx"
+                  "components": null,
+                  "children": null
+                },
+                {
+                  "name": "bracket_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
-                    {
-                      "type": "Renderer",
-                      "materials": [
-                        "crawler/material/texture_frontdoor_1.material"
-                      ],
-                      "frameBuffer": "",
-                      "receivesShadows": true,
-                      "castsShadows": true
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
                     }
-                  ],
+                  },
+                  "components": null,
                   "children": null
                 }
               ]
@@ -152,9 +154,9 @@
               "name": "Lock2",
               "transform": {
                 "position": {
-                  "x": 0.5,
-                  "y": 0.0,
-                  "z": 1.25
+                  "x": 0.36000001430511475,
+                  "y": -0.03999999910593033,
+                  "z": 1.5
                 },
                 "rotation": {
                   "x": 0.0,
@@ -162,15 +164,15 @@
                   "z": 0.0
                 },
                 "scale": {
-                  "x": 0.25,
-                  "y": 0.25,
-                  "z": 0.10000000149011612
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "components": null,
               "children": [
                 {
-                  "name": "Model",
+                  "name": "latch_model",
                   "transform": {
                     "position": {
                       "x": 0.0,
@@ -188,21 +190,29 @@
                       "z": 1.0
                     }
                   },
-                  "components": [
-                    {
-                      "type": "Model",
-                      "model": "_cube"
+                  "components": null,
+                  "children": null
+                },
+                {
+                  "name": "bracket_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
-                    {
-                      "type": "Renderer",
-                      "materials": [
-                        "engine/model/materials/LambertBlue.material"
-                      ],
-                      "frameBuffer": "",
-                      "receivesShadows": true,
-                      "castsShadows": true
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
                     }
-                  ],
+                  },
+                  "components": null,
                   "children": null
                 }
               ]
@@ -211,9 +221,9 @@
               "name": "Lock3",
               "transform": {
                 "position": {
-                  "x": 0.5,
-                  "y": 0.0,
-                  "z": 0.75
+                  "x": 0.36000001430511475,
+                  "y": -0.03999999910593033,
+                  "z": 1.0
                 },
                 "rotation": {
                   "x": 0.0,
@@ -221,15 +231,15 @@
                   "z": 0.0
                 },
                 "scale": {
-                  "x": 0.25,
-                  "y": 0.25,
-                  "z": 0.10000000149011612
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "components": null,
               "children": [
                 {
-                  "name": "Model",
+                  "name": "latch_model",
                   "transform": {
                     "position": {
                       "x": 0.0,
@@ -247,21 +257,29 @@
                       "z": 1.0
                     }
                   },
-                  "components": [
-                    {
-                      "type": "Model",
-                      "model": "_cube"
+                  "components": null,
+                  "children": null
+                },
+                {
+                  "name": "bracket_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
-                    {
-                      "type": "Renderer",
-                      "materials": [
-                        "engine/model/materials/LambertBlue.material"
-                      ],
-                      "frameBuffer": "",
-                      "receivesShadows": true,
-                      "castsShadows": true
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
                     }
-                  ],
+                  },
+                  "components": null,
                   "children": null
                 }
               ]
@@ -270,9 +288,9 @@
               "name": "Lock4",
               "transform": {
                 "position": {
-                  "x": 0.5,
-                  "y": 0.0,
-                  "z": 0.25
+                  "x": 0.36000001430511475,
+                  "y": -0.03999999910593033,
+                  "z": 0.5
                 },
                 "rotation": {
                   "x": 0.0,
@@ -280,15 +298,15 @@
                   "z": 0.0
                 },
                 "scale": {
-                  "x": 0.25,
-                  "y": 0.25,
-                  "z": 0.10000000149011612
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "components": null,
               "children": [
                 {
-                  "name": "Model",
+                  "name": "latch_model",
                   "transform": {
                     "position": {
                       "x": 0.0,
@@ -306,21 +324,29 @@
                       "z": 1.0
                     }
                   },
-                  "components": [
-                    {
-                      "type": "Model",
-                      "model": "_cube"
+                  "components": null,
+                  "children": null
+                },
+                {
+                  "name": "bracket_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
-                    {
-                      "type": "Renderer",
-                      "materials": [
-                        "engine/model/materials/LambertBlue.material"
-                      ],
-                      "frameBuffer": "",
-                      "receivesShadows": true,
-                      "castsShadows": true
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
                     }
-                  ],
+                  },
+                  "components": null,
                   "children": null
                 }
               ]
@@ -369,29 +395,15 @@
               "z": 1.0
             }
           },
-          "components": [
-            {
-              "type": "Model",
-              "model": "crawler/model/door_frontdoor_right.fbx"
-            },
-            {
-              "type": "Renderer",
-              "materials": [
-                "crawler/material/texture_frontdoor_2.material"
-              ],
-              "frameBuffer": "",
-              "receivesShadows": true,
-              "castsShadows": true
-            }
-          ],
+          "components": null,
           "children": [
-            {
-              "name": "pad_eye_1",
+		              {
+              "name": "right_door_model",
               "transform": {
                 "position": {
-                  "x": -0.3799999952316284,
-                  "y": -0.04399999976158142,
-                  "z": 1.746999979019165
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "rotation": {
                   "x": 0.0,
@@ -404,22 +416,188 @@
                   "z": 1.0
                 }
               },
-              "components": [
-                {
-                  "type": "Model",
-                  "model": "crawler/model/door_pad_eye.fbx"
-                },
-                {
-                  "type": "Renderer",
-                  "materials": [
-                    "crawler/material/texture_frontdoor_1.material"
-                  ],
-                  "frameBuffer": "",
-                  "receivesShadows": true,
-                  "castsShadows": true
-                }
-              ],
+              "components": null,
               "children": null
+            },
+            {
+              "name": "Lock1",
+              "transform": {
+                "position": {
+                  "x": -0.3799999952316284,
+                  "y": -0.04399999976158142,
+                  "z": 2.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "pad_eye_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": null,
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock2",
+              "transform": {
+                "position": {
+                  "x": -0.3799999952316284,
+                  "y": -0.04399999976158142,
+                  "z": 1.5
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "pad_eye_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": null,
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock3",
+              "transform": {
+                "position": {
+                  "x": -0.3799999952316284,
+                  "y": -0.04399999976158142,
+                  "z":  1.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.00
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "pad_eye_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": null,
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock4",
+              "transform": {
+                "position": {
+                  "x": -0.3799999952316284,
+                  "y": -0.04399999976158142,
+                  "z": 0.5
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "pad_eye_model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": null,
+                  "children": null
+                }
+              ]
             }
           ]
         }
