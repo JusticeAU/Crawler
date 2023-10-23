@@ -1661,12 +1661,11 @@
       "name": "NorthDoor",
       "position": {
         "x": 3,
-        "y": 6
+        "y": 5
       },
       "fromOrientation": 2,
       "toDungeon": "",
-      "toTransporter": "",
-      "gameManagerInteraction": true
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,
