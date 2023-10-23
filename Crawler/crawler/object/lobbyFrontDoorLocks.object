@@ -2,7 +2,7 @@
   "name": "FrontDoorLocks",
   "transform": {
     "position": {
-      "x": -5.110000133514404,
+      "x": -4.920000076293945,
       "y": 0.0,
       "z": 0.0
     },
@@ -20,31 +20,31 @@
   "components": null,
   "children": [
     {
-      "name": "Lock1",
+      "name": "left_door_origin",
       "transform": {
         "position": {
           "x": 0.0,
-          "y": 0.0,
-          "z": 1.75
+          "y": -1.0099999904632568,
+          "z": 0.0
         },
         "rotation": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.0
+          "z": 90.0
         },
         "scale": {
-          "x": 0.25,
-          "y": 0.25,
-          "z": 0.10000000149011612
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
         }
       },
       "components": null,
       "children": [
         {
-          "name": "Model",
+          "name": "left_door_offset",
           "transform": {
             "position": {
-              "x": 0.0,
+              "x": 0.5,
               "y": 0.0,
               "z": 0.0
             },
@@ -60,50 +60,301 @@
             }
           },
           "components": [
-			{
-			  "type": "Model",
-			  "model": "_cube"
-			},
-			{
-			  "type": "Renderer",
-			  "materials": [
-				"engine/model/materials/LambertBlue.material"
-			  ],
-			  "frameBuffer": "",
-			  "receivesShadows": true,
-			  "castsShadows": true
-			}
-		  ],
-          "children": null
+            {
+              "type": "Model",
+              "model": "crawler/model/door_frontdoor_left.fbx"
+            },
+            {
+              "type": "Renderer",
+              "materials": [
+                "crawler/material/texture_frontdoor_2.material"
+              ],
+              "frameBuffer": "",
+              "receivesShadows": true,
+              "castsShadows": true
+            }
+          ],
+          "children": [
+            {
+              "name": "Lock1",
+              "transform": {
+                "position": {
+                  "x": 0.36000001430511475,
+                  "y": -0.03999999910593033,
+                  "z": 1.75
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": [
+                {
+                  "type": "Model",
+                  "model": "crawler/model/door_bracket.fbx"
+                },
+                {
+                  "type": "Renderer",
+                  "materials": [
+                    "crawler/material/texture_frontdoor_1.material"
+                  ],
+                  "frameBuffer": "",
+                  "receivesShadows": true,
+                  "castsShadows": true
+                }
+              ],
+              "children": [
+                {
+                  "name": "Model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": [
+                    {
+                      "type": "Model",
+                      "model": "crawler/model/door_latch.fbx"
+                    },
+                    {
+                      "type": "Renderer",
+                      "materials": [
+                        "crawler/material/texture_frontdoor_1.material"
+                      ],
+                      "frameBuffer": "",
+                      "receivesShadows": true,
+                      "castsShadows": true
+                    }
+                  ],
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock2",
+              "transform": {
+                "position": {
+                  "x": 0.5,
+                  "y": 0.0,
+                  "z": 1.25
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 0.25,
+                  "y": 0.25,
+                  "z": 0.10000000149011612
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "Model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": [
+                    {
+                      "type": "Model",
+                      "model": "_cube"
+                    },
+                    {
+                      "type": "Renderer",
+                      "materials": [
+                        "engine/model/materials/LambertBlue.material"
+                      ],
+                      "frameBuffer": "",
+                      "receivesShadows": true,
+                      "castsShadows": true
+                    }
+                  ],
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock3",
+              "transform": {
+                "position": {
+                  "x": 0.5,
+                  "y": 0.0,
+                  "z": 0.75
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 0.25,
+                  "y": 0.25,
+                  "z": 0.10000000149011612
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "Model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": [
+                    {
+                      "type": "Model",
+                      "model": "_cube"
+                    },
+                    {
+                      "type": "Renderer",
+                      "materials": [
+                        "engine/model/materials/LambertBlue.material"
+                      ],
+                      "frameBuffer": "",
+                      "receivesShadows": true,
+                      "castsShadows": true
+                    }
+                  ],
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "Lock4",
+              "transform": {
+                "position": {
+                  "x": 0.5,
+                  "y": 0.0,
+                  "z": 0.25
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 0.25,
+                  "y": 0.25,
+                  "z": 0.10000000149011612
+                }
+              },
+              "components": null,
+              "children": [
+                {
+                  "name": "Model",
+                  "transform": {
+                    "position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "rotation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "components": [
+                    {
+                      "type": "Model",
+                      "model": "_cube"
+                    },
+                    {
+                      "type": "Renderer",
+                      "materials": [
+                        "engine/model/materials/LambertBlue.material"
+                      ],
+                      "frameBuffer": "",
+                      "receivesShadows": true,
+                      "castsShadows": true
+                    }
+                  ],
+                  "children": null
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Lock2",
+      "name": "right_door_origin",
       "transform": {
         "position": {
           "x": 0.0,
-          "y": 0.0,
-          "z": 1.25
+          "y": 1.0099999904632568,
+          "z": 0.0
         },
         "rotation": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.0
+          "z": 90.0
         },
         "scale": {
-          "x": 0.25,
-          "y": 0.25,
-          "z": 0.10000000149011612
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
         }
       },
       "components": null,
       "children": [
         {
-          "name": "Model",
+          "name": "right_door_offset",
           "transform": {
             "position": {
-              "x": 0.0,
+              "x": -0.5,
               "y": 0.0,
               "z": 0.0
             },
@@ -119,139 +370,58 @@
             }
           },
           "components": [
-			{
-			  "type": "Model",
-			  "model": "_cube"
-			},
-			{
-			  "type": "Renderer",
-			  "materials": [
-				"engine/model/materials/LambertBlue.material"
-			  ],
-			  "frameBuffer": "",
-			  "receivesShadows": true,
-			  "castsShadows": true
-			}
-		  ],
-          "children": null
-        }
-      ]
-    },
-    {
-      "name": "Lock3",
-      "transform": {
-        "position": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.75
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "scale": {
-          "x": 0.25,
-          "y": 0.25,
-          "z": 0.10000000149011612
-        }
-      },
-      "components": null,
-      "children": [
-        {
-          "name": "Model",
-          "transform": {
-            "position": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+            {
+              "type": "Model",
+              "model": "crawler/model/door_frontdoor_right.fbx"
             },
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
+            {
+              "type": "Renderer",
+              "materials": [
+                "crawler/material/texture_frontdoor_2.material"
+              ],
+              "frameBuffer": "",
+              "receivesShadows": true,
+              "castsShadows": true
             }
-          },
-          "components": [
-			{
-			  "type": "Model",
-			  "model": "_cube"
-			},
-			{
-			  "type": "Renderer",
-			  "materials": [
-				"engine/model/materials/LambertBlue.material"
-			  ],
-			  "frameBuffer": "",
-			  "receivesShadows": true,
-			  "castsShadows": true
-			}
-		  ],
-          "children": null
-        }
-      ]
-    },
-    {
-      "name": "Lock4",
-      "transform": {
-        "position": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.25
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "scale": {
-          "x": 0.25,
-          "y": 0.25,
-          "z": 0.10000000149011612
-        }
-      },
-      "components": null,
-      "children": [
-        {
-          "name": "Model",
-          "transform": {
-            "position": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
+          ],
+          "children": [
+            {
+              "name": "pad_eye_1",
+              "transform": {
+                "position": {
+                  "x": -0.3799999952316284,
+                  "y": -0.04399999976158142,
+                  "z": 1.746999979019165
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": [
+                {
+                  "type": "Model",
+                  "model": "crawler/model/door_pad_eye.fbx"
+                },
+                {
+                  "type": "Renderer",
+                  "materials": [
+                    "crawler/material/texture_frontdoor_1.material"
+                  ],
+                  "frameBuffer": "",
+                  "receivesShadows": true,
+                  "castsShadows": true
+                }
+              ],
+              "children": null
             }
-          },
-          "components": [
-			{
-			  "type": "Model",
-			  "model": "_cube"
-			},
-			{
-			  "type": "Renderer",
-			  "materials": [
-				"engine/model/materials/LambertBlue.material"
-			  ],
-			  "frameBuffer": "",
-			  "receivesShadows": true,
-			  "castsShadows": true
-			}
-		  ],
-          "children": null
+          ]
         }
       ]
     }
