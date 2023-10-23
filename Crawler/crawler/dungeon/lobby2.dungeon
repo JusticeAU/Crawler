@@ -1068,7 +1068,8 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1077,7 +1078,8 @@
       },
       "id": 2,
       "orientation": 0,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1086,7 +1088,8 @@
       },
       "id": 3,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1095,7 +1098,8 @@
       },
       "id": 4,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1104,7 +1108,8 @@
       },
       "id": 5,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1113,21 +1118,12 @@
       },
       "id": 6,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     }
   ],
   "plates": null,
   "transporters": [
-    {
-      "name": "North2",
-      "position": {
-        "x": 5,
-        "y": 7
-      },
-      "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/kai/box_test_remade",
-      "toTransporter": "BoxStart"
-    },
     {
       "name": "South1",
       "position": {
@@ -1172,6 +1168,16 @@
       "name": "North1",
       "position": {
         "x": 8,
+        "y": 7
+      },
+      "fromOrientation": 2,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "North2",
+      "position": {
+        "x": 5,
         "y": 7
       },
       "fromOrientation": 2,

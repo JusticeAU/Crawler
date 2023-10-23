@@ -2358,7 +2358,8 @@
       },
       "id": 1,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2367,7 +2368,8 @@
       },
       "id": 2,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2376,7 +2378,8 @@
       },
       "id": 3,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2385,7 +2388,8 @@
       },
       "id": 4,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2394,7 +2398,8 @@
       },
       "id": 5,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2403,7 +2408,8 @@
       },
       "id": 6,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -2438,6 +2444,16 @@
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": ""
+    },
+    {
+      "name": "Entry",
+      "position": {
+        "x": 1,
+        "y": -4
+      },
+      "fromOrientation": 3,
+      "toDungeon": "",
       "toTransporter": ""
     }
   ],
