@@ -756,7 +756,8 @@
       },
       "id": 3,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -765,7 +766,8 @@
       },
       "id": 1,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -778,7 +780,20 @@
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "TutExit"
+      "toTransporter": "NorthDoor",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 1,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 0,
+          "status": 0
+        }
+      ]
     },
     {
       "name": "Entry",
@@ -997,6 +1012,7 @@
   ],
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {

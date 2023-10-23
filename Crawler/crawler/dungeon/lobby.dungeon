@@ -1611,7 +1611,8 @@
       },
       "id": 1,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1620,7 +1621,8 @@
       },
       "id": 3,
       "orientation": 0,
-      "open": true
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -1629,7 +1631,8 @@
       },
       "id": 2,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -1658,11 +1661,11 @@
       "name": "NorthDoor",
       "position": {
         "x": 3,
-        "y": 6
+        "y": 5
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
-      "toTransporter": "ShoveEntrance"
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,
@@ -1712,6 +1715,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {

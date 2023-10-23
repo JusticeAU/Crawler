@@ -731,7 +731,8 @@
       },
       "id": 0,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -740,7 +741,8 @@
       },
       "id": 1,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -770,7 +772,7 @@
         "y": 1
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt2",
+      "toDungeon": "crawler/dungeon/kai/box_test_remade",
       "toTransporter": "Entry"
     }
   ],
