@@ -1,5 +1,5 @@
 {
-  "name": "crate_1",
+  "name": "cardboardbox",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_crate_1.fbx"
+      "model": "crawler/model/decoration_cardboardbox.fbx"
     },
     {
       "type": "Renderer",

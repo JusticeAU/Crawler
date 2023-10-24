@@ -1,5 +1,5 @@
 {
-  "name": "crate_1",
+  "name": "front_door_frame",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,13 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_crate_1.fbx"
+      "model": "crawler/model/decoration_front_door_frame.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/atlas_10_atlas_10.material"
+        "engine/model/materials/LambertBlue.material",
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

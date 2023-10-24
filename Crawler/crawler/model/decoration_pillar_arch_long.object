@@ -1,5 +1,5 @@
 {
-  "name": "crate_1",
+  "name": "pillar_arch_long",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,13 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_crate_1.fbx"
+      "model": "crawler/model/decoration_pillar_arch_long.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/atlas_10_atlas_10.material"
+        "engine/model/materials/LambertBlue.material",
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

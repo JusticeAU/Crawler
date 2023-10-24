@@ -1,5 +1,5 @@
 {
-  "name": "crate_1",
+  "name": "window_square_2",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,14 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_crate_1.fbx"
+      "model": "crawler/model/tile_window_square_2.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/atlas_10_atlas_10.material"
+        "engine/model/materials/LambertBlue.material",
+        "crawler/material/tile_window_square_square_window.material",
+        "crawler/material/tile_arched_window_windows_panes.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
