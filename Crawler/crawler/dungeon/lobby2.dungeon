@@ -1068,7 +1068,7 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": true,
+      "open": false,
       "isBarricaded": false
     },
     {
@@ -1098,7 +1098,7 @@
       },
       "id": 4,
       "orientation": 2,
-      "open": true,
+      "open": false,
       "isBarricaded": false
     },
     {
@@ -1108,7 +1108,7 @@
       },
       "id": 5,
       "orientation": 2,
-      "open": true,
+      "open": false,
       "isBarricaded": false
     },
     {
@@ -1118,32 +1118,12 @@
       },
       "id": 6,
       "orientation": 2,
-      "open": true,
+      "open": false,
       "isBarricaded": false
     }
   ],
   "plates": null,
   "transporters": [
-    {
-      "name": "South1",
-      "position": {
-        "x": 8,
-        "y": -7
-      },
-      "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/enemy_testing_remade",
-      "toTransporter": "KaiStart"
-    },
-    {
-      "name": "South2",
-      "position": {
-        "x": 5,
-        "y": -7
-      },
-      "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/puzzle_test_remade",
-      "toTransporter": "PuzzleStart"
-    },
     {
       "name": "South3",
       "position": {
@@ -1152,7 +1132,15 @@
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing_remade",
-      "toTransporter": "Entry"
+      "toTransporter": "Entry",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 0,
+          "status": 2
+        }
+      ]
     },
     {
       "name": "North3",
@@ -1171,8 +1159,36 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
-      "toTransporter": "ShoveEntrance"
+      "toDungeon": "crawler/dungeon/kai/puzzle_test_remade",
+      "toTransporter": "",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 4,
+          "status": 2
+        }
+      ]
+    },
+    {
+      "name": "South2",
+      "position": {
+        "x": 5,
+        "y": -7
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "South1",
+      "position": {
+        "x": 8,
+        "y": -7
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
     },
     {
       "name": "North2",
@@ -1181,8 +1197,16 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
+      "toTransporter": "ShoveEntrance",
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 6,
+          "status": 2
+        }
+      ]
     }
   ],
   "checkpoints": null,
