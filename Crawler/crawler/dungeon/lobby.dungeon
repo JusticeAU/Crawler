@@ -1831,16 +1831,6 @@
       "toTransporter": ""
     },
     {
-      "name": "SouthDoor",
-      "position": {
-        "x": 3,
-        "y": -6
-      },
-      "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/justin/laser1",
-      "toTransporter": "Entry"
-    },
-    {
       "name": "NorthDoor",
       "position": {
         "x": 2,
@@ -1849,6 +1839,16 @@
       "fromOrientation": 2,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "SouthDoor",
+      "position": {
+        "x": 2,
+        "y": -9
+      },
+      "fromOrientation": 0,
+      "toDungeon": "crawler/dungeon/justin/laser1",
+      "toTransporter": "Entry"
     }
   ],
   "checkpoints": null,
