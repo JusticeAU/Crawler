@@ -1435,8 +1435,7 @@
         "y": 0.0,
         "z": -33.79999923706055
       },
-      "modelName": "crawler/model/decoration_standing_lamp.object",
-      "castsShadows": false
+      "modelName": "crawler/model/decoration_standing_lamp.object"
     },
     {
       "position": {
@@ -1553,8 +1552,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -1.1260509490966797,
-        "y": -9.844250570267832e-08,
+        "x": -1.1338939666748047,
+        "y": -0.18298444151878357,
         "z": 0.8906545639038086
       },
       "localRotation": {
