@@ -1,5 +1,5 @@
 {
-  "name": "rail_turn",
+  "name": "railing",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/monster_rail_turn.fbx"
+      "model": "crawler/model/decoration_railing.fbx"
     },
     {
       "type": "Renderer",

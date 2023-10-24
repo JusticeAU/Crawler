@@ -1,0 +1,715 @@
+{
+  "type": "dungeon",
+  "version": 3,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "tiles": [
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -4
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -3
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -2
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -5
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -4
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -3
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -4
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -3
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -2
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -2
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": -2
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    }
+  ],
+  "levers": [
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "id": 2,
+      "orientation": 3,
+      "status": false,
+      "activateID": 6
+    }
+  ],
+  "doors": [
+    {
+      "position": {
+        "x": 7,
+        "y": -4
+      },
+      "id": 3,
+      "orientation": 2,
+      "open": false,
+      "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -2
+      },
+      "id": 6,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": -2
+      },
+      "id": 7,
+      "orientation": 1,
+      "open": false,
+      "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "id": 1,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": false
+    }
+  ],
+  "plates": [
+    {
+      "position": {
+        "x": 7,
+        "y": -1
+      },
+      "activateID": 3
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": -2
+      },
+      "activateID": 7
+    }
+  ],
+  "transporters": [
+    {
+      "name": "Secret Exitss",
+      "position": {
+        "x": 10,
+        "y": -2
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": 7,
+        "y": -5
+      },
+      "fromOrientation": 2,
+      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room02",
+      "toTransporter": ""
+    },
+    {
+      "name": "Entry",
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
+  "checkpoints": null,
+  "spikes": null,
+  "blocks": [
+    {
+      "position": {
+        "x": 7,
+        "y": -3
+      }
+    }
+  ],
+  "shootLasers": null,
+  "blockers": null,
+  "chasers": null,
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": null,
+  "keys": null,
+  "decorations": [
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.75,
+        "y": -2.3882980926259734e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.7502168416976929,
+        "y": -1.3094459738738351e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_drawer.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dining_table.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.4000000059604645,
+        "y": -0.30000001192092896,
+        "z": 1.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_table_lamp.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.30000001192092896,
+        "y": 0.20000000298023224,
+        "z": 1.100000023841858
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -40.20000076293945
+      },
+      "modelName": "crawler/model/decoration_table_clock.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 1.100000023841858
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_glass_bourbon.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 1.7000000476837158
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "modelName": "crawler/model/decoration_painting_1.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 1.7000000476837158
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "modelName": "crawler/model/decoration_painting_1.object"
+    }
+  ],
+  "pointLights": null,
+  "events": null
+}
