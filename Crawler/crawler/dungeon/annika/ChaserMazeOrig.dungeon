@@ -826,7 +826,8 @@
       },
       "id": 1,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -835,7 +836,8 @@
       },
       "id": 1,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -844,7 +846,8 @@
       },
       "id": 2,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -853,7 +856,8 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -879,9 +883,33 @@
         "x": 8,
         "y": -1
       },
-      "fromOrientation": 0,
+      "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "TutExit"
+      "toTransporter": "TutExit",
+      "toLobby2": true,
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 3,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 4,
+          "status": 0
+        },
+        {
+          "type": 0,
+          "id": 2,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 2,
+          "status": 0
+        }
+      ]
     }
   ],
   "checkpoints": null,
@@ -925,6 +953,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": [
     {

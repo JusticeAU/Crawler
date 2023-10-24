@@ -2,10 +2,10 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 0,
-    "y": 0
+    "x": -7,
+    "y": 3
   },
-  "defaultOrientation": 0,
+  "defaultOrientation": 3,
   "tiles": [
     {
       "position": {
@@ -434,7 +434,8 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -443,7 +444,8 @@
       },
       "id": 1,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -456,7 +458,31 @@
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "TutExit"
+      "toTransporter": "South2",
+      "toLobby2": true,
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 7,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 6,
+          "status": 0
+        },
+        {
+          "type": 0,
+          "id": 3,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 1,
+          "status": 0
+        }
+      ]
     },
     {
       "name": "Enter",
@@ -539,6 +565,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": [
     {

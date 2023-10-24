@@ -3872,7 +3872,8 @@
       },
       "id": 2,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3881,7 +3882,8 @@
       },
       "id": 4,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3890,7 +3892,8 @@
       },
       "id": 5,
       "orientation": 2,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3899,7 +3902,8 @@
       },
       "id": 5,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3908,7 +3912,8 @@
       },
       "id": 8,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3917,7 +3922,8 @@
       },
       "id": 7,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3926,7 +3932,8 @@
       },
       "id": 6,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3935,7 +3942,8 @@
       },
       "id": 6,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3944,7 +3952,8 @@
       },
       "id": 20,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3953,7 +3962,8 @@
       },
       "id": 15,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3962,7 +3972,8 @@
       },
       "id": 5,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3971,7 +3982,8 @@
       },
       "id": 6,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3980,7 +3992,8 @@
       },
       "id": 3,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3989,7 +4002,8 @@
       },
       "id": 9,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -3998,7 +4012,8 @@
       },
       "id": 10,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -4007,7 +4022,8 @@
       },
       "id": 11,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -4070,7 +4086,26 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": ""
+      "toTransporter": "South1",
+      "toLobby2": true,
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 2,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 5,
+          "status": 0
+        },
+        {
+          "type": 2,
+          "id": 3,
+          "status": 0
+        }
+      ]
     }
   ],
   "checkpoints": [
@@ -4605,6 +4640,7 @@
   ],
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": null,
   "events": null
