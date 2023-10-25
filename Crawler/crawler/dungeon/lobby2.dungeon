@@ -1131,7 +1131,7 @@
         "y": -7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/SeeThroughWall_testing_remade",
+      "toDungeon": "crawler/dungeon/kai/HalfWall_Room00",
       "toTransporter": "Entry",
       "gameManagerInteraction": true,
       "gameManagerEvents": [
