@@ -27,6 +27,7 @@
       "materials": [
         "crawler/material/lobby_hat_cieling_curve.material",
         "crawler/material/lobby_hat_cieling_curve.material",
+        "crawler/material/lobby_hat_cieling_curve.material",
         "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material",
         "engine/model/materials/LambertBlue.material"
