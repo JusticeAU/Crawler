@@ -342,20 +342,6 @@
         -1,
         -1
       ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "mask": 0,
-      "maskSee": 0,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
     }
   ],
   "levers": null,
@@ -367,7 +353,8 @@
       },
       "id": 2,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -376,7 +363,8 @@
       },
       "id": 3,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -449,6 +437,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": [
     {
