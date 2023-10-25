@@ -1,5 +1,5 @@
 {
-  "name": "front_door_frame",
+  "name": "wall_3",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,13 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_front_door_frame.fbx"
+      "model": "crawler/model/decoration_wall_3.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/texture_frontdoor_1.material",
-        "crawler/material/atlas_12_Atlas_12.material"
+        "crawler/material/decoration_wall_3_wall_3.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
