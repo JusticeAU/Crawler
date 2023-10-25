@@ -156,7 +156,8 @@
         -1,
         4,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -170,7 +171,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -184,7 +186,8 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -198,7 +201,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -212,7 +216,8 @@
         -1,
         -1,
         4
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -226,7 +231,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -240,7 +246,8 @@
         -1,
         -1,
         4
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -254,7 +261,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -298,7 +306,8 @@
         -1,
         -1,
         4
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -312,7 +321,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -326,7 +336,8 @@
         -1,
         -1,
         4
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -340,7 +351,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -354,7 +366,8 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -368,7 +381,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -382,7 +396,8 @@
         -1,
         -1,
         5
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -424,7 +439,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -438,7 +454,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -452,7 +469,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -631,7 +649,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -645,7 +664,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -659,7 +679,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -715,7 +736,8 @@
         4,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -729,7 +751,8 @@
         4,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -743,7 +766,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -757,7 +781,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -906,7 +931,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -920,7 +946,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -934,7 +961,8 @@
         4,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -948,7 +976,8 @@
         4,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -976,7 +1005,8 @@
         -1,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1125,7 +1155,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1139,7 +1170,8 @@
         -1,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1291,7 +1323,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1305,7 +1338,8 @@
         4,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1351,6 +1385,7 @@
         -1,
         -1
       ],
+      "floorVariant": 1,
       "permanentlyOccupied": true
     },
     {
@@ -1457,7 +1492,8 @@
         4,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1486,7 +1522,8 @@
         4,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1665,7 +1702,8 @@
         -1,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1679,7 +1717,8 @@
         -1,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1693,7 +1732,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1707,7 +1747,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1721,7 +1762,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1735,7 +1777,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1749,7 +1792,8 @@
         -1,
         4,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1763,7 +1807,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1777,7 +1822,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1791,7 +1837,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1805,7 +1852,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1819,7 +1867,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1833,7 +1882,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     },
     {
       "position": {
@@ -1847,7 +1897,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "floorVariant": 1
     }
   ],
   "levers": null,
