@@ -885,7 +885,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "TutExit",
+      "toTransporter": "North3",
       "toLobby2": true,
       "gameManagerInteraction": true,
       "gameManagerEvents": [
