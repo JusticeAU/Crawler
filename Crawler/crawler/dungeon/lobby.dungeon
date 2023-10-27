@@ -11,6 +11,21 @@
   "tiles": [
     {
       "position": {
+        "x": -3,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "floorVariant": -1
+    },
+    {
+      "position": {
         "x": -2,
         "y": -1
       },
@@ -8228,6 +8243,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_blackvoid.object"
     }
   ],
   "pointLights": [
@@ -8428,6 +8461,15 @@
       "repeats": false,
       "type": 0,
       "eventID": 1
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 50
     }
   ],
   "stairs": [
