@@ -788,7 +788,8 @@
       },
       "id": 1,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -853,6 +854,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {
@@ -1503,24 +1505,6 @@
     },
     {
       "position": {
-        "x": -2,
-        "y": 1
-      },
-      "repeats": false,
-      "type": 0,
-      "eventID": 4
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": 1
-      },
-      "repeats": false,
-      "type": 0,
-      "eventID": 2
-    },
-    {
-      "position": {
         "x": 1,
         "y": 0
       },
@@ -1530,12 +1514,14 @@
     },
     {
       "position": {
-        "x": -2,
-        "y": 1
+        "x": -4,
+        "y": -1
       },
       "repeats": false,
-      "type": 1,
-      "eventID": 1
+      "type": 0,
+      "eventID": 5,
+      "mustBeFacing": true,
+      "facing": 2
     }
   ]
 }
