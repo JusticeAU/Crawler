@@ -2,10 +2,10 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 0,
-    "y": 0
+    "x": -2,
+    "y": 16
   },
-  "defaultOrientation": 0,
+  "defaultOrientation": 3,
   "tiles": [
     {
       "position": {
@@ -82,7 +82,7 @@
         "x": -8,
         "y": 15
       },
-      "mask": 13,
+      "mask": 9,
       "maskSee": 13,
       "wallVariants": [
         -1,
@@ -180,13 +180,13 @@
         "x": -7,
         "y": 15
       },
-      "mask": 2,
+      "mask": 1,
       "maskSee": 15,
       "wallVariants": [
         -1,
         1,
         1,
-        -1
+        1
       ]
     },
     {
@@ -194,12 +194,12 @@
         "x": -7,
         "y": 16
       },
-      "mask": 4,
+      "mask": 12,
       "maskSee": 14,
       "wallVariants": [
         0,
         -1,
-        1,
+        -1,
         1
       ]
     },
@@ -211,7 +211,7 @@
       "mask": 2,
       "maskSee": 3,
       "wallVariants": [
-        -1,
+        1,
         0,
         0,
         -1
@@ -501,7 +501,7 @@
   "levers": [
     {
       "position": {
-        "x": -7,
+        "x": -6,
         "y": 10
       },
       "id": 2,
@@ -518,7 +518,8 @@
       },
       "id": 3,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -527,7 +528,8 @@
       },
       "id": 4,
       "orientation": 2,
-      "open": false
+      "open": true,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -536,7 +538,8 @@
       },
       "id": 5,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -545,7 +548,8 @@
       },
       "id": 6,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -554,7 +558,8 @@
       },
       "id": 7,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -585,6 +590,13 @@
         "y": 16
       },
       "activateID": 7
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 15
+      },
+      "activateID": 4
     }
   ],
   "transporters": [
@@ -609,7 +621,15 @@
       "toTransporter": "Enter"
     }
   ],
-  "checkpoints": null,
+  "checkpoints": [
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "facing": 2
+    }
+  ],
   "spikes": [
     {
       "position": {
@@ -648,7 +668,47 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
-  "decorations": null,
+  "keys": null,
+  "decorations": [
+    {
+      "position": {
+        "x": -6,
+        "y": 10
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 10
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    }
+  ],
   "pointLights": [
     {
       "position": {
@@ -667,6 +727,42 @@
       },
       "intensity": 2.799999952316284,
       "id": 1
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 10
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.700000047683716
+      },
+      "colour": {
+        "x": 0.9166666865348816,
+        "y": 0.716839611530304,
+        "z": 0.4313725233078003
+      },
+      "intensity": 5.0,
+      "id": 2
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 10
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.700000047683716
+      },
+      "colour": {
+        "x": 0.9176470637321472,
+        "y": 0.7176470756530762,
+        "z": 0.4313725531101227
+      },
+      "intensity": 5.0,
+      "id": 3
     }
   ],
   "events": null
