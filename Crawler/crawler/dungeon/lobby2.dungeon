@@ -1328,7 +1328,7 @@
       "name": "North3",
       "position": {
         "x": 2,
-        "y": 7
+        "y": 6
       },
       "fromOrientation": 2,
       "toDungeon": "",
@@ -1356,7 +1356,7 @@
       "name": "South2",
       "position": {
         "x": 5,
-        "y": -7
+        "y": -6
       },
       "fromOrientation": 0,
       "toDungeon": "",
@@ -1366,7 +1366,7 @@
       "name": "South1",
       "position": {
         "x": 8,
-        "y": -7
+        "y": -6
       },
       "fromOrientation": 0,
       "toDungeon": "",

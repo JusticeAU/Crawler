@@ -43,8 +43,8 @@
           "type": "Camera",
           "nearClip": 0.10000000149011612,
           "farClip": 2000.0,
-          "fieldOfView": 45.0,
-          "aspect": 1.7777777910232544,
+          "fieldOfView": 56.5,
+          "aspect": 1.7777777777777777,
           "postProcess": [
 			"engine/shader/postProcess/ScreenColourFade"
           ]
