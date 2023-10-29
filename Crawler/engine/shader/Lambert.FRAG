@@ -1,6 +1,6 @@
 #version 450
-
-out vec4 FragColour;
+layout (location = 0) out vec4 FragColour;
+layout (location = 1) out vec4 Emission;
 
 in vec3 _WorldPos;
 in vec3 _Colour;
@@ -145,4 +145,5 @@ void main()
 	vec3 texColour = texture(diffuseTex, _TexCoords).rgb;
 	vec3 lighting = diffuseTotal * texColour;  
 	FragColour = vec4(lighting, 1);	
+	Emission = vec4(0,0,0,0);
 }

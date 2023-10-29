@@ -1,6 +1,6 @@
 #version 450
-
-out vec4 FragColour;
+layout (location = 0) out vec4 FragColour;
+layout (location = 1) out vec4 Emission;
 
 in vec2 _TexCoords;
 in vec3 _WorldPos;
@@ -89,7 +89,7 @@ void main()
     float metallic  = texture(metallicMap, _TexCoords).r;
     float roughness = texture(roughnessMap, _TexCoords).r;
     float ao        = texture(aoMap, _TexCoords).r;
-	vec3 emissive	= texture(emissiveMap, _TexCoords).rgb;
+	vec4 emissive	= texture(emissiveMap, _TexCoords);
 	
 	vec3 N = normalize(normal); 
 	vec3 V = normalize(cameraPosition - _WorldPos);
@@ -145,13 +145,14 @@ void main()
 	}
 	
 	vec3 ambient = vec3(0.03) * albedo * ao;
-	vec3 color   = ambient + Lo + emissive;
+	vec3 color   = ambient + Lo + emissive.rgb;
 	
 	// Gamma correct - Reinhard.
 	color = color / (color + vec3(1.0));
 	color = pow(color, vec3(1.0/2.2));
 	
 	FragColour = vec4(color, 1.0);
+	Emission = emissive;
 }
 
 vec3 fresnelSchlick(float cosTheta, vec3 F0)
