@@ -25,9 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/decoration_fireplace_fireplace.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
