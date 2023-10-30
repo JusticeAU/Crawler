@@ -1,0 +1,459 @@
+{
+  "type": "dungeon",
+  "version": 3,
+  "defaultPosition": {
+    "x": 0,
+    "y": 0
+  },
+  "defaultOrientation": 1,
+  "tiles": [
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -1
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "mask": 10,
+      "maskSee": 10,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "levers": null,
+  "doors": [
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "id": 1,
+      "orientation": 1,
+      "open": false,
+      "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": true
+    }
+  ],
+  "plates": null,
+  "transporters": [
+    {
+      "name": "Level3Exit",
+      "position": {
+        "x": 3,
+        "y": -1
+      },
+      "fromOrientation": 1,
+      "toDungeon": "crawler/dungeon/lobby",
+      "toTransporter": "North3",
+      "toLobby2": true,
+      "gameManagerInteraction": true,
+      "gameManagerEvents": [
+        {
+          "type": 0,
+          "id": 3,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 4,
+          "status": 2
+        },
+        {
+          "type": 0,
+          "id": 2,
+          "status": 0
+        }
+      ]
+    }
+  ],
+  "checkpoints": null,
+  "spikes": null,
+  "blocks": null,
+  "shootLasers": null,
+  "blockers": null,
+  "chasers": null,
+  "slugs": null,
+  "slugPaths": null,
+  "switchers": null,
+  "mirrors": null,
+  "keys": [
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "lockReleaseID": 3,
+      "doorActivateID": 1
+    }
+  ],
+  "decorations": [
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6520000100135803,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6520000100135803,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.699999988079071,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.6520000100135803,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
+    }
+  ],
+  "pointLights": [
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.44117647409439087,
+        "z": 0.0
+      },
+      "intensity": 0.0,
+      "id": 1,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 1.0,
+      "flickerRepeatMax": 3.0
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2
+    }
+  ],
+  "events": null
+}

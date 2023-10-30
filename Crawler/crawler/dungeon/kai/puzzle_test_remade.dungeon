@@ -4085,27 +4085,8 @@
         "y": 0
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": "South1",
-      "toLobby2": true,
-      "gameManagerInteraction": true,
-      "gameManagerEvents": [
-        {
-          "type": 0,
-          "id": 2,
-          "status": 2
-        },
-        {
-          "type": 0,
-          "id": 5,
-          "status": 0
-        },
-        {
-          "type": 2,
-          "id": 3,
-          "status": 0
-        }
-      ]
+      "toDungeon": "crawler/dungeon/level4/keyRoom",
+      "toTransporter": ""
     }
   ],
   "checkpoints": [
