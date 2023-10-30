@@ -3251,7 +3251,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window.object"
+      "modelName": "crawler/model/decoration_square_window_2.object"
     },
     {
       "position": {
@@ -3323,7 +3323,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window.object"
+      "modelName": "crawler/model/decoration_square_window_2.object"
     },
     {
       "position": {
@@ -5861,7 +5861,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5879,7 +5879,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5897,7 +5897,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5915,7 +5915,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5933,7 +5933,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5951,7 +5951,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -5969,7 +5969,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6131,7 +6131,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6149,7 +6149,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6221,7 +6221,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6239,7 +6239,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6257,7 +6257,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
