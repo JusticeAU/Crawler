@@ -1,5 +1,5 @@
 {
-  "name": "wall_lamp",
+  "name": "walllamp",
   "transform": {
     "position": {
       "x": 0.0,
@@ -25,7 +25,9 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/decoration_walllamp_stem.material",
+        "crawler/material/decoration_walllamp_bell.material",
+        "crawler/material/decoration_walllamp_petals.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
