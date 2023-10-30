@@ -1298,6 +1298,7 @@
         -1,
         -1
       ],
+      "floorVariant": 1,
       "permanentlyOccupied": true
     },
     {
@@ -6058,7 +6059,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -6076,7 +6077,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_3.object"
+      "modelName": "crawler/model/decoration_wall_2.object"
     },
     {
       "position": {
@@ -8388,6 +8389,672 @@
       },
       "modelName": "crawler/model/decoration_wall_lamp.object",
       "castsShadows": false
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_arch_long.object"
     }
   ],
   "pointLights": [
