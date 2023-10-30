@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_arch.fbx"
+      "model": "crawler/model/tile_arch.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/texture_atlas_2.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
