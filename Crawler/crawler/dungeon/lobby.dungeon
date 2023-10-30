@@ -9028,42 +9028,6 @@
       "facing": 0,
       "localPosition": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": ""
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 4
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 3.200000047683716
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_arch.object"
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 5
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
         "y": 1.0,
         "z": 3.200000047683716
       },
@@ -9235,6 +9199,456 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.0438966751098633,
+        "y": 2.307737350463867,
+        "z": 3.0991623401641846
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.0378265380859375,
+        "y": -1.6295490264892578,
+        "z": 3.0959298610687256
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9452860355377197,
+        "y": -1.5349984169006348,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9452860355377197,
+        "y": -1.5970251560211182,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9452860355377197,
+        "y": -1.659193754196167,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9452860355377197,
+        "y": -1.7252881526947021,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9452860355377197,
+        "y": -1.7252881526947021,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.0411040782928467,
+        "y": 0.13876771926879883,
+        "z": 3.097440242767334
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 4
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.9705066680908203,
+        "y": 0.17804622650146484,
+        "z": 3.051588296890259
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.1694679260253906,
+        "y": 2.1302409172058105,
+        "z": 6.290356159210205
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.1739091873168945,
+        "y": -1.8134479522705078,
+        "z": 6.291659832000732
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.1669588088989258,
+        "y": -5.758062362670898,
+        "z": 6.287151336669922
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.1771125793457031,
+        "y": -9.705831527709961,
+        "z": 6.29535436630249
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0263087749481201,
+        "y": 0.41714322566986084,
+        "z": 6.288767337799072
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0263350009918213,
+        "y": 2.5310721397399902,
+        "z": 6.288111209869385
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.9960858225822449,
+        "y": -0.018388748168945313,
+        "z": 6.286779880523682
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0043666362762451,
+        "y": 0.1379174292087555,
+        "z": 6.287693500518799
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.8022680282592773,
+        "y": -1.575368881225586,
+        "z": 6.285603046417236
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.8028287887573242,
+        "y": 2.366999626159668,
+        "z": 6.286418914794922
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.8041868209838867,
+        "y": 6.311058044433594,
+        "z": 6.285488128662109
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.8000812530517578,
+        "y": 10.254005432128906,
+        "z": 6.28453254699707
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.9016637802124023,
+        "y": -1.7666716575622559,
+        "z": 3.1033213138580322
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.9042491912841797,
+        "y": 0.17602160573005676,
+        "z": 3.1041159629821777
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.9066305160522461,
+        "y": 2.1071910858154297,
+        "z": 3.102072238922119
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -4
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 1.0206966400146484,
+        "y": -1.9067182540893555,
+        "z": 3.099827766418457
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
     }
   ],
   "pointLights": [
