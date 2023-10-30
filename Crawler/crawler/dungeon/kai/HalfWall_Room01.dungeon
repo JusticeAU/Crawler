@@ -239,7 +239,7 @@
         "y": 15
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/HalfWall_Room02",
+      "toDungeon": "crawler/dungeon/kai/HalfWall_Room03",
       "toTransporter": "Enter"
     }
   ],
@@ -278,6 +278,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": [
     {
