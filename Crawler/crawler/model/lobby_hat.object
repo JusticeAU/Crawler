@@ -28,9 +28,12 @@
         "crawler/material/lobby_hat_cieling_curve.material",
         "crawler/material/lobby_hat_cieling_curve.material",
         "crawler/material/lobby_hat_cieling_curve.material",
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/lobby_hat_Beam.material",
+        "crawler/material/lobby_hat_beam_1.material",
+        "crawler/material/lobby_hat_stairs_1.material",
+        "crawler/material/lobby_hat_stairs_2.material",
+        "crawler/material/lobby_hat_stairs_2.material",
+        "crawler/material/lobby_hat_stairs_3.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
