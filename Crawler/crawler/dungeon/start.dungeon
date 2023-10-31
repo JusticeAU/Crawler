@@ -736,7 +736,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1325,42 +1326,6 @@
       },
       "modelName": "crawler/model/decoration_light1.object",
       "castsShadows": false
-    },
-    {
-      "position": {
-        "x": -8,
-        "y": 0
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": -0.7674113512039185,
-        "y": -0.06524157524108887,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_drawer.object"
-    },
-    {
-      "position": {
-        "x": -8,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.1930026412010193,
-        "y": 0.7875309586524963,
-        "z": 0.8665111064910889
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_vase_1.object"
     },
     {
       "position": {
