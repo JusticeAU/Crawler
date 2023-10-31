@@ -3677,6 +3677,60 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_square_window_2.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_railing.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_front_door_frame.object"
     }
   ],
   "pointLights": [
