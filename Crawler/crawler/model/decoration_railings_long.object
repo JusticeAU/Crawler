@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/decoration_railings_long_railing_long.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

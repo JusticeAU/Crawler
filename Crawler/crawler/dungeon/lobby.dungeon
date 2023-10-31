@@ -7661,7 +7661,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_rug_long.object"
+      "modelName": "crawler/model/decoration_rug_long_square.object"
     },
     {
       "position": {
@@ -9710,9 +9710,9 @@
       },
       "facing": 3,
       "localPosition": {
-        "x": 0.9066305160522461,
+        "x": 0.9501104354858398,
         "y": 2.1071910858154297,
-        "z": 3.102072238922119
+        "z": 3.0561797618865967
       },
       "localRotation": {
         "x": 0.0,
@@ -9730,7 +9730,7 @@
       "localPosition": {
         "x": 1.0206966400146484,
         "y": -1.9067182540893555,
-        "z": 3.099827766418457
+        "z": 3.0490000247955322
       },
       "localRotation": {
         "x": 0.0,
@@ -12027,13 +12027,13 @@
     },
     {
       "position": {
-        "x": 8,
-        "y": -2
+        "x": 6,
+        "y": 0
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.9917316436767578,
-        "y": 0.3538729250431061,
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "localRotation": {
@@ -12041,7 +12041,349 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_couch.object"
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 3.3367233276367188,
+        "y": 2.9170558946134406e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 6.702276229858398,
+        "y": 5.859317866452329e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 10.05331802368164,
+        "y": 8.788888408162165e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 13.36691665649414,
+        "y": 1.1685726803989382e-06,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -3.1077003479003906,
+        "y": -2.7168371730112995e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -13.798928260803223,
+        "y": -0.0029071904718875885,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -10.399283409118652,
+        "y": 4.5456712882696593e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -7.003087997436523,
+        "y": -0.001456919126212597,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -3.6685967445373535,
+        "y": 1.603594910193351e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.3365936279296875,
+        "y": 0.0016596467467024922,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 2.9895973205566406,
+        "y": -0.003227363573387265,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 6.348846435546875,
+        "y": -2.775169321012072e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 1.6463069915771484,
+        "y": -7.196237561402086e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 4.96879768371582,
+        "y": -2.171930759686802e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -4.084463045561648e-10,
+        "y": -0.009344100952148438,
+        "z": 3.1802053451538086
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -3.2695043087005615,
+        "y": 1.429145868314663e-07,
+        "z": 3.1878323554992676
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -6.499577045440674,
+        "y": 2.841053401425597e-07,
+        "z": 3.1932523250579834
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 3.241340398788452,
+        "y": -1.4168350048748835e-07,
+        "z": 3.1801767349243164
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 6.558231353759766,
+        "y": -2.8666943308053305e-07,
+        "z": 3.18381929397583
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
     }
   ],
   "pointLights": [
