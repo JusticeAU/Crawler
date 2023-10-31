@@ -26,11 +26,15 @@
       "type": "Renderer",
       "materials": [
         "engine/model/materials/LambertBlue.material",
-		"engine/model/materials/LambertBlue.material"
+        "engine/model/materials/LambertBlue.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
     }
   ],
   "children": null
