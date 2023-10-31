@@ -25,11 +25,12 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/decoration_chandelier_chandelier.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true
+      "castsShadows": true,
+      "dontFrustumCull": true
     }
   ],
   "children": null
