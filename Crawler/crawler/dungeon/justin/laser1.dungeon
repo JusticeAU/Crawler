@@ -26,12 +26,12 @@
         "x": 0,
         "y": 0
       },
-      "mask": 4,
+      "mask": 13,
       "maskSee": 13,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -68,12 +68,12 @@
         "x": 1,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -110,12 +110,12 @@
         "x": 2,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -152,12 +152,12 @@
         "x": 3,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -194,12 +194,12 @@
         "x": 4,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -236,12 +236,12 @@
         "x": 5,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -278,12 +278,12 @@
         "x": 6,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -320,12 +320,12 @@
         "x": 7,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -362,12 +362,12 @@
         "x": 8,
         "y": 0
       },
-      "mask": 6,
+      "mask": 15,
       "maskSee": 15,
       "wallVariants": [
-        1,
         -1,
-        1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -479,7 +479,8 @@
       },
       "id": 1,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -488,7 +489,8 @@
       },
       "id": 2,
       "orientation": 1,
-      "open": true
+      "open": true,
+      "isBarricaded": false
     }
   ],
   "plates": null,
@@ -517,50 +519,39 @@
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
-  "shootLasers": [
+  "shootLasers": null,
+  "blockers": [
     {
-      "id": 1,
       "position": {
         "x": 2,
         "y": -1
       },
       "facing": 0,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 4294967295
+      "rapidAttack": false
     },
     {
-      "id": 1,
-      "position": {
-        "x": 4,
-        "y": 1
-      },
-      "facing": 2,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 4294967295
-    },
-    {
-      "id": 1,
       "position": {
         "x": 6,
         "y": -1
       },
       "facing": 0,
-      "detectsLineOfSight": true,
-      "firesProjectile": false,
-      "firesImmediately": false,
-      "activateID": 4294967295
+      "rapidAttack": false
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "facing": 2,
+      "rapidAttack": false
     }
   ],
-  "blockers": null,
   "chasers": null,
   "slugs": null,
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": null,
   "pointLights": null,
   "events": null
