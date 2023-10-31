@@ -884,6 +884,13 @@
         "y": 6
       },
       "facing": 2
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 4
+      },
+      "facing": 0
     }
   ],
   "slugPaths": [
