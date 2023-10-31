@@ -3875,6 +3875,24 @@
         "z": 0.0
       },
       "modelName": ""
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cardboardbox.object"
     }
   ],
   "pointLights": [
