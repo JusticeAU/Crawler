@@ -3947,6 +3947,42 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_square_window_2.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.28955078125,
+        "y": -2.5313367402191034e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_wall_2.object"
     }
   ],
   "pointLights": [
