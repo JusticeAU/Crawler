@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_painting_1_gold_painting.material"
+        "crawler/material/atlas_18_atlas_18.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

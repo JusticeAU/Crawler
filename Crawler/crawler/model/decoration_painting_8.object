@@ -1,5 +1,5 @@
 {
-  "name": "painting_3",
+  "name": "painting_8",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_painting_3.fbx"
+      "model": "crawler/model/decoration_painting_8.fbx"
     },
     {
       "type": "Renderer",
