@@ -3874,7 +3874,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": ""
+      "modelName": "crawler/model/decoration_marblefloor.object"
     },
     {
       "position": {
@@ -3893,6 +3893,60 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_cardboardbox.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.2665977478027344
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cieling.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -8
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.9881916046142578,
+        "y": -1.7381326244958473e-07,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_marble_floor.object"
     }
   ],
   "pointLights": [
