@@ -724,7 +724,7 @@
       "id": 1,
       "orientation": 1,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": true
     },
     {
       "position": {
@@ -817,6 +817,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {
