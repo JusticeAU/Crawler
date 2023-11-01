@@ -949,25 +949,6 @@
     },
     {
       "position": {
-        "x": 3,
-        "y": -4
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
         "x": 5,
         "y": -4
       },
@@ -1310,44 +1291,6 @@
     },
     {
       "position": {
-        "x": -9,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
         "x": 0,
         "y": 1
       },
@@ -1418,7 +1361,9 @@
         "z": 0.38235294818878174
       },
       "intensity": 15.0,
-      "id": 2
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -1428,7 +1373,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 0.0798010304570198,
@@ -1437,7 +1382,8 @@
       },
       "intensity": 12.0,
       "id": 3,
-      "isLobbyLight": true
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -1447,7 +1393,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.3980000019073486
       },
       "colour": {
         "x": 1.0,
@@ -1455,7 +1401,9 @@
         "z": 0.28431373834609985
       },
       "intensity": 15.0,
-      "id": 1
+      "id": 1,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     }
   ],
   "events": [
