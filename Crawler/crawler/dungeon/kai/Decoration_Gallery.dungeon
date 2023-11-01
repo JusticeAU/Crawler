@@ -1650,11 +1650,11 @@
         "x": 5,
         "y": -3
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         -1
       ]
@@ -1774,6 +1774,20 @@
     {
       "position": {
         "x": 6,
+        "y": -3
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
         "y": 6
       },
       "mask": 7,
@@ -1816,6 +1830,20 @@
     {
       "position": {
         "x": 7,
+        "y": -3
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
         "y": 6
       },
       "mask": 7,
@@ -1852,6 +1880,20 @@
         0,
         -1,
         -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -3
+      },
+      "mask": 6,
+      "maskSee": 6,
+      "wallVariants": [
+        0,
+        -1,
+        0,
         -1
       ]
     },
@@ -1986,13 +2028,13 @@
         "x": 9,
         "y": -3
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
         -1,
-        0
+        -1
       ]
     },
     {
@@ -3543,7 +3585,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 0.02437249943614006
       },
       "localRotation": {
         "x": 0.0,
@@ -3982,7 +4024,25 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/decoration_wall_2_half.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_blackvoid.object"
     }
   ],
   "pointLights": [
@@ -4021,6 +4081,24 @@
       },
       "intensity": 5.0,
       "id": 2
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -4
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3
     }
   ],
   "events": null

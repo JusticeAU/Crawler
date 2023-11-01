@@ -549,7 +549,8 @@
       },
       "id": 1,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -558,7 +559,8 @@
       },
       "id": 2,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -629,6 +631,13 @@
       "position": {
         "x": 1,
         "y": 3
+      },
+      "facing": 0
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
       },
       "facing": 0
     }
@@ -728,6 +737,7 @@
   ],
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {
