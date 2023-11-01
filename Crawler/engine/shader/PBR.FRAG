@@ -10,7 +10,11 @@ in vec3 _BiTangent;
 
 
 uniform vec3 cameraPosition;
+
+// Material Configuration
 uniform bool useAlphaCutoff;
+uniform float ambient = 0.03;
+uniform float emissiveScale = 1.0;
 
 uniform sampler2D albedoMap;
 uniform sampler2D normalMap;
@@ -144,15 +148,15 @@ void main()
 		Lo += ((kD * albedo / PI + specular) * radiance * NdotL) * ShadowFactor;
 	}
 	
-	vec3 ambient = vec3(0.03) * albedo * ao;
-	vec3 color   = ambient + Lo + emissive.rgb;
+	vec3 ambientColour = vec3(ambient) * albedo * ao;
+	vec3 color   = ambientColour + Lo + (emissive.rgb * emissiveScale);
 	
 	// Gamma correct - Reinhard.
 	color = color / (color + vec3(1.0));
 	color = pow(color, vec3(1.0/2.2));
 	
 	FragColour = vec4(color, 1.0);
-	Emission = emissive;
+	Emission = emissive * emissiveScale;
 }
 
 vec3 fresnelSchlick(float cosTheta, vec3 F0)
