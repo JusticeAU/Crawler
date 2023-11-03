@@ -1,5 +1,5 @@
 {
-  "name": "pillar_2",
+  "name": "wall_2_half",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_pillar_2.fbx"
+      "model": "crawler/model/tile_wall_2_half.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/texture_atlas_16_atlas_16.material"
+        "crawler/material/atlas_12_Atlas_12.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

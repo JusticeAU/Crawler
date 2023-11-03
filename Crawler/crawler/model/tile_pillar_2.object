@@ -1,5 +1,5 @@
 {
-  "name": "marblefloor",
+  "name": "pillar_2",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,12 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_marblefloor.fbx"
+      "model": "crawler/model/tile_pillar_2.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_marblefloor_woodfloor.material"
+        "crawler/material/texture_atlas_16_atlas_16.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,

@@ -1,5 +1,5 @@
 {
-  "name": "wall_2_half",
+  "name": "marble_floor",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,16 +20,16 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_wall_2_half.fbx"
+      "model": "crawler/model/tile_marble_floor.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/atlas_12_Atlas_12.material"
+        "crawler/material/decoration_marble_floor_marble.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true
+      "castsShadows": false
     }
   ],
   "children": null

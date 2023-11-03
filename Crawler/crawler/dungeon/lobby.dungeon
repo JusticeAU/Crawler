@@ -2421,7 +2421,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2439,7 +2439,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2457,7 +2457,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2475,7 +2475,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2493,7 +2493,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2511,7 +2511,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2529,7 +2529,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2547,7 +2547,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2565,7 +2565,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2583,7 +2583,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2601,7 +2601,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2619,7 +2619,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2637,7 +2637,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2655,7 +2655,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2673,7 +2673,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2691,7 +2691,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2709,7 +2709,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2727,7 +2727,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2745,7 +2745,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2763,7 +2763,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2781,7 +2781,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2799,7 +2799,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -2835,7 +2835,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -2853,7 +2853,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -2871,7 +2871,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -2889,7 +2889,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -2943,7 +2943,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -2961,7 +2961,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -2979,7 +2979,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -2997,7 +2997,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -3015,7 +3015,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -3033,7 +3033,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -3051,7 +3051,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -3069,7 +3069,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -3087,7 +3087,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -3105,7 +3105,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -3123,7 +3123,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -3141,7 +3141,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -3195,7 +3195,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3249,7 +3249,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3267,7 +3267,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3321,7 +3321,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3339,7 +3339,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3357,7 +3357,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3375,7 +3375,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3393,7 +3393,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3411,7 +3411,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3429,7 +3429,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3447,7 +3447,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3465,7 +3465,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3483,7 +3483,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3501,7 +3501,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3519,7 +3519,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -3537,7 +3537,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -3573,7 +3573,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -3591,7 +3591,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3609,7 +3609,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3627,7 +3627,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3645,7 +3645,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3663,7 +3663,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3681,7 +3681,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3699,7 +3699,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3717,7 +3717,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3735,7 +3735,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3753,7 +3753,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3771,7 +3771,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3789,7 +3789,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3807,7 +3807,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3825,7 +3825,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3843,7 +3843,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3861,7 +3861,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3879,7 +3879,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3897,7 +3897,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3915,7 +3915,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3933,7 +3933,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3951,7 +3951,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3969,7 +3969,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -3987,7 +3987,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4005,7 +4005,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4023,7 +4023,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4041,7 +4041,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4059,7 +4059,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4077,7 +4077,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4095,7 +4095,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4113,7 +4113,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4131,7 +4131,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4149,7 +4149,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4167,7 +4167,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4185,7 +4185,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4203,7 +4203,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4221,7 +4221,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4239,7 +4239,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4257,7 +4257,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4275,7 +4275,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4293,7 +4293,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4311,7 +4311,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4329,7 +4329,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4347,7 +4347,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4365,7 +4365,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4383,7 +4383,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -4401,7 +4401,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -4419,7 +4419,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -4455,7 +4455,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -4473,7 +4473,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -4491,7 +4491,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -4527,7 +4527,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -4761,7 +4761,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4779,7 +4779,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4797,7 +4797,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4815,7 +4815,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4833,7 +4833,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4851,7 +4851,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4869,7 +4869,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4887,7 +4887,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4905,7 +4905,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4923,7 +4923,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4941,7 +4941,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4959,7 +4959,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4977,7 +4977,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -4995,7 +4995,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5013,7 +5013,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5031,7 +5031,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5049,7 +5049,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5067,7 +5067,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5085,7 +5085,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5103,7 +5103,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5121,7 +5121,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5139,7 +5139,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5157,7 +5157,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5175,7 +5175,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5193,7 +5193,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5211,7 +5211,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5229,7 +5229,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5247,7 +5247,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5265,7 +5265,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5283,7 +5283,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5301,7 +5301,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5319,7 +5319,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5337,7 +5337,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5355,7 +5355,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5373,7 +5373,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5391,7 +5391,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5409,7 +5409,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5427,7 +5427,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5445,7 +5445,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5463,7 +5463,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5481,7 +5481,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -5535,7 +5535,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5553,7 +5553,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5571,7 +5571,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5589,7 +5589,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5607,7 +5607,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5625,7 +5625,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5643,7 +5643,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5661,7 +5661,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -5679,7 +5679,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5697,7 +5697,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5715,7 +5715,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5733,7 +5733,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5751,7 +5751,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5769,7 +5769,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5787,7 +5787,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5805,7 +5805,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -5823,7 +5823,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5841,7 +5841,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5859,7 +5859,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5877,7 +5877,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5895,7 +5895,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5913,7 +5913,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5931,7 +5931,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5949,7 +5949,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5967,7 +5967,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -5985,7 +5985,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6003,7 +6003,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6021,7 +6021,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6039,7 +6039,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6057,7 +6057,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6075,7 +6075,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6093,7 +6093,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6111,7 +6111,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6129,7 +6129,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6147,7 +6147,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6165,7 +6165,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6183,7 +6183,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6201,7 +6201,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6219,7 +6219,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6237,7 +6237,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -6255,7 +6255,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6273,7 +6273,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6291,7 +6291,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6309,7 +6309,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6327,7 +6327,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6345,7 +6345,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6363,7 +6363,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6381,7 +6381,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6399,7 +6399,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6417,7 +6417,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6435,7 +6435,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6453,7 +6453,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6471,7 +6471,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6489,7 +6489,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6507,7 +6507,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6525,7 +6525,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6543,7 +6543,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6561,7 +6561,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -6723,7 +6723,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -6741,7 +6741,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -6759,7 +6759,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -6777,7 +6777,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -6849,7 +6849,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -6867,7 +6867,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -6885,7 +6885,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -6903,7 +6903,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -6957,7 +6957,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -6975,7 +6975,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -6993,7 +6993,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7011,7 +7011,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7029,7 +7029,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7047,7 +7047,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7065,7 +7065,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7083,7 +7083,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7101,7 +7101,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7119,7 +7119,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7137,7 +7137,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7155,7 +7155,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7173,7 +7173,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7191,7 +7191,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7209,7 +7209,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7227,7 +7227,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7245,7 +7245,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7263,7 +7263,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7281,7 +7281,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7299,7 +7299,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7317,7 +7317,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7353,7 +7353,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -7371,7 +7371,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -7551,7 +7551,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7569,7 +7569,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7587,7 +7587,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7605,7 +7605,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7623,7 +7623,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7641,7 +7641,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7659,7 +7659,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7677,7 +7677,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7695,7 +7695,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7713,7 +7713,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7731,7 +7731,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7749,7 +7749,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7767,7 +7767,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7785,7 +7785,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7803,7 +7803,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7821,7 +7821,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7839,7 +7839,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7857,7 +7857,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7875,7 +7875,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7893,7 +7893,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7911,7 +7911,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7929,7 +7929,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7947,7 +7947,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7965,7 +7965,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -7983,7 +7983,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8001,7 +8001,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8019,7 +8019,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8055,7 +8055,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8073,7 +8073,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8091,7 +8091,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8109,7 +8109,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8127,7 +8127,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8145,7 +8145,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8163,7 +8163,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8181,7 +8181,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8199,7 +8199,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8217,7 +8217,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8235,7 +8235,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8253,7 +8253,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8271,7 +8271,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8289,7 +8289,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8307,7 +8307,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8325,7 +8325,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8343,7 +8343,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8361,7 +8361,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8379,7 +8379,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8397,7 +8397,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8415,7 +8415,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8433,7 +8433,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8451,7 +8451,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8469,7 +8469,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8487,7 +8487,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8505,7 +8505,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8523,7 +8523,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8541,7 +8541,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8559,7 +8559,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8577,7 +8577,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8595,7 +8595,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8613,7 +8613,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8631,7 +8631,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8649,7 +8649,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8667,7 +8667,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -8685,7 +8685,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8703,7 +8703,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8721,7 +8721,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8739,7 +8739,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8757,7 +8757,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8775,7 +8775,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8793,7 +8793,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -8811,7 +8811,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9459,7 +9459,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -9477,7 +9477,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -9495,7 +9495,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -9513,7 +9513,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -9531,7 +9531,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -9621,7 +9621,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9639,7 +9639,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9657,7 +9657,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9675,7 +9675,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9693,7 +9693,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9711,7 +9711,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9729,7 +9729,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9747,7 +9747,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9765,7 +9765,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9783,7 +9783,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9801,7 +9801,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9819,7 +9819,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9837,7 +9837,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9855,7 +9855,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9873,7 +9873,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9891,7 +9891,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9909,7 +9909,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9927,7 +9927,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9945,7 +9945,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9963,7 +9963,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9981,7 +9981,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -9999,7 +9999,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10017,7 +10017,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10035,7 +10035,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10053,7 +10053,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10071,7 +10071,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10089,7 +10089,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10107,7 +10107,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10125,7 +10125,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10143,7 +10143,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10161,7 +10161,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10179,7 +10179,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10197,7 +10197,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10215,7 +10215,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10233,7 +10233,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10251,7 +10251,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10269,7 +10269,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10287,7 +10287,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10305,7 +10305,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10323,7 +10323,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10341,7 +10341,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10359,7 +10359,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10377,7 +10377,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10395,7 +10395,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10413,7 +10413,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10431,7 +10431,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10449,7 +10449,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10467,7 +10467,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10485,7 +10485,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10503,7 +10503,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10521,7 +10521,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10539,7 +10539,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10557,7 +10557,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10575,7 +10575,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10593,7 +10593,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10611,7 +10611,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10629,7 +10629,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10647,7 +10647,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10665,7 +10665,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10683,7 +10683,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10701,7 +10701,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10719,7 +10719,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10737,7 +10737,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10755,7 +10755,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10773,7 +10773,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10791,7 +10791,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10809,7 +10809,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10827,7 +10827,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10845,7 +10845,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10863,7 +10863,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10881,7 +10881,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10899,7 +10899,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10917,7 +10917,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -10935,7 +10935,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -10953,7 +10953,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -10971,7 +10971,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -10989,7 +10989,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11007,7 +11007,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -11025,7 +11025,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11043,7 +11043,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11061,7 +11061,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11079,7 +11079,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -11097,7 +11097,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -11115,7 +11115,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -11133,7 +11133,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -11151,7 +11151,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -11169,7 +11169,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -11187,7 +11187,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -11205,7 +11205,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11223,7 +11223,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11241,7 +11241,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -11259,7 +11259,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11277,7 +11277,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11295,7 +11295,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11313,7 +11313,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11331,7 +11331,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11349,7 +11349,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11367,7 +11367,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -11385,7 +11385,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -11421,7 +11421,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2.object"
+      "modelName": "crawler/model/tile_wall_2.object"
     },
     {
       "position": {
@@ -11439,7 +11439,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11457,7 +11457,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -11475,7 +11475,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11493,7 +11493,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_2.object"
+      "modelName": "crawler/model/tile_pillar_2.object"
     },
     {
       "position": {
@@ -11511,7 +11511,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11529,7 +11529,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11547,7 +11547,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11565,7 +11565,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar_3.object"
+      "modelName": "crawler/model/tile_pillar_3.object"
     },
     {
       "position": {
@@ -11619,7 +11619,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -11637,7 +11637,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_2_half.object"
+      "modelName": "crawler/model/tile_wall_2_half.object"
     },
     {
       "position": {
@@ -12177,7 +12177,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -12195,7 +12195,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -12267,7 +12267,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12285,7 +12285,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12303,7 +12303,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12321,7 +12321,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -12339,7 +12339,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -12357,7 +12357,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object"
+      "modelName": "crawler/model/tile_ceiling1.object"
     },
     {
       "position": {
@@ -12375,7 +12375,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12393,7 +12393,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12411,7 +12411,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12429,7 +12429,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12447,7 +12447,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12465,7 +12465,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12483,7 +12483,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12501,7 +12501,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12519,7 +12519,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12537,7 +12537,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12555,7 +12555,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12573,7 +12573,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12592,7 +12592,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12611,7 +12611,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12630,7 +12630,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12649,7 +12649,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12667,7 +12667,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12685,7 +12685,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12703,7 +12703,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12722,7 +12722,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12740,7 +12740,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12758,7 +12758,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12776,7 +12776,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12795,7 +12795,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12813,7 +12813,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12831,7 +12831,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12849,7 +12849,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12868,7 +12868,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_floor_wood.object"
+      "modelName": "crawler/model/tile_wood.object"
     },
     {
       "position": {
@@ -12886,7 +12886,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -12904,7 +12904,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_cieling.object",
+      "modelName": "crawler/model/tile_ceiling1.object",
       "castsShadows": false
     },
     {
@@ -12923,7 +12923,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -12941,7 +12941,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -12959,7 +12959,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -12977,7 +12977,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -12995,7 +12995,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13013,7 +13013,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13031,7 +13031,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13049,7 +13049,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13067,7 +13067,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13085,7 +13085,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13103,7 +13103,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13121,7 +13121,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13139,7 +13139,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13157,7 +13157,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13175,7 +13175,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13193,7 +13193,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_pillar.object"
+      "modelName": "crawler/model/tile_pillar.object"
     },
     {
       "position": {
@@ -13211,7 +13211,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -13229,7 +13229,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -13247,7 +13247,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -13265,7 +13265,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     },
     {
       "position": {
@@ -13283,7 +13283,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_wall_1.object"
+      "modelName": "crawler/model/tile_wall_1.object"
     }
   ],
   "pointLights": [
