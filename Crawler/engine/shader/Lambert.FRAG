@@ -112,7 +112,7 @@ void main()
 	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
 	for(int i = 0; i < lightsToRender; i++)
 	{
-		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos; // get direction from pixel to light (not normalized)
+		vec3 LightDirection = PointLightPositions[i].xyz - _WorldPos; // get direction from pixel to light (not normalized)
 		vec3 L = normalize(LightDirection);
 		float bias = max(0.06 * (1.0 - dot(N, L)), 0.005); // Scaling bias based on dot of normal to light.
 		float Distance = (length(LightDirection) / 15.0) - bias;
@@ -136,7 +136,7 @@ void main()
 		float attenuation = 1.0 / (distance * distance);
 		LightDirection = LightDirection / distance; // normalize
 		attenuation = min(attenuation, 0.02);
-		diffuseTotal +=  (PointLightColours[PointLightIndices[i/4][i%4]].xyz * attenuation) * ShadowFactor;
+		diffuseTotal +=  (PointLightColours[i].xyz * attenuation) * ShadowFactor;
 	}
 	
 	//shadow = ShadowCalculation(_FragPosLightSpace);

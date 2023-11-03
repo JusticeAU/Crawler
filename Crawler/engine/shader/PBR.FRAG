@@ -108,7 +108,7 @@ void main()
 	for(int i = 0; i < lightsToRender; ++i) 
 	{
 		// calculate per-light radiance
-		vec3 LightDirection = PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos;
+		vec3 LightDirection = PointLightPositions[i].xyz - _WorldPos;
 		vec3 L = normalize(LightDirection);
 		float bias = max(0.025 * (1.0 - dot(_Normal, L)), 0.004); // Scaling bias based on dot of geometry normal to light.
 		float Distance = (length(LightDirection) / 15.0) - bias;
@@ -126,9 +126,9 @@ void main()
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
-		float distance    = length(PointLightPositions[PointLightIndices[i/4][i%4]].xyz - _WorldPos);
+		float distance    = length(PointLightPositions[i].xyz - _WorldPos);
 		float attenuation = 1.0 / (distance * distance);
-		vec3 radiance     = PointLightColours[PointLightIndices[i/4][i%4]].xyz * attenuation; 
+		vec3 radiance     = PointLightColours[i].xyz * attenuation; 
 		
 		// calculate Cook-Torrance BRDF:
 		float NDF = DistributionGGX(N, H, roughness);       
