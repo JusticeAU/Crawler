@@ -821,25 +821,6 @@
   "decorations": [
     {
       "position": {
-        "x": 2,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
         "x": -7,
         "y": -1
       },
@@ -963,25 +944,6 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_rug_long_square.object"
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -8.537342210956922e-08,
-        "y": 0.976557731628418,
-        "z": -0.15000000596046448
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -993,7 +955,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.3949999809265137
       },
       "colour": {
         "x": 1.0,
@@ -1001,17 +963,19 @@
         "z": 0.4505494236946106
       },
       "intensity": 6.0,
-      "id": 3
+      "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
         "x": 2,
-        "y": 9
+        "y": 10
       },
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 1.0,
@@ -1019,25 +983,9 @@
         "z": 1.0
       },
       "intensity": 2.799999952316284,
-      "id": 4
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -3
-      },
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 2.5
-      },
-      "colour": {
-        "x": 0.05392156541347504,
-        "y": 0.17286622524261475,
-        "z": 0.21568626165390015
-      },
-      "intensity": 37.0,
-      "id": 1
+      "id": 4,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -1046,8 +994,8 @@
       },
       "localPosition": {
         "x": 0.0,
-        "y": -0.8999999761581421,
-        "z": 2.5
+        "y": -1.0,
+        "z": 2.2929999828338623
       },
       "colour": {
         "x": 0.14061899483203888,
@@ -1055,7 +1003,9 @@
         "z": 0.37254899740219116
       },
       "intensity": 5.0,
-      "id": 2
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     }
   ],
   "events": [
