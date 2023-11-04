@@ -46,6 +46,18 @@ uniform samplerCubeShadow shadowMap4;
 uniform samplerCubeShadow shadowMap5;
 uniform samplerCubeShadow shadowMap6;
 uniform samplerCubeShadow shadowMap7;
+uniform samplerCubeShadow shadowMap8;
+uniform samplerCubeShadow shadowMap9;
+uniform samplerCubeShadow shadowMap10;
+uniform samplerCubeShadow shadowMap11;
+uniform samplerCubeShadow shadowMap12;
+uniform samplerCubeShadow shadowMap13;
+uniform samplerCubeShadow shadowMap14;
+uniform samplerCubeShadow shadowMap15;
+uniform samplerCubeShadow shadowMap16;
+uniform samplerCubeShadow shadowMap17;
+uniform samplerCubeShadow shadowMap18;
+uniform samplerCubeShadow shadowMap19;
 
 // Shadow Configuration
 const int samples = 20;
@@ -112,31 +124,45 @@ void main()
 	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
 	for(int i = 0; i < lightsToRender; i++)
 	{
-		vec3 LightDirection = PointLightPositions[i].xyz - _WorldPos; // get direction from pixel to light (not normalized)
+		int lightIndex = PointLightIndices[i/4][i%4];
+		
+		vec3 LightDirection = PointLightPositions[lightIndex].xyz - _WorldPos; // get direction from pixel to light (not normalized)
 		vec3 L = normalize(LightDirection);
 		float bias = max(0.06 * (1.0 - dot(N, L)), 0.005); // Scaling bias based on dot of normal to light.
 		float Distance = (length(LightDirection) / 15.0) - bias;
 		float offset  = 0.003;
 
 		float ShadowFactor = 0.0;
-		if(i == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(i == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		
+		if(		lightIndex == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 8) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap8, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 9) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap9, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 10) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap10, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 11) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap11, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 12) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap12, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 13) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap13, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 14) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap14, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 15) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap15, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 16) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap16, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 17) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap17, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 18) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap18, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
+		else if(lightIndex == 19) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap19, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
 		
 		ShadowFactor /= float(samples);
+		if(ShadowFactor < 0.001) continue;
 		
 		// Attenuate the light intensity with inverese square law
 		float distance = length(LightDirection);
 		float attenuation = 1.0 / (distance * distance);
 		LightDirection = LightDirection / distance; // normalize
 		attenuation = min(attenuation, 0.02);
-		diffuseTotal +=  (PointLightColours[i].xyz * attenuation) * ShadowFactor;
+		diffuseTotal +=  (PointLightColours[lightIndex].xyz * attenuation) * ShadowFactor;
 	}
 	
 	//shadow = ShadowCalculation(_FragPosLightSpace);
