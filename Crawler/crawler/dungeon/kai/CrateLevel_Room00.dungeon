@@ -289,7 +289,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room01",
-      "toTransporter": ""
+      "toTransporter": "Entry"
     }
   ],
   "checkpoints": null,

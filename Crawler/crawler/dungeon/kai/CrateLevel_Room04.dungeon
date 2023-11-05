@@ -398,7 +398,7 @@
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room05",
-      "toTransporter": ""
+      "toTransporter": "Entry2"
     },
     {
       "name": "Exit1",
@@ -408,7 +408,7 @@
       },
       "fromOrientation": 0,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room05",
-      "toTransporter": ""
+      "toTransporter": "Entry1"
     }
   ],
   "checkpoints": null,

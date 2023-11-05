@@ -716,7 +716,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room03",
-      "toTransporter": ""
+      "toTransporter": "Entry"
     },
     {
       "name": "Entry",

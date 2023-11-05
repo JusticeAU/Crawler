@@ -794,7 +794,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room06",
-      "toTransporter": ""
+      "toTransporter": "Entry"
     },
     {
       "name": "Secret Entrance",

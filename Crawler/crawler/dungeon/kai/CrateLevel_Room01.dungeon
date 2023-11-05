@@ -522,8 +522,8 @@
         "y": -2
       },
       "fromOrientation": 1,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room05",
+      "toTransporter": "Secret Entrance"
     },
     {
       "name": "Exit",
@@ -533,7 +533,7 @@
       },
       "fromOrientation": 2,
       "toDungeon": "crawler/dungeon/kai/CrateLevel_Room02",
-      "toTransporter": ""
+      "toTransporter": "Entry"
     },
     {
       "name": "Entry",

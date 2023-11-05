@@ -352,7 +352,7 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/lobby",
-      "toTransporter": ""
+      "toTransporter": "TutExit"
     },
     {
       "name": "Entry",

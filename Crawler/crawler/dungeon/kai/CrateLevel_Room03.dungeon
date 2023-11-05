@@ -276,16 +276,6 @@
   "doors": [
     {
       "position": {
-        "x": -1,
-        "y": 0
-      },
-      "id": 2,
-      "orientation": 3,
-      "open": false,
-      "isBarricaded": false
-    },
-    {
-      "position": {
         "x": 17,
         "y": -10
       },
@@ -314,8 +304,8 @@
         "y": -9
       },
       "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room04",
+      "toTransporter": "Entry"
     }
   ],
   "checkpoints": null,
