@@ -1130,7 +1130,7 @@
         "y": -2
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/justin/chaserReveal2",
+      "toDungeon": "crawler/dungeon/Tutorial3",
       "toTransporter": "Chase2"
     },
     {

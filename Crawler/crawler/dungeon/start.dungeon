@@ -802,7 +802,7 @@
         "y": 0
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/Tutorial2",
+      "toDungeon": "crawler/dungeon/Tutorial2",
       "toTransporter": "Tut2"
     }
   ],
