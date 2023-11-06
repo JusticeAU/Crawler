@@ -2064,7 +2064,7 @@
         "y": -9
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/justin/laser1",
+      "toDungeon": "crawler/dungeon/level1/KnightCorridor",
       "toTransporter": "Entry"
     }
   ],

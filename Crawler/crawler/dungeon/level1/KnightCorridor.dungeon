@@ -512,7 +512,7 @@
         "y": 0
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt1",
+      "toDungeon": "crawler/dungeon/level1/MurderinaBoxes",
       "toTransporter": "Tut4"
     }
   ],

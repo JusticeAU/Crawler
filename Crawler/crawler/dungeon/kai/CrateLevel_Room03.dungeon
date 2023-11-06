@@ -2,8 +2,8 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 0,
-    "y": 0
+    "x": 14,
+    "y": -12
   },
   "defaultOrientation": 1,
   "tiles": [
