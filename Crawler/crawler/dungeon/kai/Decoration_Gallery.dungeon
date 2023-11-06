@@ -2434,11 +2434,11 @@
         "x": 10,
         "y": -10
       },
-      "mask": 15,
-      "maskSee": 15,
+      "mask": 11,
+      "maskSee": 11,
       "wallVariants": [
         -1,
-        -1,
+        0,
         -1,
         -1
       ]
@@ -2714,24 +2714,10 @@
         "x": 11,
         "y": -11
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
-        -1,
         0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -10
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
         0,
         -1,
         -1
@@ -2742,12 +2728,12 @@
         "x": 11,
         "y": -9
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 3,
+      "maskSee": 3,
       "wallVariants": [
         -1,
         0,
-        -1,
+        0,
         -1
       ]
     },
@@ -4374,6 +4360,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_railings_long.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
     }
   ],
   "pointLights": [
@@ -4410,8 +4414,10 @@
         "y": 1.0,
         "z": 1.0
       },
-      "intensity": 5.0,
-      "id": 2
+      "intensity": 2.9326224327087402,
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
