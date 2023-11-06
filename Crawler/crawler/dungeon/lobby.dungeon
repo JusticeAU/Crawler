@@ -9095,7 +9095,7 @@
       "facing": 0,
       "localPosition": {
         "x": 0.9452860355377197,
-        "y": -1.659111738204956,
+        "y": -1.732395887374878,
         "z": 3.097440242767334
       },
       "localRotation": {
@@ -9113,7 +9113,7 @@
       "facing": 0,
       "localPosition": {
         "x": 0.9452860355377197,
-        "y": -1.7252881526947021,
+        "y": -1.934037685394287,
         "z": 3.097440242767334
       },
       "localRotation": {
@@ -14170,6 +14170,258 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_curtain.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -4.531088748649381e-08,
+        "y": 0.5182962417602539,
+        "z": 3.206132411956787
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_crate_2.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0215892791748047,
+        "y": 0.24878305196762085,
+        "z": 3.1879868507385254
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -43.20000076293945
+      },
+      "modelName": "crawler/model/decoration_crate_1.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.649449348449707,
+        "y": 0.6442212462425232,
+        "z": 3.2001445293426514
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bucket.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -4.209057807922363,
+        "y": -0.6688435673713684,
+        "z": 3.2313950061798096
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -5.400000095367432
+      },
+      "modelName": "crawler/model/decoration_crate_2.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -31.0
+      },
+      "modelName": "crawler/model/decoration_crate_2.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.8755979537963867,
+        "y": 0.38430076837539673,
+        "z": -0.011020305566489697
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 24.5
+      },
+      "modelName": "crawler/model/decoration_crate_1.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.6235198974609375,
+        "y": -2.189661979675293,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -57.099998474121094
+      },
+      "modelName": "crawler/model/decoration_crate_2.object"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.5623952150344849,
+        "y": -1.0282738208770752,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -8.800000190734863
+      },
+      "modelName": "crawler/model/decoration_crate_1.object"
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": -1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.459352970123291,
+        "y": 6.379034545034301e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_rug_long_square.object"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.37154388427734375,
+        "y": -0.34558480978012085,
+        "z": 0.00036951745278201997
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -168.60000610351563
+      },
+      "modelName": "crawler/model/decoration_standing_lamp.object"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.443756103515625,
+        "y": 0.05186271667480469,
+        "z": 2.331444263458252
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_18.object"
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.32711195945739746,
+        "y": -0.043701156973838806,
+        "z": 2.3336873054504395
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_12.object"
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.5657050609588623,
+        "y": -0.03555681183934212,
+        "z": 2.324601411819458
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_8.object"
     }
   ],
   "pointLights": [
