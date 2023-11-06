@@ -32,7 +32,7 @@
         -1,
         -1,
         -1,
-        0
+        4
       ]
     },
     {
@@ -60,7 +60,7 @@
         -1,
         -1,
         -1,
-        0
+        4
       ]
     },
     {
@@ -212,7 +212,7 @@
       "maskSee": 3,
       "wallVariants": [
         1,
-        0,
+        7,
         0,
         -1
       ]
@@ -226,7 +226,7 @@
       "maskSee": 11,
       "wallVariants": [
         -1,
-        0,
+        4,
         -1,
         1
       ]
@@ -304,6 +304,20 @@
     {
       "position": {
         "x": -5,
+        "y": 8
+      },
+      "mask": 4,
+      "maskSee": 4,
+      "wallVariants": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -5,
         "y": 12
       },
       "mask": 5,
@@ -374,14 +388,42 @@
     {
       "position": {
         "x": -4,
-        "y": 10
+        "y": 8
       },
-      "mask": 1,
-      "maskSee": 1,
+      "mask": 3,
+      "maskSee": 3,
       "wallVariants": [
         -1,
         0,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 9
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": 10
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
         0
       ]
     },
@@ -657,27 +699,242 @@
     {
       "position": {
         "x": -6,
-        "y": 10
+        "y": 14
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.5822487473487854,
+        "y": 0.9796438217163086,
+        "z": 2.2764172554016113
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": -100.61399841308594,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_13.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.018323898315429688,
+        "y": 0.9900083541870117,
+        "z": 2.364544153213501
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 71.0999984741211,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_2.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.37047773599624634,
+        "y": 0.9861984252929688,
+        "z": 1.4421483278274536
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": -2.4000000953674316,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_4.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.4781780242919922,
+        "y": 0.9693641662597656,
+        "z": 1.296144723892212
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 101.0999984741211,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_6.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 14
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.5810450911521912,
+        "y": 1.0057001113891602,
+        "z": 2.318011999130249
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 177.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_3.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 13
       },
       "facing": 0,
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 3.0276315212249756
       },
       "localRotation": {
         "x": 0.0,
-        "y": 0.0,
+        "y": 180.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
+      "modelName": "crawler/model/tile_wood.object"
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 1.0960362395451284e-08,
+        "y": 0.0,
+        "z": 3.0265727043151855
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_marblefloor.object"
     },
     {
       "position": {
         "x": -8,
         "y": 10
       },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.094131350517273,
+        "y": 2.094797134399414,
+        "z": 3.4906671047210693
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_marble_floor.object"
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 13
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.0505306720733643
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_wood.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 12
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.5199999809265137,
+        "y": 1.100000023841858,
+        "z": 0.8650074601173401
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dresser.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 12
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.5199999809265137,
+        "y": 1.100000023841858,
+        "z": 0.8650000095367432
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dresser.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 12
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.5199999809265137,
+        "y": 1.100000023841858,
+        "z": 1.7380000352859497
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dresser.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 12
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.5199999809265137,
+        "y": 1.100000023841858,
+        "z": 1.7380000352859497
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_dresser.object"
+    },
+    {
+      "position": {
+        "x": -8,
+        "y": 11
+      },
       "facing": 0,
       "localPosition": {
         "x": 0.0,
@@ -689,8 +946,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
+      "modelName": ""
     }
   ],
   "pointLights": [
@@ -714,36 +970,58 @@
     },
     {
       "position": {
-        "x": -6,
-        "y": 10
+        "x": -4,
+        "y": 8
       },
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.700000047683716
+        "z": 2.3959999084472656
       },
       "colour": {
-        "x": 0.9166666865348816,
-        "y": 0.716839611530304,
-        "z": 0.4313725233078003
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
       "intensity": 5.0,
-      "id": 2
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
-        "x": -8,
-        "y": 10
+        "x": -4,
+        "y": 13
+      },
+      "localPosition": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 2.2660000324249268
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 1.7599999904632568,
+      "id": 6,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 16
       },
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.700000047683716
+        "z": 2.5
       },
       "colour": {
-        "x": 0.9176470637321472,
-        "y": 0.7176470756530762,
-        "z": 0.4313725531101227
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
       "intensity": 5.0,
       "id": 3
@@ -751,74 +1029,62 @@
     {
       "position": {
         "x": -6,
-        "y": 13
+        "y": 10
       },
       "localPosition": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 2.700000047683716
+        "y": -0.5910000205039978,
+        "z": 2.200000047683716
       },
       "colour": {
-        "x": 0.9176470637321472,
-        "y": 0.7176470756530762,
-        "z": 0.4313725531101227
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
       "intensity": 5.0,
-      "id": 4
+      "id": 4,
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
         "x": -8,
-        "y": 13
+        "y": 12
       },
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.700000047683716
+        "z": 2.3970000743865967
       },
       "colour": {
-        "x": 0.9176470637321472,
-        "y": 0.7176470756530762,
-        "z": 0.4313725531101227
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
       "intensity": 5.0,
-      "id": 5
-    },
-    {
-      "position": {
-        "x": -8,
-        "y": 16
-      },
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 2.700000047683716
-      },
-      "colour": {
-        "x": 0.9176470637321472,
-        "y": 0.7176470756530762,
-        "z": 0.4313725531101227
-      },
-      "intensity": 5.0,
-      "id": 6
+      "id": 5,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
         "x": -6,
-        "y": 16
+        "y": 14
       },
       "localPosition": {
-        "x": 0.0,
+        "x": 0.5889999866485596,
         "y": 0.0,
-        "z": 2.700000047683716
+        "z": 2.0350000858306885
       },
       "colour": {
-        "x": 0.9176470637321472,
-        "y": 0.7176470756530762,
-        "z": 0.4313725531101227
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
       },
       "intensity": 5.0,
-      "id": 7
+      "id": 7,
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 3
     }
   ],
   "events": null

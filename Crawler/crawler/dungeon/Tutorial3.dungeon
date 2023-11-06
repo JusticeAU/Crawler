@@ -994,16 +994,19 @@
       },
       "localPosition": {
         "x": 0.0,
-        "y": -1.0,
-        "z": 2.2929999828338623
+        "y": 1.0,
+        "z": 2.2690000534057617
       },
       "colour": {
-        "x": 0.14061899483203888,
-        "y": 0.27704834938049316,
-        "z": 0.37254899740219116
+        "x": 1.0,
+        "y": 0.7145328521728516,
+        "z": 0.3529411554336548
       },
-      "intensity": 5.0,
+      "intensity": 9.0,
       "id": 2,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 2.0,
+      "flickerRepeatMax": 5.0,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     }

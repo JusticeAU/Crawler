@@ -989,27 +989,7 @@
   "switchers": null,
   "mirrors": null,
   "keys": null,
-  "decorations": [
-    {
-      "position": {
-        "x": 11,
-        "y": 7
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    }
-  ],
+  "decorations": null,
   "pointLights": [
     {
       "position": {
@@ -1019,7 +999,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.384000062942505
       },
       "colour": {
         "x": 1.0,
@@ -1027,7 +1007,52 @@
         "z": 1.0
       },
       "intensity": 5.0,
-      "id": 1
+      "id": 1,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 5.0,
+      "flickerRepeatMax": 20.0,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 4
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3940000534057617
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 11
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3929998874664307
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     }
   ],
   "events": [
