@@ -4378,6 +4378,78 @@
         "z": 90.0
       },
       "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_arch_long.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_alcohol_bottle_1.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_front_door_frame.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -12
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
     }
   ],
   "pointLights": [
