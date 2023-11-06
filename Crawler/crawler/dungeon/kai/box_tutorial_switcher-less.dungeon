@@ -2506,7 +2506,8 @@
         -1,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -2761,7 +2762,8 @@
       },
       "id": 2,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2770,7 +2772,8 @@
       },
       "id": 1,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2779,7 +2782,8 @@
       },
       "id": 3,
       "orientation": 2,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2788,7 +2792,8 @@
       },
       "id": 4,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2797,7 +2802,8 @@
       },
       "id": 4,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2806,7 +2812,8 @@
       },
       "id": 6,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2815,7 +2822,8 @@
       },
       "id": 7,
       "orientation": 1,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2824,7 +2832,8 @@
       },
       "id": 16,
       "orientation": 0,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     },
     {
       "position": {
@@ -2833,7 +2842,8 @@
       },
       "id": 5,
       "orientation": 3,
-      "open": false
+      "open": false,
+      "isBarricaded": false
     }
   ],
   "plates": [
@@ -3186,6 +3196,7 @@
   ],
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {

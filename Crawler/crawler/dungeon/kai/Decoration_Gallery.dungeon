@@ -1606,6 +1606,48 @@
     {
       "position": {
         "x": 5,
+        "y": -12
+      },
+      "mask": 5,
+      "maskSee": 5,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -11
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -10
+      },
+      "mask": 12,
+      "maskSee": 12,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 5,
         "y": -6
       },
       "mask": 3,
@@ -1774,6 +1816,48 @@
     {
       "position": {
         "x": 6,
+        "y": -12
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -11
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -10
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 6,
         "y": -3
       },
       "mask": 6,
@@ -1830,6 +1914,48 @@
     {
       "position": {
         "x": 7,
+        "y": -12
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -11
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -10
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 7,
         "y": -3
       },
       "mask": 6,
@@ -1873,6 +1999,48 @@
       "position": {
         "x": 7,
         "y": 8
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -12
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -11
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": -10
       },
       "mask": 14,
       "maskSee": 14,
@@ -1942,14 +2110,56 @@
     {
       "position": {
         "x": 9,
-        "y": -9
+        "y": -12
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -11
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -10
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -9
+      },
+      "mask": 13,
+      "maskSee": 13,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         0
       ]
     },
@@ -2194,7 +2404,7 @@
     {
       "position": {
         "x": 10,
-        "y": -9
+        "y": -12
       },
       "mask": 7,
       "maskSee": 7,
@@ -2202,6 +2412,48 @@
         -1,
         -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -11
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -10
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -9
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
         -1
       ]
     },
@@ -2446,7 +2698,7 @@
     {
       "position": {
         "x": 11,
-        "y": -9
+        "y": -12
       },
       "mask": 3,
       "maskSee": 3,
@@ -2454,6 +2706,48 @@
         -1,
         0,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -11
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -10
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -9
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
         -1
       ]
     },
@@ -3286,7 +3580,8 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_light1.object"
+      "modelName": "crawler/model/decoration_light1.object",
+      "castsShadows": false
     },
     {
       "position": {
@@ -3772,7 +4067,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_vase_4.object"
+      "modelName": "crawler/model/decoration_painting_10.object"
     },
     {
       "position": {
@@ -4043,6 +4338,42 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_lobby_blackvoid.object"
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -7
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_railing.object"
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -9
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_railings_long.object"
     }
   ],
   "pointLights": [
@@ -4099,6 +4430,78 @@
       },
       "intensity": 5.0,
       "id": 3
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 6
+    },
+    {
+      "position": {
+        "x": -6,
+        "y": 1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 7
     }
   ],
   "events": null
