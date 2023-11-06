@@ -1,5 +1,5 @@
 {
-  "name": "umbrella",
+  "name": "candleholder",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_umbrella.fbx"
+      "model": "crawler/model/decoration_candleholder.fbx"
     },
     {
       "type": "Renderer",
