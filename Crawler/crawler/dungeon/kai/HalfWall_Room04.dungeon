@@ -570,7 +570,7 @@
   "pointLights": [
     {
       "position": {
-        "x": -8,
+        "x": -9,
         "y": -3
       },
       "localPosition": {
@@ -584,7 +584,49 @@
         "z": 1.0
       },
       "intensity": 2.799999952316284,
-      "id": 1
+      "id": 1,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.4000000953674316
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 8
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.5870000123977661,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 2
     }
   ],
   "events": null

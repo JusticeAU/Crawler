@@ -633,7 +633,7 @@
         "x": 7,
         "y": 1
       },
-      "mask": 12,
+      "mask": 13,
       "maskSee": 13,
       "wallVariants": [
         -1,
@@ -647,15 +647,14 @@
         "x": 7,
         "y": 2
       },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 8,
+      "maskSee": 8,
       "wallVariants": [
         0,
         -1,
         -1,
         0
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -1296,25 +1295,6 @@
     },
     {
       "position": {
-        "x": 10,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
         "x": 3,
         "y": -2
       },
@@ -1348,25 +1328,6 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_fireplace.object"
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.10000000149011612,
-        "y": 0.8999999761581421,
-        "z": -0.15000000596046448
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
     },
     {
       "position": {
@@ -1421,24 +1382,6 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_books_bookshelf.object"
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 2
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": 0.419979065656662,
-        "y": -0.7223063707351685,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": -33.79999923706055
-      },
-      "modelName": "crawler/model/decoration_standing_lamp.object"
     },
     {
       "position": {
@@ -1547,24 +1490,6 @@
         "z": -88.0999984741211
       },
       "modelName": "crawler/model/decoration_sidedraw.object"
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 2
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -1.1338939666748047,
-        "y": -0.18298444151878357,
-        "z": 0.8906545639038086
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 90.0,
-        "z": 43.5
-      },
-      "modelName": "crawler/model/decoration_book_2.object"
     },
     {
       "position": {
@@ -1889,24 +1814,6 @@
         "z": 31.5
       },
       "modelName": "crawler/model/decoration_chair1.object"
-    },
-    {
-      "position": {
-        "x": 7,
-        "y": 2
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": -0.22263526916503906,
-        "y": -0.16440869867801666,
-        "z": 0.024374544620513916
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_carpet.object"
     }
   ],
   "pointLights": [
@@ -1936,7 +1843,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.378000020980835
       },
       "colour": {
         "x": 1.0,
@@ -1944,7 +1851,12 @@
         "z": 0.1813725233078003
       },
       "intensity": 17.0,
-      "id": 1
+      "id": 1,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 5.0,
+      "flickerRepeatMax": 20.0,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -1966,31 +1878,13 @@
     },
     {
       "position": {
-        "x": 7,
-        "y": 2
-      },
-      "localPosition": {
-        "x": 1.0499999523162842,
-        "y": 0.23000000417232513,
-        "z": 1.2000000476837158
-      },
-      "colour": {
-        "x": 1.0,
-        "y": 0.5411764979362488,
-        "z": 0.18039216101169586
-      },
-      "intensity": 5.0,
-      "id": 4
-    },
-    {
-      "position": {
         "x": 4,
         "y": -1
       },
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.384000062942505
       },
       "colour": {
         "x": 1.0,
@@ -1998,7 +1892,55 @@
         "z": 1.0
       },
       "intensity": 5.0,
-      "id": 5
+      "id": 5,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 5.0,
+      "flickerRepeatMax": 20.0,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3949999809265137
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.501960813999176,
+        "z": 0.1921568661928177
+      },
+      "intensity": 5.0,
+      "id": 6,
+      "flickerRepeat": true,
+      "flickerRepeatMin": 1.0,
+      "flickerRepeatMax": 3.0,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "localPosition": {
+        "x": 0.9610000252723694,
+        "y": 0.2160000056028366,
+        "z": 1.468999981880188
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4,
+      "lightDecorationID": 2,
+      "lightDecorationDirection": 1
     }
   ],
   "events": null

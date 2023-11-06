@@ -373,44 +373,6 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_books_bookshelf.object"
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
     }
   ],
   "pointLights": [
@@ -422,18 +384,17 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.3959999084472656
       },
       "colour": {
         "x": 1.0,
-        "y": 0.44117647409439087,
-        "z": 0.0
+        "y": 0.6959342956542969,
+        "z": 0.45588237047195435
       },
-      "intensity": 0.0,
+      "intensity": 5.0,
       "id": 1,
-      "flickerRepeat": true,
-      "flickerRepeatMin": 1.0,
-      "flickerRepeatMax": 3.0
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -443,7 +404,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.3959999084472656
       },
       "colour": {
         "x": 1.0,
@@ -451,7 +412,9 @@
         "z": 1.0
       },
       "intensity": 5.0,
-      "id": 2
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     }
   ],
   "events": null
