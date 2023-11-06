@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/interactable_pressureplate_rim_atlas_9.material"
+        "crawler/material/texture_atlas_9_atlas_9.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
