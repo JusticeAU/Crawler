@@ -470,6 +470,16 @@
       "orientation": 2,
       "open": true,
       "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": -7,
+        "y": 3
+      },
+      "id": 2,
+      "orientation": 1,
+      "open": false,
+      "isBarricaded": true
     }
   ],
   "plates": null,

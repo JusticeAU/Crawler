@@ -900,6 +900,16 @@
       "orientation": 0,
       "open": false,
       "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "id": 3,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": true
     }
   ],
   "plates": [

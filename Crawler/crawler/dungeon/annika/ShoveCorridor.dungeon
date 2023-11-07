@@ -922,13 +922,55 @@
         "x": 23,
         "y": 5
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 24,
+        "y": 5
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
         0,
         0,
         -1
+      ]
+    },
+    {
+      "position": {
+        "x": 24,
+        "y": 6
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 24,
+        "y": 7
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
       ]
     }
   ],
@@ -941,7 +983,18 @@
       },
       "id": 1,
       "orientation": 1,
-      "open": true
+      "open": true,
+      "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": true
     }
   ],
   "plates": null,
@@ -1057,6 +1110,7 @@
   "slugPaths": null,
   "switchers": null,
   "mirrors": null,
+  "keys": null,
   "decorations": [
     {
       "position": {

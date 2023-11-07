@@ -2033,7 +2033,7 @@
       "id": 1,
       "orientation": 2,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": true
     },
     {
       "position": {

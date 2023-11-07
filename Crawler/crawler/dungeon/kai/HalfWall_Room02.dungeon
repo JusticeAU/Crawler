@@ -602,6 +602,16 @@
       "orientation": 1,
       "open": false,
       "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 16
+      },
+      "id": 1,
+      "orientation": 1,
+      "open": false,
+      "isBarricaded": true
     }
   ],
   "plates": [

@@ -742,7 +742,7 @@
       "id": 1,
       "orientation": 3,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": true
     }
   ],
   "plates": [
