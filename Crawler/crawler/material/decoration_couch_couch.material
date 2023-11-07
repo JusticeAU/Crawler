@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/decoration_couch_couch_albedo.tga",
   "normalMap": "crawler/texture/decoration_couch_couch_normal.tga",
-  "metallicMap": "",
+  "metallicMap": "crawler/texture/decoration_couch_couch_metallic.tga",
   "roughnessMap": "crawler/texture/decoration_couch_couch_roughness.tga",
   "aoMap": "crawler/texture/decoration_couch_couch_ao.tga",
   "emissiveMap": ""
