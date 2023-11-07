@@ -323,7 +323,8 @@
         -1,
         4
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "dontGeneratePillars": true
     },
     {
       "position": {
@@ -353,7 +354,8 @@
         -1,
         4
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "dontGeneratePillars": true
     },
     {
       "position": {
@@ -1193,7 +1195,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "dontGeneratePillars": true
     },
     {
       "position": {
@@ -14422,6 +14425,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_painting_8.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": ""
     }
   ],
   "pointLights": [
