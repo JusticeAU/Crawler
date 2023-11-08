@@ -1609,7 +1609,7 @@
         "y": -11
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/Tutorial4Pt2",
+      "toDungeon": "crawler/dungeon/level1/keyRoom",
       "toTransporter": "Entry"
     },
     {
