@@ -2,20 +2,20 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 1,
-    "y": -4
+    "x": -8,
+    "y": -1
   },
-  "defaultOrientation": 3,
+  "defaultOrientation": 1,
   "tiles": [
     {
       "position": {
-        "x": -6,
-        "y": -5
+        "x": -8,
+        "y": -1
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 4,
+      "maskSee": 4,
       "wallVariants": [
-        -1,
+        0,
         -1,
         0,
         0
@@ -23,36 +23,36 @@
     },
     {
       "position": {
-        "x": -6,
-        "y": -4
+        "x": -7,
+        "y": -1
       },
-      "mask": 13,
-      "maskSee": 13,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
+        0,
         -1,
-        -1,
-        -1,
-        0
+        0,
+        -1
       ]
     },
     {
       "position": {
         "x": -6,
-        "y": -3
+        "y": -1
       },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
         -1,
-        -1,
-        0
+        0,
+        -1
       ]
     },
     {
       "position": {
         "x": -5,
-        "y": -5
+        "y": -1
       },
       "mask": 7,
       "maskSee": 7,
@@ -66,70 +66,14 @@
     {
       "position": {
         "x": -5,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": -3
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": -2
-      },
-      "mask": 9,
-      "maskSee": 9,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
-        "y": -1
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -5,
         "y": 0
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         0
       ]
     },
@@ -220,48 +164,6 @@
     {
       "position": {
         "x": -4,
-        "y": -5
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -3
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -4,
         "y": -1
       },
       "mask": 7,
@@ -374,48 +276,6 @@
     {
       "position": {
         "x": -3,
-        "y": -5
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
-        "y": -3
-      },
-      "mask": 12,
-      "maskSee": 12,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -3,
         "y": -1
       },
       "mask": 3,
@@ -500,48 +360,6 @@
     {
       "position": {
         "x": -2,
-        "y": -5
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -3
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -2,
         "y": 4
       },
       "mask": 6,
@@ -550,48 +368,6 @@
         0,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -5
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": -3
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
         -1
       ]
     },
@@ -612,48 +388,6 @@
     {
       "position": {
         "x": 0,
-        "y": -5
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -4
-      },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -3
-      },
-      "mask": 14,
-      "maskSee": 14,
-      "wallVariants": [
-        0,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 0,
         "y": 4
       },
       "mask": 6,
@@ -662,48 +396,6 @@
         0,
         -1,
         0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -5
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -4
-      },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -3
-      },
-      "mask": 10,
-      "maskSee": 10,
-      "wallVariants": [
-        0,
-        0,
-        -1,
         -1
       ]
     },
@@ -1871,23 +1563,13 @@
   "doors": [
     {
       "position": {
-        "x": 1,
-        "y": -4
+        "x": -8,
+        "y": -1
       },
       "id": 3,
-      "orientation": 1,
+      "orientation": 3,
       "open": false,
       "isBarricaded": true
-    },
-    {
-      "position": {
-        "x": -4,
-        "y": -4
-      },
-      "id": 4,
-      "orientation": 1,
-      "open": false,
-      "isBarricaded": false
     },
     {
       "position": {
@@ -1913,13 +1595,6 @@
   "plates": [
     {
       "position": {
-        "x": -1,
-        "y": -4
-      },
-      "activateID": 4
-    },
-    {
-      "position": {
         "x": 4,
         "y": 5
       },
@@ -1940,10 +1615,10 @@
     {
       "name": "Entry",
       "position": {
-        "x": 1,
-        "y": -4
+        "x": -8,
+        "y": -1
       },
-      "fromOrientation": 3,
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
@@ -1980,12 +1655,6 @@
     }
   ],
   "blocks": [
-    {
-      "position": {
-        "x": -2,
-        "y": -4
-      }
-    },
     {
       "position": {
         "x": 2,
@@ -2178,26 +1847,6 @@
       },
       "intensity": 5.0,
       "id": 1
-    },
-    {
-      "position": {
-        "x": -2,
-        "y": -4
-      },
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 2.3949999809265137
-      },
-      "colour": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
-      },
-      "intensity": 5.0,
-      "id": 2,
-      "lightDecorationID": 0,
-      "lightDecorationDirection": 0
     },
     {
       "position": {
