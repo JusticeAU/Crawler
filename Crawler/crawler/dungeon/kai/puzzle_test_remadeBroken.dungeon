@@ -1748,7 +1748,7 @@
         "x": 0,
         "y": -4
       },
-      "mask": 11,
+      "mask": 10,
       "maskSee": 11,
       "wallVariants": [
         -1,
@@ -1762,12 +1762,12 @@
         "x": 0,
         "y": -3
       },
-      "mask": 11,
+      "mask": 3,
       "maskSee": 11,
       "wallVariants": [
         -1,
         0,
-        -1,
+        1,
         -1
       ]
     },
@@ -3344,11 +3344,11 @@
         "x": 7,
         "y": 8
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
-        0,
+        -1,
         -1,
         -1
       ]
@@ -3481,6 +3481,20 @@
     },
     {
       "position": {
+        "x": 8,
+        "y": 8
+      },
+      "mask": 2,
+      "maskSee": 2,
+      "wallVariants": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
         "x": 9,
         "y": -6
       },
@@ -3678,54 +3692,12 @@
     {
       "position": {
         "x": 11,
-        "y": -1
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": 1
-      },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
         -1,
         0,
         -1
@@ -3736,39 +3708,11 @@
         "x": 12,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
         -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": -1
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
         0,
         -1
       ]
@@ -3778,26 +3722,12 @@
         "x": 13,
         "y": 0
       },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": 1
-      },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
         0,
         0,
-        -1,
+        0,
         -1
       ]
     }
@@ -3811,7 +3741,7 @@
       "id": 1,
       "orientation": 0,
       "status": false,
-      "activateID": 5
+      "activateID": 4
     },
     {
       "position": {
@@ -3821,7 +3751,7 @@
       "id": 5,
       "orientation": 0,
       "status": false,
-      "activateID": 8
+      "activateID": 6
     },
     {
       "position": {
@@ -3880,7 +3810,7 @@
         "x": 0,
         "y": 10
       },
-      "id": 4,
+      "id": 5,
       "orientation": 1,
       "open": false,
       "isBarricaded": false
@@ -3900,7 +3830,7 @@
         "x": 4,
         "y": 2
       },
-      "id": 5,
+      "id": 4,
       "orientation": 2,
       "open": false,
       "isBarricaded": false
@@ -3910,7 +3840,7 @@
         "x": 4,
         "y": -2
       },
-      "id": 8,
+      "id": 6,
       "orientation": 0,
       "open": false,
       "isBarricaded": false
@@ -3970,7 +3900,7 @@
         "x": 6,
         "y": 0
       },
-      "id": 5,
+      "id": 4,
       "orientation": 3,
       "open": false,
       "isBarricaded": false
@@ -4050,20 +3980,6 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": 10
-      },
-      "activateID": 4
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": 12
-      },
-      "activateID": 6
-    },
-    {
-      "position": {
         "x": 7,
         "y": -4
       },
@@ -4075,13 +3991,20 @@
         "y": -7
       },
       "activateID": 11
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "activateID": 5
     }
   ],
   "transporters": [
     {
-      "name": "Level Exit",
+      "name": "Exit",
       "position": {
-        "x": 13,
+        "x": 11,
         "y": 0
       },
       "fromOrientation": 1,
@@ -4431,17 +4354,10 @@
     },
     {
       "position": {
-        "x": 7,
-        "y": 4
-      },
-      "maskTraverse": 2
-    },
-    {
-      "position": {
         "x": 6,
         "y": 4
       },
-      "maskTraverse": 6
+      "maskTraverse": 2
     },
     {
       "position": {
@@ -4455,14 +4371,14 @@
         "x": 6,
         "y": 6
       },
-      "maskTraverse": 2
+      "maskTraverse": 6
     },
     {
       "position": {
         "x": 5,
         "y": 6
       },
-      "maskTraverse": 6
+      "maskTraverse": 4
     },
     {
       "position": {
@@ -4483,7 +4399,7 @@
         "x": 7,
         "y": 8
       },
-      "maskTraverse": 2
+      "maskTraverse": 6
     },
     {
       "position": {
@@ -4491,13 +4407,6 @@
         "y": 8
       },
       "maskTraverse": 6
-    },
-    {
-      "position": {
-        "x": 4,
-        "y": 6
-      },
-      "maskTraverse": 4
     },
     {
       "position": {
@@ -4511,7 +4420,7 @@
         "x": 5,
         "y": 10
       },
-      "maskTraverse": 4
+      "maskTraverse": 5
     },
     {
       "position": {
@@ -4617,12 +4526,181 @@
         "y": -7
       },
       "maskTraverse": 6
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 6
+      },
+      "maskTraverse": 2
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "maskTraverse": 2
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 11
+      },
+      "maskTraverse": 9
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 12
+      },
+      "maskTraverse": 8
     }
   ],
   "switchers": null,
   "mirrors": null,
   "keys": null,
   "decorations": null,
-  "pointLights": null,
+  "pointLights": [
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 1,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 7
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 6,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -4
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 2.2669999599456787
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -4
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 2.2790000438690186
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 7,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    }
+  ],
   "events": null
 }
