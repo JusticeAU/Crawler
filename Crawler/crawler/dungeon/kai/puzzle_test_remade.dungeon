@@ -3692,54 +3692,12 @@
     {
       "position": {
         "x": 11,
-        "y": -1
-      },
-      "mask": 5,
-      "maskSee": 5,
-      "wallVariants": [
-        -1,
-        -1,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": 1
-      },
-      "mask": 12,
-      "maskSee": 12,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": -1
-      },
-      "mask": 7,
-      "maskSee": 7,
-      "wallVariants": [
-        -1,
         -1,
         0,
         -1
@@ -3750,39 +3708,11 @@
         "x": 12,
         "y": 0
       },
-      "mask": 15,
-      "maskSee": 15,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 12,
-        "y": 1
-      },
-      "mask": 14,
-      "maskSee": 14,
+      "mask": 6,
+      "maskSee": 6,
       "wallVariants": [
         0,
         -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": -1
-      },
-      "mask": 3,
-      "maskSee": 3,
-      "wallVariants": [
-        -1,
-        0,
         0,
         -1
       ]
@@ -3792,26 +3722,12 @@
         "x": 13,
         "y": 0
       },
-      "mask": 11,
-      "maskSee": 11,
-      "wallVariants": [
-        -1,
-        0,
-        -1,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": 1
-      },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 2,
+      "maskSee": 2,
       "wallVariants": [
         0,
         0,
-        -1,
+        0,
         -1
       ]
     }
@@ -4079,9 +3995,9 @@
   ],
   "transporters": [
     {
-      "name": "Level Exit",
+      "name": "Exit",
       "position": {
-        "x": 13,
+        "x": 11,
         "y": 0
       },
       "fromOrientation": 1,
@@ -4637,6 +4553,127 @@
   "mirrors": null,
   "keys": null,
   "decorations": null,
-  "pointLights": null,
+  "pointLights": [
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 1,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 4,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 7
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 6,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    }
+  ],
   "events": null
 }
