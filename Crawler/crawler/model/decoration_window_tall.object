@@ -25,8 +25,9 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/texture_atlas_12_atlas_12.material",
+        "crawler/material/decoration_window_tall_arch_window.material",
+        "crawler/material/decoration_window_tall_window_pane.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
