@@ -3180,7 +3180,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -3198,7 +3198,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -3234,7 +3234,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -3306,7 +3306,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6672,7 +6672,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6690,7 +6690,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6708,7 +6708,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6726,7 +6726,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6825,16 +6825,16 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.15874910354614258,
-        "y": 0.13804149627685547,
-        "z": 3.1999993324279785
+        "x": -0.1379714012145996,
+        "y": 0.4170258045196533,
+        "z": 3.200000286102295
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": -47.599998474121094
+        "z": -29.399999618530273
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6843,16 +6843,16 @@
       },
       "facing": 1,
       "localPosition": {
-        "x": 0.08731794357299805,
-        "y": -0.14470767974853516,
-        "z": 3.1998777389526367
+        "x": 0.36313700675964355,
+        "y": -0.15168428421020508,
+        "z": 3.1998753547668457
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": -45.900001525878906
+        "z": -58.0
       },
-      "modelName": "crawler/model/decoration_square_window_2.object"
+      "modelName": "crawler/model/tile_window_square_2.object"
     },
     {
       "position": {
@@ -6880,7 +6880,7 @@
       "facing": 0,
       "localPosition": {
         "x": -0.9311856627464294,
-        "y": -0.8734874725341797,
+        "y": -0.9544427394866943,
         "z": 3.200000047683716
       },
       "localRotation": {
@@ -14123,14 +14123,14 @@
       },
       "facing": 1,
       "localPosition": {
-        "x": -0.01791692152619362,
-        "y": -0.24902057647705078,
-        "z": 3.199939489364624
+        "x": 0.2652599811553955,
+        "y": -0.2116074562072754,
+        "z": 3.1999423503875732
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": -45.70000076293945
+        "z": -57.900001525878906
       },
       "modelName": "crawler/model/decoration_curtain.object"
     },
@@ -14141,14 +14141,14 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.2510967254638672,
-        "y": 0.07586240023374557,
-        "z": 3.199998140335083
+        "x": -0.22591733932495117,
+        "y": 0.3382549285888672,
+        "z": 3.2001237869262695
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": -47.900001525878906
+        "z": -29.200000762939453
       },
       "modelName": "crawler/model/decoration_curtain.object"
     },
