@@ -772,7 +772,7 @@
         "y": 1
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/kai/box_test_remade",
+      "toDungeon": "crawler/dungeon/level1/BoxPt1",
       "toTransporter": "Entry"
     }
   ],
