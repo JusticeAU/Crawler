@@ -1,0 +1,32 @@
+{
+  "type": "material",
+  "version": 1,
+  "shader": "engine/shader/PBR",
+  "shaderSkinned": "engine/shader/PBRSkinned",
+  "isPBR": true,
+  "Ka": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "Kd": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "Ks": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "Ns": 20.0,
+  "map_Kd": "",
+  "map_Ks": "",
+  "bump": "",
+  "albedoMap": "crawler/texture/decoration_barricade_barricade_albedo.tga",
+  "normalMap": "crawler/texture/decoration_barricade_barricade_normal.tga",
+  "metallicMap": "crawler/texture/decoration_barricade_barricade_metallic.tga",
+  "roughnessMap": "crawler/texture/decoration_barricade_barricade_roughness.tga",
+  "aoMap": "crawler/texture/decoration_barricade_barricade_ao.tga",
+  "emissiveMap": ""
+}
