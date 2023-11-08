@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "padlock",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_button.fbx"
+      "model": "crawler/model/interactable_padlock.fbx"
     },
     {
       "type": "Renderer",
