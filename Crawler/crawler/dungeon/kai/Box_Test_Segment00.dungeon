@@ -54,10 +54,10 @@
         "x": -5,
         "y": -1
       },
-      "mask": 6,
-      "maskSee": 6,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
-        1,
+        -1,
         -1,
         0,
         -1
@@ -68,12 +68,12 @@
         "x": -5,
         "y": 0
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
-        1,
+        -1,
         0
       ]
     },
@@ -668,14 +668,28 @@
     {
       "position": {
         "x": 8,
+        "y": 3
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
         "y": 4
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
         0,
-        0,
+        -1,
         -1
       ]
     }
@@ -705,11 +719,11 @@
     },
     {
       "position": {
-        "x": 4,
+        "x": 5,
         "y": 4
       },
       "id": 5,
-      "orientation": 1,
+      "orientation": 3,
       "open": false,
       "isBarricaded": false
     },
@@ -734,16 +748,6 @@
     }
   ],
   "transporters": [
-    {
-      "name": "T",
-      "position": {
-        "x": 5,
-        "y": 4
-      },
-      "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/level1/BoxPt2",
-      "toTransporter": "Entry"
-    },
     {
       "name": "Entry",
       "position": {
@@ -934,8 +938,8 @@
       },
       "intensity": 5.0,
       "id": 4,
-      "lightDecorationID": 0,
-      "lightDecorationDirection": 0
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 3
     },
     {
       "position": {
