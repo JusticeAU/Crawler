@@ -2085,7 +2085,7 @@
         "y": -9
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/level1/KnightCorridor",
+      "toDungeon": "crawler/dungeon/level1/KnightCorner",
       "toTransporter": "Entry"
     }
   ],

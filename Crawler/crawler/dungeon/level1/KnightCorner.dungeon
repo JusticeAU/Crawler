@@ -283,6 +283,16 @@
       "orientation": 0,
       "open": false,
       "isBarricaded": false
+    },
+    {
+      "position": {
+        "x": 14,
+        "y": -12
+      },
+      "id": 1,
+      "orientation": 3,
+      "open": false,
+      "isBarricaded": true
     }
   ],
   "plates": null,
@@ -304,8 +314,8 @@
         "y": -9
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room04",
-      "toTransporter": "Entry"
+      "toDungeon": "crawler/dungeon/level1/MurderinaBoxes",
+      "toTransporter": "Tut4"
     }
   ],
   "checkpoints": null,
