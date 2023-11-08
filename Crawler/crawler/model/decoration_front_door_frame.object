@@ -26,7 +26,7 @@
       "type": "Renderer",
       "materials": [
         "crawler/material/texture_frontdoor_1.material",
-        "crawler/material/atlas_12_Atlas_12.material"
+        "crawler/material/texture_atlas_12_atlas_12.material"
       ],
       "frameBuffer": "",
       "receivesShadows": true,
