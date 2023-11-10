@@ -11680,42 +11680,6 @@
     },
     {
       "position": {
-        "x": 2,
-        "y": 4
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": 1.6463069915771484,
-        "y": -7.196237561402086e-08,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long_square.object"
-    },
-    {
-      "position": {
-        "x": 2,
-        "y": 4
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": 4.96879768371582,
-        "y": -2.171930759686802e-07,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_rug_long_square.object"
-    },
-    {
-      "position": {
         "x": 4,
         "y": -5
       },
@@ -14295,6 +14259,528 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_lobby_carpet.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_edge.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.003146931529045105,
+        "y": 1.3755675765114717e-10,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_edge.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04543998837471008
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -7
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -8
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_edge.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 8
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.04699999839067459
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_edge.object"
     }
   ],
   "pointLights": [
@@ -14324,15 +14810,15 @@
       },
       "localPosition": {
         "x": -0.6000000238418579,
-        "y": -0.20000000298023224,
-        "z": 3.299999952316284
+        "y": 0.10000000149011612,
+        "z": 2.5
       },
       "colour": {
         "x": 1.0,
         "y": 0.4329584240913391,
         "z": 0.16176468133926392
       },
-      "intensity": 18.0,
+      "intensity": 67.0,
       "id": 0
     },
     {
