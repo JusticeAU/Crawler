@@ -25,9 +25,8 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/atlas_13_atlas_13.material"
+        "crawler/material/texture_atlas_13.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
