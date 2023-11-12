@@ -2,11 +2,12 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 0,
+    "x": 2,
     "y": 0
   },
   "defaultOrientation": 1,
   "noRoof": true,
+  "isVoid": true,
   "tiles": [
     {
       "position": {
@@ -13832,8 +13833,8 @@
   "pointLights": [
     {
       "position": {
-        "x": 26,
-        "y": 9
+        "x": 17,
+        "y": 0
       },
       "localPosition": {
         "x": 0.0,
