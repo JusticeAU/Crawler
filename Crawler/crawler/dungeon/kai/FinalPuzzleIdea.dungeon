@@ -1319,6 +1319,13 @@
         "y": -2
       },
       "activateID": 3
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -7
+      },
+      "activateID": 2
     }
   ],
   "transporters": [
