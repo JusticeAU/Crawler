@@ -3,7 +3,7 @@
   "version": 3,
   "defaultPosition": {
     "x": 2,
-    "y": 1
+    "y": 0
   },
   "defaultOrientation": 1,
   "tiles": [
@@ -54,11 +54,11 @@
         "x": 3,
         "y": -1
       },
-      "mask": 7,
+      "mask": 3,
       "maskSee": 7,
       "wallVariants": [
         -1,
-        -1,
+        1,
         0,
         -1
       ]
@@ -68,11 +68,11 @@
         "x": 3,
         "y": 0
       },
-      "mask": 15,
+      "mask": 11,
       "maskSee": 15,
       "wallVariants": [
         -1,
-        -1,
+        1,
         -1,
         -1
       ]
@@ -96,7 +96,7 @@
         "x": 4,
         "y": -1
       },
-      "mask": 7,
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -110,7 +110,7 @@
         "x": 4,
         "y": 0
       },
-      "mask": 15,
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -926,7 +926,7 @@
     {
       "position": {
         "x": 2,
-        "y": 1
+        "y": 0
       },
       "id": 2,
       "orientation": 3,
@@ -968,7 +968,7 @@
       "name": "ShoveEntrance",
       "position": {
         "x": 2,
-        "y": 1
+        "y": 0
       },
       "fromOrientation": 1,
       "toDungeon": "",
@@ -1133,8 +1133,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": 0.7964000701904297,
+        "y": 6.962350340700141e-08,
         "z": 0.0
       },
       "localRotation": {
@@ -1142,25 +1142,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": ""
-    },
-    {
-      "position": {
-        "x": 13,
-        "y": 4
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": ""
+      "modelName": "crawler/model/decoration_couch.object"
     },
     {
       "position": {
@@ -1186,6 +1168,60 @@
         "y": 4
       },
       "facing": 0,
+      "localPosition": {
+        "x": 0.3541088104248047,
+        "y": -0.017696378752589226,
+        "z": 0.13079790771007538
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": -78.5,
+        "z": 43.20000076293945
+      },
+      "modelName": "crawler/model/decoration_bucket.object"
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 6
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.44055938720703125,
+        "y": 0.14317986369132996,
+        "z": 0.0216749906539917
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cardboardbox.object"
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.45277833938598633,
+        "y": 0.2272663414478302,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_cardboardbox.object"
+    },
+    {
+      "position": {
+        "x": 18,
+        "y": 6
+      },
+      "facing": 3,
       "localPosition": {
         "x": 0.3541088104248047,
         "y": -0.017696378752589226,
