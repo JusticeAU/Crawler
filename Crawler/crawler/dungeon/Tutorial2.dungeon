@@ -495,10 +495,9 @@
       "wallVariants": [
         -1,
         -1,
-        0,
+        8,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -1316,24 +1315,6 @@
         "x": 5,
         "y": -2
       },
-      "facing": 0,
-      "localPosition": {
-        "x": 1.9819869995117188,
-        "y": 0.8433051109313965,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_fireplace.object"
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -2
-      },
       "facing": 3,
       "localPosition": {
         "x": -0.8669495582580566,
@@ -1869,9 +1850,9 @@
         "z": 2.5
       },
       "colour": {
-        "x": 1.0,
-        "y": 0.5004324913024902,
-        "z": 0.19117647409439087
+        "x": 0.9313725233078003,
+        "y": 0.5518946051597595,
+        "z": 0.21458092331886292
       },
       "intensity": 17.0,
       "id": 2

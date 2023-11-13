@@ -25,9 +25,8 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_Wall_1_atlas_1.material"
+        "crawler/material/texture_atlas_1.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }

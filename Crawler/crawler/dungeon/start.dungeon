@@ -733,11 +733,10 @@
       "maskSee": 11,
       "wallVariants": [
         -1,
-        0,
+        8,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -1024,29 +1023,11 @@
         "x": 5,
         "y": -4
       },
-      "facing": 3,
-      "localPosition": {
-        "x": -3.783769031429074e-08,
-        "y": 0.8656253814697266,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_fireplace.object"
-    },
-    {
-      "position": {
-        "x": 5,
-        "y": -4
-      },
       "facing": 0,
       "localPosition": {
         "x": -0.7566699981689453,
         "y": 0.549160897731781,
-        "z": 1.6255722045898438
+        "z": 1.6688344478607178
       },
       "localRotation": {
         "x": 0.0,
@@ -1062,9 +1043,9 @@
       },
       "facing": 3,
       "localPosition": {
-        "x": -0.6000000238418579,
-        "y": 0.7139999866485596,
-        "z": 1.560430645942688
+        "x": -0.6058589220046997,
+        "y": 0.7804663181304932,
+        "z": 1.5936024188995361
       },
       "localRotation": {
         "x": 9.899999618530273,
@@ -1082,7 +1063,7 @@
       "localPosition": {
         "x": -0.7398672103881836,
         "y": 0.3226737380027771,
-        "z": 1.616654396057129
+        "z": 1.6734344959259033
       },
       "localRotation": {
         "x": 0.0,
@@ -1357,10 +1338,10 @@
       },
       "colour": {
         "x": 1.0,
-        "y": 0.6366782188415527,
-        "z": 0.38235294818878174
+        "y": 0.5568627715110779,
+        "z": 0.2862745225429535
       },
-      "intensity": 15.0,
+      "intensity": 5.0,
       "id": 2,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
@@ -1380,7 +1361,7 @@
         "y": 0.09762154519557953,
         "z": 0.20098036527633667
       },
-      "intensity": 12.0,
+      "intensity": 15.0,
       "id": 3,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
@@ -1400,7 +1381,7 @@
         "y": 0.5579584836959839,
         "z": 0.28431373834609985
       },
-      "intensity": 15.0,
+      "intensity": 5.0,
       "id": 1,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0

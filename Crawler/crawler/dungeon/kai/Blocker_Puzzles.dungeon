@@ -1599,8 +1599,8 @@
         "y": 3
       },
       "fromOrientation": 3,
-      "toDungeon": "",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/kai/Blocker_Puzzles",
+      "toTransporter": "Entry"
     },
     {
       "name": "Entry",
