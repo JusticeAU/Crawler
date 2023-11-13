@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/decoration_marblefloor_woodfloor_albedo.tga",
   "normalMap": "crawler/texture/decoration_marblefloor_woodfloor_normal.tga",
-  "metallicMap": "crawler/texture/decoration_marblefloor_woodfloor_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/decoration_marblefloor_woodfloor_roughness.tga",
   "aoMap": "",
   "emissiveMap": ""

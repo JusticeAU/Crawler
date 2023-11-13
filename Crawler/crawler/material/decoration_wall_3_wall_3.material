@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/decoration_wall_3_wall_3_albedo.tga",
   "normalMap": "crawler/texture/decoration_wall_3_wall_3_normal.tga",
-  "metallicMap": "crawler/texture/decoration_wall_3_wall_3_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/decoration_wall_3_wall_3_roughness.tga",
   "aoMap": "crawler/texture/decoration_wall_3_wall_3_ao.tga",
   "emissiveMap": ""

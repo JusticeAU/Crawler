@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/decoration_bookcase_bookcase_albedo.tga",
   "normalMap": "crawler/texture/decoration_bookcase_bookcase_normal.tga",
-  "metallicMap": "crawler/texture/decoration_bookcase_bookcase_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/decoration_bookcase_bookcase_roughness.tga",
   "aoMap": "crawler/texture/decoration_bookcase_bookcase_ao.tga",
   "emissiveMap": ""

@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/atlas_rails_albedo.tga",
   "normalMap": "crawler/texture/atlas_rails_normal.tga",
-  "metallicMap": "crawler/texture/atlas_rails_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/atlas_rails_roughness.tga",
   "aoMap": "crawler/texture/atlas_rails_ao.tga",
   "emissiveMap": ""

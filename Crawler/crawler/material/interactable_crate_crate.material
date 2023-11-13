@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/interactable_crate_crate_albedo.tga",
   "normalMap": "crawler/texture/interactable_crate_crate_normal.tga",
-  "metallicMap": "crawler/texture/interactable_crate_crate_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/interactable_crate_crate_roughness.tga",
   "aoMap": "crawler/texture/interactable_crate_crate_ao.tga",
   "emissiveMap": ""

@@ -25,7 +25,7 @@
   "bump": "",
   "albedoMap": "crawler/texture/lobby_hat_beam_1_albedo.tga",
   "normalMap": "crawler/texture/lobby_hat_beam_1_normal.tga",
-  "metallicMap": "crawler/texture/lobby_hat_beam_1_metallic.tga",
+  "metallicMap": "_null",
   "roughnessMap": "crawler/texture/lobby_hat_beam_1_roughness.tga",
   "aoMap": "crawler/texture/lobby_hat_beam_1_ao.tga",
   "emissiveMap": ""
