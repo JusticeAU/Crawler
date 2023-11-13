@@ -28,26 +28,16 @@
         "crawler/material/lobby_hat_cieling_curve.material",
         "crawler/material/lobby_hat_cieling_curve.material",
         "crawler/material/lobby_hat_cieling_curve.material",
-        "engine/material/black.material",
-        "engine/material/black.material",
-        "engine/material/black.material",
-        "engine/material/black.material",
-        "crawler/material/texture_main_window_1.material",
-        "crawler/material/texture_main_window_2.material",
-        "crawler/material/texture_main_window_3.material",
-        "crawler/material/texture_main_window_4.material",
-        "crawler/material/texture_main_window_panes1.material",
-        "crawler/material/decoration_beam_1_beam.material",
-        "crawler/material/decoration_beam_1_beam.material",
+        "engine/model/materials/LambertBlue.material",
+        "crawler/material/lobby_hat_beam_1.material",
+        "crawler/material/lobby_hat_beam_1.material",
         "crawler/material/lobby_hat_stairs_1.material",
-        "engine/material/black.material",
+        "engine/model/materials/LambertBlue.material",
         "crawler/material/lobby_hat_stairs_2.material",
         "crawler/material/lobby_hat_stairs_3.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true,
-      "dontFrustumCull": true
+      "castsShadows": true
     }
   ],
   "children": null
