@@ -1379,7 +1379,7 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/annika/ShoveCorridor",
+      "toDungeon": "crawler/dungeon/level3/ShoveCorridor",
       "toTransporter": "ShoveEntrance",
       "gameManagerInteraction": true,
       "gameManagerEvents": [

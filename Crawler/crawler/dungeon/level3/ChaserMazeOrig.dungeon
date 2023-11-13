@@ -918,6 +918,16 @@
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/level3/keyRoom",
       "toTransporter": ""
+    },
+    {
+      "name": "Entrance",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,

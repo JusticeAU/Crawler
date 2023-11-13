@@ -961,8 +961,8 @@
         "y": 5
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/annika/ChaseChokepoint",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/level3/ChaseChokepoint",
+      "toTransporter": "Entrance"
     },
     {
       "name": "ShoveEntrance",

@@ -516,8 +516,8 @@
         "y": -2
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/annika/ChaserMazeOrig",
-      "toTransporter": ""
+      "toDungeon": "crawler/dungeon/level3/ChaserMazeOrig",
+      "toTransporter": "Entrance"
     },
     {
       "name": "Entrance",
