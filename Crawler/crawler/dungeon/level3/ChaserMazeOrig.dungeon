@@ -873,31 +873,11 @@
     },
     {
       "position": {
-        "x": 3,
-        "y": 2
-      },
-      "id": 1,
-      "orientation": 2,
-      "open": true,
-      "isBarricaded": false
-    },
-    {
-      "position": {
         "x": 6,
         "y": -1
       },
       "id": 2,
       "orientation": 3,
-      "open": false,
-      "isBarricaded": false
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": -1
-      },
-      "id": 1,
-      "orientation": 0,
       "open": false,
       "isBarricaded": false
     },
@@ -937,6 +917,16 @@
       },
       "fromOrientation": 1,
       "toDungeon": "crawler/dungeon/level3/keyRoom",
+      "toTransporter": ""
+    },
+    {
+      "name": "Entrance",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
       "toTransporter": ""
     }
   ],
@@ -991,16 +981,18 @@
       },
       "localPosition": {
         "x": 0.0,
-        "y": 0.4000000059604645,
-        "z": 2.5
+        "y": 0.5899999737739563,
+        "z": 2.299999952316284
       },
       "colour": {
         "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "y": 0.5559999942779541,
+        "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 1
+      "id": 1,
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 2
     },
     {
       "position": {
@@ -1010,15 +1002,17 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "y": 0.5559999942779541,
+        "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 2
+      "id": 2,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -1028,15 +1022,17 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "y": 0.5559999942779541,
+        "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 3
+      "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     }
   ],
   "events": null
