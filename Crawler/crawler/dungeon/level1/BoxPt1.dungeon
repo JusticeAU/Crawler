@@ -668,14 +668,28 @@
     {
       "position": {
         "x": 8,
+        "y": 3
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 8,
         "y": 4
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
         0,
         0,
-        0,
+        -1,
         -1
       ]
     }
