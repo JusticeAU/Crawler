@@ -14781,6 +14781,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_lobby_carpet_edge.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -8.552833463681964e-08,
+        "y": 1.9566593170166016,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_mainwindow.object"
     }
   ],
   "pointLights": [

@@ -1,0 +1,40 @@
+{
+  "name": "lobby_mainwindow",
+  "transform": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "components": [
+    {
+      "type": "Model",
+      "model": "crawler/model/decoration_lobby_mainwindow.fbx"
+    },
+    {
+      "type": "Renderer",
+      "materials": [
+        "crawler/material/decoration_lobby_mainwindow_main_window_mat1.material",
+        "crawler/material/decoration_lobby_mainwindow_main_window_mat2.material",
+        "crawler/material/decoration_lobby_mainwindow_main_window_mat3.material",
+        "crawler/material/decoration_lobby_mainwindow_main_window_mat4.material",
+        "crawler/material/decoration_lobby_mainwindow_main_window_panes1.material",
+        "engine/model/materials/LambertBlue.material"
+      ],
+      "receivesShadows": true,
+      "castsShadows": true
+    }
+  ],
+  "children": null
+}
