@@ -757,6 +757,16 @@
       "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "fromOrientation": 1,
+      "toDungeon": "crawler/dungeon/kai/Box_Test_Segment01",
+      "toTransporter": "Entry"
     }
   ],
   "checkpoints": [
@@ -927,9 +937,9 @@
         "y": 5
       },
       "localPosition": {
-        "x": 0.0,
+        "x": 0.5,
         "y": 0.0,
-        "z": 2.3980000019073486
+        "z": 2.5
       },
       "colour": {
         "x": 1.0,

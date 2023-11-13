@@ -760,6 +760,16 @@
       "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": 5,
+        "y": -11
+      },
+      "fromOrientation": 2,
+      "toDungeon": "crawler/dungeon/level1/keyRoom",
+      "toTransporter": ""
     }
   ],
   "checkpoints": [
