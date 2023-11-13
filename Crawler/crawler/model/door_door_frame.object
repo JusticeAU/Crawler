@@ -27,7 +27,6 @@
       "materials": [
         "crawler/material/texture_atlas_2.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
