@@ -9,20 +9,6 @@
   "tiles": [
     {
       "position": {
-        "x": -1,
-        "y": 0
-      },
-      "mask": 0,
-      "maskSee": 0,
-      "wallVariants": [
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "position": {
         "x": 6,
         "y": -15
       },
@@ -685,16 +671,6 @@
   ],
   "levers": null,
   "doors": [
-    {
-      "position": {
-        "x": -1,
-        "y": 0
-      },
-      "id": 2,
-      "orientation": 3,
-      "open": false,
-      "isBarricaded": false
-    },
     {
       "position": {
         "x": 7,
