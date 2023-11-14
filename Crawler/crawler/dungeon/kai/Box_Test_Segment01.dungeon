@@ -2,8 +2,8 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": -8,
-    "y": -1
+    "x": 5,
+    "y": 4
   },
   "defaultOrientation": 1,
   "tiles": [
@@ -194,11 +194,11 @@
         "x": 6,
         "y": -10
       },
-      "mask": 7,
+      "mask": 3,
       "maskSee": 7,
       "wallVariants": [
         -1,
-        -1,
+        1,
         0,
         -1
       ]
@@ -320,7 +320,7 @@
         "x": 7,
         "y": -10
       },
-      "mask": 7,
+      "mask": 5,
       "maskSee": 7,
       "wallVariants": [
         -1,
@@ -411,7 +411,8 @@
         -1,
         0,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -425,7 +426,8 @@
         -1,
         -1,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -719,7 +721,8 @@
         0,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -733,7 +736,8 @@
         0,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     }
   ],
   "levers": null,
@@ -868,7 +872,44 @@
   "switchers": null,
   "mirrors": null,
   "keys": null,
-  "decorations": null,
+  "decorations": [
+    {
+      "position": {
+        "x": 7,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -90.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": -3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    }
+  ],
   "pointLights": [
     {
       "position": {
@@ -892,13 +933,13 @@
     },
     {
       "position": {
-        "x": 4,
-        "y": -8
+        "x": 6,
+        "y": -9
       },
       "localPosition": {
         "x": 0.0,
-        "y": -1.0,
-        "z": 2.2669999599456787
+        "y": 0.0,
+        "z": 2.5
       },
       "colour": {
         "x": 1.0,
@@ -906,8 +947,28 @@
         "z": 1.0
       },
       "intensity": 5.0,
-      "id": 6,
+      "id": 1,
       "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -13
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -0.5,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 2,
+      "lightDecorationID": 1,
       "lightDecorationDirection": 0
     }
   ],
