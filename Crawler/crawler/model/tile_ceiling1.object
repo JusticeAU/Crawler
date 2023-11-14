@@ -27,7 +27,6 @@
       "materials": [
         "crawler/material/tile_ceiling1_ceilingtile1.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
