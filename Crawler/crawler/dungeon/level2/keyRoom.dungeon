@@ -231,6 +231,16 @@
           "status": 0
         }
       ]
+    },
+    {
+      "name": "Enter",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
     }
   ],
   "checkpoints": null,
