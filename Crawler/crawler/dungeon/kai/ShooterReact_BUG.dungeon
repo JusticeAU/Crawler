@@ -9,7 +9,7 @@
   "tiles": [
     {
       "position": {
-        "x": -1,
+        "x": 0,
         "y": -1
       },
       "mask": 5,
@@ -23,7 +23,7 @@
     },
     {
       "position": {
-        "x": -1,
+        "x": 0,
         "y": 0
       },
       "mask": 13,
@@ -37,50 +37,8 @@
     },
     {
       "position": {
-        "x": -1,
+        "x": 0,
         "y": 1
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 2
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 3
-      },
-      "mask": 13,
-      "maskSee": 13,
-      "wallVariants": [
-        -1,
-        -1,
-        -1,
-        0
-      ]
-    },
-    {
-      "position": {
-        "x": -1,
-        "y": 4
       },
       "mask": 12,
       "maskSee": 12,
@@ -93,7 +51,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": 1,
         "y": -1
       },
       "mask": 7,
@@ -107,7 +65,7 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 0
       },
       "mask": 15,
@@ -121,8 +79,36 @@
     },
     {
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 1
+      },
+      "mask": 14,
+      "maskSee": 14,
+      "wallVariants": [
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "mask": 7,
+      "maskSee": 7,
+      "wallVariants": [
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
       },
       "mask": 15,
       "maskSee": 15,
@@ -135,49 +121,63 @@
     },
     {
       "position": {
-        "x": 0,
-        "y": 2
+        "x": 2,
+        "y": 1
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
-        -1,
         0,
+        -1,
         -1,
         -1
       ]
     },
     {
       "position": {
-        "x": 0,
-        "y": 3
+        "x": 3,
+        "y": -1
       },
-      "mask": 11,
-      "maskSee": 11,
+      "mask": 7,
+      "maskSee": 7,
       "wallVariants": [
         -1,
+        -1,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
         -1,
         -1
       ]
     },
     {
       "position": {
-        "x": 0,
-        "y": 4
+        "x": 3,
+        "y": 1
       },
-      "mask": 10,
-      "maskSee": 10,
+      "mask": 14,
+      "maskSee": 14,
       "wallVariants": [
         0,
-        0,
+        -1,
         -1,
         -1
       ]
     },
     {
       "position": {
-        "x": 1,
+        "x": 4,
         "y": -1
       },
       "mask": 3,
@@ -191,7 +191,7 @@
     },
     {
       "position": {
-        "x": 1,
+        "x": 4,
         "y": 0
       },
       "mask": 11,
@@ -205,7 +205,7 @@
     },
     {
       "position": {
-        "x": 1,
+        "x": 4,
         "y": 1
       },
       "mask": 10,
@@ -220,37 +220,52 @@
   ],
   "levers": null,
   "doors": null,
-  "plates": [
-    {
-      "position": {
-        "x": 1,
-        "y": 0
-      },
-      "activateID": 0
-    }
-  ],
+  "plates": null,
   "transporters": null,
   "checkpoints": null,
-  "spikes": null,
-  "blocks": null,
-  "shootLasers": null,
-  "blockers": [
+  "spikes": [
     {
       "position": {
-        "x": -1,
-        "y": 3
-      },
-      "facing": 2,
-      "rapidAttack": false
+        "x": 3,
+        "y": -1
+      }
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      }
     }
   ],
+  "blocks": null,
+  "shootLasers": [
+    {
+      "id": 1,
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "facing": 2,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 4294967295
+    }
+  ],
+  "blockers": null,
   "chasers": [
     {
       "position": {
-        "x": -1,
-        "y": 4
+        "x": 4,
+        "y": -1
       },
-      "facing": 2,
+      "facing": 3,
       "state": 0
     }
   ],
