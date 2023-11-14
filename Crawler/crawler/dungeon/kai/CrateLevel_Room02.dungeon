@@ -691,7 +691,7 @@
         "y": -12
       },
       "fromOrientation": 1,
-      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room03",
+      "toDungeon": "crawler/dungeon/kai/CrateLevel_Room04",
       "toTransporter": "Entry"
     },
     {

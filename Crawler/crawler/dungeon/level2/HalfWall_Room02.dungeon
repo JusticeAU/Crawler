@@ -669,7 +669,7 @@
         "y": 11
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/kai/HalfWall_Room04",
+      "toDungeon": "crawler/dungeon/level2/keyRoom",
       "toTransporter": "Enter"
     }
   ],

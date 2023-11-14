@@ -1313,7 +1313,7 @@
         "y": -7
       },
       "fromOrientation": 0,
-      "toDungeon": "crawler/dungeon/kai/HalfWall_Room02",
+      "toDungeon": "crawler/dungeon/level2/HalfWall_Room04",
       "toTransporter": "Enter",
       "gameManagerInteraction": true,
       "gameManagerEvents": [
