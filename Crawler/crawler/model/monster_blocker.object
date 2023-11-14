@@ -25,9 +25,9 @@
     {
       "type": "Renderer",
       "materials": [
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material",
-        "engine/model/materials/LambertBlue.material"
+        "crawler/material/monster_blocker_halberd.material",
+        "crawler/material/monster_blocker_top.material",
+        "crawler/material/monster_blocker_bottom.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
