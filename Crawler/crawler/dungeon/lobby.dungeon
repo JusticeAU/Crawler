@@ -2103,24 +2103,6 @@
   "decorations": [
     {
       "position": {
-        "x": 6,
-        "y": 0
-      },
-      "facing": 3,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/lobby_hat.object"
-    },
-    {
-      "position": {
         "x": 5,
         "y": 0
       },
@@ -14619,6 +14601,42 @@
         "z": 0.0
       },
       "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -1.806974836426889e-07,
+        "y": -4.133878707885742,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_hat_cieling.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -8.435361564806954e-08,
+        "y": 2.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_stairs.object"
     }
   ],
   "pointLights": [
