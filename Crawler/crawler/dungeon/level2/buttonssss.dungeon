@@ -761,8 +761,7 @@
         0,
         0,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -926,6 +925,16 @@
       "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
+    },
+    {
+      "name": "Exit",
+      "position": {
+        "x": 1,
+        "y": 9
+      },
+      "fromOrientation": 1,
+      "toDungeon": "crawler/dungeon/level2/HalfWall_Room02",
+      "toTransporter": "Enter"
     }
   ],
   "checkpoints": [
