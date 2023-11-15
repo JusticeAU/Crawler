@@ -1341,7 +1341,7 @@
         "y": 7
       },
       "fromOrientation": 2,
-      "toDungeon": "crawler/dungeon/kai/puzzle_test_remade",
+      "toDungeon": "crawler/dungeon/level4/Finale",
       "toTransporter": "",
       "gameManagerInteraction": true,
       "gameManagerEvents": [

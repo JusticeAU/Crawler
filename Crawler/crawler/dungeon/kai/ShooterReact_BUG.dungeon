@@ -312,15 +312,7 @@
     }
   ],
   "slugs": null,
-  "slugPaths": [
-    {
-      "position": {
-        "x": 4,
-        "y": -1
-      },
-      "maskTraverse": 0
-    }
-  ],
+  "slugPaths": null,
   "switchers": null,
   "mirrors": null,
   "keys": null,
