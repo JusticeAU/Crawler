@@ -28,7 +28,6 @@
         "crawler/material/decoration_fireplace_fireplace.material",
         "crawler/material/texture_atlas_1.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
