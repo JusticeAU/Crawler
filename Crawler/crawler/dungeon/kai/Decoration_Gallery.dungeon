@@ -2678,7 +2678,7 @@
         -1,
         -1,
         -1,
-        0
+        9
       ]
     },
     {
@@ -3445,7 +3445,20 @@
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
-  "shootLasers": null,
+  "shootLasers": [
+    {
+      "id": 1,
+      "position": {
+        "x": 9,
+        "y": -5
+      },
+      "facing": 1,
+      "detectsLineOfSight": true,
+      "firesProjectile": false,
+      "firesImmediately": false,
+      "activateID": 4294967295
+    }
+  ],
   "blockers": null,
   "chasers": null,
   "slugs": null,
