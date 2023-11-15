@@ -2108,13 +2108,13 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.041999999433755875,
-        "y": 3.7133760510954517e-09,
-        "z": -0.10000000149011612
+        "x": -1.4579998254776,
+        "y": 0.3732215464115143,
+        "z": -0.15811097621917725
       },
       "localRotation": {
         "x": 0.0,
-        "y": 0.0,
+        "y": 1.0,
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_chandelier.object",
@@ -14607,10 +14607,10 @@
         "x": 5,
         "y": 0
       },
-      "facing": 1,
+      "facing": 3,
       "localPosition": {
-        "x": -1.806974836426889e-07,
-        "y": -4.133878707885742,
+        "x": -2.6865160407396615e-07,
+        "y": 2.010483741760254,
         "z": 0.0
       },
       "localRotation": {
@@ -14637,6 +14637,150 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_lobby_stairs.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.9190194010734558,
+        "y": -7.6882171630859375,
+        "z": 6.351076602935791
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.924893856048584,
+        "y": -3.748641014099121,
+        "z": 6.353846549987793
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.9258785247802734,
+        "y": 0.1980152577161789,
+        "z": 6.35495138168335
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": -0.9267978668212891,
+        "y": 4.141110897064209,
+        "z": 6.354488372802734
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 1.0747406482696533,
+        "y": 8.225082397460938,
+        "z": 6.340574741363525
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 1.073296070098877,
+        "y": 4.302828788757324,
+        "z": 6.341340065002441
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 1.0693202018737793,
+        "y": 0.37195301055908203,
+        "z": 6.343229293823242
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 1.0675139427185059,
+        "y": -3.572002410888672,
+        "z": 6.3455023765563965
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
     }
   ],
   "pointLights": [
@@ -14665,16 +14809,16 @@
         "y": 0
       },
       "localPosition": {
-        "x": -0.6000000238418579,
-        "y": 0.10000000149011612,
-        "z": 2.5999999046325684
+        "x": 0.10000000149011612,
+        "y": -0.4000000059604645,
+        "z": 3.0
       },
       "colour": {
         "x": 0.9607843160629272,
-        "y": 0.36237195134162903,
-        "z": 0.11303344368934631
+        "y": 0.4549042284488678,
+        "z": 0.17896965146064758
       },
-      "intensity": 38.0,
+      "intensity": 17.0,
       "id": 0
     },
     {
