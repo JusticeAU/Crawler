@@ -1103,7 +1103,9 @@
         "z": 1.0
       },
       "intensity": 2.799999952316284,
-      "id": 1
+      "id": 1,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {

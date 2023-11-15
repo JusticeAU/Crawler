@@ -838,13 +838,41 @@
         "x": 11,
         "y": -1
       },
-      "mask": 2,
-      "maskSee": 2,
+      "mask": 3,
+      "maskSee": 3,
       "wallVariants": [
-        0,
+        -1,
         0,
         0,
         -1
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 0
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": 1
+      },
+      "mask": 8,
+      "maskSee": 8,
+      "wallVariants": [
+        0,
+        0,
+        -1,
+        0
       ]
     }
   ],
@@ -1031,6 +1059,26 @@
       },
       "intensity": 5.0,
       "id": 3,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -1
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.5
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "intensity": 5.0,
+      "id": 5,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     }
