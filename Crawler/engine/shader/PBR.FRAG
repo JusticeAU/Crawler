@@ -114,6 +114,8 @@ void main()
 	
 	// reflectance equation
 	vec3 Lo = vec3(0.0);
+	
+	
 
 	int lightsToRender = clamp(numLights, 0, MAX_AFFECTINGPOINTLIGHTS);
 	for(int i = 0; i < lightsToRender; ++i) 
@@ -123,7 +125,7 @@ void main()
 		// calculate per-light radiance
 		vec3 LightDirection = PointLightPositions[lightIndex].xyz - _WorldPos;
 		vec3 L = normalize(LightDirection);
-		float bias = max(0.025 * (1.0 - dot(_Normal, L)), 0.004); // Scaling bias based on dot of geometry normal to light.
+		float bias = max(0.023 * (1.0 - dot(_Normal, L)), 0.004); // Scaling bias based on dot of geometry normal to light.
 		float Distance = (length(LightDirection) / 15.0) - bias;
 		float offset  = 0.003;
 		
