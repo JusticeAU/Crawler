@@ -1070,14 +1070,14 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "x": 0.07800000160932541,
+        "y": 0.09799999743700027,
+        "z": 0.20000000298023224
       },
-      "intensity": 5.0,
+      "intensity": 15.0,
       "id": 5,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
