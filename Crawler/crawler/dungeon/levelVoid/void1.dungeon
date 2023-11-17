@@ -13817,7 +13817,48 @@
   "levers": null,
   "doors": null,
   "plates": null,
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "1",
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "2",
+      "position": {
+        "x": 11,
+        "y": -12
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "3",
+      "position": {
+        "x": 24,
+        "y": 3
+      },
+      "fromOrientation": 3,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "4",
+      "position": {
+        "x": 30,
+        "y": -5
+      },
+      "fromOrientation": 3,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
@@ -13855,5 +13896,15 @@
       "lightDecorationDirection": 0
     }
   ],
-  "events": null
+  "events": [
+    {
+      "position": {
+        "x": 17,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 51
+    }
+  ]
 }

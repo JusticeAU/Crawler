@@ -27,7 +27,6 @@
       "materials": [
         "engine/material/black.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
