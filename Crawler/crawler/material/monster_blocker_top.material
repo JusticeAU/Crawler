@@ -28,5 +28,6 @@
   "metallicMap": "crawler/texture/monster_blocker_top_metallic.tga",
   "roughnessMap": "crawler/texture/monster_blocker_top_roughness.tga",
   "aoMap": "crawler/texture/monster_blocker_top_ao.tga",
-  "emissiveMap": ""
+  "emissiveMap": "",
+  "backFaceCulling": true
 }
