@@ -13821,7 +13821,7 @@
     {
       "name": "1",
       "position": {
-        "x": 2,
+        "x": 12,
         "y": 0
       },
       "fromOrientation": 1,
@@ -13831,30 +13831,30 @@
     {
       "name": "2",
       "position": {
-        "x": 11,
-        "y": -12
+        "x": 8,
+        "y": 0
       },
-      "fromOrientation": 0,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
-      "name": "3",
-      "position": {
-        "x": 24,
-        "y": 3
-      },
-      "fromOrientation": 3,
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     },
     {
       "name": "4",
       "position": {
-        "x": 30,
-        "y": -5
+        "x": 0,
+        "y": 0
       },
-      "fromOrientation": 3,
+      "fromOrientation": 1,
+      "toDungeon": "",
+      "toTransporter": ""
+    },
+    {
+      "name": "3",
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "fromOrientation": 1,
       "toDungeon": "",
       "toTransporter": ""
     }
