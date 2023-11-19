@@ -1251,7 +1251,8 @@
       "id": 1,
       "orientation": 0,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     },
     {
       "position": {
@@ -1261,7 +1262,8 @@
       "id": 2,
       "orientation": 0,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     },
     {
       "position": {
@@ -1271,7 +1273,8 @@
       "id": 3,
       "orientation": 0,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     },
     {
       "position": {
@@ -1281,7 +1284,8 @@
       "id": 4,
       "orientation": 2,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     },
     {
       "position": {
@@ -1291,7 +1295,8 @@
       "id": 5,
       "orientation": 2,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     },
     {
       "position": {
@@ -1301,7 +1306,8 @@
       "id": 6,
       "orientation": 2,
       "open": false,
-      "isBarricaded": false
+      "isBarricaded": false,
+      "isLobbyDoor": true
     }
   ],
   "plates": null,
