@@ -23,26 +23,7 @@ uniform sampler2D roughnessMap;
 uniform sampler2D aoMap;
 uniform sampler2D emissiveMap;
 
-uniform samplerCubeShadow shadowMap0;
-uniform samplerCubeShadow shadowMap1;
-uniform samplerCubeShadow shadowMap2;
-uniform samplerCubeShadow shadowMap3;
-uniform samplerCubeShadow shadowMap4;
-uniform samplerCubeShadow shadowMap5;
-uniform samplerCubeShadow shadowMap6;
-uniform samplerCubeShadow shadowMap7;
-uniform samplerCubeShadow shadowMap8;
-uniform samplerCubeShadow shadowMap9;
-uniform samplerCubeShadow shadowMap10;
-uniform samplerCubeShadow shadowMap11;
-uniform samplerCubeShadow shadowMap12;
-uniform samplerCubeShadow shadowMap13;
-uniform samplerCubeShadow shadowMap14;
-uniform samplerCubeShadow shadowMap15;
-uniform samplerCubeShadow shadowMap16;
-uniform samplerCubeShadow shadowMap17;
-uniform samplerCubeShadow shadowMap18;
-uniform samplerCubeShadow shadowMap19;
+uniform samplerCubeArrayShadow shadowMapArray;
 
 // lights
 const int MAX_POINTLIGHTS = 50;
@@ -129,31 +110,13 @@ void main()
 		float Distance = (length(LightDirection) / 15.0) - bias;
 		float offset  = 0.003;
 		
+		// Calculate shadows.
 		float ShadowFactor = 0.0;
-		// This sucks. move it over to a cubemap array at some point - but will require framebuffer architecture modifications which sounds gross tbh.
-		if(		lightIndex == 0) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap0, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 1) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap1, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 2) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap2, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 3) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap3, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 4) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap4, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 5) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap5, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 6) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap6, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 7) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap7, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 8) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap8, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 9) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap9, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 10) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap10, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 11) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap11, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 12) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap12, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 13) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap13, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 14) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap14, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 15) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap15, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 16) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap16, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 17) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap17, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 18) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap18, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else if(lightIndex == 19) for(int j = 0; j < samples; j++) ShadowFactor += texture(shadowMap19, vec4(-L + sampleOffsetDirections[j] * offset, Distance));
-		else continue;
-		
-
+		for(int j = 0; j < samples; j++)
+		{
+			vec4 lookup = vec4(-L + sampleOffsetDirections[j] * offset, lightIndex);
+			ShadowFactor += texture(shadowMapArray, lookup, Distance);
+		}
 		ShadowFactor /= float(samples);
 					
 		vec3 H = normalize(V + L);
