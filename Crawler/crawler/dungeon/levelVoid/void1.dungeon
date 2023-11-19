@@ -13824,34 +13824,24 @@
         "x": 12,
         "y": 0
       },
-      "fromOrientation": 1,
+      "fromOrientation": 3,
       "toDungeon": "",
       "toTransporter": ""
     },
     {
       "name": "2",
       "position": {
-        "x": 8,
-        "y": 0
+        "x": 17,
+        "y": -5
       },
-      "fromOrientation": 1,
-      "toDungeon": "",
-      "toTransporter": ""
-    },
-    {
-      "name": "4",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "fromOrientation": 1,
+      "fromOrientation": 2,
       "toDungeon": "",
       "toTransporter": ""
     },
     {
       "name": "3",
       "position": {
-        "x": 4,
+        "x": 22,
         "y": 0
       },
       "fromOrientation": 1,

@@ -5,7 +5,7 @@
     "x": 2,
     "y": 0
   },
-  "defaultOrientation": 2,
+  "defaultOrientation": 0,
   "noRoof": true,
   "tiles": [
     {
@@ -1144,7 +1144,8 @@
         -1,
         -1,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -2567,7 +2568,18 @@
     }
   ],
   "plates": null,
-  "transporters": null,
+  "transporters": [
+    {
+      "name": "Spawn",
+      "position": {
+        "x": 2,
+        "y": -8
+      },
+      "fromOrientation": 0,
+      "toDungeon": "",
+      "toTransporter": ""
+    }
+  ],
   "checkpoints": null,
   "spikes": null,
   "blocks": null,
@@ -3353,7 +3365,16 @@
       },
       "repeats": false,
       "type": 0,
-      "eventID": 52,
+      "eventID": 52
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -26
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 53,
       "mustBeFacing": true,
       "facing": 2
     },
@@ -3364,7 +3385,7 @@
       },
       "repeats": false,
       "type": 0,
-      "eventID": 53,
+      "eventID": 54,
       "mustBeFacing": true,
       "facing": 3
     }
