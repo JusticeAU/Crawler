@@ -12,7 +12,7 @@
     {
       "position": {
         "x": -3,
-        "y": 0
+        "y": -1
       },
       "mask": 15,
       "maskSee": 15,
@@ -22,7 +22,37 @@
         -1,
         -1
       ],
-      "floorVariant": -1
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 0
+      },
+      "mask": 4,
+      "maskSee": 0,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "floorVariant": 1
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": 1
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -7941,9 +7971,9 @@
       },
       "facing": 1,
       "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.1032628144391765e-08,
+        "y": 0.2523975372314453,
+        "z": 0.003026962513104081
       },
       "localRotation": {
         "x": 0.0,
