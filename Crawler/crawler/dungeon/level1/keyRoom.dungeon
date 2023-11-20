@@ -417,5 +417,17 @@
       "lightDecorationDirection": 0
     }
   ],
-  "events": null
+  "events": [
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 4,
+      "mustBeFacing": true,
+      "facing": 1
+    }
+  ]
 }

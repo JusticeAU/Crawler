@@ -1336,6 +1336,17 @@
       "eventID": 4,
       "mustBeFacing": true,
       "facing": 0
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "repeats": false,
+      "type": 0,
+      "eventID": 8,
+      "mustBeFacing": true,
+      "facing": 1
     }
   ]
 }
