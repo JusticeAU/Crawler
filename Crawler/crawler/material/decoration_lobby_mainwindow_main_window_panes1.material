@@ -28,5 +28,6 @@
   "metallicMap": "crawler/texture/decoration_lobby_mainwindow_main_window_panes1_metallic.tga",
   "roughnessMap": "crawler/texture/decoration_lobby_mainwindow_main_window_panes1_roughness.tga",
   "aoMap": "crawler/texture/decoration_lobby_mainwindow_main_window_panes1_ao.tga",
-  "emissiveMap": "crawler/texture/decoration_lobby_mainwindow_main_window_panes1_emissive.tga"
+  "emissiveMap": "crawler/texture/decoration_lobby_mainwindow_main_window_panes1_emissive.tga",
+  "backFaceCulling": true
 }
