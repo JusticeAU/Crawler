@@ -28,7 +28,6 @@
         "crawler/material/tile_wood_woodtiles.material",
         "crawler/material/tile_wood_woodtiles.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
