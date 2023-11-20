@@ -289,25 +289,6 @@
     },
     {
       "position": {
-        "x": 5,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_light1.object",
-      "castsShadows": false
-    },
-    {
-      "position": {
         "x": 1,
         "y": 1
       },
