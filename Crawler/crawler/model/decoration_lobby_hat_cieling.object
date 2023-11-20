@@ -25,9 +25,10 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_lobby_hat_cieling_cieling_1.material",
         "crawler/material/decoration_lobby_hat_cieling_cieling_2.material",
-        "crawler/material/lobby_hat_beam_1.material"
+        "crawler/material/decoration_lobby_hat_cieling_cieling_1.material",
+        "crawler/material/decoration_beam_1_beam.material",
+        "crawler/material/tile_wood_woodtiles.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
