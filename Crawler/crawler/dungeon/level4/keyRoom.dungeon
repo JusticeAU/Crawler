@@ -493,6 +493,78 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_plate.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.7019097805023193,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.4979364275932312,
+        "y": -0.6295180320739746,
+        "z": 1.7397996187210083
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 71.30000305175781
+      },
+      "modelName": "crawler/model/decoration_vase_4.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.33912649750709534,
+        "y": 0.9892644882202148,
+        "z": 2.0733656883239746
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_3.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.4721948504447937,
+        "y": 1.0248057842254639,
+        "z": 1.85149347782135
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_painting_18.object"
     }
   ],
   "pointLights": [
