@@ -359,7 +359,7 @@
       "localPosition": {
         "x": -0.5226885080337524,
         "y": 1.0651421546936035,
-        "z": 2.228008508682251
+        "z": 2.1040267944335938
       },
       "localRotation": {
         "x": 0.0,
@@ -393,34 +393,16 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.6881726384162903,
-        "y": 0.7829744815826416,
-        "z": 1.8959133625030518
+        "x": 0.3248470723628998,
+        "y": 0.9156863689422607,
+        "z": 2.1488261222839355
       },
       "localRotation": {
-        "x": 0.0,
+        "x": -14.800000190734863,
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_alcohol_bottle_2.object"
-    },
-    {
-      "position": {
-        "x": 0,
-        "y": -1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.5350222587585449,
-        "y": 0.8091073036193848,
-        "z": 1.9042577743530273
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_alcohol_bottle_1.object"
+      "modelName": "crawler/model/decoration_painting_6.object"
     },
     {
       "position": {
@@ -447,9 +429,9 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.3917883634567261,
+        "x": 0.5851271748542786,
         "y": 0.7581225037574768,
-        "z": 1.4816608428955078
+        "z": 1.9085972309112549
       },
       "localRotation": {
         "x": 0.0,
@@ -517,18 +499,18 @@
         "x": 1,
         "y": 1
       },
-      "facing": 0,
+      "facing": 2,
       "localPosition": {
-        "x": 0.4979364275932312,
-        "y": -0.6295180320739746,
-        "z": 1.7397996187210083
+        "x": 0.0,
+        "y": 0.6401727199554443,
+        "z": 0.0
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": 71.30000305175781
+        "z": 0.0
       },
-      "modelName": "crawler/model/decoration_vase_4.object"
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
     },
     {
       "position": {
@@ -565,6 +547,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_painting_18.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.35914894938468933,
+        "y": -0.6586472988128662,
+        "z": 1.1003299951553345
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_vase_4.object"
     }
   ],
   "pointLights": [
