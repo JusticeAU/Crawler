@@ -9180,26 +9180,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -1.0263087749481201,
-        "y": 0.41714322566986084,
-        "z": 6.288767337799072
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_beam_1.object"
-    },
-    {
-      "position": {
-        "x": 1,
-        "y": 4
-      },
-      "facing": 0,
-      "localPosition": {
         "x": -1.0263350009918213,
-        "y": 2.5805907249450684,
+        "y": 0.16991615295410156,
         "z": 6.288111209869385
       },
       "localRotation": {
@@ -9523,7 +9505,7 @@
       "facing": 3,
       "localPosition": {
         "x": -1.1054189205169678,
-        "y": -1.4969828128814697,
+        "y": -1.5154207944869995,
         "z": 6.289121627807617
       },
       "localRotation": {
@@ -13809,24 +13791,6 @@
     },
     {
       "position": {
-        "x": 6,
-        "y": 1
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 7.892854690551758
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/tile_ceiling1.object"
-    },
-    {
-      "position": {
         "x": 5,
         "y": 0
       },
@@ -13997,6 +13961,258 @@
         "x": 1.0675139427185059,
         "y": -3.572002410888672,
         "z": 6.3455023765563965
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 3.200000047683716
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/tile_ceiling1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0087683200836182,
+        "y": -1.9509180784225464,
+        "z": 6.2849650382995605
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_beam_1.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0078504085540771,
+        "y": -1.8959240913391113,
+        "z": 6.2874932289123535
       },
       "localRotation": {
         "x": 0.0,
