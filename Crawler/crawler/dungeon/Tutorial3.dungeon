@@ -1251,14 +1251,14 @@
       "localPosition": {
         "x": -1.399999976158142,
         "y": 0.0,
-        "z": 1.600000023841858
+        "z": 2.4000000953674316
       },
       "colour": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "x": 0.07800000160932541,
+        "y": 0.09799999743700027,
+        "z": 0.20000000298023224
       },
-      "intensity": 1.5,
+      "intensity": 15.0,
       "id": 4,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
@@ -1266,12 +1266,12 @@
     {
       "position": {
         "x": -6,
-        "y": -1
+        "y": 0
       },
       "localPosition": {
         "x": 0.0,
-        "y": 2.0,
-        "z": 2.2690000534057617
+        "y": 0.0,
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 0.8921568393707275,
@@ -1284,7 +1284,7 @@
       "flickerRepeatMin": 4.0,
       "flickerRepeatMax": 7.0,
       "lightDecorationID": 0,
-      "lightDecorationDirection": 0
+      "lightDecorationDirection": 1
     },
     {
       "position": {
