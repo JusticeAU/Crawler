@@ -64,7 +64,7 @@
       "wallVariants": [
         -1,
         -1,
-        5,
+        4,
         -1
       ],
       "floorVariant": 1
@@ -92,7 +92,7 @@
       "mask": 12,
       "maskSee": 12,
       "wallVariants": [
-        5,
+        4,
         -1,
         -1,
         -1
@@ -109,7 +109,7 @@
       "wallVariants": [
         -1,
         -1,
-        4,
+        5,
         -1
       ],
       "floorVariant": 1
@@ -137,7 +137,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        4,
+        5,
         -1,
         -1,
         -1
@@ -155,7 +155,7 @@
       "wallVariants": [
         -1,
         -1,
-        5,
+        4,
         -1
       ],
       "floorVariant": 1
@@ -183,7 +183,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        5,
+        4,
         -1,
         -1,
         -1
@@ -4374,7 +4374,7 @@
       },
       "facing": 3,
       "localPosition": {
-        "x": 0.1361236572265625,
+        "x": 0.0,
         "y": 5.950157699885494e-09,
         "z": 0.0
       },
