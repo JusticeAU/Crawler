@@ -14225,11 +14225,11 @@
   "pointLights": [
     {
       "position": {
-        "x": -5,
+        "x": 11,
         "y": 0
       },
       "localPosition": {
-        "x": -2.0,
+        "x": 0.0,
         "y": 0.0,
         "z": 10.0
       },
