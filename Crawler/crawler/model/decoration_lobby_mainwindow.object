@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_lobby_mainwindow_main_window_mat1.material",
+        "crawler/material/texture_lobby_wallpaper.material",
         "crawler/material/decoration_lobby_mainwindow_main_window_mat2.material",
         "crawler/material/decoration_lobby_mainwindow_main_window_mat3.material",
         "crawler/material/decoration_lobby_mainwindow_main_window_mat4.material",

@@ -29,5 +29,5 @@
   "roughnessMap": "crawler/texture/texture_lobby_wallpaper_roughness.tga",
   "aoMap": "",
   "emissiveMap": "",
-  "backFaceCulling": true
+  "tiling": 14.0
 }

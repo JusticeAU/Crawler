@@ -15,6 +15,7 @@ uniform vec3 cameraPosition;
 uniform bool useAlphaCutoff;
 uniform float ambient = 0.03;
 uniform float emissiveScale = 1.0;
+uniform float tiling = 1.0f; // scales albedo, normal, metallic and roughness.
 
 uniform sampler2D albedoMap;
 uniform sampler2D normalMap;
@@ -80,11 +81,11 @@ void main()
 	}
 
 	// Sample and set values from texture maps;
-	vec3 albedo     = pow(texture(albedoMap, _TexCoords).rgb, vec3(2.2));
+	vec3 albedo     = pow(texture(albedoMap, _TexCoords * tiling).rgb, vec3(2.2));
     vec3 normal     = GetNormalFromNormalMap(_Tangent, _BiTangent, _Normal);
-    float metallic  = texture(metallicMap, _TexCoords).r;
-    float roughness = texture(roughnessMap, _TexCoords).r;
-    float ao        = texture(aoMap, _TexCoords).r;
+    float metallic  = texture(metallicMap, _TexCoords * tiling).r;
+    float roughness = texture(roughnessMap, _TexCoords * tiling).r;
+    float ao        = texture(aoMap, _TexCoords * tiling).r;
 	vec4 emissive	= texture(emissiveMap, _TexCoords);
 	
 	vec3 N = normalize(normal); 
@@ -195,7 +196,7 @@ float GeometrySmith(vec3 N, vec3 V, vec3 L, float roughness)
 
 vec3 GetNormalFromNormalMap(vec3 T, vec3 B, vec3 N)
 {
-	vec3 texNormal = texture(normalMap, _TexCoords ).rgb;
+	vec3 texNormal = texture(normalMap, _TexCoords * tiling).rgb;
 	mat3 TBN = mat3(T,B,N);
 	return TBN * (texNormal * 2 - 1);
 }
