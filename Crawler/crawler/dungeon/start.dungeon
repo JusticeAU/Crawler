@@ -1032,9 +1032,9 @@
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 90.0
       },
-      "modelName": "crawler/model/decoration_alcohol_bottle1.object"
+      "modelName": "crawler/model/decoration_alcohol_bottle_2.object"
     },
     {
       "position": {
