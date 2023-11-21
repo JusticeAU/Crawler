@@ -641,13 +641,13 @@
     },
     {
       "position": {
-        "x": -9,
+        "x": -10,
         "y": 5
       },
       "localPosition": {
-        "x": 0.0,
+        "x": -0.5899999737739563,
         "y": 0.0,
-        "z": 2.4000000953674316
+        "z": 2.299999952316284
       },
       "colour": {
         "x": 1.0,
@@ -656,8 +656,8 @@
       },
       "intensity": 5.0,
       "id": 2,
-      "lightDecorationID": 0,
-      "lightDecorationDirection": 0
+      "lightDecorationID": 1,
+      "lightDecorationDirection": 1
     },
     {
       "position": {

@@ -1127,9 +1127,9 @@
         "y": -1
       },
       "localPosition": {
-        "x": 0.0,
-        "y": -0.6050000190734863,
-        "z": 2.4000000953674316
+        "x": 0.5899999737739563,
+        "y": 0.0,
+        "z": 2.299999952316284
       },
       "colour": {
         "x": 1.0,
@@ -1138,11 +1138,8 @@
       },
       "intensity": 5.0,
       "id": 1,
-      "flickerRepeat": true,
-      "flickerRepeatMin": 5.0,
-      "flickerRepeatMax": 10.0,
       "lightDecorationID": 1,
-      "lightDecorationDirection": 0
+      "lightDecorationDirection": 3
     },
     {
       "position": {
