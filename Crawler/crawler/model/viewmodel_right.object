@@ -26,7 +26,7 @@
       "type": "Renderer",
       "materials": [
         "crawler/material/viewmodel_left_hands.material",
-        "crawler/material/viewmodel_lantern.material"
+        "crawler/material/atlas_13_atlas_13.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
