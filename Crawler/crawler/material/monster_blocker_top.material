@@ -29,5 +29,5 @@
   "roughnessMap": "crawler/texture/monster_blocker_top_roughness.tga",
   "aoMap": "crawler/texture/monster_blocker_top_ao.tga",
   "emissiveMap": "",
-  "backFaceCulling": true
+  "backFaceCulling": false
 }

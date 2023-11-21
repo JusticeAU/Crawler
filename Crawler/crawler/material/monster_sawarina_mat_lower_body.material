@@ -28,5 +28,6 @@
   "metallicMap": "crawler/texture/monster_sawarina_mat_lower_body_metallic.tga",
   "roughnessMap": "crawler/texture/monster_sawarina_mat_lower_body_roughness.tga",
   "aoMap": "crawler/texture/monster_sawarina_mat_lower_body_ao.tga",
-  "emissiveMap": ""
+  "emissiveMap": "",
+  "backFaceCulling": false
 }
