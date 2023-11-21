@@ -23,7 +23,7 @@
   "map_Kd": "",
   "map_Ks": "",
   "bump": "",
-  "albedoMap": "c:\\users\\s213397\\desktop\\lobby_wallpaper_albedo.tga",
+  "albedoMap": "crawler/texture/texture_lobby_wallpaper_albedo.tga",
   "normalMap": "crawler/texture/texture_lobby_wallpaper_normal.tga",
   "metallicMap": "crawler/texture/texture_lobby_wallpaper_metallic.tga",
   "roughnessMap": "crawler/texture/texture_lobby_wallpaper_roughness.tga",
