@@ -1,5 +1,5 @@
 {
-  "name": "lobby_hat_cieling",
+  "name": "lobby_hat_cieling2",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,15 +20,12 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_lobby_hat_cieling.fbx"
+      "model": "crawler/model/decoration_lobby_hat_cieling2.fbx"
     },
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_lobby_hat_cieling_cieling_2.material",
-        "crawler/material/decoration_lobby_hat_cieling_cieling_1.material",
-        "crawler/material/decoration_beam_1_beam.material",
-        "crawler/material/decoration_lobby_hat_cieling_cielingpart1.material"
+        "crawler/material/decoration_lobby_hat_cieling2_cielingparts.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
