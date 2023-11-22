@@ -1769,8 +1769,8 @@
       "maskSee": 3,
       "wallVariants": [
         -1,
-        -1,
-        -1,
+        0,
+        0,
         -1
       ],
       "floorVariant": 1
@@ -1828,6 +1828,37 @@
       "mask": 10,
       "maskSee": 10,
       "wallVariants": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "floorVariant": 1
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": -1
+      },
+      "mask": 3,
+      "maskSee": 3,
+      "wallVariants": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "floorVariant": 1,
+      "permanentlyOccupied": true
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 0
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
         -1,
         -1,
         -1,
@@ -1838,17 +1869,18 @@
     {
       "position": {
         "x": 10,
-        "y": 0
+        "y": 1
       },
-      "mask": 6,
-      "maskSee": 15,
+      "mask": 10,
+      "maskSee": 10,
       "wallVariants": [
-        -1,
-        -1,
+        0,
+        0,
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1856,11 +1888,11 @@
         "y": 0
       },
       "mask": 6,
-      "maskSee": 15,
+      "maskSee": 6,
       "wallVariants": [
+        4,
         -1,
-        -1,
-        -1,
+        4,
         -1
       ],
       "floorVariant": 1
@@ -1919,7 +1951,7 @@
         "y": 0
       },
       "mask": 6,
-      "maskSee": 15,
+      "maskSee": 14,
       "wallVariants": [
         -1,
         -1,
