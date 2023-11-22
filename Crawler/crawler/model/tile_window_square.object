@@ -28,7 +28,6 @@
         "crawler/material/tile_window_square_square_window.material",
         "crawler/material/texture_windows_panes.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
