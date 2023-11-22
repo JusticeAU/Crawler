@@ -26,9 +26,8 @@
       "type": "Renderer",
       "materials": [
         "crawler/material/tile_arched_window_arch_window.material",
-        "crawler/material/tile_arched_window_windows_panes.material"
+        "crawler/material/texture_windows_panes.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
       "castsShadows": true
     }
