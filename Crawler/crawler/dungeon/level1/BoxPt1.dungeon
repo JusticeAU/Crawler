@@ -2,20 +2,20 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": -8,
-    "y": -1
+    "x": -4,
+    "y": -5
   },
-  "defaultOrientation": 1,
+  "defaultOrientation": 0,
   "tiles": [
     {
       "position": {
-        "x": -8,
-        "y": -1
+        "x": -5,
+        "y": -2
       },
-      "mask": 4,
-      "maskSee": 4,
+      "mask": 5,
+      "maskSee": 5,
       "wallVariants": [
-        0,
+        -1,
         -1,
         0,
         0
@@ -23,44 +23,16 @@
     },
     {
       "position": {
-        "x": -7,
-        "y": -1
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
-        "x": -6,
-        "y": -1
-      },
-      "mask": 6,
-      "maskSee": 6,
-      "wallVariants": [
-        0,
-        -1,
-        0,
-        -1
-      ]
-    },
-    {
-      "position": {
         "x": -5,
         "y": -1
       },
-      "mask": 6,
-      "maskSee": 6,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         1,
         -1,
-        0,
-        -1
+        -1,
+        0
       ]
     },
     {
@@ -68,12 +40,12 @@
         "x": -5,
         "y": 0
       },
-      "mask": 5,
-      "maskSee": 5,
+      "mask": 13,
+      "maskSee": 13,
       "wallVariants": [
         -1,
         -1,
-        1,
+        -1,
         0
       ]
     },
@@ -102,7 +74,7 @@
         -1,
         -1,
         -1,
-        0
+        2
       ]
     },
     {
@@ -130,7 +102,7 @@
         -1,
         -1,
         -1,
-        0
+        2
       ]
     },
     {
@@ -158,7 +130,63 @@
         0,
         -1,
         1,
+        2
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -5
+      },
+      "mask": 1,
+      "maskSee": 1,
+      "wallVariants": [
+        -1,
+        0,
+        0,
         0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -4
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -3
+      },
+      "mask": 9,
+      "maskSee": 9,
+      "wallVariants": [
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -2
+      },
+      "mask": 15,
+      "maskSee": 15,
+      "wallVariants": [
+        -1,
+        -1,
+        -1,
+        -1
       ]
     },
     {
@@ -166,12 +194,12 @@
         "x": -4,
         "y": -1
       },
-      "mask": 7,
-      "maskSee": 7,
+      "mask": 15,
+      "maskSee": 15,
       "wallVariants": [
         -1,
         -1,
-        0,
+        -1,
         -1
       ]
     },
@@ -276,7 +304,7 @@
     {
       "position": {
         "x": -3,
-        "y": -1
+        "y": -2
       },
       "mask": 3,
       "maskSee": 3,
@@ -284,6 +312,20 @@
         -1,
         0,
         0,
+        -1
+      ]
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "mask": 11,
+      "maskSee": 11,
+      "wallVariants": [
+        1,
+        0,
+        -1,
         -1
       ]
     },
@@ -352,7 +394,7 @@
       "maskSee": 10,
       "wallVariants": [
         0,
-        0,
+        2,
         -1,
         -1
       ]
@@ -424,7 +466,7 @@
         -1,
         -1,
         -1,
-        0
+        2
       ]
     },
     {
@@ -452,7 +494,7 @@
         0,
         -1,
         -1,
-        0
+        2
       ]
     },
     {
@@ -505,7 +547,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        0,
+        2,
         -1,
         -1,
         -1
@@ -561,7 +603,7 @@
       "mask": 14,
       "maskSee": 14,
       "wallVariants": [
-        0,
+        2,
         -1,
         -1,
         -1
@@ -709,11 +751,11 @@
   "doors": [
     {
       "position": {
-        "x": -8,
-        "y": -1
+        "x": -4,
+        "y": -5
       },
       "id": 3,
-      "orientation": 3,
+      "orientation": 2,
       "open": false,
       "isBarricaded": true
     },
@@ -761,10 +803,10 @@
     {
       "name": "Entry",
       "position": {
-        "x": -8,
-        "y": -1
+        "x": -4,
+        "y": -5
       },
-      "fromOrientation": 1,
+      "fromOrientation": 0,
       "toDungeon": "",
       "toTransporter": ""
     }
@@ -825,14 +867,14 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": 0.699999988079071,
-        "y": 0.6000000238418579,
-        "z": 0.0
+        "x": 0.1740456223487854,
+        "y": 4.548861980438232,
+        "z": -0.0001220703125
       },
       "localRotation": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "y": -5.300000190734863,
+        "z": -60.70000076293945
       },
       "modelName": "crawler/model/decoration_bonepile_1.object"
     },
@@ -843,14 +885,14 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.4000000059604645,
-        "y": -0.6000000238418579,
-        "z": 0.0
+        "x": -0.7008497714996338,
+        "y": 5.3840718269348145,
+        "z": 2.6206111907958984
       },
       "localRotation": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 84.0999984741211
       },
       "modelName": "crawler/model/decoration_bonepile_2.object"
     },
@@ -861,8 +903,8 @@
       },
       "facing": 0,
       "localPosition": {
-        "x": -0.4000000059604645,
-        "y": 0.30000001192092896,
+        "x": -2.324130058288574,
+        "y": 1.4226912260055542,
         "z": 0.0
       },
       "localRotation": {
@@ -871,6 +913,348 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_bonepile_3.object"
+    },
+    {
+      "position": {
+        "x": -4,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 9.929330957447746e-08,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 3.499947709428852e-08,
+        "y": 0.800694465637207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 3.3036162250255074e-08,
+        "y": 0.7557792663574219,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 3.499947709428852e-08,
+        "y": 0.800694465637207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -1
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 3.3036162250255074e-08,
+        "y": 0.7557792663574219,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -2
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 3.499947709428852e-08,
+        "y": 0.800694465637207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -2
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 3.3036162250255074e-08,
+        "y": 0.7557792663574219,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 3.499947709428852e-08,
+        "y": 0.800694465637207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": -3,
+        "y": -1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 3.3036162250255074e-08,
+        "y": 0.7557792663574219,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.43197369704285e-08,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.43197369704285e-08,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.43197369704285e-08,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -8.43197369704285e-08,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_arch.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.8905849456787109,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.843907356262207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 7
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.8905849456787109,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 7
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.843907356262207,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
     }
   ],
   "pointLights": [
