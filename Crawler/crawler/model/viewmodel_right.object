@@ -29,7 +29,7 @@
         "crawler/material/viewmodel_lantern.material"
       ],
       "receivesShadows": true,
-      "castsShadows": true
+      "castsShadows": false
     },
     {
       "type": "Animator",

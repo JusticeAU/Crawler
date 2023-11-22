@@ -52,12 +52,57 @@
       ],
       "children": [
         {
-          "name": "ViewModel Offset",
+          "name": "RightHand ViewModel",
           "transform": {
             "position": {
-              "x": -0.04,
+              "x": 0.0,
               "y": 0.05,
-              "z": -1.62
+              "z": -1.64
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 180.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "components": null,
+          "children": [
+            {
+              "name": "viewmodel_hands",
+              "transform": {
+                "position": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "components": null,
+              "children": null
+            }
+          ]
+        },
+		{
+          "name": "LeftHand ViewModel",
+          "transform": {
+            "position": {
+              "x": -0.12,
+              "y": 0.05,
+              "z": -1.68
             },
             "rotation": {
               "x": 0.0,
