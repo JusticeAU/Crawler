@@ -28,6 +28,5 @@
   "metallicMap": "crawler/texture/tile_wall_shooter_shooter_atlas_metallic.tga",
   "roughnessMap": "crawler/texture/tile_wall_shooter_shooter_atlas_roughness.tga",
   "aoMap": "crawler/texture/tile_wall_shooter_shooter_atlas_ao.tga",
-  "emissiveMap": "crawler/texture/tile_wall_shooter_shooter_atlas_emissive.tga",
-  "backFaceCulling": true
+  "emissiveMap": "crawler/texture/tile_wall_shooter_shooter_atlas_emissive.tga"
 }

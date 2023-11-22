@@ -28,6 +28,5 @@
   "metallicMap": "crawler/texture/monster_shooter_head_shooter_atlas_metallic.tga",
   "roughnessMap": "crawler/texture/monster_shooter_head_shooter_atlas_roughness.tga",
   "aoMap": "crawler/texture/monster_shooter_head_shooter_atlas_ao.tga",
-  "emissiveMap": "crawler/texture/monster_shooter_head_shooter_atlas_emissive.tga",
-  "backFaceCulling": true
+  "emissiveMap": "crawler/texture/monster_shooter_head_shooter_atlas_emissive.tga"
 }
