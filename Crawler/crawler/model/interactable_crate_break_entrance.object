@@ -1,0 +1,39 @@
+{
+  "name": "crate_break",
+  "transform": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "components": [
+    {
+      "type": "Model",
+      "model": "crawler/model/interactable_crate_break.fbx"
+    },
+    {
+      "type": "Renderer",
+      "materials": [
+        "crawler/material/interactable_crate_crate.material"
+      ],
+      "receivesShadows": true,
+      "castsShadows": true
+    },
+    {
+      "type": "Animator",
+      "animationName": "Not currently storing!"
+    }
+  ],
+  "children": null
+}
