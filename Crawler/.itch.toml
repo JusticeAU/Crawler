@@ -1,0 +1,8 @@
+[[actions]]
+name = "Play"
+path = "Crawler.exe"
+
+[[actions]]
+name = "Level Editor"
+path = "Crawler.exe"
+args = ["design"]
