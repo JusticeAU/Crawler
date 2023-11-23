@@ -1,8 +1,8 @@
 [[actions]]
-name = "Play"
+name = "play"
 path = "Crawler/Crawler.exe"
 
 [[actions]]
-name = "Level Editor"
+name = "editor"
 path = "Crawler/Crawler.exe"
 args = ["design"]
