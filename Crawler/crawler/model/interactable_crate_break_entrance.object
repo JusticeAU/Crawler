@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/interactable_crate_break.fbx"
+      "model": "crawler/model/interactable_crate_break_entrance.fbx"
     },
     {
       "type": "Renderer",

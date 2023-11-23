@@ -3,7 +3,7 @@
   "version": 3,
   "defaultPosition": {
     "x": 2,
-    "y": 0
+    "y": -8
   },
   "defaultOrientation": 0,
   "noRoof": true,
