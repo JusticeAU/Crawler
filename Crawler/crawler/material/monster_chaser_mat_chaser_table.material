@@ -28,5 +28,5 @@
   "metallicMap": "crawler/texture/monster_chaser_mat_chaser_table_metallic.tga",
   "roughnessMap": "crawler/texture/monster_chaser_mat_chaser_table_roughness.tga",
   "aoMap": "crawler/texture/monster_chaser_mat_chaser_table_ao.tga",
-  "emissiveMap": ""
+  "emissiveMap": "crawler/texture/monster_chaser_mat_chaser_table_emissive.tga"
 }
