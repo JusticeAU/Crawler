@@ -33,7 +33,8 @@
         -1,
         0,
         0
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -96,7 +97,7 @@
         "x": 17,
         "y": -12
       },
-      "mask": 15,
+      "mask": 14,
       "maskSee": 15,
       "wallVariants": [
         -1,

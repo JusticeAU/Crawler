@@ -26,7 +26,7 @@
         "x": -5,
         "y": -1
       },
-      "mask": 13,
+      "mask": 12,
       "maskSee": 13,
       "wallVariants": [
         1,
@@ -40,7 +40,7 @@
         "x": -5,
         "y": 0
       },
-      "mask": 13,
+      "mask": 5,
       "maskSee": 13,
       "wallVariants": [
         -1,
@@ -320,7 +320,7 @@
         "x": -3,
         "y": -1
       },
-      "mask": 11,
+      "mask": 10,
       "maskSee": 11,
       "wallVariants": [
         1,
@@ -334,7 +334,7 @@
         "x": -3,
         "y": 0
       },
-      "mask": 11,
+      "mask": 3,
       "maskSee": 11,
       "wallVariants": [
         -1,
