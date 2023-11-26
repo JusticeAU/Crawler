@@ -1,0 +1,8 @@
+[[actions]]
+name = "play"
+path = "BriarMansion.exe"
+
+[[actions]]
+name = "editor"
+path = "BriarMansion.exe"
+args = ["design"]

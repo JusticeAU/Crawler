@@ -1,8 +1,0 @@
-[[actions]]
-name = "play"
-path = "BriarMansion/BriarMansion.exe"
-
-[[actions]]
-name = "editor"
-path = "BriarMansion/BriarMansion.exe"
-args = ["design"]
