@@ -28,6 +28,5 @@
   "metallicMap": "",
   "roughnessMap": "crawler/texture/tile_ceiling1_ceilingtile1_roughness.tga",
   "aoMap": "crawler/texture/tile_ceiling1_ceilingtile1_ao.tga",
-  "emissiveMap": "",
-  "backFaceCulling": true
+  "emissiveMap": ""
 }
