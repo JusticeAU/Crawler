@@ -606,7 +606,7 @@
         "x": 13,
         "y": 4
       },
-      "mask": 3,
+      "mask": 0,
       "maskSee": 7,
       "wallVariants": [
         -1,
