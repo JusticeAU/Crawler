@@ -82,10 +82,10 @@
         "x": 0,
         "y": 3
       },
-      "mask": 13,
+      "mask": 12,
       "maskSee": 13,
       "wallVariants": [
-        -1,
+        0,
         -1,
         -1,
         0
@@ -200,7 +200,7 @@
         0,
         -1,
         1,
-        1
+        0
       ]
     },
     {
@@ -449,7 +449,7 @@
       "mask": 14,
       "maskSee": 15,
       "wallVariants": [
-        -1,
+        1,
         -1,
         -1,
         -1
@@ -465,7 +465,7 @@
       "wallVariants": [
         -1,
         -1,
-        1,
+        -1,
         -1
       ]
     },
@@ -547,7 +547,7 @@
       "mask": 10,
       "maskSee": 15,
       "wallVariants": [
-        -1,
+        1,
         1,
         -1,
         -1
@@ -563,7 +563,7 @@
       "wallVariants": [
         -1,
         -1,
-        1,
+        -1,
         -1
       ]
     },
@@ -1000,7 +1000,1448 @@
   "switchers": null,
   "mirrors": null,
   "keys": null,
-  "decorations": null,
+  "decorations": [
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.0385202169418335,
+        "y": 2.7917137145996094,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.4151630401611328,
+        "y": 2.7949304580688477,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.0337742567062378,
+        "y": 2.7320544719696045,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.4327554702758789,
+        "y": 2.7558176517486572,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.4668065309524536,
+        "y": 2.7853851318359375,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.9196841716766357,
+        "y": 2.838571548461914,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.48855602741241455,
+        "y": 2.7429659366607666,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -1.9258182048797607,
+        "y": 2.7843096256256104,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 1.9121005535125732,
+        "y": -1.0867838859558105,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.01824866235256195,
+        "y": 0.808135986328125,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 1.9426676034927368,
+        "y": -1.1543965339660645,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": 0.0024624764919281006,
+        "y": 0.7730543613433838,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5062981247901917,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5618457794189453,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0919551849365234,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0907859802246094,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6587142944335938,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6664648056030273,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0919551849365234,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.620579719543457,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5278006196022034,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.09059721231460571,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6230897903442383,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.0008240342140197754,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.02669435739517212,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5062981247901917,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5618457794189453,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6230897903442383,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5062981247901917,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.5618457794189453,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6230897903442383,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0370515584945679,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.043845295906067,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6587142944335938,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6664648056030273,
+        "y": 0.740241527557373,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.6230897903442383,
+        "y": 0.799196720123291,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": 0.19678783416748047,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -2
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249793246388435,
+        "y": 1.5627546310424805,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249934807419777,
+        "y": 0.02022564224898815,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.09224513173103333,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 4
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.10372355580329895,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.6484541893005371,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 3
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.2316456139087677,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -1.1899471282958984,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.7357907295227051,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.7702782154083252,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.1684388816356659,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": 0.17032256722450256,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.09224513173103333,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.10372355580329895,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.6745412349700928,
+        "y": 0.7750720977783203,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "facing": 3,
+      "localPosition": {
+        "x": -0.6780866384506226,
+        "y": 0.7138528823852539,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 4
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.17978036403656006,
+        "y": 0.796783447265625,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_bookcase.object"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 4
+      },
+      "facing": 2,
+      "localPosition": {
+        "x": -0.1482466459274292,
+        "y": 0.739882230758667,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_books_bookshelf.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 3
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249940395355225,
+        "y": 0.02318120002746582,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249940395355225,
+        "y": 0.02318120002746582,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 0.1676473319530487,
+        "y": -0.46640682220458984,
+        "z": 0.014430955983698368
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -2
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": -1
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.031249970197677612,
+        "y": -0.34955430030822754,
+        "z": 0.01468579564243555
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 1,
+      "localPosition": {
+        "x": 1.2537440061569214,
+        "y": -5.48028751268248e-08,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_couch.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.3645913898944855,
+        "y": 0.4616659879684448,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -133.1999969482422
+      },
+      "modelName": "crawler/model/decoration_standing_lamp.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.29012709856033325,
+        "y": 0.7042161226272583,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_side_table.object"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -0.26528361439704895,
+        "y": 0.5435740351676941,
+        "z": 0.6788828372955322
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_vase_2.object"
+    }
+  ],
   "pointLights": [
     {
       "position": {
@@ -1017,7 +2458,7 @@
         "y": 0.5559999942779541,
         "z": 0.28600001335144043
       },
-      "intensity": 5.0,
+      "intensity": 14.0,
       "id": 1,
       "lightDecorationID": 1,
       "lightDecorationDirection": 2
@@ -1037,7 +2478,7 @@
         "y": 0.5559999942779541,
         "z": 0.28600001335144043
       },
-      "intensity": 5.0,
+      "intensity": 43.0,
       "id": 2,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
