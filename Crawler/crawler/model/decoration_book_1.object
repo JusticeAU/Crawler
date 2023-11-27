@@ -1,5 +1,5 @@
 {
-  "name": "book_3",
+  "name": "book_1",
   "transform": {
     "position": {
       "x": 0.0,
@@ -20,7 +20,7 @@
   "components": [
     {
       "type": "Model",
-      "model": "crawler/model/decoration_book_3.fbx"
+      "model": "crawler/model/decoration_book_1.fbx"
     },
     {
       "type": "Renderer",
