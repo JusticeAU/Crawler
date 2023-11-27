@@ -25,9 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/texture_atlas_12_atlas_12.material",
-        "crawler/material/tile_window_square_2_square_window.material",
-        "crawler/material/tile_window_square_2_windows.material"
+        "crawler/material/texture_atlas_12_atlas_12.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
