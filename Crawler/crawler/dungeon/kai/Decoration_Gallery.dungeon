@@ -3699,7 +3699,7 @@
         "y": 0.0,
         "z": 0.0
       },
-      "modelName": "crawler/model/decoration_broom.object"
+      "modelName": "crawler/model/decoration_book_4.object"
     },
     {
       "position": {
@@ -5069,6 +5069,24 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_side_table.object"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": -5
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_book_5.object"
     }
   ],
   "pointLights": [
