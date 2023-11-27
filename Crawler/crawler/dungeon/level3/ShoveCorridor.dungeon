@@ -26,11 +26,11 @@
         "x": 2,
         "y": 0
       },
-      "mask": 13,
+      "mask": 9,
       "maskSee": 13,
       "wallVariants": [
         -1,
-        -1,
+        1,
         -1,
         0
       ]
@@ -68,7 +68,7 @@
         "x": 3,
         "y": 0
       },
-      "mask": 15,
+      "mask": 13,
       "maskSee": 15,
       "wallVariants": [
         -1,
@@ -613,7 +613,8 @@
         -1,
         2,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -641,8 +642,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -656,7 +656,8 @@
         -1,
         0,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -699,7 +700,8 @@
         -1,
         2,
         -1
-      ]
+      ],
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -856,8 +858,7 @@
         0,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -1136,7 +1137,7 @@
     {
       "position": {
         "x": 18,
-        "y": 4
+        "y": 5
       },
       "facing": 3,
       "state": 0
@@ -1823,42 +1824,6 @@
       "localPosition": {
         "x": -3.50391147208029e-08,
         "y": 0.8016014099121094,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_books_bookshelf.object"
-    },
-    {
-      "position": {
-        "x": 18,
-        "y": 4
-      },
-      "facing": 3,
-      "localPosition": {
-        "x": -4.001679698717453e-08,
-        "y": 0.9154777526855469,
-        "z": 0.0
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_bookcase.object"
-    },
-    {
-      "position": {
-        "x": 18,
-        "y": 4
-      },
-      "facing": 3,
-      "localPosition": {
-        "x": -3.721831731695602e-08,
-        "y": 0.8514556884765625,
         "z": 0.0
       },
       "localRotation": {
