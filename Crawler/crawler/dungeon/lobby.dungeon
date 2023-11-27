@@ -1946,7 +1946,7 @@
         "x": 13,
         "y": 0
       },
-      "fromOrientation": 0,
+      "fromOrientation": 3,
       "toDungeon": "",
       "toTransporter": ""
     },
