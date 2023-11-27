@@ -25,7 +25,7 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/tile_ceiling1_ceilingtile1.material"
+        "crawler/material/tile_ceiling1_ceilingtile.material"
       ],
       "receivesShadows": true,
       "castsShadows": true
