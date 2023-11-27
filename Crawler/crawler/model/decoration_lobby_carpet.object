@@ -25,12 +25,10 @@
     {
       "type": "Renderer",
       "materials": [
-        "crawler/material/decoration_lobby_carpet_lobby_carpet.material"
+        "crawler/material/decoration_lobby_carpet_lobby_stairs.material"
       ],
-      "frameBuffer": "",
       "receivesShadows": true,
-      "castsShadows": true,
-      "dontFrustumCull": true
+      "castsShadows": true
     }
   ],
   "children": null
