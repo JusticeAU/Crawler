@@ -3,7 +3,7 @@
   "version": 3,
   "defaultPosition": {
     "x": 13,
-    "y": 0
+    "y": -2
   },
   "defaultOrientation": 3,
   "noRoof": true,
@@ -13773,7 +13773,7 @@
       "localPosition": {
         "x": -0.8018856048583984,
         "y": -0.2483534812927246,
-        "z": 1.3696703910827637
+        "z": 0.5530232191085815
       },
       "localRotation": {
         "x": 88.5,
@@ -14195,6 +14195,42 @@
         "z": 0.0
       },
       "modelName": "crawler/model/decoration_lobby_carpet_long.object"
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0064582824707031,
+        "y": 0.9318305253982544,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
+    },
+    {
+      "position": {
+        "x": 13,
+        "y": 0
+      },
+      "facing": 0,
+      "localPosition": {
+        "x": -1.0656261444091797,
+        "y": -0.9513857960700989,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modelName": "crawler/model/decoration_pillar_2.object"
     }
   ],
   "pointLights": [
