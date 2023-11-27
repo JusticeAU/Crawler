@@ -2,10 +2,10 @@
   "type": "dungeon",
   "version": 3,
   "defaultPosition": {
-    "x": 13,
-    "y": -2
+    "x": 2,
+    "y": 8
   },
-  "defaultOrientation": 3,
+  "defaultOrientation": 2,
   "noRoof": true,
   "isLobby": true,
   "tiles": [
@@ -1486,7 +1486,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1516,7 +1517,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1608,7 +1610,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1668,7 +1671,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1698,7 +1702,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1758,7 +1763,8 @@
         -1,
         -1
       ],
-      "floorVariant": 1
+      "floorVariant": 1,
+      "permanentlyOccupied": true
     },
     {
       "position": {
@@ -1774,6 +1780,7 @@
         -1
       ],
       "floorVariant": 1,
+      "permanentlyOccupied": true,
       "dontGeneratePillars": true
     },
     {
@@ -1835,6 +1842,7 @@
         -1
       ],
       "floorVariant": 1,
+      "permanentlyOccupied": true,
       "dontGeneratePillars": true
     },
     {
@@ -13773,7 +13781,7 @@
       "localPosition": {
         "x": -0.8018856048583984,
         "y": -0.2483534812927246,
-        "z": 0.5530232191085815
+        "z": 0.44399356842041016
       },
       "localRotation": {
         "x": 88.5,
@@ -14033,42 +14041,6 @@
         "z": -2.200000047683716
       },
       "modelName": "crawler/model/decoration_beam_1.object"
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -3
-      },
-      "facing": 1,
-      "localPosition": {
-        "x": -4.010692578049202e-07,
-        "y": 0.0,
-        "z": 3.214231252670288
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
-    },
-    {
-      "position": {
-        "x": 3,
-        "y": -2
-      },
-      "facing": 0,
-      "localPosition": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 3.2139999866485596
-      },
-      "localRotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modelName": "crawler/model/decoration_lobby_carpet_long.object"
     },
     {
       "position": {
