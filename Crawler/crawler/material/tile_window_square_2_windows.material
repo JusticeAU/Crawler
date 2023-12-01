@@ -28,5 +28,5 @@
   "metallicMap": "crawler/texture/tile_window_square_2_windows_metallic.tga",
   "roughnessMap": "crawler/texture/tile_window_square_2_windows_roughness.tga",
   "aoMap": "crawler/texture/tile_window_square_2_windows_ao.tga",
-  "emissiveMap": ""
+  "emissiveMap": "crawler/texture/tile_window_square_2_windows_emissive.tga"
 }
