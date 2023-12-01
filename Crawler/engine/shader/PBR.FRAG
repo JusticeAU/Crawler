@@ -15,6 +15,8 @@ uniform vec3 cameraPosition;
 uniform bool useAlphaCutoff;
 uniform float ambient = 0.03;
 uniform float emissiveScale = 1.0;
+uniform float dissolveThreshold = 1.0;
+uniform float dissolveEdge = 0.05;
 uniform float tiling = 1.0f; // scales albedo, normal, metallic and roughness.
 
 uniform sampler2D albedoMap;
@@ -23,6 +25,8 @@ uniform sampler2D metallicMap;
 uniform sampler2D roughnessMap;
 uniform sampler2D aoMap;
 uniform sampler2D emissiveMap;
+uniform sampler2D perlinNoise;
+
 
 uniform samplerCubeArrayShadow shadowMapArray;
 
@@ -79,6 +83,10 @@ void main()
 			discard;
 		}
 	}
+	
+	// Get Dissolve Amount
+	float dissolveValue = texture(perlinNoise, _TexCoords).r;
+	if (dissolveValue > dissolveThreshold + dissolveEdge) discard;
 
 	// Sample and set values from texture maps;
 	vec3 albedo     = pow(texture(albedoMap, _TexCoords * tiling).rgb, vec3(2.2));
@@ -87,6 +95,7 @@ void main()
     float roughness = texture(roughnessMap, _TexCoords * tiling).r;
     float ao        = texture(aoMap, _TexCoords * tiling).r;
 	vec4 emissive	= texture(emissiveMap, _TexCoords);
+	if (dissolveValue > dissolveThreshold - dissolveEdge) emissive += vec4(1.0, 0.1, 0, 1); // This is a hardcoded orangeish colour for our game.
 	
 	vec3 N = normalize(normal); 
 	vec3 V = normalize(cameraPosition - _WorldPos);

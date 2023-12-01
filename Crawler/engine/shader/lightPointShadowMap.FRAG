@@ -5,8 +5,10 @@ in vec2 _TexCoords;
 uniform vec3 cameraPosition;
 
 uniform bool useAlphaCutoff;
-
 uniform sampler2D albedoMap;
+uniform sampler2D perlinNoise;
+
+uniform float dissolveThreshold = 1.0;
 //uniform float far_plane;
 
 void main()
@@ -18,6 +20,11 @@ void main()
 			discard;
 		}
 	}
+	
+	// Get Dissolve Amount
+	float dissolveValue = texture(perlinNoise, _TexCoords).r;
+	if (dissolveValue > dissolveThreshold) discard;
+	
     vec3 LightToVertex = _WorldPos - cameraPosition;
     float LightToPixelDistance = length(LightToVertex);
     gl_FragDepth = LightToPixelDistance / 15.0;
