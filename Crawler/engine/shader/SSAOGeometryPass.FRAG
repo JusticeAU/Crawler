@@ -9,6 +9,9 @@ in vec3 _Normal;
 
 uniform bool useAlphaCutoff;
 uniform sampler2D albedoMap;
+uniform sampler2D perlinNoise;
+
+uniform float dissolveThreshold = 1.0;
 
 void main()
 {    
@@ -19,6 +22,11 @@ void main()
 			discard;
 		}
 	}
+	
+	// Get Dissolve Amount
+	float dissolveValue = texture(perlinNoise, _TexCoords).r;
+	if (dissolveValue > dissolveThreshold) discard;
+	
     // store the fragment position vector in the first gbuffer texture
     gPosition = _FragPos;
     // also store the per-fragment normals into the gbuffer
