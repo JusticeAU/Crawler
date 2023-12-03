@@ -1148,7 +1148,7 @@
       },
       "id": 1,
       "orientation": 1,
-      "open": false,
+      "open": true,
       "isBarricaded": false
     },
     {
@@ -1176,13 +1176,6 @@
         "y": 0
       },
       "activateID": 4
-    },
-    {
-      "position": {
-        "x": 11,
-        "y": -2
-      },
-      "activateID": 1
     }
   ],
   "transporters": [
@@ -1219,7 +1212,7 @@
   "spikes": [
     {
       "position": {
-        "x": 12,
+        "x": 11,
         "y": -2
       }
     }
@@ -2763,7 +2756,7 @@
   "pointLights": [
     {
       "position": {
-        "x": 15,
+        "x": 17,
         "y": -2
       },
       "localPosition": {
