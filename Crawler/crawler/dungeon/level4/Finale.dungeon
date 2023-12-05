@@ -3718,9 +3718,9 @@
         "x": 6,
         "y": 0
       },
-      "id": 1,
+      "id": 20,
       "orientation": 3,
-      "open": false,
+      "open": true,
       "isBarricaded": false
     },
     {
@@ -4691,7 +4691,7 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 6,
+      "id": 1,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -4711,7 +4711,7 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 8,
+      "id": 0,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -4731,7 +4731,7 @@
         "z": 0.20000000298023224
       },
       "intensity": 15.0,
-      "id": 1,
+      "id": 0,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -4751,7 +4751,8 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 3,
+      "id": 2,
+      "startDisabled": true,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -4771,19 +4772,20 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 4,
+      "id": 3,
+      "startDisabled": true,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
     {
       "position": {
-        "x": -3,
-        "y": -6
+        "x": -2,
+        "y": -5
       },
       "localPosition": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 2.4000000953674316
+        "y": -1.0,
+        "z": 2.2639999389648438
       },
       "colour": {
         "x": 1.0,
@@ -4791,7 +4793,8 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 2,
+      "id": 4,
+      "startDisabled": true,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -4811,7 +4814,8 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 5,
+      "id": 3,
+      "startDisabled": true,
       "lightDecorationID": 1,
       "lightDecorationDirection": 0
     },
@@ -4831,7 +4835,7 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 7,
+      "id": 1,
       "lightDecorationID": 1,
       "lightDecorationDirection": 2
     },
@@ -4851,9 +4855,94 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 9,
+      "id": 2,
+      "startDisabled": true,
       "lightDecorationID": 1,
       "lightDecorationDirection": 2
+    },
+    {
+      "position": {
+        "x": 11,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.4000000953674316
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.5559999942779541,
+        "z": 0.28600001335144043
+      },
+      "intensity": 5.0,
+      "id": 3,
+      "startDisabled": true,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": -5
+      },
+      "localPosition": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 2.2660000324249268
+      },
+      "colour": {
+        "x": 1.0,
+        "y": 0.5559999942779541,
+        "z": 0.28600001335144043
+      },
+      "intensity": 5.0,
+      "id": 4,
+      "startDisabled": true,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    }
+  ],
+  "lightToggles": [
+    {
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "facing": 1,
+      "enableID": 2,
+      "disableID": 1,
+      "onlyOnce": true
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 12
+      },
+      "facing": 2,
+      "enableID": 3,
+      "disableID": 2,
+      "onlyOnce": true
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": -7
+      },
+      "facing": 0,
+      "enableID": -1,
+      "disableID": 4,
+      "onlyOnce": true
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": -2
+      },
+      "facing": 0,
+      "enableID": 4,
+      "disableID": 3,
+      "onlyOnce": true
     }
   ],
   "events": null

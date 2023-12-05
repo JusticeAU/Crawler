@@ -2035,7 +2035,8 @@
         "z": 0.28600001335144043
       },
       "intensity": 10.0,
-      "id": 3,
+      "id": 5,
+      "startDisabled": true,
       "lightDecorationID": 1,
       "lightDecorationDirection": 1
     },
@@ -2055,7 +2056,8 @@
         "z": 0.20000000298023224
       },
       "intensity": 15.0,
-      "id": 4,
+      "id": 5,
+      "startDisabled": true,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -2075,7 +2077,8 @@
         "z": 0.28600001335144043
       },
       "intensity": 5.0,
-      "id": 5,
+      "id": 4,
+      "startDisabled": true,
       "lightDecorationID": 0,
       "lightDecorationDirection": 0
     },
@@ -2095,7 +2098,10 @@
         "z": 0.2135716825723648
       },
       "intensity": 7.0,
-      "id": 7
+      "id": 3,
+      "startDisabled": true,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
     },
     {
       "position": {
@@ -2105,7 +2111,7 @@
       "localPosition": {
         "x": 0.0,
         "y": 0.0,
-        "z": 2.5
+        "z": 2.4000000953674316
       },
       "colour": {
         "x": 1.0,
@@ -2113,7 +2119,61 @@
         "z": 1.0
       },
       "intensity": 5.0,
-      "id": 6
+      "id": 5,
+      "startDisabled": true,
+      "lightDecorationID": 0,
+      "lightDecorationDirection": 0
+    }
+  ],
+  "lightToggles": [
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "facing": 2,
+      "enableID": 3,
+      "disableID": -1
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "facing": 3,
+      "enableID": 5,
+      "disableID": 1,
+      "twoWay": true
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 7
+      },
+      "facing": 0,
+      "enableID": -1,
+      "disableID": 3,
+      "twoWay": true
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "facing": 0,
+      "enableID": 4,
+      "disableID": -1,
+      "twoWay": true
+    },
+    {
+      "position": {
+        "x": -1,
+        "y": 6
+      },
+      "facing": 0,
+      "enableID": -1,
+      "disableID": 2,
+      "twoWay": true
     }
   ],
   "events": null
