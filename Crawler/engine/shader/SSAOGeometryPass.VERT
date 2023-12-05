@@ -18,9 +18,7 @@ uniform mat4 pvmMatrix;
 uniform mat4 mMatrix;
 
 // gbuffer specific - I can get rid of this eventually
-uniform mat4 model;
 uniform mat4 view;
-uniform mat4 projection;
 
 out vec2 _TexCoords;
 out vec3 _FragPos;
@@ -38,15 +36,15 @@ void main()
 			boneTransform += bones[boneIDs[3]] * boneWeights[3];
 			
 		posTransformed = boneTransform * vec4(Position, 1);
-		viewPos = view * model * posTransformed;
+		viewPos = view * mMatrix * posTransformed;
 	}
 	else
-		viewPos = view * model * vec4(Position,1);
+		viewPos = view * mMatrix * vec4(Position,1);
 
     _FragPos = viewPos.xyz; 
     _TexCoords = texCoords;
     
-    mat3 normalMatrix = transpose(inverse(mat3(view * model)));
+    mat3 normalMatrix = transpose(inverse(mat3(view * mMatrix)));
     _Normal = normalMatrix * Normal;
     
     gl_Position = pvmMatrix * posTransformed;
