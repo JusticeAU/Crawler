@@ -18,6 +18,7 @@ uniform float emissiveScale = 1.0;
 uniform float dissolveThreshold = 1.0;
 uniform float dissolveEdge = 0.05;
 uniform float tiling = 1.0f; // scales albedo, normal, metallic and roughness.
+uniform float gamma = 2.2f;
 
 uniform sampler2D albedoMap;
 uniform sampler2D normalMap;
@@ -158,7 +159,7 @@ void main()
 	
 	// Gamma correct - Reinhard.
 	color = color / (color + vec3(1.0));
-	color = pow(color, vec3(1.0/2.2));
+	color = pow(color, vec3(1.0/gamma));
 	
 	FragColour = vec4(color, 1.0);
 	Emission = emissive * emissiveScale;
