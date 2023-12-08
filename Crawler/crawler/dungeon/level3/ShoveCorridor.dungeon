@@ -685,8 +685,7 @@
         -1,
         -1,
         -1
-      ],
-      "permanentlyOccupied": true
+      ]
     },
     {
       "position": {
@@ -2402,5 +2401,6 @@
       "lightDecorationDirection": 0
     }
   ],
+  "lightToggles": null,
   "events": null
 }
