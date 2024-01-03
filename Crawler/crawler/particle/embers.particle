@@ -1,0 +1,24 @@
+{
+  "type": 0,
+  "count": 750,
+  "texture": "crawler/texture/particle/ember.png",
+  "size": 0.08900000154972076,
+  "minBounds": {
+    "x": -10.0,
+    "y": -10.0,
+    "z": 0.0
+  },
+  "maxBounds": {
+    "x": 10.0,
+    "y": 10.0,
+    "z": 10.0
+  },
+  "windDirection": {
+    "x": -1.5,
+    "y": -7.300000190734863,
+    "z": 14.699999809265137
+  },
+  "randomVelocityScale": 50.400001525878906,
+  "randomVelocityFrequency": 0.041999999433755875,
+  "maxVelocity": 39.5
+}

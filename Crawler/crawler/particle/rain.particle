@@ -1,0 +1,24 @@
+{
+  "type": 0,
+  "count": 5000,
+  "texture": "crawler/texture/particle/rain.png",
+  "size": 0.19099999964237213,
+  "minBounds": {
+    "x": -10.0,
+    "y": -10.0,
+    "z": 0.0
+  },
+  "maxBounds": {
+    "x": 10.0,
+    "y": 10.0,
+    "z": 10.0
+  },
+  "windDirection": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -100.0
+  },
+  "randomVelocityScale": 2.5,
+  "randomVelocityFrequency": 0.20000000298023224,
+  "maxVelocity": 2.299999952316284
+}

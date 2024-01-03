@@ -1,0 +1,24 @@
+{
+  "type": 0,
+  "count": 1000,
+  "texture": "crawler/texture/particle/snow.png",
+  "size": 0.20000000298023224,
+  "minBounds": {
+    "x": -10.0,
+    "y": -10.0,
+    "z": 0.0
+  },
+  "maxBounds": {
+    "x": 10.0,
+    "y": 10.0,
+    "z": 10.0
+  },
+  "windDirection": {
+    "x": -1.5,
+    "y": -1.0,
+    "z": -10.0
+  },
+  "randomVelocityScale": 20.0,
+  "randomVelocityFrequency": 0.20000000298023224,
+  "maxVelocity": 1.0
+}
