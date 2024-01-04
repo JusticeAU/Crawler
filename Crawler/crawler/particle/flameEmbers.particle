@@ -1,0 +1,22 @@
+{
+  "type": 1,
+  "maximumParticles": 500,
+  "texture": "crawler/texture/particle/ember.png",
+  "size": 0.05000000074505806,
+  "particlesSec": 223.3300018310547,
+  "particleTTLRange": {
+    "x": 0.49799999594688416,
+    "y": 1.4830000400543213
+  },
+  "convergencePoint": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.1399999856948853
+  },
+  "convergenceStrength": 5.25,
+  "windDirection": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.0390000343322754
+  }
+}
